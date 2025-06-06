@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     float speed = 3.0f;
     private Animator animator;
+    public FadeManager fademanager;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,13 @@ public class PlayerController : MonoBehaviour
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
             animator.SetBool("is_walking", true);
             transform.rotation = Quaternion.Euler(0, 90, 0);
+        }
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            fademanager.Out = true;
         }
     }
 }
