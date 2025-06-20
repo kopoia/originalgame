@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -44,6 +45,10 @@ public class PlayerController : MonoBehaviour
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
             animator.SetBool("is_walking", true);
             transform.rotation = Quaternion.Euler(0, 90, 0);
+        }
+        if (SceneManager.GetActiveScene().name == "Battle")
+        {
+            animator.SetBool("is_battle", true);
         }
     }
     void OnCollisionEnter(Collision collision)

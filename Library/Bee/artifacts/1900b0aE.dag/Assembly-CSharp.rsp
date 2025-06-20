@@ -357,6 +357,7 @@
 "Assets/Packages/UnityChan/Scripts/SpringBone.cs"
 "Assets/Packages/UnityChan/Scripts/SpringCollider.cs"
 "Assets/Packages/UnityChan/Scripts/SpringManager.cs"
+"Assets/Scripts/BattleCommandController.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraKotei.cs"
 "Assets/Scripts/FadeManager.cs"
