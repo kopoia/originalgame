@@ -18,6 +18,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SceneManager.GetActiveScene().name == "Battle")
+        {
+            animator.SetBool("is_battle", true);
+        }
+        else if (SceneManager.GetActiveScene().name == "Main")
+        {
+            animator.SetBool("is_walking", false);
+        }
         if (Input.GetKey(KeyCode.W))
         {
             transform.position += new Vector3(0, 0, speed * Time.deltaTime);
@@ -30,10 +38,6 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("is_walking", true);
             transform.rotation = Quaternion.Euler(180, 0, 180);
         }
-        else
-        {
-            animator.SetBool("is_walking", false);
-        }
         if (Input.GetKey(KeyCode.A))
         {
             transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
@@ -45,10 +49,6 @@ public class PlayerController : MonoBehaviour
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
             animator.SetBool("is_walking", true);
             transform.rotation = Quaternion.Euler(0, 90, 0);
-        }
-        if (SceneManager.GetActiveScene().name == "Battle")
-        {
-            animator.SetBool("is_battle", true);
         }
     }
     void OnCollisionEnter(Collision collision)

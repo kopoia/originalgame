@@ -66,9 +66,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraKotei.cs" />
     <Compile Include="Assets\Packages\UnityChan\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Fighter Pack Bundle FREE\Demo Elements\Code\CameraControl.cs" />
     <Compile Include="Assets\Packages\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\Packages\UnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Scripts\BattleCommandController.cs" />
+    <Compile Include="Assets\ExplosiveLLC\Fighter Pack Bundle FREE\Demo Elements\Code\FighterAnimationDemoFREE.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Packages\UnityChan\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Scripts\FadeManager.cs" />

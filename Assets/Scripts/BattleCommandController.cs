@@ -15,11 +15,11 @@ public class BattleCommandController : MonoBehaviour
     {
 
     }
-    private void Attack()
+    public void Attack()
     {
 
     }
-    private void Away()
+    public void Away()
     {
         
     }
