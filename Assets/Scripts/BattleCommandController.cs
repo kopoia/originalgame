@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BattleCommandController : MonoBehaviour
 {
+    public PlayerController plcontroller;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +18,10 @@ public class BattleCommandController : MonoBehaviour
     }
     public void Attack()
     {
-
+        plcontroller.AttackAnimation();
     }
     public void Away()
     {
-        
+        plcontroller.AwayAnimation();
     }
 }

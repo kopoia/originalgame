@@ -225,6 +225,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7146257672552744646, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7146257672552744647, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
       propertyPath: m_Constraints
       value: 126
@@ -673,6 +677,7 @@ GameObject:
   - component: {fileID: 1008707248}
   - component: {fileID: 1008707247}
   - component: {fileID: 1008707246}
+  - component: {fileID: 1008707249}
   m_Layer: 5
   m_Name: RunAway
   m_TagString: Untagged
@@ -743,7 +748,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1008707247}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1008707249}
+        m_TargetAssemblyTypeName: BattleCommandController, Assembly-CSharp
+        m_MethodName: Away
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1008707247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,6 +799,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008707244}
   m_CullTransparentMesh: 1
+--- !u!114 &1008707249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008707244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887a350d0edbe87468158379dcfb2954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plcontroller: {fileID: 398829444}
 --- !u!1 &1026876247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1098,7 @@ GameObject:
   - component: {fileID: 1902671606}
   - component: {fileID: 1902671605}
   - component: {fileID: 1902671604}
+  - component: {fileID: 1902671607}
   m_Layer: 5
   m_Name: Attack
   m_TagString: Untagged
@@ -1139,13 +1170,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902671602}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1902671607}
+        m_TargetAssemblyTypeName: BattleCommandController, Assembly-CSharp
+        m_MethodName: Attack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1189,6 +1220,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902671602}
   m_CullTransparentMesh: 1
+--- !u!114 &1902671607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902671602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887a350d0edbe87468158379dcfb2954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plcontroller: {fileID: 398829444}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

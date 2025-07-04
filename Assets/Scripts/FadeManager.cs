@@ -12,7 +12,7 @@ public class FadeManager : MonoBehaviour
     public bool Out = false;
     public bool In = false;
     public string Battle; // ← シーン名をインスペクターで指定
-
+    public string Main;
     Image fadeImage;
 
     void Start()
@@ -56,7 +56,15 @@ public class FadeManager : MonoBehaviour
         if (alfa >= 1)
         {
             Out = false;
-            SceneManager.LoadScene(Battle); // ← フェードアウト完了後にシーン移動
+            if (SceneManager.GetActiveScene().name == "Main")
+            {
+                SceneManager.LoadScene(Battle); // ← フェードアウト完了後にシーン移動
+            }
+            if (SceneManager.GetActiveScene().name == "Battle")
+            {
+                SceneManager.LoadScene(Main); // ← フェードアウト完了後にシーン移動
+            }
+            
         }
     }
 

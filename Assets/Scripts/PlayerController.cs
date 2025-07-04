@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -57,5 +58,21 @@ public class PlayerController : MonoBehaviour
         {
             fademanager.Out = true;
         }
+    }
+    public void AttackAnimation()
+    {
+        StartCoroutine(Punch());
+    }
+    private IEnumerator Punch()
+    {
+        animator.SetBool("punch", true);
+        yield return new WaitForSeconds(0.5f);
+        animator.SetBool("punch", false);
+    }
+    public void AwayAnimation()
+    {
+        animator.SetBool("away", true);
+        transform.rotation = Quaternion.Euler(0, -180, 0);
+        transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
     }
 }
