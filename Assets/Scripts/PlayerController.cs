@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     float speed = 3.0f;
     private Animator animator;
     public FadeManager fademanager;
+    public EnemyHpController enemyHpController;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,11 +69,23 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("punch", true);
         yield return new WaitForSeconds(0.5f);
         animator.SetBool("punch", false);
+        enemyHpController.Damage();
+        yield return new WaitForSeconds(0.5f);
     }
     public void AwayAnimation()
     {
         animator.SetBool("away", true);
         transform.rotation = Quaternion.Euler(0, -180, 0);
         transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+    }
+    public void WinAnimation()
+    {
+        StartCoroutine(Winanimation());
+    }
+    IEnumerator Winanimation()
+    {
+        animator.SetBool("win", true);
+        yield return new WaitForSeconds(3.0f);
+        fademanager.Out = true;
     }
 }

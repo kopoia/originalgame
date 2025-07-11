@@ -362,6 +362,7 @@
 "Assets/Scripts/BattleCommandController.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraKotei.cs"
+"Assets/Scripts/EnemyHpController.cs"
 "Assets/Scripts/FadeManager.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"

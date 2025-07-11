@@ -75,6 +75,7 @@
     <Compile Include="Assets\Packages\UnityChan\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Scripts\FadeManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\EnemyHpController.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Packages\UnityChan\Scripts\SpringBone.cs" />
