@@ -4,6 +4,7 @@ using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     public FadeManager fademanager;
     public EnemyHpController enemyHpController;
+    public Button turnchangeAttack;
+    public Button turnchangeAway;
+    public int playerCurrentHP;
     // Start is called before the first frame update
     void Start()
     {
@@ -66,14 +70,19 @@ public class PlayerController : MonoBehaviour
     }
     private IEnumerator Punch()
     {
+        turnchangeAttack.interactable = false;
+        turnchangeAway.interactable = false;
         animator.SetBool("punch", true);
         yield return new WaitForSeconds(0.5f);
         animator.SetBool("punch", false);
         enemyHpController.Damage();
         yield return new WaitForSeconds(0.5f);
+        enemyHpController.EnemyAttack();
     }
     public void AwayAnimation()
     {
+        turnchangeAttack.interactable = false;
+        turnchangeAway.interactable = false;
         animator.SetBool("away", true);
         transform.rotation = Quaternion.Euler(0, -180, 0);
         transform.position += new Vector3(0, 0, -speed * Time.deltaTime);

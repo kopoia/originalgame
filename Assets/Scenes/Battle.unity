@@ -400,6 +400,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fademanager: {fileID: 340526771}
   enemyHpController: {fileID: 523896780}
+  turnchangeAttack: {fileID: 1902671604}
+  turnchangeAway: {fileID: 1008707246}
+  playerCurrentHP: 100
 --- !u!1 &523896775
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +503,7 @@ Transform:
   m_GameObject: {fileID: 523896775}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47, y: 0.78, z: 3.54}
+  m_LocalPosition: {x: 0, y: 0.78, z: 3.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -522,6 +525,9 @@ MonoBehaviour:
   enemyMaxHP: 100
   HPslider: {fileID: 683366088}
   playerController: {fileID: 398829444}
+  speedToTarget: 3
+  speedToStart: 1
+  targetPosition: {x: 5, y: 0, z: 0}
 --- !u!1 &579211434
 GameObject:
   m_ObjectHideFlags: 0
