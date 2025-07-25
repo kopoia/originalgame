@@ -57,11 +57,17 @@ public class EnemyHpController : MonoBehaviour
         {
             return;
         }
-        float currentSpeed = (state == MoveState.GoingToTarget) ? speedToTarget : speedToStart;
         //繰り返すかdotween
-        transform.position = Vector3.MoveTowards(transform.position,currentDestination,currentSpeed * Time.deltaTime);
+        StartCoroutine(Tosshin());
+    }
+    private IEnumerator Tosshin()
+    {
+        while (true)
+        {
+            float currentSpeed = (state == MoveState.GoingToTarget) ? speedToTarget : speedToStart;
+        transform.position = Vector3.MoveTowards(transform.position, currentDestination, currentSpeed * Time.deltaTime);
         Debug.Log("aa");
-        if (Vector3.Distance(transform.position, currentDestination) > 0.01f)
+        if (Vector3.Distance(transform.position, currentDestination) > 0.00000001f)
         {
             Debug.Log("ad");
             if (state == MoveState.GoingToTarget)
@@ -70,13 +76,16 @@ public class EnemyHpController : MonoBehaviour
                 currentDestination = startPosition;
                 state = MoveState.Returning;
                 Debug.Log("ab");
+                    yield return new WaitForSeconds(2f);
             }
             else if (state == MoveState.Returning)
             {
                 // 戻りが終わったらDone
                 state = MoveState.Done;
                 Debug.Log("ac");
+                yield break;
             }
+        }
         }
     }
 }
