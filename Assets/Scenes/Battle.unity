@@ -323,7 +323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7146257672552744647, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
       propertyPath: m_Constraints
-      value: 126
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 7146257674084699082, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
       propertyPath: m_LocalPosition.x
@@ -403,6 +403,8 @@ MonoBehaviour:
   turnchangeAttack: {fileID: 1902671604}
   turnchangeAway: {fileID: 1008707246}
   playerCurrentHP: 100
+  moveDuration: 2
+  moveDistance: 5
 --- !u!1 &523896775
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +529,7 @@ MonoBehaviour:
   playerController: {fileID: 398829444}
   speedToTarget: 3
   speedToStart: 1
-  targetPosition: {x: 5, y: 0, z: 0}
+  targetPosition: {x: 0, y: 0.8, z: -2.25}
 --- !u!1 &579211434
 GameObject:
   m_ObjectHideFlags: 0

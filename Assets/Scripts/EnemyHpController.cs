@@ -64,28 +64,49 @@ public class EnemyHpController : MonoBehaviour
     {
         while (true)
         {
-            float currentSpeed = (state == MoveState.GoingToTarget) ? speedToTarget : speedToStart;
-        transform.position = Vector3.MoveTowards(transform.position, currentDestination, currentSpeed * Time.deltaTime);
-        Debug.Log("aa");
-        if (Vector3.Distance(transform.position, currentDestination) > 0.00000001f)
-        {
-            Debug.Log("ad");
-            if (state == MoveState.GoingToTarget)
+            for (int i = 0; i < 100; i++)
             {
-                // ターゲットに到達したら初期位置に戻る
-                currentDestination = startPosition;
-                state = MoveState.Returning;
-                Debug.Log("ab");
-                    yield return new WaitForSeconds(2f);
+                yield return new WaitForSeconds(0.01f);
+                transform.Translate(0f, 0f, -0.055f);
             }
-            else if (state == MoveState.Returning)
+
+            yield return new WaitForSeconds(1.0f);
+
+            for (int k = 0; k < 100; k++)
             {
-                // 戻りが終わったらDone
-                state = MoveState.Done;
-                Debug.Log("ac");
-                yield break;
+                yield return new WaitForSeconds(0.01f);
+                transform.Translate(0, 0, +0.055f);
             }
+            playerController.turnchangeAttack.interactable = true;
+            playerController.turnchangeAway.interactable = true;
+            yield return new WaitForSeconds(1.0f);
+            yield break;
         }
-        }
+
+        // while (true)
+        // {
+        //     float currentSpeed = (state == MoveState.GoingToTarget) ? speedToTarget : speedToStart;
+        //     transform.position = Vector3.MoveTowards(transform.position, currentDestination, currentSpeed * Time.deltaTime);
+        //     Debug.Log("aa");
+        //     if (Vector3.Distance(transform.position, currentDestination) > 0.00001f)
+        //     {
+        //         Debug.Log("ad");
+        //         if (state == MoveState.GoingToTarget)
+        //         {
+        //             // ターゲットに到達したら初期位置に戻る
+        //             currentDestination = startPosition;
+        //             state = MoveState.Returning;
+        //             Debug.Log("ab");
+        //             yield return new WaitForSeconds(2f);
+        //         }
+        //         else if (state == MoveState.Returning)
+        //         {
+        //             // 戻りが終わったらDone
+        //             state = MoveState.Done;
+        //             Debug.Log("ac");
+        //         }
+        //         yield break;
+        //     }
+        // }
     }
 }

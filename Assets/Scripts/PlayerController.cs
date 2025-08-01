@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public Button turnchangeAttack;
     public Button turnchangeAway;
     public int playerCurrentHP;
+    public float moveDuration = 2f;
+    public float moveDistance = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,29 +34,32 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("is_walking", false);
         }
-        if (Input.GetKey(KeyCode.W))
+        if (SceneManager.GetActiveScene().name == "Main")
         {
-            transform.position += new Vector3(0, 0, speed * Time.deltaTime);
-            animator.SetBool("is_walking", true);
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
-            animator.SetBool("is_walking", true);
-            transform.rotation = Quaternion.Euler(180, 0, 180);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
-            animator.SetBool("is_walking", true);
-            transform.rotation = Quaternion.Euler(0, -90, 0);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
-            animator.SetBool("is_walking", true);
-            transform.rotation = Quaternion.Euler(0, 90, 0);
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.position += new Vector3(0, 0, speed * Time.deltaTime);
+                animator.SetBool("is_walking", true);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+                animator.SetBool("is_walking", true);
+                transform.rotation = Quaternion.Euler(180, 0, 180);
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+                animator.SetBool("is_walking", true);
+                transform.rotation = Quaternion.Euler(0, -90, 0);
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
+                animator.SetBool("is_walking", true);
+                transform.rotation = Quaternion.Euler(0, 90, 0);
+            }
         }
     }
     void OnCollisionEnter(Collision collision)
@@ -85,7 +90,27 @@ public class PlayerController : MonoBehaviour
         turnchangeAway.interactable = false;
         animator.SetBool("away", true);
         transform.rotation = Quaternion.Euler(0, -180, 0);
-        transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+        StartCoroutine(away());
+        fademanager.Out = true;
+    }
+    IEnumerator away()
+    {
+        Vector3 startPosition = transform.position;
+        Vector3 endPosition = startPosition - Vector3.forward * moveDistance;
+        float elapsedTime = 0f;
+        yield return new WaitForSeconds(0.1f);
+        while (elapsedTime < moveDuration)
+        {
+            // 開始地点と終了地点の間を滑らかに移動
+            transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / moveDuration);
+
+            // 経過時間を加算
+            elapsedTime += Time.deltaTime;
+
+            // 1フレーム待機
+            yield return null;
+        }
+        transform.position = endPosition;
     }
     public void WinAnimation()
     {
