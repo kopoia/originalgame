@@ -13,7 +13,10 @@ public class FadeManager : MonoBehaviour
     public bool In = false;
     public string Battle; // ← シーン名をインスペクターで指定
     public string Main;
+    public string GameOver;
     Image fadeImage;
+    public PlayerController playerController;
+    private int playercurrentHP;
 
     void Start()
     {
@@ -48,7 +51,7 @@ public class FadeManager : MonoBehaviour
         }
     }
 
-    void FadeOut()
+    public void FadeOut()
     {
         fadeImage.enabled = true;
         alfa += Speed;
@@ -60,16 +63,23 @@ public class FadeManager : MonoBehaviour
             {
                 SceneManager.LoadScene(Battle); // ← フェードアウト完了後にシーン移動
             }
-            if (SceneManager.GetActiveScene().name == "Battle")
+            else if (SceneManager.GetActiveScene().name == "Battle")
             {
-                SceneManager.LoadScene(Main); // ← フェードアウト完了後にシーン移動
+                SceneManager.LoadScene(GameOver);
             }
-            
+            else if (SceneManager.GetActiveScene().name == "GameOver")
+            {
+                SceneManager.LoadScene(Main);
+            }
         }
     }
 
     void Alpha()
     {
         fadeImage.color = new Color(red, green, blue, alfa);
+    }
+    public void away()
+    {
+        SceneManager.LoadScene(Main);
     }
 }

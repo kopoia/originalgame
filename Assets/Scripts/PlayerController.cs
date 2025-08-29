@@ -26,14 +26,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SceneManager.GetActiveScene().name == "Battle" && playerCurrentHP < 0)
+            {
+                fademanager.Out = true;
+                fademanager.FadeOut();
+            }
         if (SceneManager.GetActiveScene().name == "Battle")
-        {
-            animator.SetBool("is_battle", true);
-        }
-        else if (SceneManager.GetActiveScene().name == "Main")
-        {
-            animator.SetBool("is_walking", false);
-        }
+            {
+                animator.SetBool("is_battle", true);
+            }
+            else if (SceneManager.GetActiveScene().name == "Main")
+            {
+                animator.SetBool("is_walking", false);
+            }
         if (SceneManager.GetActiveScene().name == "Main")
         {
             if (Input.GetKey(KeyCode.W))
@@ -111,6 +116,7 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
         transform.position = endPosition;
+        fademanager.away();
     }
     public void WinAnimation()
     {

@@ -271,6 +271,8 @@ MonoBehaviour:
   In: 0
   Battle: Battle
   Main: Main
+  GameOver: GameOver
+  playerController: {fileID: 398829444}
 --- !u!114 &340526772
 MonoBehaviour:
   m_ObjectHideFlags: 0
