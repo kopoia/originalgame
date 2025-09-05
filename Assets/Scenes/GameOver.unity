@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 102524354}
   - component: {fileID: 102524353}
   m_Layer: 0
-  m_Name: yuka
+  m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,6 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeManager: {fileID: 1750581421}
+  plcontroller: {fileID: 1760190347}
 --- !u!1001 &881516134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,7 +701,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7146257674084931568, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1760190347}
   m_SourcePrefab: {fileID: 100100000, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
 --- !u!1 &1020896021
 GameObject:
@@ -1060,6 +1064,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750581419}
   m_CullTransparentMesh: 1
+--- !u!1 &1760190346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7146257674084931568, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
+  m_PrefabInstance: {fileID: 881516134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1760190347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760190346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f760eec3d9574f94aa538dfb616a157a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fademanager: {fileID: 1750581421}
+  enemyHpController: {fileID: 0}
+  turnchangeAttack: {fileID: 0}
+  turnchangeAway: {fileID: 0}
+  playerCurrentHP: 0
+  moveDuration: 2
+  moveDistance: 5
+  lose: 0
+  runaway: 0
 --- !u!1 &2007809821
 GameObject:
   m_ObjectHideFlags: 0

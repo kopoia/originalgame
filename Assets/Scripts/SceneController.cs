@@ -5,6 +5,7 @@ using UnityEngine;
 public class SceneController : MonoBehaviour
 {
     public FadeManager fadeManager;
+    public PlayerController plcontroller;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,6 @@ public class SceneController : MonoBehaviour
     }
     public void retry()
     {
-        fadeManager.FadeOut();
+        plcontroller.retry();
     }
 }

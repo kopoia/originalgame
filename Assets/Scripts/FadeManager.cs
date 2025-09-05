@@ -65,7 +65,16 @@ public class FadeManager : MonoBehaviour
             }
             else if (SceneManager.GetActiveScene().name == "Battle")
             {
-                SceneManager.LoadScene(GameOver);
+                if (playerController.runaway == true)
+                {
+                    SceneManager.LoadScene(Main);
+                    playerController.runaway = false;
+                }
+                if (playerController.lose == true)
+                {
+                    SceneManager.LoadScene(GameOver);
+                    playerController.lose = false;
+                }
             }
             else if (SceneManager.GetActiveScene().name == "GameOver")
             {
@@ -78,7 +87,7 @@ public class FadeManager : MonoBehaviour
     {
         fadeImage.color = new Color(red, green, blue, alfa);
     }
-    public void away()
+    public void Away()
     {
         SceneManager.LoadScene(Main);
     }

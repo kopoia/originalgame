@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     public int playerCurrentHP;
     public float moveDuration = 2f;
     public float moveDistance = 5f;
+    public bool lose = false;
+    public bool runaway = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,18 +29,19 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (SceneManager.GetActiveScene().name == "Battle" && playerCurrentHP < 0)
-            {
-                fademanager.Out = true;
-                fademanager.FadeOut();
-            }
+        {
+            fademanager.Out = true;
+            fademanager.FadeOut();
+            lose = true;
+        }
         if (SceneManager.GetActiveScene().name == "Battle")
-            {
-                animator.SetBool("is_battle", true);
-            }
-            else if (SceneManager.GetActiveScene().name == "Main")
-            {
-                animator.SetBool("is_walking", false);
-            }
+        {
+            animator.SetBool("is_battle", true);
+        }
+        else if (SceneManager.GetActiveScene().name == "Main")
+        {
+            animator.SetBool("is_walking", false);
+        }
         if (SceneManager.GetActiveScene().name == "Main")
         {
             if (Input.GetKey(KeyCode.W))
@@ -116,7 +119,8 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
         transform.position = endPosition;
-        fademanager.away();
+        fademanager.Out = true;
+        runaway = true;
     }
     public void WinAnimation()
     {
@@ -126,6 +130,10 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool("win", true);
         yield return new WaitForSeconds(3.0f);
+        fademanager.Out = true;
+    }
+    public void retry()
+    {
         fademanager.Out = true;
     }
 }

@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 510362839}
   - component: {fileID: 510362838}
   m_Layer: 0
-  m_Name: UnityChan
+  m_Name: TestPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -560,6 +560,8 @@ MonoBehaviour:
   In: 0
   Battle: Battle
   Main: 
+  GameOver: 
+  playerController: {fileID: 0}
 --- !u!114 &1323872394
 MonoBehaviour:
   m_ObjectHideFlags: 0
