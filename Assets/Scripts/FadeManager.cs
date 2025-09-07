@@ -75,6 +75,10 @@ public class FadeManager : MonoBehaviour
                     SceneManager.LoadScene(GameOver);
                     playerController.lose = false;
                 }
+                else
+                {
+                    SceneManager.LoadScene(Main);
+                }
             }
             else if (SceneManager.GetActiveScene().name == "GameOver")
             {

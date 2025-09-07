@@ -119,7 +119,6 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
         transform.position = endPosition;
-        fademanager.Out = true;
         runaway = true;
     }
     public void WinAnimation()
