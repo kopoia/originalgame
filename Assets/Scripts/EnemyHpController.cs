@@ -8,7 +8,7 @@ public class EnemyHpController : MonoBehaviour
 {
     public int enemyMaxHP;
     private int enemyCurrentHP;
-    public Slider HPslider;
+    public Slider EHPslider;
     public PlayerController playerController;
     public float speedToTarget = 3f;
     public float speedToStart = 1f;
@@ -21,7 +21,7 @@ public class EnemyHpController : MonoBehaviour
     void Start()
     {
         state = MoveState.GoingToTarget;
-        HPslider.value = (float)enemyMaxHP;
+        EHPslider.value = (float)enemyMaxHP;
         enemyCurrentHP = enemyMaxHP;
         startPosition = transform.position;
         currentDestination = targetPosition;
@@ -35,7 +35,7 @@ public class EnemyHpController : MonoBehaviour
     public void Damage()
     {
         enemyCurrentHP -= 30;
-        HPslider.value = (float)enemyCurrentHP / (float)enemyMaxHP;
+        EHPslider.value = (float)enemyCurrentHP / (float)enemyMaxHP;
         if (enemyCurrentHP <= 0)
         {
             StartCoroutine(Enemyaway());

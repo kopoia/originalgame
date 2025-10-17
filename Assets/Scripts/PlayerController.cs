@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public Button turnchangeAttack;
     public Button turnchangeAway;
     public int playerCurrentHP;
+    public int playerMaxHP;
     public float moveDuration = 2f;
     public float moveDistance = 5f;
     public bool lose = false;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        playerMaxHP = 100;
     }
 
     // Update is called once per frame

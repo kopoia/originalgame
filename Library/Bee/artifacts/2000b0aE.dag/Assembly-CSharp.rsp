@@ -384,6 +384,7 @@
 "Assets/Scripts/FadeManager.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerHpController.cs"
 "Assets/Scripts/SceneController.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
