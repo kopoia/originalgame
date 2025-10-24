@@ -17,6 +17,7 @@ public class EnemyHpController : MonoBehaviour
     private Vector3 currentDestination;
     private enum MoveState { GoingToTarget, Returning, Done }
     private MoveState state = MoveState.GoingToTarget;
+    public PlayerHpController playerHpController;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +72,7 @@ public class EnemyHpController : MonoBehaviour
             }
             yield return new WaitForSeconds(0.5f);
             playerController.playerCurrentHP -= 30;
+            playerHpController.Damage();
             for (int k = 0; k < 100; k++)
             {
                 yield return new WaitForSeconds(0.01f);
