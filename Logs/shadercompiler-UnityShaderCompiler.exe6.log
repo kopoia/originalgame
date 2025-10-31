@@ -1,0 +1,66 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=18281 outsize=18281 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14560 outsize=14560 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=13357 outsize=13357 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14898 outsize=14898 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14714 outsize=14714 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14306 outsize=14306 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16576 outsize=16576 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=18836 outsize=18836 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14623 outsize=14623 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=15563 outsize=15563 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16275 outsize=16275 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16978 outsize=16978 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16429 outsize=16429 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=10545 outsize=10545 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=13473 outsize=13473 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=10572 outsize=10572 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=13427 outsize=13427 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=4828 outsize=4828 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=4678 outsize=4678 ok=1
+
+Cmd: compileSnippet
+  insize=7915 file=Assets/Fantasy Forest Environment Free Sample/Fantasy Forest/StandardNoCulling pass=ShadowCaster ppOnly=0 stripLineD=0 buildPlatform=20 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_SHADOWCASTER uKW=INSTANCING_ON SHADOWS_DEPTH dKW=SHADOWS_CUBE UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Fragment platform=d3d11 reqs=2275 mask=6 start=224 ok=1 outsize=566
+
+Cmd: compileSnippet
+  insize=19216 file=Assets/Fantasy Forest Environment Free Sample/Fantasy Forest/StandardNoCulling pass=FORWARD ppOnly=0 stripLineD=0 buildPlatform=20 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_FORWARDBASE uKW=INSTANCING_ON DIRECTIONAL LIGHTPROBE_SH dKW=FOG_LINEAR FOG_EXP FOG_EXP2 SHADOWS_SHADOWMASK DYNAMICLIGHTMAP_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING DIRLIGHTMAP_COMBINED SHADOWS_SCREEN UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Fragment platform=d3d11 reqs=2275 mask=6 start=28 ok=1 outsize=3370
+

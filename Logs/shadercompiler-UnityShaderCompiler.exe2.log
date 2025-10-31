@@ -1,0 +1,102 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19712 outsize=19712 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=22170 outsize=22170 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20929 outsize=20929 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=23385 outsize=23385 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=21136 outsize=21136 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=23592 outsize=23592 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=22386 outsize=22386 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=22257 outsize=22257 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=21966 outsize=21966 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19701 outsize=19701 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19701 outsize=19701 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=17760 outsize=17760 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16566 outsize=16566 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=18076 outsize=18076 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=17914 outsize=17914 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=17516 outsize=17516 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19828 outsize=19828 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=22114 outsize=22114 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=17801 outsize=17801 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=18757 outsize=18757 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19511 outsize=19511 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20188 outsize=20188 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19665 outsize=19665 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20342 outsize=20342 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14618 outsize=14618 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=9044 outsize=9044 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=12147 outsize=12147 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=9071 outsize=9071 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=12101 outsize=12101 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=9339 outsize=9339 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=4051 outsize=4051 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=3908 outsize=3908 ok=1
+
+Cmd: compileSnippet
+  insize=2326 file=Assets/DefaultResourcesExtra/Standard (Specular setup) pass=FORWARD ppOnly=0 stripLineD=0 buildPlatform=20 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_FORWARDBASE uKW=INSTANCING_ON DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN dKW=FOG_LINEAR FOG_EXP FOG_EXP2 _NORMALMAP _ALPHATEST_ON _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON _SPECGLOSSMAP _PARALLAXMAP SHADOWS_SHADOWMASK DYNAMICLIGHTMAP_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING DIRLIGHTMAP_COMBINED VERTEXLIGHT_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Vertex platform=d3d11 reqs=2275 mask=6 start=67 ok=1 outsize=2402
+

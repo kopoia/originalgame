@@ -12,7 +12,7 @@ public class EnemyHpController : MonoBehaviour
     public PlayerController playerController;
     public float speedToTarget = 3f;
     public float speedToStart = 1f;
-    public Vector3 targetPosition = new Vector3(0f, 0.8f, -2.25f);
+    public Vector3 targetPosition = new Vector3(0f, 0.8f, 2.79f);
     private Vector3 startPosition;
     private Vector3 currentDestination;
     private enum MoveState { GoingToTarget, Returning, Done }
@@ -65,18 +65,18 @@ public class EnemyHpController : MonoBehaviour
     {
         while (true)
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 27; i++)
             {
                 yield return new WaitForSeconds(0.01f);
-                transform.Translate(0f, 0f, -0.055f);
+                transform.Translate(0f, 0f, -0.15f);
             }
             yield return new WaitForSeconds(0.5f);
             playerController.playerCurrentHP -= 30;
             playerHpController.Damage();
-            for (int k = 0; k < 100; k++)
+            for (int k = 0; k < 27; k++)
             {
                 yield return new WaitForSeconds(0.01f);
-                transform.Translate(0, 0, +0.055f);
+                transform.Translate(0, 0, +0.15f);
             }
             playerController.turnchangeAttack.interactable = true;
             playerController.turnchangeAway.interactable = true;

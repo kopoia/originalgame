@@ -1,0 +1,144 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=15605 outsize=15605 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=18253 outsize=18253 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16799 outsize=16799 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19480 outsize=19480 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=15605 outsize=15605 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19615 outsize=19615 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16799 outsize=16799 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20868 outsize=20868 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=15795 outsize=15795 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19805 outsize=19805 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=17005 outsize=17005 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=21074 outsize=21074 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=17005 outsize=17005 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19686 outsize=19686 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=18443 outsize=18443 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19712 outsize=19712 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=23502 outsize=23502 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20929 outsize=20929 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=24746 outsize=24746 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19903 outsize=19903 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=23718 outsize=23718 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=21136 outsize=21136 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=24953 outsize=24953 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=19494 outsize=19494 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=23310 outsize=23310 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20939 outsize=20939 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=23575 outsize=23575 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=20946 outsize=20946 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=11884 outsize=11884 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=10600 outsize=10600 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=12199 outsize=12199 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=12037 outsize=12037 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=11614 outsize=11614 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=13883 outsize=13883 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=16120 outsize=16120 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=11794 outsize=11794 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=12856 outsize=12856 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=13581 outsize=13581 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14258 outsize=14258 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=13734 outsize=13734 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=14411 outsize=14411 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=8839 outsize=8839 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=11942 outsize=11942 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=8866 outsize=8866 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=11896 outsize=11896 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=5329 outsize=5329 ok=1
+
+Cmd: disassembleShader
+ name=Nature/Terrain/Standard platform=gles3 type=4 mask=6 insize=5179 outsize=5179 ok=1
+
