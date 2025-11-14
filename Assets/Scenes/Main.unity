@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 491409584}
   - component: {fileID: 491409583}
   - component: {fileID: 491409582}
+  - component: {fileID: 491409585}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -235,14 +236,14 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: d83a72a03259b5345aeef39ad4d88b3c, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 412
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 1
+  m_SplatMapDistance: 68
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -273,12 +274,96 @@ Transform:
   m_GameObject: {fileID: 491409581}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.5, y: -0.5, z: -12.8}
+  m_LocalPosition: {x: -119, y: -34, z: -36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &491409585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491409581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4531ff2a79e8c8c4e9a70e7d5b874e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toolModeInt: 2
+  erosionTypeInt: 1
+  generatorTypeInt: 3
+  isBrushOn: 0
+  isBrushHidden: 0
+  isBrushPainting: 0
+  brushPosition: {x: 0, y: 0, z: 0}
+  brushSize: 50
+  brushOpacity: 1
+  brushSoftness: 0.5
+  neighbourhoodInt: 0
+  useDifferenceMaps: 1
+  thermalIterations: 5
+  thermalMinSlope: 15
+  thermalFalloff: 0.5
+  hydraulicTypeInt: 1
+  hydraulicIterations: 12
+  hydraulicMaxSlope: 60
+  hydraulicFalloff: 0.5
+  hydraulicRainfall: 0.02
+  hydraulicEvaporation: 0.5
+  hydraulicSedimentSolubility: 0.06
+  hydraulicSedimentSaturation: 0.15
+  hydraulicVelocityRainfall: 0.01
+  hydraulicVelocityEvaporation: 0.5
+  hydraulicVelocitySedimentSolubility: 0.01
+  hydraulicVelocitySedimentSaturation: 0.1
+  hydraulicVelocity: 20
+  hydraulicMomentum: 1
+  hydraulicEntropy: 0
+  hydraulicDowncutting: 0.1
+  tidalIterations: 50
+  tidalSeaLevel: 150
+  tidalRangeAmount: 15
+  tidalCliffLimit: 25
+  windIterations: 5
+  windDirection: 90
+  windForce: 0.5
+  windLift: 0.01
+  windGravity: 0.5
+  windCapacity: 0.01
+  windEntropy: 0.1
+  windSmoothing: 0.25
+  terrainLayers:
+  - {fileID: 8574412962073106934, guid: 1aee803d4d42d3d45aa8d30bf912f153, type: 2}
+  - {fileID: 8574412962073106934, guid: 994e0055a7527ef4db984229b96bae7e, type: 2}
+  - {fileID: 8574412962073106934, guid: 49c4a7bd144ca9849b9e0345349ffbb3, type: 2}
+  - {fileID: 8574412962073106934, guid: ce98d29815d6d9940967c85d2961d8b8, type: 2}
+  slopeBlendMinAngle: 10
+  slopeBlendMaxAngle: 30
+  heightBlendPoints:
+  - 0.1
+  - 0.3
+  - 0.531
+  - 0.762
+  gradientStyles: []
+  voronoiTypeInt: 2
+  voronoiCells: 18
+  voronoiFeatures: 0.75
+  voronoiScale: 0.25
+  voronoiBlend: 0.25
+  diamondSquareDelta: 0.2
+  diamondSquareBlend: 0.5
+  perlinFrequency: 2
+  perlinAmplitude: 0.5
+  perlinOctaves: 9
+  perlinBlend: 0.25
+  smoothBlend: 0.25
+  smoothIterations: 1
+  normaliseMin: 0
+  normaliseMax: 1
+  normaliseBlend: 1
 --- !u!1 &492555982
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +498,7 @@ Transform:
   m_GameObject: {fileID: 510362836}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 11.639, y: 9.890001, z: 0.3600006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1073,7 +1158,7 @@ Transform:
   m_GameObject: {fileID: 1757444744}
   serializedVersion: 2
   m_LocalRotation: {x: 0.32330215, y: -0, z: -0, w: 0.9462958}
-  m_LocalPosition: {x: -0.039, y: 3.61, z: -7.26}
+  m_LocalPosition: {x: 11.6, y: 13.5, z: -6.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1127,8 +1212,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1757444747}
-  - {fileID: 1727918118}
   - {fileID: 510362837}
+  - {fileID: 1727918118}
   - {fileID: 1663672033}
   - {fileID: 559253838}
   - {fileID: 1414991086}
