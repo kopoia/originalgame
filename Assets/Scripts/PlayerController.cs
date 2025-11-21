@@ -137,4 +137,5 @@ public class PlayerController : MonoBehaviour
     {
         fademanager.Out = true;
     }
+
 }
