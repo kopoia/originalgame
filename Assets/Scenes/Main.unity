@@ -312,6 +312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entranceUI: {fileID: 2104313721}
+  canEnter: 0
+  fademanager: {fileID: 1323872393}
 --- !u!135 &476094550
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -963,7 +965,9 @@ MonoBehaviour:
   Battle: Battle
   Main: 
   GameOver: 
+  Floor1: Floor1
   playerController: {fileID: 0}
+  dungeonEntranceController: {fileID: 476094549}
 --- !u!114 &1323872394
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("is_walking", false);
         }
-        if (SceneManager.GetActiveScene().name == "Main")
+        if (SceneManager.GetActiveScene().name != "Battle")
         {
             if (Input.GetKey(KeyCode.W))
             {

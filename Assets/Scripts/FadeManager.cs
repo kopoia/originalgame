@@ -14,9 +14,11 @@ public class FadeManager : MonoBehaviour
     public string Battle; // ← シーン名をインスペクターで指定
     public string Main;
     public string GameOver;
+    public string Floor1;
     Image fadeImage;
     public PlayerController playerController;
     private int playercurrentHP;
+    public DungeonEntranceController dungeonEntranceController;
 
     void Start()
     {
@@ -61,7 +63,14 @@ public class FadeManager : MonoBehaviour
             Out = false;
             if (SceneManager.GetActiveScene().name == "Main")
             {
-                SceneManager.LoadScene(Battle); // ← フェードアウト完了後にシーン移動
+                if (dungeonEntranceController.canEnter == true)
+                {
+                    SceneManager.LoadScene(Floor1);
+                }
+                else
+                {
+                    SceneManager.LoadScene(Battle); // ← フェードアウト完了後にシーン移動
+                }
             }
             else if (SceneManager.GetActiveScene().name == "Battle")
             {
