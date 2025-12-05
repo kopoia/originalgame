@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
-  - Goal
-  - Enemy
+  - Floor
+  - Wall
+  - OuterCorner
+  - Room
   layers:
   - Default
   - TransparentFX

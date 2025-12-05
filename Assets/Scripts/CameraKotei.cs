@@ -11,7 +11,7 @@ public class CameraKotei : MonoBehaviour
     void Start()
     {
         //ユニティちゃんのオブジェクト情報を格納
-        this.player = GameObject.Find("UnityChan");
+        this.player = GameObject.Find("UnityChan(Clone)");
         //メインカメラ(自身のオブジェクト)とユニティちゃんとトランスフォームの相対距離を算出
         offset = transform.position - player.transform.position;
     }
