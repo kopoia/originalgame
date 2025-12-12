@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class CameraKotei : MonoBehaviour
 {
-    private GameObject player;   //ユニティちゃんのオブジェクト情報を格納
+    public GameObject player;   //ユニティちゃんのオブジェクト情報を格納
     private Vector3 offset;      //カメラとの相対距離を格納
 
     // Start is called before the first frame update
     void Start()
     {
         //ユニティちゃんのオブジェクト情報を格納
-        this.player = GameObject.Find("UnityChan(Clone)");
+        //this.player = GameObject.Find("UnityChan");
         //メインカメラ(自身のオブジェクト)とユニティちゃんとトランスフォームの相対距離を算出
         offset = transform.position - player.transform.position;
     }
