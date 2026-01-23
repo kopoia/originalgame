@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
+using UnityEditor.Search.Providers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -20,9 +21,12 @@ public class PlayerController : MonoBehaviour
     public float moveDistance = 5f;
     public bool lose = false;
     public bool runaway = false;
+    public static Scene currentscene;
+    public string scenename;
     // Start is called before the first frame update
     void Start()
     {
+        
         animator = GetComponent<Animator>();
         playerMaxHP = 100;
     }
@@ -77,6 +81,9 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             fademanager.Out = true;
+            currentscene = SceneManager.GetActiveScene();
+            scenename = currentscene.name;
+            PlayerPrefs.SetString("nowscene", scenename);
         }
     }
     public void AttackAnimation()
@@ -92,7 +99,10 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("punch", false);
         enemyHpController.Damage();
         yield return new WaitForSeconds(0.5f);
-        enemyHpController.EnemyAttack();
+        if (enemyHpController.enemyCurrentHP >= 0)
+        {
+         enemyHpController.EnemyAttack();   
+        }
     }
     public void AwayAnimation()
     {

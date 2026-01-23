@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class EnemyHpController : MonoBehaviour
 {
     public int enemyMaxHP;
-    private int enemyCurrentHP;
+    public int enemyCurrentHP;
     public Slider EHPslider;
     public PlayerController playerController;
     public float speedToTarget = 3f;
@@ -76,7 +76,7 @@ public class EnemyHpController : MonoBehaviour
             for (int k = 0; k < 27; k++)
             {
                 yield return new WaitForSeconds(0.01f);
-                transform.Translate(0, 0, +0.15f);
+                transform.Translate(0, 0, +0.16f);
             }
             playerController.turnchangeAttack.interactable = true;
             playerController.turnchangeAway.interactable = true;

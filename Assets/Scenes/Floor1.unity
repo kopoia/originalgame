@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8063,7 +8063,7 @@ Transform:
   m_GameObject: {fileID: 831679377}
   serializedVersion: 2
   m_LocalRotation: {x: 0.32330215, y: -0, z: -0, w: 0.9462958}
-  m_LocalPosition: {x: 49.69, y: 3.67, z: 8.24}
+  m_LocalPosition: {x: 12.7, y: 3.67, z: 16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13044,7 +13044,7 @@ Transform:
   m_GameObject: {fileID: 1420677455}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.639, y: -1.0400004, z: 0.36000013}
+  m_LocalPosition: {x: -25.350998, y: -1.0400004, z: 8.120001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13637,6 +13637,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4816260939498725494, guid: f8d551fb56ae1df4ba06f948aa1a43f0, type: 3}
   m_PrefabInstance: {fileID: 2209390481415213680}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1479352110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2845780310190331261, guid: f8d551fb56ae1df4ba06f948aa1a43f0, type: 3}
+  m_PrefabInstance: {fileID: 2209390481415213680}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469277280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f760eec3d9574f94aa538dfb616a157a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1483919726 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 91d652779ec7140488b6b8e360497937, type: 3}
@@ -14348,6 +14359,53 @@ Transform:
   - {fileID: 1728073898}
   - {fileID: 1707799999}
   m_Father: {fileID: 1819826962}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1543453338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543453340}
+  - component: {fileID: 1543453339}
+  m_Layer: 0
+  m_Name: ittann
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1543453339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543453338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed53298e71c0ab49b69acc5b58fb8bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entranceUI: {fileID: 0}
+  canEnter: 0
+  fademanager: {fileID: 0}
+--- !u!4 &1543453340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543453338}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.69, y: 17.84, z: 8.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1552364102 stripped
 Transform:
@@ -17407,8 +17465,8 @@ MonoBehaviour:
   Main: 
   GameOver: 
   Floor1: Floor1
-  playerController: {fileID: 0}
-  dungeonEntranceController: {fileID: 0}
+  playerController: {fileID: 1479352110}
+  dungeonEntranceController: {fileID: 1543453339}
 --- !u!114 &1844152370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20758,6 +20816,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1420677459}
     m_Modifications:
+    - target: {fileID: 2845780310190331261, guid: f8d551fb56ae1df4ba06f948aa1a43f0, type: 3}
+      propertyPath: fademanager
+      value: 
+      objectReference: {fileID: 1844152369}
     - target: {fileID: 4300200237287140316, guid: f8d551fb56ae1df4ba06f948aa1a43f0, type: 3}
       propertyPath: m_Name
       value: 'UnityChan '
@@ -20828,3 +20890,4 @@ SceneRoots:
   - {fileID: 1354725150}
   - {fileID: 2021367755}
   - {fileID: 1618072072}
+  - {fileID: 1543453340}

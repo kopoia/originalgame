@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1294,7 +1294,9 @@ MonoBehaviour:
   Battle: Battle
   Main: Main
   GameOver: GameOver
+  Floor1: 
   playerController: {fileID: 398829444}
+  dungeonEntranceController: {fileID: 0}
 --- !u!114 &340526772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1748,6 +1750,9 @@ MonoBehaviour:
   moveDistance: 5
   lose: 0
   runaway: 0
+  currentscene:
+    m_Handle: 0
+  scenename: 
 --- !u!4 &398829452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7146257674084699082, guid: 5986fb8fb9c92449682b7c32abe2ee68, type: 3}
@@ -2115,7 +2120,7 @@ Transform:
   m_GameObject: {fileID: 523896775}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.78, z: -2.25}
+  m_LocalPosition: {x: 0, y: 0.78, z: -2.326}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2135,6 +2140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMaxHP: 100
+  enemyCurrentHP: 100
   EHPslider: {fileID: 683366088}
   playerController: {fileID: 398829444}
   speedToTarget: 3

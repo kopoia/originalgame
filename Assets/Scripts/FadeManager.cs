@@ -61,7 +61,7 @@ public class FadeManager : MonoBehaviour
         if (alfa >= 1)
         {
             Out = false;
-            if (SceneManager.GetActiveScene().name == "Main")
+            if (SceneManager.GetActiveScene().name == "Main" || SceneManager.GetActiveScene().name == "Floor1")
             {
                 if (dungeonEntranceController.canEnter == true)
                 {
@@ -86,7 +86,8 @@ public class FadeManager : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene(Main);
+                    var imascene = PlayerPrefs.GetString("nowscene", Main);
+                    SceneManager.LoadScene(imascene);
                 }
             }
             else if (SceneManager.GetActiveScene().name == "GameOver")
