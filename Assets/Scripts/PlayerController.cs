@@ -23,12 +23,18 @@ public class PlayerController : MonoBehaviour
     public bool runaway = false;
     public static Scene currentscene;
     public string scenename;
+    public static Vector3 CurrentLocation = new Vector3(49.5f,3.7f,8.2f);
     // Start is called before the first frame update
     void Start()
     {
         
         animator = GetComponent<Animator>();
         playerMaxHP = 100;
+        if(SceneManager.GetActiveScene().name == "Floor1")
+        {
+            transform.position = CurrentLocation;
+                Debug.Log("a"+CurrentLocation);
+        }
     }
 
     // Update is called once per frame
@@ -84,6 +90,7 @@ public class PlayerController : MonoBehaviour
             currentscene = SceneManager.GetActiveScene();
             scenename = currentscene.name;
             PlayerPrefs.SetString("nowscene", scenename);
+            CurrentLocation = transform.position;
         }
     }
     public void AttackAnimation()
@@ -148,4 +155,9 @@ public class PlayerController : MonoBehaviour
         fademanager.Out = true;
     }
 
+    public void locationmodori()
+    {
+        Debug.Log(CurrentLocation);
+        transform.position = CurrentLocation;
+    }
 }

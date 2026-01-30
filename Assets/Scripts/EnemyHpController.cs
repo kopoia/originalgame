@@ -35,7 +35,7 @@ public class EnemyHpController : MonoBehaviour
     }
     public void Damage()
     {
-        enemyCurrentHP -= 30;
+        enemyCurrentHP -= 100;
         EHPslider.value = (float)enemyCurrentHP / (float)enemyMaxHP;
         if (enemyCurrentHP <= 0)
         {
@@ -84,6 +84,7 @@ public class EnemyHpController : MonoBehaviour
             yield break;
         }
 
+        //ここから下消すと動かん
         // while (true)
         // {
         //     float currentSpeed = (state == MoveState.GoingToTarget) ? speedToTarget : speedToStart;
