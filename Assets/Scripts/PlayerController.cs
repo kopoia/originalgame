@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     public bool runaway = false;
     public static Scene currentscene;
     public string scenename;
-    public static Vector3 CurrentLocation = new Vector3(49.5f,3.7f,8.2f);
+    public static Vector3 CurrentLocation = new Vector3(49.5f,2.0f,11.8f);
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +33,6 @@ public class PlayerController : MonoBehaviour
         if(SceneManager.GetActiveScene().name == "Floor1")
         {
             transform.position = CurrentLocation;
-                Debug.Log("a"+CurrentLocation);
         }
     }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 // using UnityEngine.UIElements;
 
@@ -18,6 +19,8 @@ public class EnemyHpController : MonoBehaviour
     private enum MoveState { GoingToTarget, Returning, Done }
     private MoveState state = MoveState.GoingToTarget;
     public PlayerHpController playerHpController;
+    private Animator animator;
+    public enemyattack enemyattack;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,16 +29,20 @@ public class EnemyHpController : MonoBehaviour
         enemyCurrentHP = enemyMaxHP;
         startPosition = transform.position;
         currentDestination = targetPosition;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (SceneManager.GetActiveScene().name == "Battle")
+        {
+            enemyattack.Idle();
+        }
     }
     public void Damage()
     {
-        enemyCurrentHP -= 100;
+        enemyCurrentHP -= 50;
         EHPslider.value = (float)enemyCurrentHP / (float)enemyMaxHP;
         if (enemyCurrentHP <= 0)
         {
@@ -58,8 +65,9 @@ public class EnemyHpController : MonoBehaviour
         {
             return;
         }
+        enemyattack.attack();
         //繰り返すかdotween
-        StartCoroutine(Tosshin());
+        //StartCoroutine(Tosshin());
     }
     private IEnumerator Tosshin()
     {
@@ -83,6 +91,15 @@ public class EnemyHpController : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
             yield break;
         }
+    }
+        private IEnumerator attack()
+        {
+            animator.SetBool("isattack",true);
+            yield return new WaitForSeconds(1.0f);
+            playerController.turnchangeAttack.interactable = true;
+            playerController.turnchangeAway.interactable = true;
+            yield break;
+        }   
 
         //ここから下消すと動かん
         // while (true)
@@ -110,5 +127,4 @@ public class EnemyHpController : MonoBehaviour
         //         yield break;
         //     }
         // }
-    }
 }
