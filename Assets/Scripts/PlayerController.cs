@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
         
         animator = GetComponent<Animator>();
         playerMaxHP = 100;
+        playerCurrentHP = 100;
         if(SceneManager.GetActiveScene().name == "Floor1")
         {
             transform.position = CurrentLocation;

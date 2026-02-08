@@ -394,11 +394,13 @@
 "Assets/Scripts/enemyattack.cs"
 "Assets/Scripts/EnemyHpController.cs"
 "Assets/Scripts/FadeManager.cs"
+"Assets/Scripts/MenuController.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHpController.cs"
 "Assets/Scripts/SceneController.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/Scripts/UnitychanStats.cs"
 -langversion:9.0
 
 /deterministic
