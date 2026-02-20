@@ -399,6 +399,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHpController.cs"
 "Assets/Scripts/SceneController.cs"
+"Assets/Scripts/SoubiController.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/Scripts/UnitychanStats.cs"
 -langversion:9.0
