@@ -3269,6 +3269,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_yMax_mCF452040E0068
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3279,6 +3280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:329>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
 		L_0 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -3305,6 +3307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:330>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_5;
 		L_5 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -3317,9 +3320,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC
 
 IL_002d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:331>
 		return (BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622*)NULL;
 	}
 }
+// Method Definition Index: 19478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3329,6 +3334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_compositionString_m5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:337>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_0;
 		L_0 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -3354,6 +3360,7 @@ IL_0014:
 		return L_4;
 	}
 }
+// Method Definition Index: 19479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField__ctor_m06B9629E3C878D578A8B43C1A8835B526629D6E5 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3369,45 +3376,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField__ctor_m06B9629E3C878D578A8B43
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:229>
 		__this->___m_AsteriskChar = ((int32_t)42);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:255>
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* L_0 = (SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D*)il2cpp_codegen_object_new(SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D_il2cpp_TypeInfo_var);
 		SubmitEvent__ctor_mE8908589516FD77AA786BDACC7BEBC2182A87EE3(L_0, NULL);
 		__this->___m_OnSubmit = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnSubmit), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:258>
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_1 = (EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655*)il2cpp_codegen_object_new(EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655_il2cpp_TypeInfo_var);
 		EndEditEvent__ctor_mEAA90FD69A3F6F34EF977AF11A424CEEFF441953(L_1, NULL);
 		__this->___m_OnDidEndEdit = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnDidEndEdit), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:263>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_2 = (OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F*)il2cpp_codegen_object_new(OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F_il2cpp_TypeInfo_var);
 		OnChangeEvent__ctor_m3D387EF9F415EC6E177649A23DAA137AB98F3E05(L_2, NULL);
 		__this->___m_OnValueChanged = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnValueChanged), (void*)L_2);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:271>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_3), (0.196078435f), (0.196078435f), (0.196078435f), (1.0f), NULL);
 		__this->___m_CaretColor = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:277>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_4), (0.65882355f), (0.807843149f), (1.0f), (0.752941191f), NULL);
 		__this->___m_SelectionColor = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:282>
 		String_t* L_5 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
 		__this->___m_Text = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_5);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:286>
 		__this->___m_CaretBlinkRate = (0.850000024f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:290>
 		__this->___m_CaretWidth = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:296>
 		__this->___m_ShouldActivateOnSelect = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:318>
 		__this->___m_OriginalText = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OriginalText), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2009>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_6 = (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB*)il2cpp_codegen_object_new(Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB_il2cpp_TypeInfo_var);
 		Event__ctor_m14342F32F62A39A8B8032286E2DCC07FEF72BFF4(L_6, NULL);
 		__this->___m_ProcessingEvent = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProcessingEvent), (void*)L_6);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:344>
 		il2cpp_codegen_runtime_class_init_inline(Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_il2cpp_TypeInfo_var);
 		Selectable__ctor_m340EDFEA07F025166175C3ECB1BD2EEDD81C8638(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:346>
 		InputField_EnforceTextHOverflow_m7F0E61391D942F47B4AD128C0C8B9B204BBE14B8(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:347>
 		return;
 	}
 }
+// Method Definition Index: 19480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* InputField_get_mesh_m89CB1A4155FF8E7C42D5D97178DD00A3A7D8888E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3418,6 +3441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:353>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3428,6 +3452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:354>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_2, NULL);
 		__this->___m_Mesh = L_2;
@@ -3436,10 +3461,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 
 IL_0019:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:355>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = __this->___m_Mesh;
 		return L_3;
 	}
 }
+// Method Definition Index: 19481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3449,6 +3476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextGenerator_t85D00417640A53953556C01F9D4E7D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:363>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_0 = __this->___m_InputTextCache;
 		if (L_0)
 		{
@@ -3456,6 +3484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextGenerator_t85D00417640A53953556C01F9D4E7D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:364>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_1 = (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC*)il2cpp_codegen_object_new(TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_il2cpp_TypeInfo_var);
 		TextGenerator__ctor_m2BFF25B11D7FD0FA4F8E1B04D107219A30E8A187(L_1, NULL);
 		__this->___m_InputTextCache = L_1;
@@ -3464,10 +3493,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextGenerator_t85D00417640A53953556C01F9D4E7D
 
 IL_0013:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:366>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_2 = __this->___m_InputTextCache;
 		return L_2;
 	}
 }
+// Method Definition Index: 19482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_shouldHideMobileInput_mC3759A3E3DED19B9EC01E30CB810922772894C76 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3477,13 +3508,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_shouldHideMobileInput_mC3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:397>
 		bool* L_0 = (bool*)(&__this->___m_HideMobileInput);
 		bool L_1 = ___0_value;
 		bool L_2;
 		L_2 = SetPropertyUtility_SetStruct_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m8D96C8077BB7384F3CE2D22D7F7432CD43DDDC77(L_0, L_1, SetPropertyUtility_SetStruct_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m8D96C8077BB7384F3CE2D22D7F7432CD43DDDC77_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:398>
 		return;
 	}
 }
+// Method Definition Index: 19483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_shouldHideMobileInput_mA752B065435F4062EFB931119C34FDB5B35157E2 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3494,6 +3528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_shouldHideMobileInput_mA7
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:401>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -3521,23 +3556,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_shouldHideMobileInput_mA7
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:406>
 		bool L_4 = __this->___m_HideMobileInput;
 		return L_4;
 	}
 
 IL_001b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:409>
 		return (bool)1;
 	}
 }
+// Method Definition Index: 19484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_shouldActivateOnSelect_m5F21C9511D040820CFF661E56145C25D147D17A5 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:421>
 		bool L_0 = ___0_value;
 		__this->___m_ShouldActivateOnSelect = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:422>
 		return;
 	}
 }
+// Method Definition Index: 19485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_shouldActivateOnSelect_m4DA84FAEB2FFB6F036A3821675730842FF86245F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3547,6 +3588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_shouldActivateOnSelect_m4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:425>
 		bool L_0 = __this->___m_ShouldActivateOnSelect;
 		if (!L_0)
 		{
@@ -3565,29 +3607,38 @@ IL_0015:
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:459>
 		String_t* L_0 = __this->___m_Text;
 		return L_0;
 	}
 }
+// Method Definition Index: 19487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:463>
 		String_t* L_0 = ___0_value;
 		InputField_SetText_m66574324D7550D728E41F71DD704CDCDEADF9E66(__this, L_0, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:464>
 		return;
 	}
 }
+// Method Definition Index: 19488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetTextWithoutNotify_m2CD8DAC2A298CBABFCEC654A17294427DDD238A3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_input, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:475>
 		String_t* L_0 = ___0_input;
 		InputField_SetText_m66574324D7550D728E41F71DD704CDCDEADF9E66(__this, L_0, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:476>
 		return;
 	}
 }
+// Method Definition Index: 19489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetText_m66574324D7550D728E41F71DD704CDCDEADF9E66 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_value, bool ___1_sendCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3618,6 +3669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetText_m66574324D7550D728E41
 	String_t* G_B23_0 = NULL;
 	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* G_B23_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:480>
 		String_t* L_0;
 		L_0 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		String_t* L_1 = ___0_value;
@@ -3629,11 +3681,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetText_m66574324D7550D728E41
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:481>
 		return;
 	}
 
 IL_000f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:482>
 		String_t* L_3 = ___0_value;
 		if (L_3)
 		{
@@ -3641,16 +3695,19 @@ IL_000f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:483>
 		___0_value = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 	}
 
 IL_0019:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:484>
 		String_t* L_4 = ___0_value;
 		String_t* L_5 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
 		String_t* L_6;
 		L_6 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_4, _stringLiteral1489F923C4DCA729178B3E3233458550D8DDDF29, L_5, NULL);
 		___0_value = L_6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:485>
 		int32_t L_7 = __this->___m_LineType;
 		if (L_7)
 		{
@@ -3658,6 +3715,7 @@ IL_0019:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:486>
 		String_t* L_8 = ___0_value;
 		String_t* L_9;
 		L_9 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_8, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -3668,6 +3726,7 @@ IL_0019:
 
 IL_0054:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:489>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_11;
 		L_11 = InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline(__this, NULL);
 		if (L_11)
@@ -3686,8 +3745,10 @@ IL_0054:
 
 IL_0067:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:491>
 		__this->___m_Text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:492>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_13;
 		L_13 = InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline(__this, NULL);
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_14 = L_13;
@@ -3707,6 +3768,7 @@ IL_0067:
 IL_0088:
 	{
 		V_0 = G_B10_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:493>
 		String_t* L_16 = ___0_value;
 		int32_t L_17;
 		L_17 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_16, NULL);
@@ -3715,6 +3777,7 @@ IL_0088:
 		__this->___m_CaretSelectPosition = L_18;
 		int32_t L_19 = V_2;
 		__this->___m_CaretPosition = L_19;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:494>
 		int32_t L_20;
 		L_20 = InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403_inline(__this, NULL);
 		if ((((int32_t)L_20) > ((int32_t)0)))
@@ -3746,12 +3809,14 @@ IL_00af:
 IL_00c0:
 	{
 		V_1 = G_B13_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:495>
 		V_3 = 0;
 		goto IL_0105;
 	}
 
 IL_00c5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:497>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_27 = V_0;
 		String_t* L_28 = __this->___m_Text;
 		String_t* L_29 = __this->___m_Text;
@@ -3764,6 +3829,7 @@ IL_00c5:
 		Il2CppChar L_34;
 		L_34 = OnValidateInput_Invoke_m6A7776E0E91552E39F207A90C7E33A4D4479F076_inline(L_27, L_28, L_30, L_33, NULL);
 		V_4 = L_34;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:498>
 		Il2CppChar L_35 = V_4;
 		if (!L_35)
 		{
@@ -3771,6 +3837,7 @@ IL_00c5:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:499>
 		String_t* L_36 = __this->___m_Text;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		String_t* L_37;
@@ -3783,12 +3850,14 @@ IL_00c5:
 
 IL_0101:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:495>
 		int32_t L_39 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 	}
 
 IL_0105:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:495>
 		int32_t L_40 = V_3;
 		int32_t L_41 = V_1;
 		if ((((int32_t)L_40) < ((int32_t)L_41)))
@@ -3802,6 +3871,7 @@ IL_0105:
 
 IL_010b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:504>
 		int32_t L_42;
 		L_42 = InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403_inline(__this, NULL);
 		if ((((int32_t)L_42) <= ((int32_t)0)))
@@ -3852,6 +3922,7 @@ IL_0133:
 
 IL_0138:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:515>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_50 = __this->___m_Keyboard;
 		if (!L_50)
 		{
@@ -3859,6 +3930,7 @@ IL_0138:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:516>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_51 = __this->___m_Keyboard;
 		String_t* L_52 = __this->___m_Text;
 		TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB(L_51, L_52, NULL);
@@ -3866,6 +3938,7 @@ IL_0138:
 
 IL_0151:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:518>
 		int32_t L_53 = __this->___m_CaretPosition;
 		String_t* L_54 = __this->___m_Text;
 		int32_t L_55;
@@ -3876,6 +3949,7 @@ IL_0151:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:519>
 		String_t* L_56 = __this->___m_Text;
 		int32_t L_57;
 		L_57 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_56, NULL);
@@ -3889,6 +3963,7 @@ IL_0151:
 
 IL_0180:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:520>
 		int32_t L_60 = __this->___m_CaretSelectPosition;
 		String_t* L_61 = __this->___m_Text;
 		int32_t L_62;
@@ -3899,6 +3974,7 @@ IL_0180:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:521>
 		String_t* L_63 = __this->___m_Text;
 		int32_t L_64;
 		L_64 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_63, NULL);
@@ -3907,6 +3983,7 @@ IL_0180:
 
 IL_01a4:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:523>
 		bool L_65 = ___1_sendCallback;
 		if (!L_65)
 		{
@@ -3914,29 +3991,37 @@ IL_01a4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:524>
 		InputField_SendOnValueChanged_m52131907987E99A872F6007B599345A2ADD244AC(__this, NULL);
 	}
 
 IL_01ad:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:525>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:526>
 		return;
 	}
 }
+// Method Definition Index: 19490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:556>
 		bool L_0 = __this->___m_AllowInput;
 		return L_0;
 	}
 }
+// Method Definition Index: 19491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_caretBlinkRate_m5D6172BA3B84F25897444A1A469AA53FC5CE5613 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:564>
 		float L_0 = __this->___m_CaretBlinkRate;
 		return L_0;
 	}
 }
+// Method Definition Index: 19492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretBlinkRate_mCE440AA4049C7A1EDEDB63E5B0AE4005563C5226 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3946,6 +4031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretBlinkRate_mCE440AA40
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:567>
 		float* L_0 = (float*)(&__this->___m_CaretBlinkRate);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -3956,6 +4042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretBlinkRate_mCE440AA40
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:569>
 		bool L_3 = __this->___m_AllowInput;
 		if (!L_3)
 		{
@@ -3963,21 +4050,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretBlinkRate_mCE440AA40
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:570>
 		InputField_SetCaretActive_mC91972AACD936D757447E3F7967CE2DAD4B46D0E(__this, NULL);
 	}
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:572>
 		return;
 	}
 }
+// Method Definition Index: 19493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretWidth_m6D85BF105006F28ABF2940033BEED2E595C89E55 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:578>
 		int32_t L_0 = __this->___m_CaretWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretWidth_mD71B00146099D90D920F4F63A7032E8AEDD39915 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3987,6 +4079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretWidth_mD71B00146099D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:578>
 		int32_t* L_0 = (int32_t*)(&__this->___m_CaretWidth);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -3997,21 +4090,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretWidth_mD71B00146099D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:578>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:578>
 		return;
 	}
 }
+// Method Definition Index: 19495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:585>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		return L_0;
 	}
 }
+// Method Definition Index: 19496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_textComponent_m09DF6BBF8544028D98D68D3F905AAAE17486D272 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4026,6 +4124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_textComponent_m09DF6BBF85
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:588>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4036,14 +4135,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_textComponent_m09DF6BBF85
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:590>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_3 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_3, __this, (intptr_t)((void*)InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4_RuntimeMethod_var), NULL);
 		Graphic_UnregisterDirtyVerticesCallback_mA36A388BF7DDB2D71596D6F13CEFCA79B4199B5C(L_2, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:591>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_5 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58_RuntimeMethod_var), NULL);
 		Graphic_UnregisterDirtyVerticesCallback_mA36A388BF7DDB2D71596D6F13CEFCA79B4199B5C(L_4, L_5, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:592>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_7 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_7, __this, (intptr_t)((void*)InputField_UpdateCaretMaterial_mA2C86C0AFC38D35509A3BD66A10411AF7D13FFD4_RuntimeMethod_var), NULL);
@@ -4052,6 +4154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_textComponent_m09DF6BBF85
 
 IL_0053:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:595>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** L_8 = (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62**)(&__this->___m_TextComponent);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = ___0_value;
 		bool L_10;
@@ -4062,7 +4165,9 @@ IL_0053:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:597>
 		InputField_EnforceTextHOverflow_m7F0E61391D942F47B4AD128C0C8B9B204BBE14B8(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:598>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -4073,14 +4178,17 @@ IL_0053:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:600>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_14 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_14, __this, (intptr_t)((void*)InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4_RuntimeMethod_var), NULL);
 		Graphic_RegisterDirtyVerticesCallback_m46034B2100B5D28BDBCCB34C1283B1B9B2DB9A9E(L_13, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:601>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_16 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_16, __this, (intptr_t)((void*)InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58_RuntimeMethod_var), NULL);
 		Graphic_RegisterDirtyVerticesCallback_m46034B2100B5D28BDBCCB34C1283B1B9B2DB9A9E(L_15, L_16, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:602>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_18 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_18, __this, (intptr_t)((void*)InputField_UpdateCaretMaterial_mA2C86C0AFC38D35509A3BD66A10411AF7D13FFD4_RuntimeMethod_var), NULL);
@@ -4089,16 +4197,20 @@ IL_0053:
 
 IL_00ba:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:605>
 		return;
 	}
 }
+// Method Definition Index: 19497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* InputField_get_placeholder_m84C2F2E414B8A03B372C7CEB3C97A2AE72F3A39F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:615>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___m_Placeholder;
 		return L_0;
 	}
 }
+// Method Definition Index: 19498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_placeholder_m64F47B180F584EB1049CF8B501DAC3FCA9029F25 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4108,16 +4220,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_placeholder_m64F47B180F58
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:615>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931** L_0 = (Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931**)(&__this->___m_Placeholder);
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_1 = ___0_value;
 		bool L_2;
 		L_2 = SetPropertyUtility_SetClass_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_mA061921F3DA012E04EA47A82587DFC6C0098A734(L_0, L_1, SetPropertyUtility_SetClass_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_mA061921F3DA012E04EA47A82587DFC6C0098A734_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:615>
 		return;
 	}
 }
+// Method Definition Index: 19499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F InputField_get_caretColor_m92C8BB7D9BD4B4DAE361494F85418F834EE87832 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:620>
 		bool L_0;
 		L_0 = InputField_get_customCaretColor_mB1D8A9DE8CD1787B3614BAF3E50E27B2428C7215_inline(__this, NULL);
 		if (L_0)
@@ -4139,9 +4255,11 @@ IL_0014:
 		return L_3;
 	}
 }
+// Method Definition Index: 19500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretColor_mF9C606AA2F9F123CB6AD078DF616DE35061FF830 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:620>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_0 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___m_CaretColor);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_value;
 		bool L_2;
@@ -4152,24 +4270,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretColor_mF9C606AA2F9F1
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:620>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:620>
 		return;
 	}
 }
+// Method Definition Index: 19501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_customCaretColor_mB1D8A9DE8CD1787B3614BAF3E50E27B2428C7215 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:625>
 		bool L_0 = __this->___m_CustomCaretColor;
 		return L_0;
 	}
 }
+// Method Definition Index: 19502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_customCaretColor_m7CA0470187246247EEC354FEB7053E4B4911DC13 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:625>
 		bool L_0 = __this->___m_CustomCaretColor;
 		bool L_1 = ___0_value;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -4178,26 +4302,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_customCaretColor_m7CA0470
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:625>
 		bool L_2 = ___0_value;
 		__this->___m_CustomCaretColor = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:625>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
 	}
 
 IL_0016:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:625>
 		return;
 	}
 }
+// Method Definition Index: 19503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F InputField_get_selectionColor_m988C5ACE38195B9B6397352B5A226FF3867A6E54 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:650>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___m_SelectionColor;
 		return L_0;
 	}
 }
+// Method Definition Index: 19504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_selectionColor_m2B7800A90FCE0840800CC01EC2C17059634B015E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:650>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_0 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___m_SelectionColor);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_value;
 		bool L_2;
@@ -4208,21 +4339,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_selectionColor_m2B7800A90
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:650>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:650>
 		return;
 	}
 }
+// Method Definition Index: 19505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* InputField_get_onEndEdit_m92C86FF7CA6108C4B14392CED20C9ED9D39AD9A3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:689>
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_0 = __this->___m_OnDidEndEdit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onEndEdit_m0AA121171524CB10C4BE4692117839A97E6AAD08 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4232,20 +4368,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onEndEdit_m0AA121171524CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:689>
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655** L_0 = (EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655**)(&__this->___m_OnDidEndEdit);
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_1 = ___0_value;
 		bool L_2;
 		L_2 = SetPropertyUtility_SetClass_TisEndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655_m9B04EF39522374FB0C56B7ED74ED48837D913290(L_0, L_1, SetPropertyUtility_SetClass_TisEndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655_m9B04EF39522374FB0C56B7ED74ED48837D913290_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:689>
 		return;
 	}
 }
+// Method Definition Index: 19507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* InputField_get_onSubmit_m66A3BFEC3D3D5C261558043FD606D4FBCC7D478D (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:728>
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* L_0 = __this->___m_OnSubmit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onSubmit_m1763F344243E5E3CF28F07872A80AAF809FC1988 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4255,36 +4396,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onSubmit_m1763F344243E5E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:728>
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D** L_0 = (SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D**)(&__this->___m_OnSubmit);
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* L_1 = ___0_value;
 		bool L_2;
 		L_2 = SetPropertyUtility_SetClass_TisSubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D_m0C03EEED2CD2EB03C2DD908828536ECBB3AF44AC(L_0, L_1, SetPropertyUtility_SetClass_TisSubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D_m0C03EEED2CD2EB03C2DD908828536ECBB3AF44AC_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:728>
 		return;
 	}
 }
+// Method Definition Index: 19509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* InputField_get_onValueChange_mF6915B4F33F4B24A91D8E56DE20EFFAE25C59756 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:731>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_0;
 		L_0 = InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE_inline(__this, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValueChange_mA1AEDDDB12CEC499949DB0605A83D8F383212CEA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:731>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_0 = ___0_value;
 		InputField_set_onValueChanged_m2B2F8D1E8F5FE418CE0797F2534B61A1A45B8A85(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:731>
 		return;
 	}
 }
+// Method Definition Index: 19511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:762>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_0 = __this->___m_OnValueChanged;
 		return L_0;
 	}
 }
+// Method Definition Index: 19512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValueChanged_m2B2F8D1E8F5FE418CE0797F2534B61A1A45B8A85 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4294,20 +4445,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValueChanged_m2B2F8D1E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:762>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F** L_0 = (OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F**)(&__this->___m_OnValueChanged);
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_1 = ___0_value;
 		bool L_2;
 		L_2 = SetPropertyUtility_SetClass_TisOnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F_m8C1DB16B3ACF459E9253DA009C1B5C2191337068(L_0, L_1, SetPropertyUtility_SetClass_TisOnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F_m8C1DB16B3ACF459E9253DA009C1B5C2191337068_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:762>
 		return;
 	}
 }
+// Method Definition Index: 19513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:798>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_0 = __this->___m_OnValidateInput;
 		return L_0;
 	}
 }
+// Method Definition Index: 19514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValidateInput_m3A3FA74285B9BBA68325A91AA862201AF3A18CE4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4317,20 +4473,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValidateInput_m3A3FA742
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:798>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B** L_0 = (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B**)(&__this->___m_OnValidateInput);
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_1 = ___0_value;
 		bool L_2;
 		L_2 = SetPropertyUtility_SetClass_TisOnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B_m8F09130D1F2358BE5196634EA72EFDF51AE805C0(L_0, L_1, SetPropertyUtility_SetClass_TisOnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B_m8F09130D1F2358BE5196634EA72EFDF51AE805C0_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:798>
 		return;
 	}
 }
+// Method Definition Index: 19515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:826>
 		int32_t L_0 = __this->___m_CharacterLimit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterLimit_m98A2187FF493DB170821C39A6D069731F3AFFF2B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4341,6 +4502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterLimit_m98A2187FF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:829>
 		int32_t* L_0 = (int32_t*)(&__this->___m_CharacterLimit);
 		int32_t L_1 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
@@ -4354,7 +4516,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterLimit_m98A2187FF
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:831>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:832>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_4 = __this->___m_Keyboard;
 		if (!L_4)
 		{
@@ -4362,6 +4526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterLimit_m98A2187FF
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:833>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_5 = __this->___m_Keyboard;
 		int32_t L_6 = ___0_value;
 		TouchScreenKeyboard_set_characterLimit_mCD8F3BC047EF2515272A689368CF3678A419B854(L_5, L_6, NULL);
@@ -4369,16 +4534,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterLimit_m98A2187FF
 
 IL_002e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:835>
 		return;
 	}
 }
+// Method Definition Index: 19517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_contentType_m8C589B15987EB8852D5F4948A79084186935B19B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:865>
 		int32_t L_0 = __this->___m_ContentType;
 		return L_0;
 	}
 }
+// Method Definition Index: 19518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_contentType_m5C3DDD7C14781E963BFFC88F7A8A537919F34C59 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4388,6 +4557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_contentType_m5C3DDD7C1478
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:865>
 		int32_t* L_0 = (int32_t*)(&__this->___m_ContentType);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -4398,21 +4568,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_contentType_m5C3DDD7C1478
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:865>
 		InputField_EnforceContentType_mB8A7743C77E3EAE952426EF14BB5BE5B80E7488A(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:865>
 		return;
 	}
 }
+// Method Definition Index: 19519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_lineType_m6CEA63D8FCACAEC05D3499577ED0771EFFF33377 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:906>
 		int32_t L_0 = __this->___m_LineType;
 		return L_0;
 	}
 }
+// Method Definition Index: 19520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_lineType_m06BE148366DF8F17E0F91C3CF094628C201B5FD8 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4423,6 +4598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_lineType_m06BE148366DF8F1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:909>
 		int32_t* L_0 = (int32_t*)(&__this->___m_LineType);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -4433,25 +4609,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_lineType_m06BE148366DF8F1
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:911>
 		ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D* L_3 = (ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D*)(ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D*)SZArrayNew(ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D_il2cpp_TypeInfo_var, (uint32_t)2);
 		ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D* L_4 = L_3;
 		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (int32_t)1);
 		InputField_SetToCustomIfContentTypeIsNot_m8E1B8AF7133B6B42F9E6BA3951AE2AA4D2AF1071(__this, L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:912>
 		InputField_EnforceTextHOverflow_m7F0E61391D942F47B4AD128C0C8B9B204BBE14B8(__this, NULL);
 	}
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:914>
 		return;
 	}
 }
+// Method Definition Index: 19521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:920>
 		int32_t L_0 = __this->___m_InputType;
 		return L_0;
 	}
 }
+// Method Definition Index: 19522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_inputType_mB2A3B667DC710AD1F9E1C046659AC35720AB0313 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4461,6 +4643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_inputType_mB2A3B667DC710A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:920>
 		int32_t* L_0 = (int32_t*)(&__this->___m_InputType);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -4471,28 +4654,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_inputType_mB2A3B667DC710A
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:920>
 		InputField_SetToCustom_m1D8B546B458993E86A24A05B868C57286E8C6BF4(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:920>
 		return;
 	}
 }
+// Method Definition Index: 19523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* InputField_get_touchScreenKeyboard_m99338FA7655276193EE1BA8FCB821C7F1928B3D8 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:925>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_0 = __this->___m_Keyboard;
 		return L_0;
 	}
 }
+// Method Definition Index: 19524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_keyboardType_mCF9432AC88C35E77546235909346C5689682E620 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:932>
 		int32_t L_0 = __this->___m_KeyboardType;
 		return L_0;
 	}
 }
+// Method Definition Index: 19525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_keyboardType_m9DD165B20CF12F93BD85140D8D1F54371FF4E9F3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4502,6 +4692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_keyboardType_m9DD165B20CF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:935>
 		int32_t* L_0 = (int32_t*)(&__this->___m_KeyboardType);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -4512,21 +4703,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_keyboardType_m9DD165B20CF
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:936>
 		InputField_SetToCustom_m1D8B546B458993E86A24A05B868C57286E8C6BF4(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:937>
 		return;
 	}
 }
+// Method Definition Index: 19526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:943>
 		int32_t L_0 = __this->___m_CharacterValidation;
 		return L_0;
 	}
 }
+// Method Definition Index: 19527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterValidation_m9DE08B33714B9D97F570853ADB56C070C2DD4072 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4536,6 +4732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterValidation_m9DE0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:943>
 		int32_t* L_0 = (int32_t*)(&__this->___m_CharacterValidation);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -4546,32 +4743,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_characterValidation_m9DE0
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:943>
 		InputField_SetToCustom_m1D8B546B458993E86A24A05B868C57286E8C6BF4(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:943>
 		return;
 	}
 }
+// Method Definition Index: 19528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_readOnly_m37800B8623CB744D99E5F5607C80AEBE6C7043B3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:951>
 		bool L_0 = __this->___m_ReadOnly;
 		return L_0;
 	}
 }
+// Method Definition Index: 19529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_readOnly_mD70582D7F885929AD7CF28BF083623991C5F543F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:951>
 		bool L_0 = ___0_value;
 		__this->___m_ReadOnly = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:951>
 		return;
 	}
 }
+// Method Definition Index: 19530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:982>
 		int32_t L_0 = __this->___m_LineType;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
@@ -4589,13 +4795,16 @@ IL_0013:
 		return (bool)1;
 	}
 }
+// Method Definition Index: 19531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar InputField_get_asteriskChar_m2556CE9FA8ABF5C00552BA665299F71EAC7D55C5 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1010>
 		Il2CppChar L_0 = __this->___m_AsteriskChar;
 		return L_0;
 	}
 }
+// Method Definition Index: 19532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_asteriskChar_m26FC4CE6C8637E49ADE854769F6C777A6BEF5CB6 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Il2CppChar ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4605,6 +4814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_asteriskChar_m26FC4CE6C86
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1010>
 		Il2CppChar* L_0 = (Il2CppChar*)(&__this->___m_AsteriskChar);
 		Il2CppChar L_1 = ___0_value;
 		bool L_2;
@@ -4615,24 +4825,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_asteriskChar_m26FC4CE6C86
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1010>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1010>
 		return;
 	}
 }
+// Method Definition Index: 19533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_wasCanceled_m75E09A773352839E08B04B33F966ED3E849436E9 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1015>
 		bool L_0 = __this->___m_WasCanceled;
 		return L_0;
 	}
 }
+// Method Definition Index: 19534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ClampPos_m8939841884C3CD51A6169F5DA05A85CC3C16A371 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t* ___0_pos, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1023>
 		int32_t* L_0 = ___0_pos;
 		int32_t L_1 = *((int32_t*)L_0);
 		if ((((int32_t)L_1) >= ((int32_t)0)))
@@ -4641,6 +4857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ClampPos_m8939841884C3CD51A61
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1023>
 		int32_t* L_2 = ___0_pos;
 		*((int32_t*)L_2) = (int32_t)0;
 		return;
@@ -4648,6 +4865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ClampPos_m8939841884C3CD51A61
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1024>
 		int32_t* L_3 = ___0_pos;
 		int32_t L_4 = *((int32_t*)L_3);
 		String_t* L_5;
@@ -4660,6 +4878,7 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1024>
 		int32_t* L_7 = ___0_pos;
 		String_t* L_8;
 		L_8 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
@@ -4670,12 +4889,15 @@ IL_0009:
 
 IL_0025:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1025>
 		return;
 	}
 }
+// Method Definition Index: 19535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1032>
 		int32_t L_0 = __this->___m_CaretPosition;
 		String_t* L_1;
 		L_1 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
@@ -4684,19 +4906,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretPositionInternal_
 		return ((int32_t)il2cpp_codegen_add(L_0, L_2));
 	}
 }
+// Method Definition Index: 19536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1032>
 		int32_t L_0 = ___0_value;
 		__this->___m_CaretPosition = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1032>
 		int32_t* L_1 = (int32_t*)(&__this->___m_CaretPosition);
 		InputField_ClampPos_m8939841884C3CD51A6169F5DA05A85CC3C16A371(__this, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1032>
 		return;
 	}
 }
+// Method Definition Index: 19537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1033>
 		int32_t L_0 = __this->___m_CaretSelectPosition;
 		String_t* L_1;
 		L_1 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
@@ -4705,19 +4933,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretSelectPositionInt
 		return ((int32_t)il2cpp_codegen_add(L_0, L_2));
 	}
 }
+// Method Definition Index: 19538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1033>
 		int32_t L_0 = ___0_value;
 		__this->___m_CaretSelectPosition = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1033>
 		int32_t* L_1 = (int32_t*)(&__this->___m_CaretSelectPosition);
 		InputField_ClampPos_m8939841884C3CD51A6169F5DA05A85CC3C16A371(__this, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1033>
 		return;
 	}
 }
+// Method Definition Index: 19539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1034>
 		int32_t L_0;
 		L_0 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_1;
@@ -4725,9 +4959,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_get_hasSelection_m3E8EF152E7A
 		return (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
+// Method Definition Index: 19540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretPosition_mC43674CCFF5BF7D047C2D4682B2CD7DE8A179EA7 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1049>
 		int32_t L_0 = __this->___m_CaretSelectPosition;
 		String_t* L_1;
 		L_1 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
@@ -4736,19 +4972,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_caretPosition_mC43674C
 		return ((int32_t)il2cpp_codegen_add(L_0, L_2));
 	}
 }
+// Method Definition Index: 19541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_caretPosition_mF502AA3301C39D4397C7BF809D1F3A18D0603BD7 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1050>
 		int32_t L_0 = ___0_value;
 		InputField_set_selectionAnchorPosition_mE57B85DBF03991E694729ED36283B44A8D7D1E68(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1050>
 		int32_t L_1 = ___0_value;
 		InputField_set_selectionFocusPosition_mE9E0E491C5AC1B89B4F9272EC3B67617A4F7DFEB(__this, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1050>
 		return;
 	}
 }
+// Method Definition Index: 19542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_selectionAnchorPosition_mF5CB19025C29DECEA0EBA8C6EC3D6D5687A1D65E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1063>
 		int32_t L_0 = __this->___m_CaretPosition;
 		String_t* L_1;
 		L_1 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
@@ -4757,9 +4999,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_selectionAnchorPositio
 		return ((int32_t)il2cpp_codegen_add(L_0, L_2));
 	}
 }
+// Method Definition Index: 19543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_selectionAnchorPosition_mE57B85DBF03991E694729ED36283B44A8D7D1E68 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1066>
 		String_t* L_0;
 		L_0 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
 		int32_t L_1;
@@ -4770,21 +5014,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_selectionAnchorPosition_m
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1067>
 		return;
 	}
 
 IL_000e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1069>
 		int32_t L_2 = ___0_value;
 		__this->___m_CaretPosition = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1070>
 		int32_t* L_3 = (int32_t*)(&__this->___m_CaretPosition);
 		InputField_ClampPos_m8939841884C3CD51A6169F5DA05A85CC3C16A371(__this, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1071>
 		return;
 	}
 }
+// Method Definition Index: 19544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_selectionFocusPosition_m14D662A0A20FF6952E73CFAB7C1F21FD7CF4298A (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1084>
 		int32_t L_0 = __this->___m_CaretSelectPosition;
 		String_t* L_1;
 		L_1 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
@@ -4793,9 +5043,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_selectionFocusPosition
 		return ((int32_t)il2cpp_codegen_add(L_0, L_2));
 	}
 }
+// Method Definition Index: 19545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_selectionFocusPosition_mE9E0E491C5AC1B89B4F9272EC3B67617A4F7DFEB (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1087>
 		String_t* L_0;
 		L_0 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
 		int32_t L_1;
@@ -4806,18 +5058,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_selectionFocusPosition_mE
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1088>
 		return;
 	}
 
 IL_000e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1090>
 		int32_t L_2 = ___0_value;
 		__this->___m_CaretSelectPosition = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1091>
 		int32_t* L_3 = (int32_t*)(&__this->___m_CaretSelectPosition);
 		InputField_ClampPos_m8939841884C3CD51A6169F5DA05A85CC3C16A371(__this, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1092>
 		return;
 	}
 }
+// Method Definition Index: 19546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnEnable_m00FE61194E553F736B0C1AABC73A79EEDE81D9AF (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4833,7 +5090,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnEnable_m00FE61194E553F736B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1139>
 		Selectable_OnEnable_mBE48F9440061AFFCEA53B103F7C7A059AC115FA7(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1140>
 		String_t* L_0 = __this->___m_Text;
 		if (L_0)
 		{
@@ -4841,6 +5100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnEnable_m00FE61194E553F736B0
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1141>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
 		__this->___m_Text = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_1);
@@ -4848,11 +5108,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnEnable_m00FE61194E553F736B0
 
 IL_0019:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1142>
 		__this->___m_DrawStart = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1143>
 		String_t* L_2 = __this->___m_Text;
 		int32_t L_3;
 		L_3 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_2, NULL);
 		__this->___m_DrawEnd = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1146>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_4 = __this->___m_CachedInputRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -4863,6 +5126,7 @@ IL_0019:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1147>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_6 = __this->___m_CachedInputRenderer;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_il2cpp_TypeInfo_var);
@@ -4877,6 +5141,7 @@ IL_0019:
 
 IL_005f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1149>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -4887,26 +5152,32 @@ IL_005f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1151>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_14 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_14, __this, (intptr_t)((void*)InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4_RuntimeMethod_var), NULL);
 		Graphic_RegisterDirtyVerticesCallback_m46034B2100B5D28BDBCCB34C1283B1B9B2DB9A9E(L_13, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1152>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_16 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_16, __this, (intptr_t)((void*)InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58_RuntimeMethod_var), NULL);
 		Graphic_RegisterDirtyVerticesCallback_m46034B2100B5D28BDBCCB34C1283B1B9B2DB9A9E(L_15, L_16, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1153>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_18 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_18, __this, (intptr_t)((void*)InputField_UpdateCaretMaterial_mA2C86C0AFC38D35509A3BD66A10411AF7D13FFD4_RuntimeMethod_var), NULL);
 		Graphic_RegisterDirtyMaterialCallback_m5EDBA1E08656A49997538A1C7DE29201FDE0A013(L_17, L_18, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1154>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
 	}
 
 IL_00b8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1156>
 		return;
 	}
 }
+// Method Definition Index: 19547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDisable_mA79B9B02E48BE7F1AA6C94C6CECB7A6AB323AB8B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4921,9 +5192,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDisable_mA79B9B02E48BE7F1AA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1161>
 		__this->___m_BlinkCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BlinkCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1163>
 		InputField_DeactivateInputField_m58D0B3BF095094A0963A9CE8BABF1979F7D1254D(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1164>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4934,14 +5208,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDisable_mA79B9B02E48BE7F1AA
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1166>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_3 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_3, __this, (intptr_t)((void*)InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4_RuntimeMethod_var), NULL);
 		Graphic_UnregisterDirtyVerticesCallback_mA36A388BF7DDB2D71596D6F13CEFCA79B4199B5C(L_2, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1167>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_5 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_5, __this, (intptr_t)((void*)InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58_RuntimeMethod_var), NULL);
 		Graphic_UnregisterDirtyVerticesCallback_mA36A388BF7DDB2D71596D6F13CEFCA79B4199B5C(L_4, L_5, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1168>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_TextComponent;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_7 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_7, __this, (intptr_t)((void*)InputField_UpdateCaretMaterial_mA2C86C0AFC38D35509A3BD66A10411AF7D13FFD4_RuntimeMethod_var), NULL);
@@ -4950,8 +5227,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDisable_mA79B9B02E48BE7F1AA
 
 IL_0060:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1170>
 		il2cpp_codegen_runtime_class_init_inline(CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		CanvasUpdateRegistry_DisableCanvasElementForRebuild_mC1A68AC220C3755789E3CB51E8DBAC81CC61D62F(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1173>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_8 = __this->___m_CachedInputRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -4962,12 +5241,14 @@ IL_0060:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1174>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_10 = __this->___m_CachedInputRenderer;
 		CanvasRenderer_Clear_m496D522F1DBD1037417E470CF2D4D9FD22F68E81(L_10, NULL);
 	}
 
 IL_007f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1176>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_11 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -4978,6 +5259,7 @@ IL_007f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1177>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_13 = __this->___m_Mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_13, NULL);
@@ -4985,12 +5267,16 @@ IL_007f:
 
 IL_0098:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1178>
 		__this->___m_Mesh = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Mesh), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1180>
 		Selectable_OnDisable_m293DB718E1101FC77E655E4A2C4F2DE1DBD4663C(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1181>
 		return;
 	}
 }
+// Method Definition Index: 19548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDestroy_m551000531722FAD0D2DEB4CA9A76EF25A7067EAA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5000,12 +5286,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDestroy_m551000531722FAD0D2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1185>
 		il2cpp_codegen_runtime_class_init_inline(CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		CanvasUpdateRegistry_UnRegisterCanvasElementForRebuild_m61F9979AB8AFBA924430757FE09967D7A335D916(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1186>
 		UIBehaviour_OnDestroy_mF225CF9163823F19BE5E2B2735D35898A20D608B(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1187>
 		return;
 	}
 }
+// Method Definition Index: 19549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputField_CaretBlink_m030EE72571B48D2CD7E346D68B0F236C9BB25CB5 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5023,9 +5313,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputField_CaretBlink_m030EE72
 		return L_1;
 	}
 }
+// Method Definition Index: 19550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetCaretVisible_m9DB05703AF6B427F53FB4948BB592CF061AA37AB (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1217>
 		bool L_0 = __this->___m_AllowInput;
 		if (L_0)
 		{
@@ -5033,22 +5325,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetCaretVisible_m9DB05703AF6B
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1218>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1220>
 		__this->___m_CaretVisible = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1221>
 		float L_1;
 		L_1 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		__this->___m_BlinkStartTime = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1222>
 		InputField_SetCaretActive_mC91972AACD936D757447E3F7967CE2DAD4B46D0E(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1223>
 		return;
 	}
 }
+// Method Definition Index: 19551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetCaretActive_mC91972AACD936D757447E3F7967CE2DAD4B46D0E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1229>
 		bool L_0 = __this->___m_AllowInput;
 		if (L_0)
 		{
@@ -5056,11 +5355,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetCaretActive_mC91972AACD936
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1230>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1232>
 		float L_1 = __this->___m_CaretBlinkRate;
 		if ((!(((float)L_1) > ((float)(0.0f)))))
 		{
@@ -5068,6 +5369,7 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1234>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___m_BlinkCoroutine;
 		if (L_2)
 		{
@@ -5075,6 +5377,7 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1235>
 		RuntimeObject* L_3;
 		L_3 = InputField_CaretBlink_m030EE72571B48D2CD7E346D68B0F236C9BB25CB5(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
@@ -5086,14 +5389,17 @@ IL_0009:
 
 IL_0031:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1239>
 		__this->___m_CaretVisible = (bool)1;
 	}
 
 IL_0038:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1241>
 		return;
 	}
 }
+// Method Definition Index: 19552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretMaterial_mA2C86C0AFC38D35509A3BD66A10411AF7D13FFD4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5104,6 +5410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretMaterial_mA2C86C0A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1245>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5124,6 +5431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretMaterial_mA2C86C0A
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1246>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_4 = __this->___m_CachedInputRenderer;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_il2cpp_TypeInfo_var);
@@ -5138,37 +5446,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretMaterial_mA2C86C0A
 
 IL_003c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1247>
 		return;
 	}
 }
+// Method Definition Index: 19553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnFocus_m5EC2CB19FBDAA84FB317F5ADA86548D78B550F37 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1287>
 		InputField_SelectAll_mC3A2CAB32B290BC43782A61452760BD127E729EA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1288>
 		return;
 	}
 }
+// Method Definition Index: 19554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SelectAll_mC3A2CAB32B290BC43782A61452760BD127E729EA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1298>
 		String_t* L_0;
 		L_0 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_1;
 		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1299>
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1300>
 		return;
 	}
 }
+// Method Definition Index: 19555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveTextEnd_m1C20AF9DB90F79CD85C4DAB179DA4EDB4D971810 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1308>
 		String_t* L_0;
 		L_0 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_1;
 		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1310>
 		bool L_2 = ___0_shift;
 		if (!L_2)
 		{
@@ -5176,6 +5495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveTextEnd_m1C20AF9DB90F79CD
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1312>
 		int32_t L_3 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_3, NULL);
 		goto IL_002b;
@@ -5183,8 +5503,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveTextEnd_m1C20AF9DB90F79CD
 
 IL_0018:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1316>
 		int32_t L_4 = V_0;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1317>
 		int32_t L_5;
 		L_5 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_5, NULL);
@@ -5192,15 +5514,20 @@ IL_0018:
 
 IL_002b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1319>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1320>
 		return;
 	}
 }
+// Method Definition Index: 19556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveTextStart_mE56A94C2D4AE751A3BE1035250880D9B592BF130 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1328>
 		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1330>
 		bool L_0 = ___0_shift;
 		if (!L_0)
 		{
@@ -5208,6 +5535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveTextStart_mE56A94C2D4AE75
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1332>
 		int32_t L_1 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_1, NULL);
 		goto IL_0021;
@@ -5215,8 +5543,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveTextStart_mE56A94C2D4AE75
 
 IL_000e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1336>
 		int32_t L_2 = V_0;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1337>
 		int32_t L_3;
 		L_3 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_3, NULL);
@@ -5224,10 +5554,13 @@ IL_000e:
 
 IL_0021:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1340>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1341>
 		return;
 	}
 }
+// Method Definition Index: 19557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_clipboard_m4ACB240747BB6AF77A3FEF28A63A5C2B2A049543 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5237,12 +5570,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_clipboard_m4ACB24074
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1347>
 		il2cpp_codegen_runtime_class_init_inline(GUIUtility_tA20863F7281628086EFC61CF90CB52D20E1FD76A_il2cpp_TypeInfo_var);
 		String_t* L_0;
 		L_0 = GUIUtility_get_systemCopyBuffer_m01E2DF71533C31A4C552B9177D7CBA0C6CA3FC2A(NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_clipboard_mA8C4BC1DA5B1C12F8A7E7880E0F74185E2D8BCDB (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5252,12 +5587,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_clipboard_mA8C4BC1DA5B1C1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1351>
 		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(GUIUtility_tA20863F7281628086EFC61CF90CB52D20E1FD76A_il2cpp_TypeInfo_var);
 		GUIUtility_set_systemCopyBuffer_mD14AE32BFEA4773BDC679205D470A228B8F225E8(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1352>
 		return;
 	}
 }
+// Method Definition Index: 19559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_TouchScreenKeyboardShouldBeUsed_m56104E5B7C58A89C552D4CF8FD7A1B1D93D7340A (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5269,6 +5607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_TouchScreenKeyboardShouldBeUs
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1359>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -5292,6 +5631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_TouchScreenKeyboardShouldBeUs
 
 IL_0012:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1363>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		bool L_3 = ((InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields*)il2cpp_codegen_static_fields_for(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var))->___s_IsQuestDevice;
 		if (!L_3)
@@ -5300,6 +5640,7 @@ IL_0012:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1364>
 		bool L_4;
 		L_4 = TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E(NULL);
 		return L_4;
@@ -5307,6 +5648,7 @@ IL_0012:
 
 IL_001f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1366>
 		bool L_5;
 		L_5 = TouchScreenKeyboard_get_isInPlaceEditingAllowed_mE57CDF32437DD1DCDC665072457C91DD31EB93D0(NULL);
 		return (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
@@ -5314,6 +5656,7 @@ IL_001f:
 
 IL_0028:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1368>
 		bool L_6;
 		L_6 = TouchScreenKeyboard_get_isInPlaceEditingAllowed_mE57CDF32437DD1DCDC665072457C91DD31EB93D0(NULL);
 		return (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
@@ -5321,14 +5664,17 @@ IL_0028:
 
 IL_0031:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1370>
 		bool L_7;
 		L_7 = TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E(NULL);
 		return L_7;
 	}
 }
+// Method Definition Index: 19560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_InPlaceEditing_m1F71173373CC2A21034D23ECA0060FA4E5A89F11 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1376>
 		bool L_0;
 		L_0 = TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E(NULL);
 		if (!L_0)
@@ -5346,6 +5692,7 @@ IL_000e:
 		return (bool)1;
 	}
 }
+// Method Definition Index: 19561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_InPlaceEditingChanged_mE02AC706260B93670AF1380BE4060F3AA4063C47 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5355,6 +5702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_InPlaceEditingChanged_mE02AC7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1383>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		bool L_0 = ((InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields*)il2cpp_codegen_static_fields_for(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var))->___s_IsQuestDevice;
 		if (L_0)
@@ -5374,16 +5722,19 @@ IL_0018:
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 InputField_GetInternalSelection_m35675AC10C34AD29A54A6E980CDA925CB1BFC6F3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1388>
 		int32_t L_0;
 		L_0 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		int32_t L_1;
 		L_1 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_2;
 		L_2 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_0, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1389>
 		int32_t L_3;
 		L_3 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		int32_t L_4;
@@ -5391,6 +5742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B
 		int32_t L_5;
 		L_5 = Mathf_Abs_mD945EDDEA0D62D21BFDBAB7B1C0F18DFF1CEC905_inline(((int32_t)il2cpp_codegen_subtract(L_3, L_4)), NULL);
 		V_0 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1390>
 		int32_t L_6 = V_0;
 		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_7;
 		memset((&L_7), 0, sizeof(L_7));
@@ -5398,6 +5750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B
 		return L_7;
 	}
 }
+// Method Definition Index: 19563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateKeyboardCaret_mF290D51F06E5AC063A8FE6FD20F81C5C70792680 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5407,6 +5760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateKeyboardCaret_mF290D51F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1399>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1400>
 		bool L_0 = __this->___m_HideMobileInput;
 		if (!L_0)
 		{
@@ -5450,6 +5805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateKeyboardCaret_mF290D51F
 
 IL_002e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1402>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_6 = __this->___m_Keyboard;
 		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_7;
 		L_7 = InputField_GetInternalSelection_m35675AC10C34AD29A54A6E980CDA925CB1BFC6F3(__this, NULL);
@@ -5458,9 +5814,11 @@ IL_002e:
 
 IL_003f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1404>
 		return;
 	}
 }
+// Method Definition Index: 19564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretFromKeyboard_mCFB186696BE23B347D7AA94DF50A13555C31F8B4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 V_0;
@@ -5469,17 +5827,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretFromKeyboard_mCFB1
 	int32_t V_2 = 0;
 	bool V_3 = false;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1408>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_0 = __this->___m_Keyboard;
 		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_1;
 		L_1 = TouchScreenKeyboard_get_selection_m1D44C9A8D4EA91F61706F048ED318E537DC46AB2(L_0, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1410>
 		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_2 = V_0;
 		int32_t L_3 = L_2.___start;
 		V_1 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1411>
 		int32_t L_4;
 		L_4 = RangeInt_get_end_m5835FBEB410CB8AC0928AEFD95728A9AD57F6C63((&V_0), NULL);
 		V_2 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1413>
 		V_3 = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1415>
 		int32_t L_5;
 		L_5 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_6 = V_1;
@@ -5489,13 +5852,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateCaretFromKeyboard_mCFB1
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1417>
 		V_3 = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1418>
 		int32_t L_7 = V_1;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_7, NULL);
 	}
 
 IL_002f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1421>
 		int32_t L_8;
 		L_8 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		int32_t L_9 = V_2;
@@ -5505,13 +5871,16 @@ IL_002f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1423>
 		int32_t L_10 = V_2;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_10, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1424>
 		V_3 = (bool)1;
 	}
 
 IL_0041:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1427>
 		bool L_11 = V_3;
 		if (!L_11)
 		{
@@ -5519,17 +5888,21 @@ IL_0041:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1429>
 		float L_12;
 		L_12 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		__this->___m_BlinkStartTime = L_12;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1431>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
 	}
 
 IL_0055:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1433>
 		return;
 	}
 }
+// Method Definition Index: 19565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_LateUpdate_mA1C1B81011E3D2F3D6F0769C0FE0D4B0A8E71020 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5549,6 +5922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_LateUpdate_mA1C1B81011E3D2F3D
 	Il2CppChar V_3 = 0x0;
 	int32_t V_4 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1442>
 		bool L_0 = __this->___m_ShouldActivateNextUpdate;
 		if (!L_0)
 		{
@@ -5556,6 +5930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_LateUpdate_mA1C1B81011E3D2F3D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1444>
 		bool L_1;
 		L_1 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 		if (L_1)
@@ -5564,19 +5939,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_LateUpdate_mA1C1B81011E3D2F3D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1446>
 		InputField_ActivateInputFieldInternal_m5B89A6BBCE9D7DD6F0A3DF4B6296533507170119(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1447>
 		__this->___m_ShouldActivateNextUpdate = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1448>
 		return;
 	}
 
 IL_001e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1452>
 		__this->___m_ShouldActivateNextUpdate = (bool)0;
 	}
 
 IL_0025:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1455>
 		InputField_AssignPositioningIfNeeded_m114957547C208AD107279D1B6E8A855D18915E36(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1459>
 		bool L_2;
 		L_2 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 		if (!L_2)
@@ -5593,6 +5974,7 @@ IL_0025:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1461>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_4 = __this->___m_CachedInputRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -5603,6 +5985,7 @@ IL_0025:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1463>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_6 = (VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE*)il2cpp_codegen_object_new(VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE_il2cpp_TypeInfo_var);
 		VertexHelper__ctor_mE8DE438637116EA7AF8180E10E7641FD00DB64A5(L_6, NULL);
 		V_1 = L_6;
@@ -5633,6 +6016,7 @@ IL_0066:
 		});
 		try
 		{
+			//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1464>
 			VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_9 = V_1;
 			Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_10;
 			L_10 = InputField_get_mesh_m89CB1A4155FF8E7C42D5D97178DD00A3A7D8888E(__this, NULL);
@@ -5647,6 +6031,7 @@ IL_0066:
 
 IL_0067:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1466>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_11 = __this->___m_CachedInputRenderer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_12;
 		L_12 = InputField_get_mesh_m89CB1A4155FF8E7C42D5D97178DD00A3A7D8888E(__this, NULL);
@@ -5655,11 +6040,13 @@ IL_0067:
 
 IL_0078:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1469>
 		InputField_DeactivateInputField_m58D0B3BF095094A0963A9CE8BABF1979F7D1254D(__this, NULL);
 	}
 
 IL_007e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1472>
 		bool L_13;
 		L_13 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 		if (!L_13)
@@ -5678,11 +6065,13 @@ IL_007e:
 
 IL_008e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1473>
 		return;
 	}
 
 IL_008f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1475>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_15 = __this->___m_Keyboard;
 		if (!L_15)
 		{
@@ -5701,6 +6090,7 @@ IL_008f:
 
 IL_00a4:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1477>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_18 = __this->___m_Keyboard;
 		if (!L_18)
 		{
@@ -5708,6 +6098,7 @@ IL_00a4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1479>
 		bool L_19 = __this->___m_ReadOnly;
 		if (L_19)
 		{
@@ -5715,6 +6106,7 @@ IL_00a4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1480>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_20 = __this->___m_Keyboard;
 		String_t* L_21;
 		L_21 = TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E(L_20, NULL);
@@ -5723,6 +6115,7 @@ IL_00a4:
 
 IL_00c5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1482>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_22 = __this->___m_Keyboard;
 		int32_t L_23;
 		L_23 = TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504(L_22, NULL);
@@ -5732,12 +6125,14 @@ IL_00c5:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1483>
 		__this->___m_WasCanceled = (bool)1;
 		goto IL_00f0;
 	}
 
 IL_00dc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1484>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_24 = __this->___m_Keyboard;
 		int32_t L_25;
 		L_25 = TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504(L_24, NULL);
@@ -5747,21 +6142,26 @@ IL_00dc:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1485>
 		InputField_SendOnSubmit_m933C160291FD9118A9EC7FD7AED5E805B998BA27(__this, NULL);
 	}
 
 IL_00f0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1488>
 		VirtualActionInvoker1< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(37, __this, (BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1489>
 		return;
 	}
 
 IL_00f8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1492>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_26 = __this->___m_Keyboard;
 		String_t* L_27;
 		L_27 = TouchScreenKeyboard_get_text_m74593E81B017446204A9DB1F7359922A2C005B1E(L_26, NULL);
 		V_0 = L_27;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1494>
 		String_t* L_28 = __this->___m_Text;
 		String_t* L_29 = V_0;
 		bool L_30;
@@ -5772,6 +6172,7 @@ IL_00f8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1496>
 		bool L_31 = __this->___m_ReadOnly;
 		if (!L_31)
 		{
@@ -5779,6 +6180,7 @@ IL_00f8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1498>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_32 = __this->___m_Keyboard;
 		String_t* L_33 = __this->___m_Text;
 		TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB(L_32, L_33, NULL);
@@ -5787,19 +6189,23 @@ IL_00f8:
 
 IL_0133:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1502>
 		__this->___m_Text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1504>
 		V_2 = 0;
 		goto IL_01ee;
 	}
 
 IL_0145:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1506>
 		String_t* L_34 = V_0;
 		int32_t L_35 = V_2;
 		Il2CppChar L_36;
 		L_36 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_34, L_35, NULL);
 		V_3 = L_36;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1508>
 		Il2CppChar L_37 = V_3;
 		if ((((int32_t)L_37) == ((int32_t)((int32_t)13))))
 		{
@@ -5816,11 +6222,13 @@ IL_0145:
 
 IL_0156:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1509>
 		V_3 = ((int32_t)10);
 	}
 
 IL_0159:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1511>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_39;
 		L_39 = InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline(__this, NULL);
 		if (!L_39)
@@ -5829,6 +6237,7 @@ IL_0159:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1512>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_40;
 		L_40 = InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline(__this, NULL);
 		String_t* L_41 = __this->___m_Text;
@@ -5844,6 +6253,7 @@ IL_0159:
 
 IL_0181:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1513>
 		int32_t L_46;
 		L_46 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if (!L_46)
@@ -5852,6 +6262,7 @@ IL_0181:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1514>
 		String_t* L_47 = __this->___m_Text;
 		String_t* L_48 = __this->___m_Text;
 		int32_t L_49;
@@ -5864,6 +6275,7 @@ IL_0181:
 
 IL_01a2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1516>
 		int32_t L_52;
 		L_52 = InputField_get_lineType_m6CEA63D8FCACAEC05D3499577ED0771EFFF33377_inline(__this, NULL);
 		if ((!(((uint32_t)L_52) == ((uint32_t)1))))
@@ -5879,16 +6291,21 @@ IL_01a2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1518>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_54 = __this->___m_Keyboard;
 		String_t* L_55 = __this->___m_Text;
 		TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB(L_54, L_55, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1520>
 		InputField_SendOnSubmit_m933C160291FD9118A9EC7FD7AED5E805B998BA27(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1521>
 		VirtualActionInvoker1< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(37, __this, (BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1522>
 		return;
 	}
 
 IL_01cf:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1525>
 		Il2CppChar L_56 = V_3;
 		if (!L_56)
 		{
@@ -5896,6 +6313,7 @@ IL_01cf:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1526>
 		String_t* L_57 = __this->___m_Text;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		String_t* L_58;
@@ -5908,12 +6326,14 @@ IL_01cf:
 
 IL_01ea:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1504>
 		int32_t L_60 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_60, 1));
 	}
 
 IL_01ee:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1504>
 		int32_t L_61 = V_2;
 		String_t* L_62 = V_0;
 		int32_t L_63;
@@ -5924,6 +6344,7 @@ IL_01ee:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1529>
 		int32_t L_64;
 		L_64 = InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403_inline(__this, NULL);
 		if ((((int32_t)L_64) <= ((int32_t)0)))
@@ -5943,6 +6364,7 @@ IL_01ee:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1530>
 		String_t* L_68 = __this->___m_Text;
 		int32_t L_69;
 		L_69 = InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403_inline(__this, NULL);
@@ -5954,6 +6376,7 @@ IL_01ee:
 
 IL_022e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1532>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_71 = __this->___m_Keyboard;
 		bool L_72;
 		L_72 = TouchScreenKeyboard_get_canGetSelection_m340ACEFDB9609DEED4FE7D451A4DCCC1024F767A(L_71, NULL);
@@ -5963,12 +6386,14 @@ IL_022e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1534>
 		InputField_UpdateCaretFromKeyboard_mCFB186696BE23B347D7AA94DF50A13555C31F8B4(__this, NULL);
 		goto IL_025f;
 	}
 
 IL_0243:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1538>
 		String_t* L_73 = __this->___m_Text;
 		int32_t L_74;
 		L_74 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_73, NULL);
@@ -5981,6 +6406,7 @@ IL_0243:
 
 IL_025f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1543>
 		String_t* L_77 = __this->___m_Text;
 		String_t* L_78 = V_0;
 		bool L_79;
@@ -5991,6 +6417,7 @@ IL_025f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1544>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_80 = __this->___m_Keyboard;
 		String_t* L_81 = __this->___m_Text;
 		TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB(L_80, L_81, NULL);
@@ -5998,12 +6425,15 @@ IL_025f:
 
 IL_027e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1546>
 		InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA(__this, NULL);
 		goto IL_02e2;
 	}
 
 IL_0286:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1551>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1552>
 		bool L_82 = __this->___m_HideMobileInput;
 		if (!L_82)
 		{
@@ -6045,6 +6475,7 @@ IL_0286:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1554>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_88 = __this->___m_Keyboard;
 		RangeInt_tDFBE4FD13857C11F21F7C3DA6B60D05341B67268 L_89;
 		L_89 = InputField_GetInternalSelection_m35675AC10C34AD29A54A6E980CDA925CB1BFC6F3(__this, NULL);
@@ -6054,6 +6485,7 @@ IL_0286:
 
 IL_02c7:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1556>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_90 = __this->___m_Keyboard;
 		if (!L_90)
 		{
@@ -6070,11 +6502,13 @@ IL_02c7:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1558>
 		InputField_UpdateCaretFromKeyboard_mCFB186696BE23B347D7AA94DF50A13555C31F8B4(__this, NULL);
 	}
 
 IL_02e2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1561>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_93 = __this->___m_Keyboard;
 		int32_t L_94;
 		L_94 = TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504(L_93, NULL);
@@ -6084,6 +6518,7 @@ IL_02e2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1563>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_95 = __this->___m_Keyboard;
 		int32_t L_96;
 		L_96 = TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504(L_95, NULL);
@@ -6093,12 +6528,14 @@ IL_02e2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1564>
 		__this->___m_WasCanceled = (bool)1;
 		goto IL_031a;
 	}
 
 IL_0306:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1565>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_97 = __this->___m_Keyboard;
 		int32_t L_98;
 		L_98 = TouchScreenKeyboard_get_status_mCC466FDEC7E1913D8585ABA7F048FC198CB19504(L_97, NULL);
@@ -6108,19 +6545,23 @@ IL_0306:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1566>
 		InputField_SendOnSubmit_m933C160291FD9118A9EC7FD7AED5E805B998BA27(__this, NULL);
 	}
 
 IL_031a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1568>
 		VirtualActionInvoker1< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(37, __this, (BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F*)NULL);
 	}
 
 IL_0321:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1570>
 		return;
 	}
 }
+// Method Definition Index: 19566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputField_ScreenToLocal_m3ABFAAAC443370A1621926D80EA665CF421CAF9E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_screen, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6138,10 +6579,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1575>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1;
 		L_1 = Graphic_get_canvas_mEA2161DF3BD736541DE41F9B814C4860FEB76419(L_0, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1576>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -6152,15 +6595,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1577>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_screen;
 		return L_4;
 	}
 
 IL_0017:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1579>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1580>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_6 = V_0;
 		int32_t L_7;
 		L_7 = Canvas_get_renderMode_m1BEF259548C6CAD27E4466F31D20752D246688CC(L_6, NULL);
@@ -6170,6 +6616,7 @@ IL_0017:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1582>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___m_TextComponent;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_8, NULL);
@@ -6184,6 +6631,7 @@ IL_0017:
 
 IL_003e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1584>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_13 = V_0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_14;
 		L_14 = Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853(L_13, NULL);
@@ -6196,6 +6644,7 @@ IL_003e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1586>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_16 = V_0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17;
 		L_17 = Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853(L_16, NULL);
@@ -6205,6 +6654,7 @@ IL_003e:
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_20;
 		L_20 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_17, L_19, NULL);
 		V_2 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1588>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___m_TextComponent;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
 		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_21, NULL);
@@ -6216,9 +6666,11 @@ IL_003e:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
 		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
 		Plane__ctor_m2BFB65EBFF51123791878684ECC375B99FAD10A2_inline((&V_4), L_23, L_26, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1589>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_27 = V_2;
 		bool L_28;
 		L_28 = Plane_Raycast_mC6D25A732413A2694A75CB0F2F9E75DEDDA117F0_inline((&V_4), L_27, (&V_3), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1590>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___m_TextComponent;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
 		L_30 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_29, NULL);
@@ -6232,6 +6684,7 @@ IL_003e:
 
 IL_00a9:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1592>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_1;
 		float L_35 = L_34.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_1;
@@ -6242,6 +6695,7 @@ IL_00a9:
 		return L_38;
 	}
 }
+// Method Definition Index: 19567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetUnclampedCharacterLineFromPosition_mDD25BDEA1097899537A5D7E8881F23D3D49327DC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_pos, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___1_generator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6257,6 +6711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetUnclampedCharacterLineF
 	float V_4 = 0.0f;
 	float V_5 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1597>
 		bool L_0;
 		L_0 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(__this, NULL);
 		if (L_0)
@@ -6265,24 +6720,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetUnclampedCharacterLineF
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1598>
 		return 0;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1601>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_pos;
 		float L_2 = L_1.___y;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___m_TextComponent;
 		float L_4;
 		L_4 = Text_get_pixelsPerUnit_mC48AE94D40662DE114A72B870DF77BF7B418925E(L_3, NULL);
 		V_0 = ((float)il2cpp_codegen_multiply(L_2, L_4));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1602>
 		V_1 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1604>
 		V_2 = 0;
 		goto IL_0079;
 	}
 
 IL_0027:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1606>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_5 = ___1_generator;
 		RuntimeObject* L_6;
 		L_6 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_5, NULL);
@@ -6291,6 +6751,7 @@ IL_0027:
 		L_8 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_6, L_7);
 		float L_9 = L_8.___topY;
 		V_3 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1607>
 		float L_10 = V_3;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_11 = ___1_generator;
 		RuntimeObject* L_12;
@@ -6300,6 +6761,7 @@ IL_0027:
 		L_14 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_12, L_13);
 		int32_t L_15 = L_14.___height;
 		V_4 = ((float)il2cpp_codegen_subtract(L_10, ((float)L_15)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1610>
 		float L_16 = V_0;
 		float L_17 = V_3;
 		if ((!(((float)L_16) > ((float)L_17))))
@@ -6308,9 +6770,11 @@ IL_0027:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1613>
 		float L_18 = V_3;
 		float L_19 = V_1;
 		V_5 = ((float)il2cpp_codegen_subtract(L_18, L_19));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1614>
 		float L_20 = V_0;
 		float L_21 = V_3;
 		float L_22 = V_5;
@@ -6320,18 +6784,21 @@ IL_0027:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1615>
 		int32_t L_23 = V_2;
 		return ((int32_t)il2cpp_codegen_subtract(L_23, 1));
 	}
 
 IL_0069:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1617>
 		int32_t L_24 = V_2;
 		return L_24;
 	}
 
 IL_006b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1620>
 		float L_25 = V_0;
 		float L_26 = V_4;
 		if ((!(((float)L_25) > ((float)L_26))))
@@ -6340,20 +6807,24 @@ IL_006b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1621>
 		int32_t L_27 = V_2;
 		return L_27;
 	}
 
 IL_0072:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1623>
 		float L_28 = V_4;
 		V_1 = L_28;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1604>
 		int32_t L_29 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 	}
 
 IL_0079:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1604>
 		int32_t L_30 = V_2;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_31 = ___1_generator;
 		int32_t L_32;
@@ -6364,12 +6835,14 @@ IL_0079:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1627>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_33 = ___1_generator;
 		int32_t L_34;
 		L_34 = TextGenerator_get_lineCount_mC568C375C85695478DD054B296CBEAB11D3C4108(L_33, NULL);
 		return L_34;
 	}
 }
+// Method Definition Index: 19568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetCharacterIndexFromPosition_m9C0D9CBB43A1CCC47F7B4234379668E46AE3EB32 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_pos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6390,10 +6863,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetCharacterIndexFromPosit
 	memset((&V_5), 0, sizeof(V_5));
 	float V_6 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1637>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_1;
 		L_1 = Text_get_cachedTextGenerator_mFC242539F7380F54696D431B126B69DC4EFC821E(L_0, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1639>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_2 = V_0;
 		int32_t L_3;
 		L_3 = TextGenerator_get_lineCount_mC568C375C85695478DD054B296CBEAB11D3C4108(L_2, NULL);
@@ -6403,16 +6878,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetCharacterIndexFromPosit
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1640>
 		return 0;
 	}
 
 IL_0016:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1642>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_pos;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_5 = V_0;
 		int32_t L_6;
 		L_6 = InputField_GetUnclampedCharacterLineFromPosition_mDD25BDEA1097899537A5D7E8881F23D3D49327DC(__this, L_4, L_5, NULL);
 		V_1 = L_6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1643>
 		int32_t L_7 = V_1;
 		if ((((int32_t)L_7) >= ((int32_t)0)))
 		{
@@ -6420,11 +6898,13 @@ IL_0016:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1644>
 		return 0;
 	}
 
 IL_0025:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1645>
 		int32_t L_8 = V_1;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_9 = V_0;
 		int32_t L_10;
@@ -6435,6 +6915,7 @@ IL_0025:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1646>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_11 = V_0;
 		int32_t L_12;
 		L_12 = TextGenerator_get_characterCountVisible_m407C344C5A13A26471315449899B927FF3D3CDFC(L_11, NULL);
@@ -6443,6 +6924,7 @@ IL_0025:
 
 IL_0035:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1648>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_13 = V_0;
 		RuntimeObject* L_14;
 		L_14 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_13, NULL);
@@ -6450,18 +6932,21 @@ IL_0035:
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_16;
 		L_16 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_14, L_15);
 		int32_t L_17 = L_16.___startCharIdx;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1649>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_18 = V_0;
 		int32_t L_19 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		int32_t L_20;
 		L_20 = InputField_GetLineEndPosition_m690864C08F9250D76D718D5D54611C886AAA0A79(L_18, L_19, NULL);
 		V_2 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1651>
 		V_3 = L_17;
 		goto IL_00bd;
 	}
 
 IL_0051:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1653>
 		int32_t L_21 = V_3;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_22 = V_0;
 		int32_t L_23;
@@ -6472,6 +6957,7 @@ IL_0051:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1656>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_24 = V_0;
 		RuntimeObject* L_25;
 		L_25 = TextGenerator_get_characters_mDA07F7108C6EF6F5DF61C478FDF3EB18DCE6B34A(L_24, NULL);
@@ -6479,6 +6965,7 @@ IL_0051:
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_27;
 		L_27 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_25, L_26);
 		V_4 = L_27;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1657>
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_28 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = L_28.___cursorPos;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___m_TextComponent;
@@ -6487,10 +6974,12 @@ IL_0051:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32;
 		L_32 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_29, L_31, NULL);
 		V_5 = L_32;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1659>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = ___0_pos;
 		float L_34 = L_33.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = V_5;
 		float L_36 = L_35.___x;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1660>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = V_5;
 		float L_38 = L_37.___x;
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_39 = V_4;
@@ -6501,6 +6990,7 @@ IL_0051:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43 = ___0_pos;
 		float L_44 = L_43.___x;
 		V_6 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_38, ((float)(L_40/L_42)))), L_44));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1661>
 		float L_45 = V_6;
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_34, L_36))) < ((float)L_45))))
 		{
@@ -6508,18 +6998,21 @@ IL_0051:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1662>
 		int32_t L_46 = V_3;
 		return L_46;
 	}
 
 IL_00b9:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1651>
 		int32_t L_47 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_47, 1));
 	}
 
 IL_00bd:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1651>
 		int32_t L_48 = V_3;
 		int32_t L_49 = V_2;
 		if ((((int32_t)L_48) < ((int32_t)L_49)))
@@ -6530,10 +7023,12 @@ IL_00bd:
 
 IL_00c1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1665>
 		int32_t L_50 = V_2;
 		return L_50;
 	}
 }
+// Method Definition Index: 19569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_MayDrag_m72ED9A80A46F59B07697E415E1D691084BC133E6 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6543,6 +7038,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_MayDrag_m72ED9A80A46F59B07697
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1670>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1671>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1672>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1673>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1674>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (!L_0)
@@ -6600,9 +7100,11 @@ IL_0037:
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnBeginDrag_m3A945C4E07937EDA5E99447572F5F167F1143691 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1683>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		bool L_1;
 		L_1 = InputField_MayDrag_m72ED9A80A46F59B07697E415E1D691084BC133E6(__this, L_0, NULL);
@@ -6612,15 +7114,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnBeginDrag_m3A945C4E07937EDA
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1684>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1686>
 		__this->___m_UpdateDrag = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1687>
 		return;
 	}
 }
+// Method Definition Index: 19571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDrag_mEF28C06EFB5024C1E236C5A21E715B62CA87BE84 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6634,6 +7140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDrag_mEF28C06EFB5024C1E236C
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1695>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		bool L_1;
 		L_1 = InputField_MayDrag_m72ED9A80A46F59B07697E415E1D691084BC133E6(__this, L_0, NULL);
@@ -6643,14 +7150,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDrag_mEF28C06EFB5024C1E236C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1696>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1698>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1699>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_3 = ___0_eventData;
 		bool L_4;
 		L_4 = MultipleDisplayUtilities_GetRelativeMousePositionForDrag_m3C283E331437CB72CF86C5C98B9E61D2317B8F4A(L_3, (&V_0), NULL);
@@ -6660,11 +7170,13 @@ IL_000a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1700>
 		return;
 	}
 
 IL_001b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1703>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5;
 		L_5 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
@@ -6676,12 +7188,15 @@ IL_001b:
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		bool L_10;
 		L_10 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_6, L_7, L_9, (&V_1), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1704>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_1;
 		int32_t L_12;
 		L_12 = InputField_GetCharacterIndexFromPosition_m9C0D9CBB43A1CCC47F7B4234379668E46AE3EB32(__this, L_11, NULL);
 		int32_t L_13 = __this->___m_DrawStart;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, ((int32_t)il2cpp_codegen_add(L_12, L_13)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1706>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1708>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14;
 		L_14 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15;
@@ -6695,6 +7210,7 @@ IL_001b:
 		bool L_20;
 		L_20 = RectTransformUtility_RectangleContainsScreenPoint_mBA6600E46C416EF032491AED969AA00BE2249630(L_15, L_17, L_19, NULL);
 		__this->___m_DragPositionOutOfBounds = (bool)((((int32_t)L_20) == ((int32_t)0))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1709>
 		bool L_21 = __this->___m_DragPositionOutOfBounds;
 		if (!L_21)
 		{
@@ -6709,6 +7225,7 @@ IL_001b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1710>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_23 = ___0_eventData;
 		RuntimeObject* L_24;
 		L_24 = InputField_MouseDragOutsideRect_m464392D721204B540DC92E449B48BCB04BCFDABC(__this, L_23, NULL);
@@ -6720,12 +7237,16 @@ IL_001b:
 
 IL_0097:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1712>
 		InputField_UpdateKeyboardCaret_mF290D51F06E5AC063A8FE6FD20F81C5C70792680(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1713>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_26 = ___0_eventData;
 		VirtualActionInvoker0::Invoke(5, L_26);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1714>
 		return;
 	}
 }
+// Method Definition Index: 19572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputField_MouseDragOutsideRect_m464392D721204B540DC92E449B48BCB04BCFDABC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6747,9 +7268,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InputField_MouseDragOutsideRec
 		return L_2;
 	}
 }
+// Method Definition Index: 19573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnEndDrag_m0BAA34E5BDBC9A3E241F8BC7DBA8172DD5D9651B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1760>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		bool L_1;
 		L_1 = InputField_MayDrag_m72ED9A80A46F59B07697E415E1D691084BC133E6(__this, L_0, NULL);
@@ -6759,15 +7282,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnEndDrag_m0BAA34E5BDBC9A3E24
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1761>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1763>
 		__this->___m_UpdateDrag = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1764>
 		return;
 	}
 }
+// Method Definition Index: 19574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnPointerDown_m4A3A77DDBA95CB4E50A4BFDF0EDD59B5A9191BF2 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6782,6 +7309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnPointerDown_m4A3A77DDBA95CB
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1771>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		bool L_1;
 		L_1 = InputField_MayDrag_m72ED9A80A46F59B07697E415E1D691084BC133E6(__this, L_0, NULL);
@@ -6791,11 +7319,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnPointerDown_m4A3A77DDBA95CB
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1772>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1774>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_2;
 		L_2 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -6803,10 +7333,13 @@ IL_000a:
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___0_eventData;
 		EventSystem_SetSelectedGameObject_m9675415B7B3FE13B35E2CCB220F0C8AF04ECA173(L_2, L_3, L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1776>
 		bool L_5 = __this->___m_AllowInput;
 		V_0 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1777>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_6 = ___0_eventData;
 		Selectable_OnPointerDown_m4425D3C7641AAD2430A7E666F35047E2F3B623D3(__this, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1779>
 		bool L_7;
 		L_7 = InputField_InPlaceEditing_m1F71173373CC2A21034D23ECA0060FA4E5A89F11(__this, NULL);
 		if (L_7)
@@ -6815,6 +7348,7 @@ IL_000a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1781>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_8 = __this->___m_Keyboard;
 		if (!L_8)
 		{
@@ -6833,13 +7367,16 @@ IL_000a:
 
 IL_0046:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1783>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = ___0_eventData;
 		VirtualActionInvoker1< BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* >::Invoke(36, __this, L_11);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1784>
 		return;
 	}
 
 IL_004e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1790>
 		bool L_12 = V_0;
 		if (!L_12)
 		{
@@ -6847,6 +7384,7 @@ IL_004e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1794>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13;
 		L_13 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14;
@@ -6861,6 +7399,7 @@ IL_004e:
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		bool L_20;
 		L_20 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_14, L_17, L_19, (&V_1), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1795>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_1;
 		int32_t L_22;
 		L_22 = InputField_GetCharacterIndexFromPosition_m9C0D9CBB43A1CCC47F7B4234379668E46AE3EB32(__this, L_21, NULL);
@@ -6874,13 +7413,18 @@ IL_004e:
 
 IL_0092:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1798>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1799>
 		InputField_UpdateKeyboardCaret_mF290D51F06E5AC063A8FE6FD20F81C5C70792680(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1800>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_26 = ___0_eventData;
 		VirtualActionInvoker0::Invoke(5, L_26);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1801>
 		return;
 	}
 }
+// Method Definition Index: 19575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_KeyPressed_mD6FAC314D8211F43C4C041AE87B3290665A05D28 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___0_evt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6902,10 +7446,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_KeyPressed_mD6FAC314D8211F
 	int32_t G_B7_0 = 0;
 	int32_t G_B11_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1817>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_0 = ___0_evt;
 		int32_t L_1;
 		L_1 = Event_get_modifiers_mD55E7CF06EB720434F0F174EA569B2A29792D39B(L_0, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1818>
 		int32_t L_2;
 		L_2 = SystemInfo_get_operatingSystemFamily_mC8B13A7D2F34699EDDA4F7629F117C76F0C865FA(NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -6928,10 +7474,13 @@ IL_0017:
 IL_001d:
 	{
 		V_1 = (bool)G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1819>
 		int32_t L_5 = V_0;
 		V_2 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_5&1))) <= ((uint32_t)0)))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1820>
 		int32_t L_6 = V_0;
 		V_3 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_6&4))) <= ((uint32_t)0)))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1821>
 		bool L_7 = V_1;
 		if (!L_7)
 		{
@@ -6959,6 +7508,7 @@ IL_0038:
 IL_0039:
 	{
 		V_4 = (bool)G_B7_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1822>
 		bool L_10 = V_2;
 		if (!L_10)
 		{
@@ -6986,6 +7536,7 @@ IL_0047:
 IL_0048:
 	{
 		V_5 = (bool)G_B11_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1824>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_13 = ___0_evt;
 		int32_t L_14;
 		L_14 = Event_get_keyCode_mADBB236A741F96D86E4A536E15FFECFD4C367B64(L_13, NULL);
@@ -7129,32 +7680,41 @@ IL_00a8:
 
 IL_00ed:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1828>
 		InputField_Backspace_m4BDCF533ECD04258884076830CB4F0907FCED3E6(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1829>
 		return (int32_t)(0);
 	}
 
 IL_00f5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1834>
 		InputField_ForwardSpace_m4CF251F5CE00CF4918EA0C2D322770A4B556D4E7(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1835>
 		return (int32_t)(0);
 	}
 
 IL_00fd:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1840>
 		bool L_27 = V_2;
 		InputField_MoveTextStart_mE56A94C2D4AE751A3BE1035250880D9B592BF130(__this, L_27, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1841>
 		return (int32_t)(0);
 	}
 
 IL_0106:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1846>
 		bool L_28 = V_2;
 		InputField_MoveTextEnd_m1C20AF9DB90F79CD85C4DAB179DA4EDB4D971810(__this, L_28, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1847>
 		return (int32_t)(0);
 	}
 
 IL_010f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1853>
 		bool L_29 = V_4;
 		if (!L_29)
 		{
@@ -7162,12 +7722,15 @@ IL_010f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1855>
 		InputField_SelectAll_mC3A2CAB32B290BC43782A61452760BD127E729EA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1856>
 		return (int32_t)(0);
 	}
 
 IL_011e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1864>
 		bool L_30 = V_4;
 		if (!L_30)
 		{
@@ -7175,6 +7738,7 @@ IL_011e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1866>
 		int32_t L_31;
 		L_31 = InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0_inline(__this, NULL);
 		if ((((int32_t)L_31) == ((int32_t)2)))
@@ -7183,6 +7747,7 @@ IL_011e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1867>
 		String_t* L_32;
 		L_32 = InputField_GetSelectedString_mDF15471A4398D6D7B391105A8549F09DC03DA283(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
@@ -7192,17 +7757,20 @@ IL_011e:
 
 IL_013b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1869>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		InputField_set_clipboard_mA8C4BC1DA5B1C12F8A7E7880E0F74185E2D8BCDB(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 	}
 
 IL_0145:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1870>
 		return (int32_t)(0);
 	}
 
 IL_0147:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1878>
 		bool L_33 = V_4;
 		if (!L_33)
 		{
@@ -7210,16 +7778,20 @@ IL_0147:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1880>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		String_t* L_34;
 		L_34 = InputField_get_clipboard_m4ACB240747BB6AF77A3FEF28A63A5C2B2A049543(NULL);
 		VirtualActionInvoker1< String_t* >::Invoke(66, __this, L_34);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1881>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1882>
 		return (int32_t)(0);
 	}
 
 IL_0161:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1890>
 		bool L_35 = V_4;
 		if (!L_35)
 		{
@@ -7227,6 +7799,7 @@ IL_0161:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1892>
 		int32_t L_36;
 		L_36 = InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0_inline(__this, NULL);
 		if ((((int32_t)L_36) == ((int32_t)2)))
@@ -7235,6 +7808,7 @@ IL_0161:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1893>
 		String_t* L_37;
 		L_37 = InputField_GetSelectedString_mDF15471A4398D6D7B391105A8549F09DC03DA283(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
@@ -7244,20 +7818,26 @@ IL_0161:
 
 IL_017e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1895>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		InputField_set_clipboard_mA8C4BC1DA5B1C12F8A7E7880E0F74185E2D8BCDB(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 	}
 
 IL_0188:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1897>
 		InputField_Delete_m12AD40195316F01879910401E6E0DCEC7F5A8132(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1898>
 		InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1899>
 		InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1900>
 		return (int32_t)(0);
 	}
 
 IL_019c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1907>
 		bool L_38 = V_4;
 		if (!L_38)
 		{
@@ -7265,6 +7845,7 @@ IL_019c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1909>
 		int32_t L_39;
 		L_39 = InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0_inline(__this, NULL);
 		if ((((int32_t)L_39) == ((int32_t)2)))
@@ -7273,6 +7854,7 @@ IL_019c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1910>
 		String_t* L_40;
 		L_40 = InputField_GetSelectedString_mDF15471A4398D6D7B391105A8549F09DC03DA283(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
@@ -7282,17 +7864,20 @@ IL_019c:
 
 IL_01b6:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1912>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		InputField_set_clipboard_mA8C4BC1DA5B1C12F8A7E7880E0F74185E2D8BCDB(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 	}
 
 IL_01c0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1913>
 		return (int32_t)(0);
 	}
 
 IL_01c2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1916>
 		bool L_41 = V_5;
 		if (!L_41)
 		{
@@ -7300,46 +7885,58 @@ IL_01c2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1918>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		String_t* L_42;
 		L_42 = InputField_get_clipboard_m4ACB240747BB6AF77A3FEF28A63A5C2B2A049543(NULL);
 		VirtualActionInvoker1< String_t* >::Invoke(66, __this, L_42);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1919>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1920>
 		return (int32_t)(0);
 	}
 
 IL_01d9:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1927>
 		bool L_43 = V_2;
 		bool L_44 = V_1;
 		InputField_MoveLeft_mD7E3870F7E54009522CF9412764FD5FD9212BBAA(__this, L_43, L_44, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1928>
 		return (int32_t)(0);
 	}
 
 IL_01e3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1933>
 		bool L_45 = V_2;
 		bool L_46 = V_1;
 		InputField_MoveRight_m0D51E23BE4EF55EA54DED277573263BB2A5B1D38(__this, L_45, L_46, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1934>
 		return (int32_t)(0);
 	}
 
 IL_01ed:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1939>
 		bool L_47 = V_2;
 		InputField_MoveUp_m4703516BEB5B1A3C4020895BABD0558427BE7895(__this, L_47, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1940>
 		return (int32_t)(0);
 	}
 
 IL_01f6:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1945>
 		bool L_48 = V_2;
 		InputField_MoveDown_m365DDF603B2D68FD98B0240F3302886FF7CFF16E(__this, L_48, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1946>
 		return (int32_t)(0);
 	}
 
 IL_01ff:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1953>
 		int32_t L_49;
 		L_49 = InputField_get_lineType_m6CEA63D8FCACAEC05D3499577ED0771EFFF33377_inline(__this, NULL);
 		if ((((int32_t)L_49) == ((int32_t)2)))
@@ -7348,21 +7945,26 @@ IL_01ff:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1955>
 		return (int32_t)(1);
 	}
 
 IL_020a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1962>
 		__this->___m_WasCanceled = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1963>
 		return (int32_t)(1);
 	}
 
 IL_0213:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1967>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_50 = ___0_evt;
 		Il2CppChar L_51;
 		L_51 = Event_get_character_m8F7A92E90EF65B9379C01432B42D6BF818C32A61(L_50, NULL);
 		V_6 = L_51;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1969>
 		bool L_52;
 		L_52 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(__this, NULL);
 		if (L_52)
@@ -7394,11 +7996,13 @@ IL_0213:
 
 IL_0235:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1970>
 		return (int32_t)(0);
 	}
 
 IL_0237:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1973>
 		Il2CppChar L_56 = V_6;
 		if ((((int32_t)L_56) == ((int32_t)((int32_t)13))))
 		{
@@ -7415,11 +8019,13 @@ IL_0237:
 
 IL_0242:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1974>
 		V_6 = ((int32_t)10);
 	}
 
 IL_0246:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1976>
 		Il2CppChar L_58 = V_6;
 		bool L_59;
 		L_59 = InputField_IsValidChar_mDFF88F1042D52286FDCD5D7302706C837265876D(__this, L_58, NULL);
@@ -7429,12 +8035,14 @@ IL_0246:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1978>
 		Il2CppChar L_60 = V_6;
 		VirtualActionInvoker1< Il2CppChar >::Invoke(67, __this, L_60);
 	}
 
 IL_0258:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1981>
 		Il2CppChar L_61 = V_6;
 		if (L_61)
 		{
@@ -7442,6 +8050,7 @@ IL_0258:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1983>
 		String_t* L_62;
 		L_62 = InputField_get_compositionString_m5E9F323DE7B62EBB69AFC569C05ABC00F619FC4A(__this, NULL);
 		int32_t L_63;
@@ -7452,17 +8061,21 @@ IL_0258:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1985>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
 	}
 
 IL_0270:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1988>
 		return (int32_t)(0);
 	}
 }
+// Method Definition Index: 19576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_IsValidChar_mDFF88F1042D52286FDCD5D7302706C837265876D (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1993>
 		Il2CppChar L_0 = ___0_c;
 		if (L_0)
 		{
@@ -7470,11 +8083,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_IsValidChar_mDFF88F1042D52286
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1994>
 		return (bool)0;
 	}
 
 IL_0005:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1997>
 		Il2CppChar L_1 = ___0_c;
 		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)127)))))
 		{
@@ -7482,11 +8097,13 @@ IL_0005:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1998>
 		return (bool)0;
 	}
 
 IL_000c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2000>
 		Il2CppChar L_2 = ___0_c;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)9))))
 		{
@@ -7503,11 +8120,13 @@ IL_000c:
 
 IL_0016:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2001>
 		return (bool)1;
 	}
 
 IL_0018:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2003>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_TextComponent;
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_5;
 		L_5 = Text_get_font_mBF98ED39D5C5081AF14A64170EC3391D206CCAFD(L_4, NULL);
@@ -7517,15 +8136,19 @@ IL_0018:
 		return L_7;
 	}
 }
+// Method Definition Index: 19577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ProcessEvent_mF905BEF5A4CFF9144159FA40DE2F9DFD4A967358 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___0_e, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2017>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_0 = ___0_e;
 		int32_t L_1;
 		L_1 = InputField_KeyPressed_mD6FAC314D8211F43C4C041AE87B3290665A05D28(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2018>
 		return;
 	}
 }
+// Method Definition Index: 19578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnUpdateSelected_m36FFEE16138CDDCA30643962A4C5A41763FE2E55 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_eventData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7537,6 +8160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnUpdateSelected_m36FFEE16138
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2026>
 		bool L_0;
 		L_0 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 		if (L_0)
@@ -7545,17 +8169,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnUpdateSelected_m36FFEE16138
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2027>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2029>
 		V_0 = (bool)0;
 		goto IL_00ac;
 	}
 
 IL_0010:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2032>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_1 = __this->___m_ProcessingEvent;
 		int32_t L_2;
 		L_2 = Event_get_rawType_mD7CD874F3C8DFD4DFB6237E79A7C3A484B33CE56(L_1, NULL);
@@ -7565,7 +8192,9 @@ IL_0010:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2034>
 		V_0 = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2037>
 		bool L_3 = __this->___m_IsCompositionActive;
 		if (!L_3)
 		{
@@ -7583,6 +8212,7 @@ IL_0010:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2040>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_6 = __this->___m_ProcessingEvent;
 		Il2CppChar L_7;
 		L_7 = Event_get_character_m8F7A92E90EF65B9379C01432B42D6BF818C32A61(L_6, NULL);
@@ -7603,15 +8233,18 @@ IL_0010:
 
 IL_004f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2046>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_10 = __this->___m_ProcessingEvent;
 		int32_t L_11;
 		L_11 = InputField_KeyPressed_mD6FAC314D8211F43C4C041AE87B3290665A05D28(__this, L_10, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2047>
 		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
 		{
 			goto IL_0074;
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2049>
 		bool L_12 = __this->___m_WasCanceled;
 		if (L_12)
 		{
@@ -7619,22 +8252,27 @@ IL_004f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2050>
 		InputField_SendOnSubmit_m933C160291FD9118A9EC7FD7AED5E805B998BA27(__this, NULL);
 	}
 
 IL_006c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2052>
 		InputField_DeactivateInputField_m58D0B3BF095094A0963A9CE8BABF1979F7D1254D(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2053>
 		goto IL_00ac;
 	}
 
 IL_0074:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2055>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
 	}
 
 IL_007a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2058>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_13 = __this->___m_ProcessingEvent;
 		int32_t L_14;
 		L_14 = Event_get_type_m8A825D6DA432B967DAA3E22E5C8571620A75F8A8(L_13, NULL);
@@ -7646,6 +8284,7 @@ IL_007a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2062>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_16 = __this->___m_ProcessingEvent;
 		String_t* L_17;
 		L_17 = Event_get_commandName_m14F2015FA5A9050C3C42AF1BD9D0E85D4FF78C24(L_16, NULL);
@@ -7657,12 +8296,15 @@ IL_007a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2065>
 		InputField_SelectAll_mC3A2CAB32B290BC43782A61452760BD127E729EA(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2066>
 		V_0 = (bool)1;
 	}
 
 IL_00ac:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2030>
 		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_19 = __this->___m_ProcessingEvent;
 		bool L_20;
 		L_20 = Event_PopEvent_mC780BAA7CE4F0E75C8B5C7DC5EB430C278B0D0AE(L_19, NULL);
@@ -7672,6 +8314,7 @@ IL_00ac:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2073>
 		bool L_21 = V_0;
 		if (!L_21)
 		{
@@ -7679,16 +8322,20 @@ IL_00ac:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2074>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
 	}
 
 IL_00c5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2076>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_22 = ___0_eventData;
 		VirtualActionInvoker0::Invoke(5, L_22);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2077>
 		return;
 	}
 }
+// Method Definition Index: 19579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_GetSelectedString_mDF15471A4398D6D7B391105A8549F09DC03DA283 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7700,6 +8347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_GetSelectedString_mDF154
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2081>
 		bool L_0;
 		L_0 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (L_0)
@@ -7708,17 +8356,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_GetSelectedString_mDF154
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2082>
 		return _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 	}
 
 IL_000e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2084>
 		int32_t L_1;
 		L_1 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2085>
 		int32_t L_2;
 		L_2 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		V_1 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2088>
 		int32_t L_3 = V_0;
 		int32_t L_4 = V_1;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
@@ -7727,14 +8379,18 @@ IL_000e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2090>
 		int32_t L_5 = V_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2091>
 		int32_t L_6 = V_1;
 		V_0 = L_6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2092>
 		V_1 = L_5;
 	}
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2095>
 		String_t* L_7;
 		L_7 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_8 = V_0;
@@ -7745,6 +8401,7 @@ IL_0024:
 		return L_11;
 	}
 }
+// Method Definition Index: 19580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtNextWordBegin_m1152E725F12932E30E304F4F10A42B0733201A18 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7755,6 +8412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtNextWordBegin_m1152E7
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2100>
 		int32_t L_0;
 		L_0 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		String_t* L_1;
@@ -7767,6 +8425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtNextWordBegin_m1152E7
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2101>
 		String_t* L_3;
 		L_3 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_4;
@@ -7776,6 +8435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtNextWordBegin_m1152E7
 
 IL_0021:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2103>
 		String_t* L_5;
 		L_5 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
@@ -7785,6 +8445,7 @@ IL_0021:
 		int32_t L_8;
 		L_8 = String_IndexOfAny_m1AE18DB3B14A0D05EF4A2D3403D4DC1930A199F3(L_5, L_6, ((int32_t)il2cpp_codegen_add(L_7, 1)), NULL);
 		V_0 = L_8;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2105>
 		int32_t L_9 = V_0;
 		if ((!(((uint32_t)L_9) == ((uint32_t)(-1)))))
 		{
@@ -7792,6 +8453,7 @@ IL_0021:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2106>
 		String_t* L_10;
 		L_10 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_11;
@@ -7802,21 +8464,25 @@ IL_0021:
 
 IL_004c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2108>
 		int32_t L_12 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0050:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2110>
 		int32_t L_13 = V_0;
 		return L_13;
 	}
 }
+// Method Definition Index: 19581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveRight_m0D51E23BE4EF55EA54DED277573263BB2A5B1D38 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, bool ___1_ctrl, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2115>
 		bool L_0;
 		L_0 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (!L_0)
@@ -7832,6 +8498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveRight_m0D51E23BE4EF55EA54
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2119>
 		int32_t L_2;
 		L_2 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_3;
@@ -7843,11 +8510,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveRight_m0D51E23BE4EF55EA54
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_5, NULL);
 		int32_t L_6 = V_1;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2120>
 		return;
 	}
 
 IL_002c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2124>
 		bool L_7 = ___1_ctrl;
 		if (!L_7)
 		{
@@ -7855,6 +8524,7 @@ IL_002c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2125>
 		int32_t L_8;
 		L_8 = InputField_FindtNextWordBegin_m1152E725F12932E30E304F4F10A42B0733201A18(__this, NULL);
 		V_0 = L_8;
@@ -7863,6 +8533,7 @@ IL_002c:
 
 IL_0038:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2127>
 		int32_t L_9;
 		L_9 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
@@ -7870,6 +8541,7 @@ IL_0038:
 
 IL_0041:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2129>
 		bool L_10 = ___0_shift;
 		if (!L_10)
 		{
@@ -7877,6 +8549,7 @@ IL_0041:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2130>
 		int32_t L_11 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_11, NULL);
 		return;
@@ -7884,15 +8557,18 @@ IL_0041:
 
 IL_004c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2132>
 		int32_t L_12 = V_0;
 		int32_t L_13 = L_12;
 		V_1 = L_13;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_13, NULL);
 		int32_t L_14 = V_1;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2133>
 		return;
 	}
 }
+// Method Definition Index: 19582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtPrevWordBegin_m54E76FA4BF8AE95109D2F78EA0814751837F5AF7 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7903,6 +8579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtPrevWordBegin_m54E76F
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2137>
 		int32_t L_0;
 		L_0 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_0, 2))) >= ((int32_t)0)))
@@ -7911,11 +8588,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_FindtPrevWordBegin_m54E76F
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2138>
 		return 0;
 	}
 
 IL_000d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2140>
 		String_t* L_1;
 		L_1 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
@@ -7925,6 +8604,7 @@ IL_000d:
 		int32_t L_4;
 		L_4 = String_LastIndexOfAny_mE627BF79C35A4C2C4CE3D973AB30B963F230F361(L_1, L_2, ((int32_t)il2cpp_codegen_subtract(L_3, 2)), NULL);
 		V_0 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2142>
 		int32_t L_5 = V_0;
 		if ((!(((uint32_t)L_5) == ((uint32_t)(-1)))))
 		{
@@ -7932,27 +8612,32 @@ IL_000d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2143>
 		V_0 = 0;
 		goto IL_0032;
 	}
 
 IL_002e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2145>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0032:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2147>
 		int32_t L_7 = V_0;
 		return L_7;
 	}
 }
+// Method Definition Index: 19583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveLeft_mD7E3870F7E54009522CF9412764FD5FD9212BBAA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, bool ___1_ctrl, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2152>
 		bool L_0;
 		L_0 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (!L_0)
@@ -7968,6 +8653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveLeft_mD7E3870F7E54009522C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2156>
 		int32_t L_2;
 		L_2 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_3;
@@ -7979,11 +8665,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveLeft_mD7E3870F7E54009522C
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_5, NULL);
 		int32_t L_6 = V_1;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2157>
 		return;
 	}
 
 IL_002c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2161>
 		bool L_7 = ___1_ctrl;
 		if (!L_7)
 		{
@@ -7991,6 +8679,7 @@ IL_002c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2162>
 		int32_t L_8;
 		L_8 = InputField_FindtPrevWordBegin_m54E76FA4BF8AE95109D2F78EA0814751837F5AF7(__this, NULL);
 		V_0 = L_8;
@@ -7999,6 +8688,7 @@ IL_002c:
 
 IL_0038:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2164>
 		int32_t L_9;
 		L_9 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
@@ -8006,6 +8696,7 @@ IL_0038:
 
 IL_0041:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2166>
 		bool L_10 = ___0_shift;
 		if (!L_10)
 		{
@@ -8013,6 +8704,7 @@ IL_0041:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2167>
 		int32_t L_11 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_11, NULL);
 		return;
@@ -8020,15 +8712,18 @@ IL_0041:
 
 IL_004c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2169>
 		int32_t L_12 = V_0;
 		int32_t L_13 = L_12;
 		V_1 = L_13;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_13, NULL);
 		int32_t L_14 = V_1;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2170>
 		return;
 	}
 }
+// Method Definition Index: 19584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_charPos, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___1_generator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8039,12 +8734,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_DetermineCharacterLine_mD8
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2174>
 		V_0 = 0;
 		goto IL_0020;
 	}
 
 IL_0004:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2176>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_0 = ___1_generator;
 		RuntimeObject* L_1;
 		L_1 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_0, NULL);
@@ -8059,18 +8756,21 @@ IL_0004:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2177>
 		int32_t L_6 = V_0;
 		return L_6;
 	}
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2174>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0020:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2174>
 		int32_t L_8 = V_0;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_9 = ___1_generator;
 		int32_t L_10;
@@ -8081,12 +8781,14 @@ IL_0020:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2180>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_11 = ___1_generator;
 		int32_t L_12;
 		L_12 = TextGenerator_get_lineCount_mC568C375C85695478DD054B296CBEAB11D3C4108(L_11, NULL);
 		return ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 	}
 }
+// Method Definition Index: 19585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineUpCharacterPosition_m6E5C0F57795B5CF3D588EFF099A65D90E60848A0 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_originalPos, bool ___1_goToFirstChar, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8103,6 +8805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineUpCharacterPosition_m6
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2189>
 		int32_t L_0 = ___0_originalPos;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_1;
 		L_1 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
@@ -8116,11 +8819,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineUpCharacterPosition_m6
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2190>
 		return 0;
 	}
 
 IL_0015:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2192>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_4;
 		L_4 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_5;
@@ -8129,12 +8834,14 @@ IL_0015:
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_7;
 		L_7 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_5, L_6);
 		V_0 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2193>
 		int32_t L_8 = ___0_originalPos;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_9;
 		L_9 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_10;
 		L_10 = InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC(__this, L_8, L_9, NULL);
 		V_1 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2196>
 		int32_t L_11 = V_1;
 		if ((((int32_t)L_11) > ((int32_t)0)))
 		{
@@ -8142,6 +8849,7 @@ IL_0015:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2197>
 		bool L_12 = ___1_goToFirstChar;
 		if (L_12)
 		{
@@ -8160,6 +8868,7 @@ IL_003e:
 
 IL_0040:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2199>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_14;
 		L_14 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_15;
@@ -8169,6 +8878,7 @@ IL_0040:
 		L_17 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_15, L_16);
 		int32_t L_18 = L_17.___startCharIdx;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_18, 1));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2201>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_19;
 		L_19 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_20;
@@ -8183,6 +8893,7 @@ IL_0040:
 
 IL_0074:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2203>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_24;
 		L_24 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_25;
@@ -8201,18 +8912,21 @@ IL_0074:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2204>
 		int32_t L_33 = V_3;
 		return L_33;
 	}
 
 IL_009e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2201>
 		int32_t L_34 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
 IL_00a2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2201>
 		int32_t L_35 = V_3;
 		int32_t L_36 = V_2;
 		if ((((int32_t)L_35) < ((int32_t)L_36)))
@@ -8221,10 +8935,12 @@ IL_00a2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2206>
 		int32_t L_37 = V_2;
 		return L_37;
 	}
 }
+// Method Definition Index: 19586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineDownCharacterPosition_m3212B8EC92092E97AC60D072EFBD385FE72CA829 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_originalPos, bool ___1_goToLastChar, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8241,6 +8957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineDownCharacterPosition_
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2215>
 		int32_t L_0 = ___0_originalPos;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_1;
 		L_1 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
@@ -8252,6 +8969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineDownCharacterPosition_
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2216>
 		String_t* L_3;
 		L_3 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_4;
@@ -8261,6 +8979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_LineDownCharacterPosition_
 
 IL_001a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2218>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_5;
 		L_5 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_6;
@@ -8269,12 +8988,14 @@ IL_001a:
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_8;
 		L_8 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_6, L_7);
 		V_0 = L_8;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2219>
 		int32_t L_9 = ___0_originalPos;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_10;
 		L_10 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_11;
 		L_11 = InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC(__this, L_9, L_10, NULL);
 		V_1 = L_11;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2222>
 		int32_t L_12 = V_1;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_13;
 		L_13 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
@@ -8286,6 +9007,7 @@ IL_001a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2223>
 		bool L_15 = ___1_goToLastChar;
 		if (L_15)
 		{
@@ -8308,6 +9030,7 @@ IL_004f:
 
 IL_005b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2226>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_19;
 		L_19 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_20 = V_1;
@@ -8315,6 +9038,7 @@ IL_005b:
 		int32_t L_21;
 		L_21 = InputField_GetLineEndPosition_m690864C08F9250D76D718D5D54611C886AAA0A79(L_19, ((int32_t)il2cpp_codegen_add(L_20, 1)), NULL);
 		V_2 = L_21;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2228>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_22;
 		L_22 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_23;
@@ -8329,6 +9053,7 @@ IL_005b:
 
 IL_0085:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2230>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_27;
 		L_27 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_28;
@@ -8347,18 +9072,21 @@ IL_0085:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2231>
 		int32_t L_36 = V_3;
 		return L_36;
 	}
 
 IL_00af:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2228>
 		int32_t L_37 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_37, 1));
 	}
 
 IL_00b3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2228>
 		int32_t L_38 = V_3;
 		int32_t L_39 = V_2;
 		if ((((int32_t)L_38) < ((int32_t)L_39)))
@@ -8367,24 +9095,30 @@ IL_00b3:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2233>
 		int32_t L_40 = V_2;
 		return L_40;
 	}
 }
+// Method Definition Index: 19587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveDown_m365DDF603B2D68FD98B0240F3302886FF7CFF16E (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2238>
 		bool L_0 = ___0_shift;
 		InputField_MoveDown_m13622D37FC022939623A9DBC447E49F5D9F43C80(__this, L_0, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2239>
 		return;
 	}
 }
+// Method Definition Index: 19588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveDown_m13622D37FC022939623A9DBC447E49F5D9F43C80 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, bool ___1_goToLastChar, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t G_B6_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2243>
 		bool L_0;
 		L_0 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (!L_0)
@@ -8400,6 +9134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveDown_m13622D37FC022939623
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2247>
 		int32_t L_2;
 		L_2 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_3;
@@ -8415,6 +9150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveDown_m13622D37FC022939623
 
 IL_002b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2250>
 		bool L_7;
 		L_7 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(__this, NULL);
 		if (L_7)
@@ -8444,6 +9180,7 @@ IL_0040:
 IL_004d:
 	{
 		V_0 = G_B6_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2252>
 		bool L_13 = ___0_shift;
 		if (!L_13)
 		{
@@ -8451,6 +9188,7 @@ IL_004d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2253>
 		int32_t L_14 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_14, NULL);
 		return;
@@ -8458,29 +9196,36 @@ IL_004d:
 
 IL_0059:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2255>
 		int32_t L_15 = V_0;
 		int32_t L_16 = L_15;
 		V_1 = L_16;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_16, NULL);
 		int32_t L_17 = V_1;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_17, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2256>
 		return;
 	}
 }
+// Method Definition Index: 19589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveUp_m4703516BEB5B1A3C4020895BABD0558427BE7895 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2260>
 		bool L_0 = ___0_shift;
 		InputField_MoveUp_m7F41FF9D5EA2BF64B36C1ACABB67169722C668DD(__this, L_0, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2261>
 		return;
 	}
 }
+// Method Definition Index: 19590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveUp_m7F41FF9D5EA2BF64B36C1ACABB67169722C668DD (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, bool ___0_shift, bool ___1_goToFirstChar, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t G_B6_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2265>
 		bool L_0;
 		L_0 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (!L_0)
@@ -8496,6 +9241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveUp_m7F41FF9D5EA2BF64B36C1
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2269>
 		int32_t L_2;
 		L_2 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_3;
@@ -8511,6 +9257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MoveUp_m7F41FF9D5EA2BF64B36C1
 
 IL_002b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2272>
 		bool L_7;
 		L_7 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(__this, NULL);
 		if (L_7)
@@ -8536,6 +9283,7 @@ IL_0036:
 IL_0043:
 	{
 		V_0 = G_B6_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2274>
 		bool L_11 = ___0_shift;
 		if (!L_11)
 		{
@@ -8543,6 +9291,7 @@ IL_0043:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2275>
 		int32_t L_12 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_12, NULL);
 		return;
@@ -8550,18 +9299,22 @@ IL_0043:
 
 IL_004f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2277>
 		int32_t L_13 = V_0;
 		int32_t L_14 = L_13;
 		V_1 = L_14;
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_14, NULL);
 		int32_t L_15 = V_1;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_15, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2278>
 		return;
 	}
 }
+// Method Definition Index: 19591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Delete_m12AD40195316F01879910401E6E0DCEC7F5A8132 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2282>
 		bool L_0 = __this->___m_ReadOnly;
 		if (!L_0)
 		{
@@ -8569,11 +9322,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Delete_m12AD40195316F01879910
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2283>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2285>
 		int32_t L_1;
 		L_1 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_2;
@@ -8584,11 +9339,13 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2286>
 		return;
 	}
 
 IL_0018:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2288>
 		int32_t L_3;
 		L_3 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_4;
@@ -8599,6 +9356,7 @@ IL_0018:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2290>
 		String_t* L_5;
 		L_5 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_6;
@@ -8621,6 +9379,7 @@ IL_0018:
 		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, L_13, NULL);
 		__this->___m_Text = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_14);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2291>
 		int32_t L_15;
 		L_15 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_15, NULL);
@@ -8629,6 +9388,7 @@ IL_0018:
 
 IL_0073:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2295>
 		String_t* L_16;
 		L_16 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_17;
@@ -8651,15 +9411,19 @@ IL_0073:
 		L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_18, L_24, NULL);
 		__this->___m_Text = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_25);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2296>
 		int32_t L_26;
 		L_26 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_26, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2298>
 		return;
 	}
 }
+// Method Definition Index: 19592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ForwardSpace_m4CF251F5CE00CF4918EA0C2D322770A4B556D4E7 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2302>
 		bool L_0 = __this->___m_ReadOnly;
 		if (!L_0)
 		{
@@ -8667,11 +9431,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ForwardSpace_m4CF251F5CE00CF4
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2303>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2305>
 		bool L_1;
 		L_1 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (!L_1)
@@ -8680,14 +9446,18 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2307>
 		InputField_Delete_m12AD40195316F01879910401E6E0DCEC7F5A8132(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2308>
 		InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2309>
 		InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA(__this, NULL);
 		return;
 	}
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2313>
 		int32_t L_2;
 		L_2 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		String_t* L_3;
@@ -8700,6 +9470,7 @@ IL_0024:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2315>
 		String_t* L_5;
 		L_5 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_6;
@@ -8708,19 +9479,24 @@ IL_0024:
 		L_7 = String_Remove_m4D7A58E2124F8D0D8AE3EEDE74B6AD6A863ABA68(L_5, L_6, 1, NULL);
 		__this->___m_Text = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_7);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2317>
 		InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2318>
 		InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA(__this, NULL);
 	}
 
 IL_005b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2321>
 		return;
 	}
 }
+// Method Definition Index: 19593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Backspace_m4BDCF533ECD04258884076830CB4F0907FCED3E6 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2325>
 		bool L_0 = __this->___m_ReadOnly;
 		if (!L_0)
 		{
@@ -8728,11 +9504,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Backspace_m4BDCF533ECD0425888
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2326>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2328>
 		bool L_1;
 		L_1 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 		if (!L_1)
@@ -8741,14 +9519,18 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2330>
 		InputField_Delete_m12AD40195316F01879910401E6E0DCEC7F5A8132(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2331>
 		InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2332>
 		InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA(__this, NULL);
 		return;
 	}
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2336>
 		int32_t L_2;
 		L_2 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -8769,6 +9551,7 @@ IL_0024:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2338>
 		String_t* L_6;
 		L_6 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_7;
@@ -8777,6 +9560,7 @@ IL_0024:
 		L_8 = String_Remove_m4D7A58E2124F8D0D8AE3EEDE74B6AD6A863ABA68(L_6, ((int32_t)il2cpp_codegen_subtract(L_7, 1)), 1, NULL);
 		__this->___m_Text = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_8);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2339>
 		int32_t L_9;
 		L_9 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_10 = ((int32_t)il2cpp_codegen_subtract(L_9, 1));
@@ -8784,15 +9568,19 @@ IL_0024:
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_10, NULL);
 		int32_t L_11 = V_0;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_11, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2341>
 		InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2342>
 		InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA(__this, NULL);
 	}
 
 IL_007f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2345>
 		return;
 	}
 }
+// Method Definition Index: 19594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Insert_m925B9FADD75785B8FDD886477F0B0CC1E0B4C718 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8804,6 +9592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Insert_m925B9FADD75785B8FDD88
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2350>
 		bool L_0 = __this->___m_ReadOnly;
 		if (!L_0)
 		{
@@ -8811,16 +9600,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Insert_m925B9FADD75785B8FDD88
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2351>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2353>
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&___0_c), NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2354>
 		InputField_Delete_m12AD40195316F01879910401E6E0DCEC7F5A8132(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2357>
 		int32_t L_2;
 		L_2 = InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403_inline(__this, NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -8841,11 +9634,13 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2358>
 		return;
 	}
 
 IL_0034:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2360>
 		String_t* L_6;
 		L_6 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_7 = __this->___m_CaretPosition;
@@ -8854,6 +9649,7 @@ IL_0034:
 		L_9 = String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A(L_6, L_7, L_8, NULL);
 		__this->___m_Text = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_9);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2361>
 		int32_t L_10;
 		L_10 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		String_t* L_11 = V_0;
@@ -8864,14 +9660,19 @@ IL_0034:
 		InputField_set_caretPositionInternal_mA35B05D5FF035A060967C6E456610D659367C3EA(__this, L_13, NULL);
 		int32_t L_14 = V_1;
 		InputField_set_caretSelectPositionInternal_mCA096AAD610587421E739BDD195A1680FD93A75A(__this, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2363>
 		InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2364>
 		InputField_SendOnValueChanged_m52131907987E99A872F6007B599345A2ADD244AC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2365>
 		return;
 	}
 }
+// Method Definition Index: 19595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateTouchKeyboardFromEditChanges_m68C429349526101B885D038FFD0C2935151E0772 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2371>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_0 = __this->___m_Keyboard;
 		if (!L_0)
 		{
@@ -8887,6 +9688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateTouchKeyboardFromEditCh
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2373>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_2 = __this->___m_Keyboard;
 		String_t* L_3 = __this->___m_Text;
 		TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB(L_2, L_3, NULL);
@@ -8894,17 +9696,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateTouchKeyboardFromEditCh
 
 IL_0021:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2375>
 		return;
 	}
 }
+// Method Definition Index: 19596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnValueChangedAndUpdateLabel_mEB064D57921681BB49F55AA796E046A951DAA7BA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2379>
 		InputField_SendOnValueChanged_m52131907987E99A872F6007B599345A2ADD244AC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2380>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2381>
 		return;
 	}
 }
+// Method Definition Index: 19597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnValueChanged_m52131907987E99A872F6007B599345A2ADD244AC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8915,7 +9723,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnValueChanged_m521319079
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2385>
 		UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B(_stringLiteral7B20120FA3A36499103516584F7132881D3DF357, __this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2386>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_0;
 		L_0 = InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE_inline(__this, NULL);
 		if (!L_0)
@@ -8924,6 +9734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnValueChanged_m521319079
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2387>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_1;
 		L_1 = InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE_inline(__this, NULL);
 		String_t* L_2;
@@ -8933,9 +9744,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnValueChanged_m521319079
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2388>
 		return;
 	}
 }
+// Method Definition Index: 19598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnEndEdit_m79E2689DD75F72FDA8157EECD3F17391D187094B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8946,7 +9759,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnEndEdit_m79E2689DD75F72
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2395>
 		UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B(_stringLiteral438AB2C96F63B70D8D1ABFEEB8EB3268314383F7, __this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2396>
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_0;
 		L_0 = InputField_get_onEndEdit_m92C86FF7CA6108C4B14392CED20C9ED9D39AD9A3_inline(__this, NULL);
 		if (!L_0)
@@ -8955,6 +9770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnEndEdit_m79E2689DD75F72
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2397>
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_1;
 		L_1 = InputField_get_onEndEdit_m92C86FF7CA6108C4B14392CED20C9ED9D39AD9A3_inline(__this, NULL);
 		String_t* L_2 = __this->___m_Text;
@@ -8963,9 +9779,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnEndEdit_m79E2689DD75F72
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2398>
 		return;
 	}
 }
+// Method Definition Index: 19599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnSubmit_m933C160291FD9118A9EC7FD7AED5E805B998BA27 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8976,7 +9794,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnSubmit_m933C160291FD911
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2405>
 		UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B(_stringLiteral1D21129BD0F2E1310447856130DF701E8D96747E, __this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2406>
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* L_0;
 		L_0 = InputField_get_onSubmit_m66A3BFEC3D3D5C261558043FD606D4FBCC7D478D_inline(__this, NULL);
 		if (!L_0)
@@ -8985,6 +9805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnSubmit_m933C160291FD911
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2407>
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* L_1;
 		L_1 = InputField_get_onSubmit_m66A3BFEC3D3D5C261558043FD606D4FBCC7D478D_inline(__this, NULL);
 		String_t* L_2 = __this->___m_Text;
@@ -8993,15 +9814,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SendOnSubmit_m933C160291FD911
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2408>
 		return;
 	}
 }
+// Method Definition Index: 19600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Append_m78F45E67DDB94E034940730969D199A971C7D1F1 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_input, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	Il2CppChar V_2 = 0x0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2416>
 		bool L_0 = __this->___m_ReadOnly;
 		if (!L_0)
 		{
@@ -9009,11 +9833,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Append_m78F45E67DDB94E0349407
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2417>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2419>
 		bool L_1;
 		L_1 = InputField_InPlaceEditing_m1F71173373CC2A21034D23ECA0060FA4E5A89F11(__this, NULL);
 		if (L_1)
@@ -9022,12 +9848,15 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2420>
 		return;
 	}
 
 IL_0012:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2422>
 		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2422>
 		String_t* L_2 = ___0_input;
 		int32_t L_3;
 		L_3 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_2, NULL);
@@ -9037,11 +9866,13 @@ IL_0012:
 
 IL_001d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2424>
 		String_t* L_4 = ___0_input;
 		int32_t L_5 = V_0;
 		Il2CppChar L_6;
 		L_6 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_4, L_5, NULL);
 		V_2 = L_6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2426>
 		Il2CppChar L_7 = V_2;
 		if ((((int32_t)L_7) >= ((int32_t)((int32_t)32))))
 		{
@@ -9079,18 +9910,21 @@ IL_001d:
 
 IL_003e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2428>
 		Il2CppChar L_12 = V_2;
 		VirtualActionInvoker1< Il2CppChar >::Invoke(67, __this, L_12);
 	}
 
 IL_0045:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2422>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0049:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2422>
 		int32_t L_14 = V_0;
 		int32_t L_15 = V_1;
 		if ((((int32_t)L_14) < ((int32_t)L_15)))
@@ -9099,9 +9933,11 @@ IL_0049:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2431>
 		return;
 	}
 }
+// Method Definition Index: 19601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Append_m22A6348E74FB83932286AC1CDD73322C05BBC63F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Il2CppChar ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9114,6 +9950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Append_m22A6348E74FB83932286A
 	int32_t V_0 = 0;
 	String_t* V_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2443>
 		Il2CppChar L_0 = ___0_input;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9124,11 +9961,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Append_m22A6348E74FB83932286A
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2444>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2446>
 		bool L_2 = __this->___m_ReadOnly;
 		if (L_2)
 		{
@@ -9148,11 +9987,13 @@ IL_0009:
 
 IL_0023:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2447>
 		return;
 	}
 
 IL_0024:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2449>
 		bool L_5;
 		L_5 = InputField_InPlaceEditing_m1F71173373CC2A21034D23ECA0060FA4E5A89F11(__this, NULL);
 		if (L_5)
@@ -9161,11 +10002,13 @@ IL_0024:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2450>
 		return;
 	}
 
 IL_002d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2453>
 		int32_t L_6;
 		L_6 = InputField_get_selectionFocusPosition_m14D662A0A20FF6952E73CFAB7C1F21FD7CF4298A(__this, NULL);
 		int32_t L_7;
@@ -9174,9 +10017,11 @@ IL_002d:
 		int32_t L_8;
 		L_8 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_6, L_7, NULL);
 		V_0 = L_8;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2456>
 		String_t* L_9;
 		L_9 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		V_1 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2457>
 		int32_t L_10;
 		L_10 = InputField_get_selectionFocusPosition_m14D662A0A20FF6952E73CFAB7C1F21FD7CF4298A(__this, NULL);
 		int32_t L_11;
@@ -9187,6 +10032,7 @@ IL_002d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2459>
 		int32_t L_12;
 		L_12 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_13;
@@ -9197,6 +10043,7 @@ IL_002d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2461>
 		String_t* L_14;
 		L_14 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_15;
@@ -9223,6 +10070,7 @@ IL_002d:
 
 IL_00a2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2465>
 		String_t* L_24;
 		L_24 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_25;
@@ -9248,6 +10096,7 @@ IL_00a2:
 
 IL_00dd:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2469>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_34;
 		L_34 = InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline(__this, NULL);
 		if (!L_34)
@@ -9256,6 +10105,7 @@ IL_00dd:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2470>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_35;
 		L_35 = InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline(__this, NULL);
 		String_t* L_36 = V_1;
@@ -9269,6 +10119,7 @@ IL_00dd:
 
 IL_00f7:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2471>
 		int32_t L_40;
 		L_40 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if (!L_40)
@@ -9277,6 +10128,7 @@ IL_00f7:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2472>
 		String_t* L_41 = V_1;
 		int32_t L_42 = V_0;
 		Il2CppChar L_43 = ___0_input;
@@ -9287,6 +10139,7 @@ IL_00f7:
 
 IL_010a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2475>
 		Il2CppChar L_45 = ___0_input;
 		if (L_45)
 		{
@@ -9294,16 +10147,20 @@ IL_010a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2476>
 		return;
 	}
 
 IL_010e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2479>
 		Il2CppChar L_46 = ___0_input;
 		InputField_Insert_m925B9FADD75785B8FDD886477F0B0CC1E0B4C718(__this, L_46, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2480>
 		return;
 	}
 }
+// Method Definition Index: 19602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9323,6 +10180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateLabel_mDBE25D21A1021AE4
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2487>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9352,7 +10210,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateLabel_mDBE25D21A1021AE4
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2502>
 		__this->___m_PreventFontCallback = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2506>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_6;
 		L_6 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -9391,7 +10251,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateLabel_mDBE25D21A1021AE4
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2508>
 		__this->___m_IsCompositionActive = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2509>
 		String_t* L_14;
 		L_14 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		int32_t L_15 = __this->___m_CaretPosition;
@@ -9412,7 +10274,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateLabel_mDBE25D21A1021AE4
 
 IL_00a3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2513>
 		__this->___m_IsCompositionActive = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2514>
 		String_t* L_22;
 		L_22 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		V_0 = L_22;
@@ -9420,6 +10284,7 @@ IL_00a3:
 
 IL_00b1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2518>
 		int32_t L_23;
 		L_23 = InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0_inline(__this, NULL);
 		if ((!(((uint32_t)L_23) == ((uint32_t)2))))
@@ -9428,6 +10293,7 @@ IL_00b1:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2519>
 		Il2CppChar L_24;
 		L_24 = InputField_get_asteriskChar_m2556CE9FA8ABF5C00552BA665299F71EAC7D55C5_inline(__this, NULL);
 		String_t* L_25 = V_0;
@@ -9441,16 +10307,19 @@ IL_00b1:
 
 IL_00ce:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2521>
 		String_t* L_28 = V_0;
 		V_1 = L_28;
 	}
 
 IL_00d0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2523>
 		String_t* L_29 = V_0;
 		bool L_30;
 		L_30 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_29, NULL);
 		V_2 = L_30;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2525>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_31 = __this->___m_Placeholder;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -9461,6 +10330,7 @@ IL_00d0:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2526>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_33 = __this->___m_Placeholder;
 		bool L_34 = V_2;
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_33, L_34, NULL);
@@ -9468,6 +10338,7 @@ IL_00d0:
 
 IL_00f1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2532>
 		bool L_35 = __this->___m_AllowInput;
 		if (L_35)
 		{
@@ -9475,7 +10346,9 @@ IL_00f1:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2534>
 		__this->___m_DrawStart = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2535>
 		String_t* L_36 = __this->___m_Text;
 		int32_t L_37;
 		L_37 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_36, NULL);
@@ -9484,10 +10357,13 @@ IL_00f1:
 
 IL_0111:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2540>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_38;
 		L_38 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		VirtualActionInvoker0::Invoke(27, L_38);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2541>
 		Canvas_ForceUpdateCanvases_m6ECDBC5E85ADA3301BB20611753C45769F15EB51(NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2543>
 		bool L_39 = V_2;
 		if (L_39)
 		{
@@ -9495,6 +10371,7 @@ IL_0111:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2546>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_40 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_41;
 		L_41 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_40, NULL);
@@ -9504,12 +10381,15 @@ IL_0111:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
 		L_43 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_5), NULL);
 		V_3 = L_43;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2548>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_44 = __this->___m_TextComponent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_45 = V_3;
 		TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3 L_46;
 		L_46 = Text_GetGenerationSettings_m620E0E5AFB30E3331A0371EB2361F587BB0A1E0F(L_44, L_45, NULL);
 		V_4 = L_46;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2549>
 		(&V_4)->___generateOutOfBounds = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2551>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_47;
 		L_47 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		String_t* L_48 = V_1;
@@ -9518,9 +10398,11 @@ IL_0111:
 		L_50 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		bool L_51;
 		L_51 = TextGenerator_PopulateWithErrors_m0E56C12E9D7714F4B8772422AAB2CAC9EA10F834(L_47, L_48, L_49, L_50, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2553>
 		int32_t L_52;
 		L_52 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		InputField_SetDrawRangeToContainCaretPosition_m0F3F4E0179627915136B2B2927CD234304E8432C(__this, L_52, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2555>
 		String_t* L_53 = V_1;
 		int32_t L_54 = __this->___m_DrawStart;
 		int32_t L_55 = __this->___m_DrawEnd;
@@ -9533,26 +10415,33 @@ IL_0111:
 		String_t* L_60;
 		L_60 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_53, L_54, ((int32_t)il2cpp_codegen_subtract(L_58, L_59)), NULL);
 		V_1 = L_60;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2557>
 		InputField_SetCaretVisible_m9DB05703AF6B427F53FB4948BB592CF061AA37AB(__this, NULL);
 	}
 
 IL_01a0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2559>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_61 = __this->___m_TextComponent;
 		String_t* L_62 = V_1;
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_61, L_62);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2560>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2561>
 		__this->___m_PreventFontCallback = (bool)0;
 	}
 
 IL_01b9:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2563>
 		return;
 	}
 }
+// Method Definition Index: 19603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_IsSelectionVisible_m2A7FD156812466D2D2397B57959BF91BACC52EB0 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2567>
 		int32_t L_0 = __this->___m_DrawStart;
 		int32_t L_1;
 		L_1 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
@@ -9573,11 +10462,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputField_IsSelectionVisible_m2A7FD1568
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2568>
 		return (bool)0;
 	}
 
 IL_001e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2570>
 		int32_t L_4 = __this->___m_DrawEnd;
 		int32_t L_5;
 		L_5 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
@@ -9598,14 +10489,17 @@ IL_001e:
 
 IL_003a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2571>
 		return (bool)0;
 	}
 
 IL_003c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2573>
 		return (bool)1;
 	}
 }
+// Method Definition Index: 19604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineStartPosition_m6ABF6AFB8A9495D7A5446B577EB2ECA8770A9660 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___0_gen, int32_t ___1_line, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9616,6 +10510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineStartPosition_m6ABF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2578>
 		int32_t L_0 = ___1_line;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_1 = ___0_gen;
 		RuntimeObject* L_2;
@@ -9625,6 +10520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineStartPosition_m6ABF
 		int32_t L_4;
 		L_4 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_0, 0, ((int32_t)il2cpp_codegen_subtract(L_3, 1)), NULL);
 		___1_line = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2579>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_5 = ___0_gen;
 		RuntimeObject* L_6;
 		L_6 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_5, NULL);
@@ -9635,6 +10531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineStartPosition_m6ABF
 		return L_9;
 	}
 }
+// Method Definition Index: 19605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineEndPosition_m690864C08F9250D76D718D5D54611C886AAA0A79 (TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___0_gen, int32_t ___1_line, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9645,10 +10542,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineEndPosition_m690864
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2584>
 		int32_t L_0 = ___1_line;
 		int32_t L_1;
 		L_1 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_0, 0, NULL);
 		___1_line = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2585>
 		int32_t L_2 = ___1_line;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_3 = ___0_gen;
 		RuntimeObject* L_4;
@@ -9661,6 +10560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineEndPosition_m690864
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2586>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_6 = ___0_gen;
 		RuntimeObject* L_7;
 		L_7 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_6, NULL);
@@ -9673,12 +10573,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_GetLineEndPosition_m690864
 
 IL_002f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2587>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_11 = ___0_gen;
 		int32_t L_12;
 		L_12 = TextGenerator_get_characterCountVisible_m407C344C5A13A26471315449899B927FF3D3CDFC(L_11, NULL);
 		return L_12;
 	}
 }
+// Method Definition Index: 19606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetDrawRangeToContainCaretPosition_m0F3F4E0179627915136B2B2927CD234304E8432C (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_caretPos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9705,6 +10607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetDrawRangeToContainCaretPos
 	RuntimeObject* V_10 = NULL;
 	float V_11 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2593>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_0;
 		L_0 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_1;
@@ -9715,11 +10618,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetDrawRangeToContainCaretPos
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2594>
 		return;
 	}
 
 IL_000f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2598>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_2;
 		L_2 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_3;
@@ -9728,6 +10633,7 @@ IL_000f:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_1), NULL);
 		V_0 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2600>
 		bool L_5;
 		L_5 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(__this, NULL);
 		if (!L_5)
@@ -9736,17 +10642,20 @@ IL_000f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2602>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_6;
 		L_6 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_7;
 		L_7 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_6, NULL);
 		V_2 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2603>
 		int32_t L_8 = ___0_caretPos;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_9;
 		L_9 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_10;
 		L_10 = InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC(__this, L_8, L_9, NULL);
 		V_3 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2605>
 		int32_t L_11 = ___0_caretPos;
 		int32_t L_12 = __this->___m_DrawEnd;
 		if ((((int32_t)L_11) <= ((int32_t)L_12)))
@@ -9755,6 +10664,7 @@ IL_000f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2608>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_13;
 		L_13 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_14 = V_3;
@@ -9762,6 +10672,7 @@ IL_000f:
 		int32_t L_15;
 		L_15 = InputField_GetLineEndPosition_m690864C08F9250D76D718D5D54611C886AAA0A79(L_13, L_14, NULL);
 		__this->___m_DrawEnd = L_15;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2609>
 		RuntimeObject* L_16 = V_2;
 		int32_t L_17 = V_3;
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_18;
@@ -9773,6 +10684,7 @@ IL_000f:
 		L_22 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_20, L_21);
 		int32_t L_23 = L_22.___height;
 		V_4 = ((float)il2cpp_codegen_subtract(L_19, ((float)L_23)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2610>
 		int32_t L_24 = V_3;
 		RuntimeObject* L_25 = V_2;
 		int32_t L_26;
@@ -9783,6 +10695,7 @@ IL_000f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2613>
 		float L_27 = V_4;
 		RuntimeObject* L_28 = V_2;
 		int32_t L_29 = V_3;
@@ -9794,6 +10707,7 @@ IL_000f:
 
 IL_009e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2615>
 		int32_t L_32 = V_3;
 		V_5 = L_32;
 		goto IL_00c3;
@@ -9801,11 +10715,13 @@ IL_009e:
 
 IL_00a3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2618>
 		RuntimeObject* L_33 = V_2;
 		int32_t L_34 = V_5;
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_35;
 		L_35 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_33, ((int32_t)il2cpp_codegen_subtract(L_34, 1)));
 		float L_36 = L_35.___topY;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2619>
 		float L_37 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38 = V_0;
 		float L_39 = L_38.___y;
@@ -9815,12 +10731,14 @@ IL_00a3:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2621>
 		int32_t L_40 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_40, 1));
 	}
 
 IL_00c3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2616>
 		int32_t L_41 = V_5;
 		if ((((int32_t)L_41) > ((int32_t)0)))
 		{
@@ -9830,6 +10748,7 @@ IL_00c3:
 
 IL_00c8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2623>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_42;
 		L_42 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_43 = V_5;
@@ -9842,6 +10761,7 @@ IL_00c8:
 
 IL_00dc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2627>
 		int32_t L_45 = ___0_caretPos;
 		int32_t L_46 = __this->___m_DrawStart;
 		if ((((int32_t)L_45) >= ((int32_t)L_46)))
@@ -9850,6 +10770,7 @@ IL_00dc:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2630>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_47;
 		L_47 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_48 = V_3;
@@ -9861,20 +10782,24 @@ IL_00dc:
 
 IL_00f7:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2633>
 		int32_t L_50 = __this->___m_DrawStart;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_51;
 		L_51 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_52;
 		L_52 = InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC(__this, L_50, L_51, NULL);
 		V_6 = L_52;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2634>
 		int32_t L_53 = V_6;
 		V_7 = L_53;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2636>
 		RuntimeObject* L_54 = V_2;
 		int32_t L_55 = V_6;
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_56;
 		L_56 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_54, L_55);
 		float L_57 = L_56.___topY;
 		V_8 = L_57;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2637>
 		RuntimeObject* L_58 = V_2;
 		int32_t L_59 = V_7;
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_60;
@@ -9886,6 +10811,7 @@ IL_00f7:
 		L_64 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_62, L_63);
 		int32_t L_65 = L_64.___height;
 		V_9 = ((float)il2cpp_codegen_subtract(L_61, ((float)L_65)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2639>
 		int32_t L_66 = V_7;
 		RuntimeObject* L_67 = V_2;
 		int32_t L_68;
@@ -9896,6 +10822,7 @@ IL_00f7:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2642>
 		float L_69 = V_9;
 		RuntimeObject* L_70 = V_2;
 		int32_t L_71 = V_7;
@@ -9908,6 +10835,7 @@ IL_00f7:
 
 IL_015c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2647>
 		RuntimeObject* L_74 = V_2;
 		int32_t L_75 = V_7;
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_76;
@@ -9919,6 +10847,7 @@ IL_015c:
 		L_80 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_78, ((int32_t)il2cpp_codegen_add(L_79, 1)));
 		int32_t L_81 = L_80.___height;
 		V_9 = ((float)il2cpp_codegen_subtract(L_77, ((float)L_81)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2649>
 		int32_t L_82 = V_7;
 		RuntimeObject* L_83 = V_2;
 		int32_t L_84;
@@ -9929,6 +10858,7 @@ IL_015c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2652>
 		float L_85 = V_9;
 		RuntimeObject* L_86 = V_2;
 		int32_t L_87 = V_7;
@@ -9940,6 +10870,7 @@ IL_015c:
 
 IL_01a0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2655>
 		float L_90 = V_8;
 		float L_91 = V_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_92 = V_0;
@@ -9950,12 +10881,14 @@ IL_01a0:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2657>
 		int32_t L_94 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_94, 1));
 	}
 
 IL_01b3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2645>
 		int32_t L_95 = V_7;
 		RuntimeObject* L_96 = V_2;
 		int32_t L_97;
@@ -9968,6 +10901,7 @@ IL_01b3:
 
 IL_01bf:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2660>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_98;
 		L_98 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_99 = V_7;
@@ -9980,12 +10914,14 @@ IL_01bf:
 
 IL_01d4:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2664>
 		RuntimeObject* L_101 = V_2;
 		int32_t L_102 = V_6;
 		UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC L_103;
 		L_103 = InterfaceFuncInvoker1< UILineInfo_tC6FF4F85BD2316FADA2148A1789B3FF0B05A6CAC, int32_t >::Invoke(0, IList_1_tD01F121A6E09A7FB2463237A05A02D8736665FDB_il2cpp_TypeInfo_var, L_101, ((int32_t)il2cpp_codegen_subtract(L_102, 1)));
 		float L_104 = L_103.___topY;
 		V_8 = L_104;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2665>
 		float L_105 = V_8;
 		float L_106 = V_9;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_107 = V_0;
@@ -9996,12 +10932,14 @@ IL_01d4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2667>
 		int32_t L_109 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_subtract(L_109, 1));
 	}
 
 IL_01f8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2662>
 		int32_t L_110 = V_6;
 		if ((((int32_t)L_110) > ((int32_t)0)))
 		{
@@ -10011,6 +10949,7 @@ IL_01f8:
 
 IL_01fd:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2669>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_111;
 		L_111 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_112 = V_6;
@@ -10023,11 +10962,13 @@ IL_01fd:
 
 IL_0211:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2674>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_114;
 		L_114 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		RuntimeObject* L_115;
 		L_115 = TextGenerator_get_characters_mDA07F7108C6EF6F5DF61C478FDF3EB18DCE6B34A(L_114, NULL);
 		V_10 = L_115;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2675>
 		int32_t L_116 = __this->___m_DrawEnd;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_117;
 		L_117 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
@@ -10039,6 +10980,7 @@ IL_0211:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2676>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_119;
 		L_119 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
 		int32_t L_120;
@@ -10048,7 +10990,9 @@ IL_0211:
 
 IL_0242:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2678>
 		V_11 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2679>
 		int32_t L_121 = ___0_caretPos;
 		int32_t L_122 = __this->___m_DrawEnd;
 		if ((((int32_t)L_121) > ((int32_t)L_122)))
@@ -10074,8 +11018,10 @@ IL_0242:
 
 IL_0264:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2682>
 		int32_t L_126 = ___0_caretPos;
 		__this->___m_DrawEnd = L_126;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2683>
 		int32_t L_127 = __this->___m_DrawEnd;
 		__this->___m_DrawStart = ((int32_t)il2cpp_codegen_subtract(L_127, 1));
 		goto IL_02bd;
@@ -10083,6 +11029,7 @@ IL_0264:
 
 IL_027b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2685>
 		float L_128 = V_11;
 		RuntimeObject* L_129 = V_10;
 		int32_t L_130 = __this->___m_DrawStart;
@@ -10097,6 +11044,7 @@ IL_027b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2688>
 		float L_135 = V_11;
 		RuntimeObject* L_136 = V_10;
 		int32_t L_137 = __this->___m_DrawStart;
@@ -10104,12 +11052,14 @@ IL_027b:
 		L_138 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_136, L_137);
 		float L_139 = L_138.___charWidth;
 		V_11 = ((float)il2cpp_codegen_add(L_135, L_139));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2683>
 		int32_t L_140 = __this->___m_DrawStart;
 		__this->___m_DrawStart = ((int32_t)il2cpp_codegen_subtract(L_140, 1));
 	}
 
 IL_02bd:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2683>
 		int32_t L_141 = __this->___m_DrawStart;
 		if ((((int32_t)L_141) >= ((int32_t)0)))
 		{
@@ -10119,6 +11069,7 @@ IL_02bd:
 
 IL_02c6:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2690>
 		int32_t L_142 = __this->___m_DrawStart;
 		__this->___m_DrawStart = ((int32_t)il2cpp_codegen_add(L_142, 1));
 		goto IL_0323;
@@ -10126,6 +11077,7 @@ IL_02c6:
 
 IL_02d6:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2694>
 		int32_t L_143 = ___0_caretPos;
 		int32_t L_144 = __this->___m_DrawStart;
 		if ((((int32_t)L_143) >= ((int32_t)L_144)))
@@ -10134,12 +11086,14 @@ IL_02d6:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2695>
 		int32_t L_145 = ___0_caretPos;
 		__this->___m_DrawStart = L_145;
 	}
 
 IL_02e6:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2697>
 		int32_t L_146 = __this->___m_DrawStart;
 		__this->___m_DrawEnd = L_146;
 		goto IL_0323;
@@ -10147,6 +11101,7 @@ IL_02e6:
 
 IL_02f4:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2703>
 		float L_147 = V_11;
 		RuntimeObject* L_148 = V_10;
 		int32_t L_149 = __this->___m_DrawEnd;
@@ -10154,6 +11109,7 @@ IL_02f4:
 		L_150 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_148, L_149);
 		float L_151 = L_150.___charWidth;
 		V_11 = ((float)il2cpp_codegen_add(L_147, L_151));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2704>
 		float L_152 = V_11;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_153 = V_0;
 		float L_154 = L_153.___x;
@@ -10163,12 +11119,14 @@ IL_02f4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2701>
 		int32_t L_155 = __this->___m_DrawEnd;
 		__this->___m_DrawEnd = ((int32_t)il2cpp_codegen_add(L_155, 1));
 	}
 
 IL_0323:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2701>
 		int32_t L_156 = __this->___m_DrawEnd;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_157;
 		L_157 = InputField_get_cachedInputTextGenerator_m42F16837E9BC49BB43F58163B827C4260303E48E(__this, NULL);
@@ -10182,16 +11140,21 @@ IL_0323:
 
 IL_0336:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2708>
 		return;
 	}
 }
+// Method Definition Index: 19607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ForceLabelUpdate_m49441594294B33C5DC10D717198A476B523EE1C8 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2715>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2716>
 		return;
 	}
 }
+// Method Definition Index: 19608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10201,11 +11164,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_MarkGeometryAsDirty_m71DCE400
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2725>
 		il2cpp_codegen_runtime_class_init_inline(CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		CanvasUpdateRegistry_RegisterCanvasElementForGraphicRebuild_mEBBD04C3B001E80801966E3347E70A35FCEBE8B1(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2726>
 		return;
 	}
 }
+// Method Definition Index: 19609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Rebuild_m4974AB56B494186177AB4BA6C2626BCB0EF93304 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_update, const RuntimeMethod* method) 
 {
 	{
@@ -10216,26 +11182,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_Rebuild_m4974AB56B494186177AB
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2737>
 		InputField_UpdateGeometry_mABF2E288AF71AF5C8E608F30745D6BAE40A9CB4D(__this, NULL);
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2740>
 		return;
 	}
 }
+// Method Definition Index: 19610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_LayoutComplete_m7953946E63BF48E14CE1FF13D76FCAA832735C7F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2746>
 		return;
 	}
 }
+// Method Definition Index: 19611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GraphicUpdateComplete_m25B7375B32DC3384EF8684ADDAB6996359668DBF (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2752>
 		return;
 	}
 }
+// Method Definition Index: 19612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateGeometry_mABF2E288AF71AF5C8E608F30745D6BAE40A9CB4D (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10256,6 +11229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateGeometry_mABF2E288AF71A
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2761>
 		bool L_0;
 		L_0 = InputField_InPlaceEditing_m1F71173373CC2A21034D23ECA0060FA4E5A89F11(__this, NULL);
 		if (L_0)
@@ -10272,11 +11246,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_UpdateGeometry_mABF2E288AF71A
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2762>
 		return;
 	}
 
 IL_0011:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2764>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_2 = __this->___m_CachedInputRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -10297,6 +11273,7 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2766>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		String_t* L_7;
@@ -10320,8 +11297,10 @@ IL_0011:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_16, L_8, L_13, NULL);
 		V_0 = L_16;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2767>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_0;
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_17, ((int32_t)52), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2768>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_18, NULL);
@@ -10331,26 +11310,31 @@ IL_0011:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
 		L_22 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_21, NULL);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_19, L_22, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2769>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
 		L_24 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
 		Transform_SetAsFirstSibling_mBE0D0E76099F829466DC2FBD71ACFCF3C8EC03BD(L_24, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2770>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
 		L_26 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		int32_t L_27;
 		L_27 = GameObject_get_layer_m108902B9C89E9F837CE06B9942AA42307450FEAF(L_26, NULL);
 		GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0(L_25, L_27, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2772>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_29;
 		L_29 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_28, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		__this->___caretRectTrans = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___caretRectTrans), (void*)L_29);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2773>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_0;
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_31;
 		L_31 = GameObject_GetComponent_TisCanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860_m352B503784BB68953253ED4AD666B68C6CF05BA9(L_30, GameObject_GetComponent_TisCanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860_m352B503784BB68953253ED4AD666B68C6CF05BA9_RuntimeMethod_var);
 		__this->___m_CachedInputRenderer = L_31;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CachedInputRenderer), (void*)L_31);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2774>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_32 = __this->___m_CachedInputRenderer;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_il2cpp_TypeInfo_var);
@@ -10361,15 +11345,18 @@ IL_0011:
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_36;
 		L_36 = Texture2D_get_whiteTexture_m3A243ED388F9EF0EC515015A6E0E50FD261D2FA1(NULL);
 		CanvasRenderer_SetMaterial_m445BACF01EF1997CBFCBB79AB64E09AF39860196(L_32, L_35, L_36, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2777>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = V_0;
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_38;
 		L_38 = GameObject_AddComponent_TisLayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A_mCAEF1A4C92D1C856A46417BA645409AE42F005D2(L_37, GameObject_AddComponent_TisLayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A_mCAEF1A4C92D1C856A46417BA645409AE42F005D2_RuntimeMethod_var);
 		VirtualActionInvoker1< bool >::Invoke(28, L_38, (bool)1);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2779>
 		InputField_AssignPositioningIfNeeded_m114957547C208AD107279D1B6E8A855D18915E36(__this, NULL);
 	}
 
 IL_00f7:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2782>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_39 = __this->___m_CachedInputRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_40;
@@ -10380,21 +11367,26 @@ IL_00f7:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2783>
 		return;
 	}
 
 IL_0106:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2785>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_41;
 		L_41 = InputField_get_mesh_m89CB1A4155FF8E7C42D5D97178DD00A3A7D8888E(__this, NULL);
 		InputField_OnFillVBO_m84E1576406EFFC37D6EFDDD4604B393E281C5BA2(__this, L_41, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2786>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_42 = __this->___m_CachedInputRenderer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_43;
 		L_43 = InputField_get_mesh_m89CB1A4155FF8E7C42D5D97178DD00A3A7D8888E(__this, NULL);
 		CanvasRenderer_SetMesh_m1DF21BBC31233AC324BC08331BB542C619DC7543(L_42, L_43, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2787>
 		return;
 	}
 }
+// Method Definition Index: 19613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_AssignPositioningIfNeeded_m114957547C208AD107279D1B6E8A855D18915E36 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10404,6 +11396,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_AssignPositioningIfNeeded_m11
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2791>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2792>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2793>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2794>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2795>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2796>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2797>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2798>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2799>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10554,6 +11555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_AssignPositioningIfNeeded_m11
 
 IL_0141:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2801>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_52 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_53 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_54;
@@ -10561,6 +11563,7 @@ IL_0141:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 		L_55 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_54, NULL);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_52, L_55, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2802>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_56 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_57 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_58;
@@ -10568,6 +11571,7 @@ IL_0141:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_59;
 		L_59 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_58, NULL);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_56, L_59, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2803>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_60 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_61 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_62;
@@ -10575,6 +11579,7 @@ IL_0141:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
 		L_63 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_62, NULL);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_60, L_63, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2804>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_64 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_65 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_66;
@@ -10582,6 +11587,7 @@ IL_0141:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_67;
 		L_67 = RectTransform_get_anchorMin_mD85363930BE38EC188F933B9F4D58320CAB72F03(L_66, NULL);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_64, L_67, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2805>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_68 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_69 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_70;
@@ -10589,6 +11595,7 @@ IL_0141:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_71;
 		L_71 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_70, NULL);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_68, L_71, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2806>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_72 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_73 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_74;
@@ -10596,6 +11603,7 @@ IL_0141:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_75;
 		L_75 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_74, NULL);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_72, L_75, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2807>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_76 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_77 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_78;
@@ -10603,6 +11611,7 @@ IL_0141:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_79;
 		L_79 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_78, NULL);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_76, L_79, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2808>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_80 = __this->___caretRectTrans;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_81 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_82;
@@ -10614,9 +11623,11 @@ IL_0141:
 
 IL_0219:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2810>
 		return;
 	}
 }
+// Method Definition Index: 19614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnFillVBO_m84E1576406EFFC37D6EFDDD4604B393E281C5BA2 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_vbo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10630,6 +11641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnFillVBO_m84E1576406EFFC37D6
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2814>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_0 = (VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE*)il2cpp_codegen_object_new(VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE_il2cpp_TypeInfo_var);
 		VertexHelper__ctor_mE8DE438637116EA7AF8180E10E7641FD00DB64A5(L_0, NULL);
 		V_0 = L_0;
@@ -10661,6 +11673,7 @@ IL_0054:
 		try
 		{
 			{
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2816>
 				bool L_3;
 				L_3 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 				if (L_3)
@@ -10669,20 +11682,24 @@ IL_0054:
 				}
 			}
 			{
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2818>
 				VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_4 = V_0;
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5 = ___0_vbo;
 				VertexHelper_FillMesh_m524F00287F0A0C7683E2CC7768A77B5755544A0E(L_4, L_5, NULL);
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2819>
 				goto IL_0055;
 			}
 
 IL_0017_1:
 			{
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2822>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_TextComponent;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 				L_7 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 				L_8 = Graphic_PixelAdjustPoint_mBC4AFC26628D498B9872314726561D72F6DD2F28(L_6, L_7, NULL);
 				V_1 = L_8;
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2823>
 				bool L_9;
 				L_9 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(__this, NULL);
 				if (L_9)
@@ -10691,6 +11708,7 @@ IL_0017_1:
 				}
 			}
 			{
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2824>
 				VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_10 = V_0;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_1;
 				InputField_GenerateCaret_m401461627986E86804E31BE16332003BDCD9EF98(__this, L_10, L_11, NULL);
@@ -10699,6 +11717,7 @@ IL_0017_1:
 
 IL_003a_1:
 			{
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2826>
 				VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_12 = V_0;
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_1;
 				InputField_GenerateHighlight_mD1A67441901D78AE29E17A655791754A92EEC072(__this, L_12, L_13, NULL);
@@ -10706,9 +11725,11 @@ IL_003a_1:
 
 IL_0042_1:
 			{
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2828>
 				VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_14 = V_0;
 				Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_15 = ___0_vbo;
 				VertexHelper_FillMesh_m524F00287F0A0C7683E2CC7768A77B5755544A0E(L_14, L_15, NULL);
+				//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2829>
 				goto IL_0055;
 			}
 		}
@@ -10720,9 +11741,11 @@ IL_0042_1:
 
 IL_0055:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2830>
 		return;
 	}
 }
+// Method Definition Index: 19615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GenerateCaret_m401461627986E86804E31BE16332003BDCD9EF98 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___0_vbo, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_roundingOffset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10759,6 +11782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GenerateCaret_m401461627986E8
 	UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 V_15;
 	memset((&V_15), 0, sizeof(V_15));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2834>
 		bool L_0 = __this->___m_CaretVisible;
 		if (L_0)
 		{
@@ -10766,11 +11790,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GenerateCaret_m401461627986E8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2835>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2837>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_1 = __this->___m_CursorVerts;
 		if (L_1)
 		{
@@ -10778,23 +11804,28 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2839>
 		InputField_CreateCursorVerts_m2170881250E5F316805946E87EA1F1A794E6AB23(__this, NULL);
 	}
 
 IL_0017:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2842>
 		int32_t L_2 = __this->___m_CaretWidth;
 		V_0 = ((float)L_2);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2843>
 		int32_t L_3;
 		L_3 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_4 = __this->___m_DrawStart;
 		int32_t L_5;
 		L_5 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, ((int32_t)il2cpp_codegen_subtract(L_3, L_4)), NULL);
 		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2844>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_TextComponent;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_7;
 		L_7 = Text_get_cachedTextGenerator_mFC242539F7380F54696D431B126B69DC4EFC821E(L_6, NULL);
 		V_2 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2846>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_8 = V_2;
 		if (L_8)
 		{
@@ -10802,11 +11833,13 @@ IL_0017:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2847>
 		return;
 	}
 
 IL_0043:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2849>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_9 = V_2;
 		int32_t L_10;
 		L_10 = TextGenerator_get_lineCount_mC568C375C85695478DD054B296CBEAB11D3C4108(L_9, NULL);
@@ -10816,14 +11849,17 @@ IL_0043:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2850>
 		return;
 	}
 
 IL_004c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2852>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
 		L_11 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_3 = L_11;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2855>
 		int32_t L_12 = V_1;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_13 = V_2;
 		RuntimeObject* L_14;
@@ -10836,6 +11872,7 @@ IL_004c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2857>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_16 = V_2;
 		RuntimeObject* L_17;
 		L_17 = TextGenerator_get_characters_mDA07F7108C6EF6F5DF61C478FDF3EB18DCE6B34A(L_16, NULL);
@@ -10843,6 +11880,7 @@ IL_004c:
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_19;
 		L_19 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_17, L_18);
 		V_11 = L_19;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2858>
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_20 = V_11;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = L_20.___cursorPos;
 		float L_22 = L_21.___x;
@@ -10851,6 +11889,7 @@ IL_004c:
 
 IL_0081:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2860>
 		float* L_23 = (float*)(&(&V_3)->___x);
 		float* L_24 = L_23;
 		float L_25 = *((float*)L_24);
@@ -10858,6 +11897,7 @@ IL_0081:
 		float L_27;
 		L_27 = Text_get_pixelsPerUnit_mC48AE94D40662DE114A72B870DF77BF7B418925E(L_26, NULL);
 		*((float*)L_24) = (float)((float)(L_25/L_27));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2863>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_3;
 		float L_29 = L_28.___x;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___m_TextComponent;
@@ -10874,6 +11914,7 @@ IL_0081:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2864>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_35;
 		L_35 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_34, NULL);
@@ -10887,11 +11928,13 @@ IL_0081:
 
 IL_00d8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2866>
 		int32_t L_38 = V_1;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_39 = V_2;
 		int32_t L_40;
 		L_40 = InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC(__this, L_38, L_39, NULL);
 		V_4 = L_40;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2867>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_41 = V_2;
 		RuntimeObject* L_42;
 		L_42 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_41, NULL);
@@ -10903,6 +11946,7 @@ IL_00d8:
 		float L_47;
 		L_47 = Text_get_pixelsPerUnit_mC48AE94D40662DE114A72B870DF77BF7B418925E(L_46, NULL);
 		(&V_3)->___y = ((float)(L_45/L_47));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2868>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_48 = V_2;
 		RuntimeObject* L_49;
 		L_49 = TextGenerator_get_lines_m52DAB15921DC96120CA6C21A3FEB2406D4A76064(L_48, NULL);
@@ -10914,12 +11958,14 @@ IL_00d8:
 		float L_54;
 		L_54 = Text_get_pixelsPerUnit_mC48AE94D40662DE114A72B870DF77BF7B418925E(L_53, NULL);
 		V_5 = ((float)(((float)L_52)/L_54));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2870>
 		V_13 = 0;
 		goto IL_0150;
 	}
 
 IL_012d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2871>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_55 = __this->___m_CursorVerts;
 		int32_t L_56 = V_13;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_57;
@@ -10927,12 +11973,14 @@ IL_012d:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_58;
 		L_58 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_57, NULL);
 		((L_55)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_56)))->___color = L_58;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2870>
 		int32_t L_59 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_59, 1));
 	}
 
 IL_0150:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2870>
 		int32_t L_60 = V_13;
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_61 = __this->___m_CursorVerts;
 		if ((((int32_t)L_60) < ((int32_t)((int32_t)(((RuntimeArray*)L_61)->max_length)))))
@@ -10941,6 +11989,7 @@ IL_0150:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2873>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_62 = __this->___m_CursorVerts;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_63 = V_3;
 		float L_64 = L_63.___x;
@@ -10951,6 +12000,7 @@ IL_0150:
 		memset((&L_68), 0, sizeof(L_68));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_68), L_64, ((float)il2cpp_codegen_subtract(L_66, L_67)), (0.0f), NULL);
 		((L_62)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(0)))->___position = L_68;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2874>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_69 = __this->___m_CursorVerts;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_70 = V_3;
 		float L_71 = L_70.___x;
@@ -10962,6 +12012,7 @@ IL_0150:
 		memset((&L_76), 0, sizeof(L_76));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_76), ((float)il2cpp_codegen_add(L_71, L_72)), ((float)il2cpp_codegen_subtract(L_74, L_75)), (0.0f), NULL);
 		((L_69)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(1)))->___position = L_76;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2875>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_77 = __this->___m_CursorVerts;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_78 = V_3;
 		float L_79 = L_78.___x;
@@ -10972,6 +12023,7 @@ IL_0150:
 		memset((&L_83), 0, sizeof(L_83));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_83), ((float)il2cpp_codegen_add(L_79, L_80)), L_82, (0.0f), NULL);
 		((L_77)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(2)))->___position = L_83;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2876>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_84 = __this->___m_CursorVerts;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_85 = V_3;
 		float L_86 = L_85.___x;
@@ -10981,6 +12033,7 @@ IL_0150:
 		memset((&L_89), 0, sizeof(L_89));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_89), L_86, L_88, (0.0f), NULL);
 		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(3)))->___position = L_89;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2878>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_90 = ___1_roundingOffset;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_91;
 		L_91 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
@@ -10992,17 +12045,20 @@ IL_0150:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2880>
 		V_14 = 0;
 		goto IL_0255;
 	}
 
 IL_0214:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2882>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_93 = __this->___m_CursorVerts;
 		int32_t L_94 = V_14;
 		int32_t L_95 = L_94;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_96 = (L_93)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_95));
 		V_15 = L_96;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2883>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_97 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&(&V_15)->___position);
 		float* L_98 = (float*)(&L_97->___x);
 		float* L_99 = L_98;
@@ -11010,6 +12066,7 @@ IL_0214:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_101 = ___1_roundingOffset;
 		float L_102 = L_101.___x;
 		*((float*)L_99) = (float)((float)il2cpp_codegen_add(L_100, L_102));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2884>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_103 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&(&V_15)->___position);
 		float* L_104 = (float*)(&L_103->___y);
 		float* L_105 = L_104;
@@ -11017,12 +12074,14 @@ IL_0214:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_107 = ___1_roundingOffset;
 		float L_108 = L_107.___y;
 		*((float*)L_105) = (float)((float)il2cpp_codegen_add(L_106, L_108));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2880>
 		int32_t L_109 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_add(L_109, 1));
 	}
 
 IL_0255:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2880>
 		int32_t L_110 = V_14;
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_111 = __this->___m_CursorVerts;
 		if ((((int32_t)L_110) < ((int32_t)((int32_t)(((RuntimeArray*)L_111)->max_length)))))
@@ -11033,18 +12092,22 @@ IL_0255:
 
 IL_0261:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2888>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_112 = ___0_vbo;
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_113 = __this->___m_CursorVerts;
 		VertexHelper_AddUIVertexQuad_m6AC21081F2A5A48D22BC3497E527D0A9AB8278B0(L_112, L_113, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2890>
 		int32_t L_114;
 		L_114 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
 		V_6 = L_114;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2894>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_115 = __this->___m_TextComponent;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_116;
 		L_116 = Graphic_get_canvas_mEA2161DF3BD736541DE41F9B814C4860FEB76419(L_115, NULL);
 		int32_t L_117;
 		L_117 = Canvas_get_targetDisplay_m2F2FCEA6885820E659F2F520991828DE54CCB6BF(L_116, NULL);
 		V_7 = L_117;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2895>
 		int32_t L_118 = V_7;
 		if ((((int32_t)L_118) <= ((int32_t)0)))
 		{
@@ -11061,6 +12124,7 @@ IL_0261:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2896>
 		il2cpp_codegen_runtime_class_init_inline(Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_il2cpp_TypeInfo_var);
 		DisplayU5BU5D_tAD77D7EE2B839E3EDA0D1C0028B64F867F400C7F* L_121 = ((Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_StaticFields*)il2cpp_codegen_static_fields_for(Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_il2cpp_TypeInfo_var))->___displays;
 		int32_t L_122 = V_7;
@@ -11073,6 +12137,7 @@ IL_0261:
 
 IL_02a5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2900>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_126 = __this->___m_TextComponent;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_127;
 		L_127 = Graphic_get_canvas_mEA2161DF3BD736541DE41F9B814C4860FEB76419(L_126, NULL);
@@ -11084,12 +12149,14 @@ IL_02a5:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2901>
 		V_8 = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 		goto IL_02ce;
 	}
 
 IL_02bc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2903>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_129 = __this->___m_TextComponent;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_130;
 		L_130 = Graphic_get_canvas_mEA2161DF3BD736541DE41F9B814C4860FEB76419(L_129, NULL);
@@ -11100,6 +12167,7 @@ IL_02bc:
 
 IL_02ce:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2905>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_132 = __this->___m_CachedInputRenderer;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_133;
 		L_133 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_132, NULL);
@@ -11110,16 +12178,19 @@ IL_02ce:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_137;
 		L_137 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_134, L_136, NULL);
 		V_9 = L_137;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2906>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_138 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_139 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_140;
 		L_140 = RectTransformUtility_WorldToScreenPoint_mC8701032E223BA296C43799F4AEE98626686238F(L_138, L_139, NULL);
 		V_10 = L_140;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2907>
 		int32_t L_141 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_142 = V_10;
 		float L_143 = L_142.___y;
 		(&V_10)->___y = ((float)il2cpp_codegen_subtract(((float)L_141), L_143));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2909>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_144;
 		L_144 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -11131,6 +12202,7 @@ IL_02ce:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2910>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_146;
 		L_146 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_147 = V_10;
@@ -11139,9 +12211,11 @@ IL_02ce:
 
 IL_032e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2911>
 		return;
 	}
 }
+// Method Definition Index: 19616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_CreateCursorVerts_m2170881250E5F316805946E87EA1F1A794E6AB23 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11153,20 +12227,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_CreateCursorVerts_m2170881250
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2915>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_0 = (UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F*)(UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F*)SZArrayNew(UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F_il2cpp_TypeInfo_var, (uint32_t)4);
 		__this->___m_CursorVerts = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CursorVerts), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2917>
 		V_0 = 0;
 		goto IL_0040;
 	}
 
 IL_0010:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2919>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_1 = __this->___m_CursorVerts;
 		int32_t L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_il2cpp_TypeInfo_var);
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_3 = ((UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_StaticFields*)il2cpp_codegen_static_fields_for(UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_il2cpp_TypeInfo_var))->___simpleVert;
 		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2), (UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207)L_3);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2920>
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_4 = __this->___m_CursorVerts;
 		int32_t L_5 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
@@ -11174,12 +12252,14 @@ IL_0010:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_7;
 		L_7 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_6, NULL);
 		((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___uv0 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2917>
 		int32_t L_8 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0040:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2917>
 		int32_t L_9 = V_0;
 		UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* L_10 = __this->___m_CursorVerts;
 		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
@@ -11188,9 +12268,11 @@ IL_0040:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2922>
 		return;
 	}
 }
+// Method Definition Index: 19617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GenerateHighlight_mD1A67441901D78AE29E17A655791754A92EEC072 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___0_vbo, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_roundingOffset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11222,18 +12304,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GenerateHighlight_mD1A6744190
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_12;
 	memset((&V_12), 0, sizeof(V_12));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2926>
 		int32_t L_0;
 		L_0 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		int32_t L_1 = __this->___m_DrawStart;
 		int32_t L_2;
 		L_2 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, ((int32_t)il2cpp_codegen_subtract(L_0, L_1)), NULL);
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2927>
 		int32_t L_3;
 		L_3 = InputField_get_caretSelectPositionInternal_mBAE2F71F18603A0C4A6AA08F0BFE5831CBBBA461(__this, NULL);
 		int32_t L_4 = __this->___m_DrawStart;
 		int32_t L_5;
 		L_5 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, ((int32_t)il2cpp_codegen_subtract(L_3, L_4)), NULL);
 		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2930>
 		int32_t L_6 = V_0;
 		int32_t L_7 = V_1;
 		if ((((int32_t)L_6) <= ((int32_t)L_7)))
@@ -11242,20 +12327,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_GenerateHighlight_mD1A6744190
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2932>
 		int32_t L_8 = V_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2933>
 		int32_t L_9 = V_1;
 		V_0 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2934>
 		V_1 = L_8;
 	}
 
 IL_0030:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2937>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2938>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___m_TextComponent;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_12;
 		L_12 = Text_get_cachedTextGenerator_mFC242539F7380F54696D431B126B69DC4EFC821E(L_11, NULL);
 		V_2 = L_12;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2940>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_13 = V_2;
 		int32_t L_14;
 		L_14 = TextGenerator_get_lineCount_mC568C375C85695478DD054B296CBEAB11D3C4108(L_13, NULL);
@@ -11265,35 +12356,42 @@ IL_0030:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2941>
 		return;
 	}
 
 IL_004a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2943>
 		int32_t L_15 = V_0;
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_16 = V_2;
 		int32_t L_17;
 		L_17 = InputField_DetermineCharacterLine_mD80BD8A0F49EE45FA6E512796D3A4A15462D97BC(__this, L_15, L_16, NULL);
 		V_3 = L_17;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2945>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_18 = V_2;
 		int32_t L_19 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		int32_t L_20;
 		L_20 = InputField_GetLineEndPosition_m690864C08F9250D76D718D5D54611C886AAA0A79(L_18, L_19, NULL);
 		V_4 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2947>
 		il2cpp_codegen_runtime_class_init_inline(UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_il2cpp_TypeInfo_var);
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_21 = ((UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_StaticFields*)il2cpp_codegen_static_fields_for(UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_il2cpp_TypeInfo_var))->___simpleVert;
 		V_5 = L_21;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2948>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
 		L_22 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_23;
 		L_23 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_22, NULL);
 		(&V_5)->___uv0 = L_23;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2949>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
 		L_24 = InputField_get_selectionColor_m988C5ACE38195B9B6397352B5A226FF3867A6E54_inline(__this, NULL);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_25;
 		L_25 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_24, NULL);
 		(&V_5)->___color = L_25;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2951>
 		int32_t L_26 = V_0;
 		V_6 = L_26;
 		goto IL_02ae;
@@ -11301,6 +12399,7 @@ IL_004a:
 
 IL_008e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2954>
 		int32_t L_27 = V_6;
 		int32_t L_28 = V_4;
 		if ((((int32_t)L_27) == ((int32_t)L_28)))
@@ -11319,6 +12418,7 @@ IL_008e:
 
 IL_009c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2956>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_31 = V_2;
 		RuntimeObject* L_32;
 		L_32 = TextGenerator_get_characters_mDA07F7108C6EF6F5DF61C478FDF3EB18DCE6B34A(L_31, NULL);
@@ -11326,6 +12426,7 @@ IL_009c:
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_34;
 		L_34 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_32, L_33);
 		V_7 = L_34;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2957>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_35 = V_2;
 		RuntimeObject* L_36;
 		L_36 = TextGenerator_get_characters_mDA07F7108C6EF6F5DF61C478FDF3EB18DCE6B34A(L_35, NULL);
@@ -11333,6 +12434,7 @@ IL_009c:
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_38;
 		L_38 = InterfaceFuncInvoker1< UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD, int32_t >::Invoke(0, IList_1_t7C94015474540F0009E4F2C369960F5CBFF622E9_il2cpp_TypeInfo_var, L_36, L_37);
 		V_8 = L_38;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2958>
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_39 = V_7;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = L_39.___cursorPos;
 		float L_41 = L_40.___x;
@@ -11350,6 +12452,7 @@ IL_009c:
 		float L_50;
 		L_50 = Text_get_pixelsPerUnit_mC48AE94D40662DE114A72B870DF77BF7B418925E(L_49, NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_9), ((float)(L_41/L_43)), ((float)(L_48/L_50)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2959>
 		UICharInfo_t24C2EA0F2F3A938100C271891D9DEB015ABA5FBD L_51 = V_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = L_51.___cursorPos;
 		float L_53 = L_52.___x;
@@ -11371,6 +12474,7 @@ IL_009c:
 		float L_66;
 		L_66 = Text_get_pixelsPerUnit_mC48AE94D40662DE114A72B870DF77BF7B418925E(L_65, NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_10), ((float)(((float)il2cpp_codegen_add(L_53, L_55))/L_57)), ((float)il2cpp_codegen_subtract(L_59, ((float)(((float)L_64)/L_66)))), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2962>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_67 = V_10;
 		float L_68 = L_67.___x;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_69 = __this->___m_TextComponent;
@@ -11405,6 +12509,7 @@ IL_009c:
 
 IL_0186:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2963>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_79 = __this->___m_TextComponent;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_80;
 		L_80 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_79, NULL);
@@ -11418,10 +12523,12 @@ IL_0186:
 
 IL_01a6:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2965>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_83 = ___0_vbo;
 		int32_t L_84;
 		L_84 = VertexHelper_get_currentVertCount_m45BFEBD6FCB7DF3BF9F76946D6002BDC58B173A4(L_83, NULL);
 		V_11 = L_84;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2966>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_85 = V_9;
 		float L_86 = L_85.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_87 = V_10;
@@ -11435,9 +12542,11 @@ IL_01a6:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92;
 		L_92 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_89, L_91, NULL);
 		(&V_5)->___position = L_92;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2967>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_93 = ___0_vbo;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_94 = V_5;
 		VertexHelper_AddVert_mB65D778E8E3C6916CDFF5382208890882C3031BA(L_93, L_94, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2969>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95 = V_10;
 		float L_96 = L_95.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97 = V_10;
@@ -11451,9 +12560,11 @@ IL_01a6:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102;
 		L_102 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_99, L_101, NULL);
 		(&V_5)->___position = L_102;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2970>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_103 = ___0_vbo;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_104 = V_5;
 		VertexHelper_AddVert_mB65D778E8E3C6916CDFF5382208890882C3031BA(L_103, L_104, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2972>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_105 = V_10;
 		float L_106 = L_105.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_107 = V_9;
@@ -11467,9 +12578,11 @@ IL_01a6:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_112;
 		L_112 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_109, L_111, NULL);
 		(&V_5)->___position = L_112;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2973>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_113 = ___0_vbo;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_114 = V_5;
 		VertexHelper_AddVert_mB65D778E8E3C6916CDFF5382208890882C3031BA(L_113, L_114, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2975>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_115 = V_9;
 		float L_116 = L_115.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_117 = V_9;
@@ -11483,23 +12596,29 @@ IL_01a6:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_122;
 		L_122 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_119, L_121, NULL);
 		(&V_5)->___position = L_122;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2976>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_123 = ___0_vbo;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_124 = V_5;
 		VertexHelper_AddVert_mB65D778E8E3C6916CDFF5382208890882C3031BA(L_123, L_124, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2978>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_125 = ___0_vbo;
 		int32_t L_126 = V_11;
 		int32_t L_127 = V_11;
 		int32_t L_128 = V_11;
 		VertexHelper_AddTriangle_mBA2504734E550C672A33168BE119D76D92C788A4(L_125, L_126, ((int32_t)il2cpp_codegen_add(L_127, 1)), ((int32_t)il2cpp_codegen_add(L_128, 2)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2979>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_129 = ___0_vbo;
 		int32_t L_130 = V_11;
 		int32_t L_131 = V_11;
 		int32_t L_132 = V_11;
 		VertexHelper_AddTriangle_mBA2504734E550C672A33168BE119D76D92C788A4(L_129, ((int32_t)il2cpp_codegen_add(L_130, 2)), ((int32_t)il2cpp_codegen_add(L_131, 3)), L_132, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2981>
 		int32_t L_133 = V_6;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_133, 1));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2982>
 		int32_t L_134 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_134, 1));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2984>
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_135 = V_2;
 		int32_t L_136 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
@@ -11510,12 +12629,14 @@ IL_01a6:
 
 IL_02a8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2986>
 		int32_t L_138 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_138, 1));
 	}
 
 IL_02ae:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2952>
 		int32_t L_139 = V_6;
 		int32_t L_140 = V_1;
 		if ((((int32_t)L_139) > ((int32_t)L_140)))
@@ -11536,9 +12657,11 @@ IL_02ae:
 
 IL_02c0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:2988>
 		return;
 	}
 }
+// Method Definition Index: 19618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar InputField_Validate_mBB63D4E37F8CD96C0F57270259DDE69E3BCB7656 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_text, int32_t ___1_pos, Il2CppChar ___2_ch, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11574,6 +12697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar InputField_Validate_mBB63D4E37F8CD
 	int32_t G_B102_0 = 0;
 	int32_t G_B102_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3000>
 		int32_t L_0;
 		L_0 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if (!L_0)
@@ -11592,12 +12716,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar InputField_Validate_mBB63D4E37F8CD
 
 IL_0010:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3001>
 		Il2CppChar L_2 = ___2_ch;
 		return L_2;
 	}
 
 IL_0012:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3003>
 		int32_t L_3;
 		L_3 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if ((((int32_t)L_3) == ((int32_t)1)))
@@ -11616,6 +12742,7 @@ IL_0012:
 
 IL_0027:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3006>
 		int32_t L_5 = ___1_pos;
 		if (L_5)
 		{
@@ -11646,6 +12773,7 @@ IL_0040:
 
 IL_0041:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3007>
 		String_t* L_10 = ___0_text;
 		int32_t L_11;
 		L_11 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_10, NULL);
@@ -11730,6 +12858,7 @@ IL_007f:
 IL_0080:
 	{
 		V_0 = (bool)G_B18_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3008>
 		int32_t L_18;
 		L_18 = InputField_get_caretPositionInternal_mF01180C72008CCDD2A5371EE45B84D7745CB6BC0(__this, NULL);
 		if (!L_18)
@@ -11756,6 +12885,7 @@ IL_0094:
 IL_0095:
 	{
 		V_1 = (bool)G_B21_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3009>
 		bool L_20 = V_0;
 		if (!((int32_t)(((((int32_t)G_B21_1) == ((int32_t)0))? 1 : 0)|(int32_t)L_20)))
 		{
@@ -11763,6 +12893,7 @@ IL_0095:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3011>
 		Il2CppChar L_21 = ___2_ch;
 		if ((((int32_t)L_21) < ((int32_t)((int32_t)48))))
 		{
@@ -11777,12 +12908,14 @@ IL_0095:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3011>
 		Il2CppChar L_23 = ___2_ch;
 		return L_23;
 	}
 
 IL_00ac:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3012>
 		Il2CppChar L_24 = ___2_ch;
 		if ((!(((uint32_t)L_24) == ((uint32_t)((int32_t)45)))))
 		{
@@ -11798,12 +12931,14 @@ IL_00ac:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3012>
 		Il2CppChar L_27 = ___2_ch;
 		return L_27;
 	}
 
 IL_00bb:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3013>
 		Il2CppChar L_28 = ___2_ch;
 		if ((((int32_t)L_28) == ((int32_t)((int32_t)46))))
 		{
@@ -11842,12 +12977,14 @@ IL_00c8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3013>
 		Il2CppChar L_36 = ___2_ch;
 		return L_36;
 	}
 
 IL_00f2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3016>
 		int32_t L_37;
 		L_37 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if ((!(((uint32_t)L_37) == ((uint32_t)3))))
@@ -11856,6 +12993,7 @@ IL_00f2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3019>
 		Il2CppChar L_38 = ___2_ch;
 		if ((((int32_t)L_38) < ((int32_t)((int32_t)65))))
 		{
@@ -11870,12 +13008,14 @@ IL_00f2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3019>
 		Il2CppChar L_40 = ___2_ch;
 		return L_40;
 	}
 
 IL_0107:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3020>
 		Il2CppChar L_41 = ___2_ch;
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)97))))
 		{
@@ -11890,12 +13030,14 @@ IL_0107:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3020>
 		Il2CppChar L_43 = ___2_ch;
 		return L_43;
 	}
 
 IL_0113:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3021>
 		Il2CppChar L_44 = ___2_ch;
 		if ((((int32_t)L_44) < ((int32_t)((int32_t)48))))
 		{
@@ -11910,12 +13052,14 @@ IL_0113:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3021>
 		Il2CppChar L_46 = ___2_ch;
 		return L_46;
 	}
 
 IL_0125:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3023>
 		int32_t L_47;
 		L_47 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if ((!(((uint32_t)L_47) == ((uint32_t)4))))
@@ -11924,6 +13068,7 @@ IL_0125:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3038>
 		Il2CppChar L_48 = ___2_ch;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_49;
@@ -11934,6 +13079,7 @@ IL_0125:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3041>
 		Il2CppChar L_50 = ___2_ch;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_51;
@@ -11973,6 +13119,7 @@ IL_0125:
 
 IL_015e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3043>
 		Il2CppChar L_59 = ___2_ch;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		Il2CppChar L_60;
@@ -11982,6 +13129,7 @@ IL_015e:
 
 IL_0165:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3047>
 		Il2CppChar L_61 = ___2_ch;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_62;
@@ -12029,6 +13177,7 @@ IL_0165:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3049>
 		Il2CppChar L_73 = ___2_ch;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		Il2CppChar L_74;
@@ -12038,12 +13187,14 @@ IL_0165:
 
 IL_019f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3052>
 		Il2CppChar L_75 = ___2_ch;
 		return L_75;
 	}
 
 IL_01a1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3055>
 		Il2CppChar L_76 = ___2_ch;
 		if ((!(((uint32_t)L_76) == ((uint32_t)((int32_t)39)))))
 		{
@@ -12051,6 +13202,7 @@ IL_01a1:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3058>
 		String_t* L_77 = ___0_text;
 		bool L_78;
 		L_78 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_77, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, NULL);
@@ -12060,6 +13212,8 @@ IL_01a1:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3060>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3061>
 		int32_t L_79 = ___1_pos;
 		if ((((int32_t)L_79) <= ((int32_t)0)))
 		{
@@ -12141,12 +13295,14 @@ IL_01de:
 
 IL_0208:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3062>
 		Il2CppChar L_101 = ___2_ch;
 		return L_101;
 	}
 
 IL_020a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3065>
 		Il2CppChar L_102 = ___2_ch;
 		if ((((int32_t)L_102) == ((int32_t)((int32_t)32))))
 		{
@@ -12163,6 +13319,7 @@ IL_020a:
 
 IL_0217:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3067>
 		int32_t L_104 = ___1_pos;
 		if (!L_104)
 		{
@@ -12170,6 +13327,8 @@ IL_0217:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3070>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3071>
 		int32_t L_105 = ___1_pos;
 		if ((((int32_t)L_105) <= ((int32_t)0)))
 		{
@@ -12251,12 +13410,14 @@ IL_0251:
 
 IL_0286:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3072>
 		Il2CppChar L_127 = ___2_ch;
 		return L_127;
 	}
 
 IL_0288:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3076>
 		int32_t L_128;
 		L_128 = InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline(__this, NULL);
 		if ((!(((uint32_t)L_128) == ((uint32_t)5))))
@@ -12265,6 +13426,7 @@ IL_0288:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3085>
 		Il2CppChar L_129 = ___2_ch;
 		if ((((int32_t)L_129) < ((int32_t)((int32_t)65))))
 		{
@@ -12279,12 +13441,14 @@ IL_0288:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3085>
 		Il2CppChar L_131 = ___2_ch;
 		return L_131;
 	}
 
 IL_02a0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3086>
 		Il2CppChar L_132 = ___2_ch;
 		if ((((int32_t)L_132) < ((int32_t)((int32_t)97))))
 		{
@@ -12299,12 +13463,14 @@ IL_02a0:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3086>
 		Il2CppChar L_134 = ___2_ch;
 		return L_134;
 	}
 
 IL_02ac:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3087>
 		Il2CppChar L_135 = ___2_ch;
 		if ((((int32_t)L_135) < ((int32_t)((int32_t)48))))
 		{
@@ -12319,12 +13485,14 @@ IL_02ac:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3087>
 		Il2CppChar L_137 = ___2_ch;
 		return L_137;
 	}
 
 IL_02b8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3088>
 		Il2CppChar L_138 = ___2_ch;
 		if ((!(((uint32_t)L_138) == ((uint32_t)((int32_t)64)))))
 		{
@@ -12341,12 +13509,14 @@ IL_02b8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3088>
 		Il2CppChar L_141 = ___2_ch;
 		return L_141;
 	}
 
 IL_02ca:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3089>
 		Il2CppChar L_142 = ___2_ch;
 		int32_t L_143;
 		L_143 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(_stringLiteralE6B64CE518F361B6EA86E4CD975D0780802C6790, L_142, NULL);
@@ -12356,12 +13526,14 @@ IL_02ca:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3089>
 		Il2CppChar L_144 = ___2_ch;
 		return L_144;
 	}
 
 IL_02da:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3090>
 		Il2CppChar L_145 = ___2_ch;
 		if ((!(((uint32_t)L_145) == ((uint32_t)((int32_t)46)))))
 		{
@@ -12369,6 +13541,7 @@ IL_02da:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3092>
 		String_t* L_146 = ___0_text;
 		int32_t L_147;
 		L_147 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_146, NULL);
@@ -12398,6 +13571,7 @@ IL_02ec:
 
 IL_0301:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3093>
 		String_t* L_154 = ___0_text;
 		int32_t L_155;
 		L_155 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_154, NULL);
@@ -12432,6 +13606,7 @@ IL_030e:
 IL_0325:
 	{
 		V_2 = G_B102_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3094>
 		if ((((int32_t)G_B102_1) == ((int32_t)((int32_t)46))))
 		{
 			goto IL_0331;
@@ -12445,15 +13620,18 @@ IL_0325:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3095>
 		Il2CppChar L_163 = ___2_ch;
 		return L_163;
 	}
 
 IL_0331:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3098>
 		return 0;
 	}
 }
+// Method Definition Index: 19619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ActivateInputField_m4986DE5488FE44D93DE1D906C140D6500134DF05 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12463,6 +13641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ActivateInputField_m4986DE548
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3129>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12503,11 +13682,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ActivateInputField_m4986DE548
 
 IL_0031:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3130>
 		return;
 	}
 
 IL_0032:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3132>
 		bool L_7;
 		L_7 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 		if (!L_7)
@@ -12516,6 +13697,7 @@ IL_0032:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3134>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_8 = __this->___m_Keyboard;
 		if (!L_8)
 		{
@@ -12532,8 +13714,10 @@ IL_0032:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3136>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_11 = __this->___m_Keyboard;
 		TouchScreenKeyboard_set_active_m4382D57F87E4C86B59864E86BE93A8A2A474B7C2(L_11, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3137>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_12 = __this->___m_Keyboard;
 		String_t* L_13 = __this->___m_Text;
 		TouchScreenKeyboard_set_text_m0A8AA05F4D9D27E8764955F0041452145B6C6FBB(L_12, L_13, NULL);
@@ -12541,10 +13725,13 @@ IL_0032:
 
 IL_006c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3141>
 		__this->___m_ShouldActivateNextUpdate = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3142>
 		return;
 	}
 }
+// Method Definition Index: 19620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ActivateInputFieldInternal_m5B89A6BBCE9D7DD6F0A3DF4B6296533507170119 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12565,6 +13752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ActivateInputFieldInternal_m5
 	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* G_B14_0 = NULL;
 	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* G_B14_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3146>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
 		L_0 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -12577,11 +13765,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_ActivateInputFieldInternal_m5
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3147>
 		return;
 	}
 
 IL_000e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3149>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_2;
 		L_2 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -12598,6 +13788,7 @@ IL_000e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3150>
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_6;
 		L_6 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
@@ -12608,6 +13799,7 @@ IL_000e:
 
 IL_0035:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3155>
 		il2cpp_codegen_runtime_class_init_inline(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var);
 		bool L_8 = ((InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields*)il2cpp_codegen_static_fields_for(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var))->___s_IsQuestDevice;
 		if (L_8)
@@ -12634,6 +13826,7 @@ IL_0044:
 IL_0045:
 	{
 		G_B7_1->___m_TouchKeyboardAllowsInPlaceEditing = (bool)G_B7_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3157>
 		bool L_10;
 		L_10 = InputField_TouchScreenKeyboardShouldBeUsed_m56104E5B7C58A89C552D4CF8FD7A1B1D93D7340A(__this, NULL);
 		if (!L_10)
@@ -12642,6 +13835,7 @@ IL_0045:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3159>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_11;
 		L_11 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -12663,6 +13857,7 @@ IL_0045:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3161>
 		bool L_15;
 		L_15 = InputField_get_shouldHideMobileInput_mA752B065435F4062EFB931119C34FDB5B35157E2(__this, NULL);
 		TouchScreenKeyboard_set_hideInput_m8FDDB21FB7E9B06B791649BBE369E4EA0F5F5299(L_15, NULL);
@@ -12670,6 +13865,9 @@ IL_0045:
 
 IL_007b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3163>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3164>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3165>
 		int32_t L_16;
 		L_16 = InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0_inline(__this, NULL);
 		if ((((int32_t)L_16) == ((int32_t)2)))
@@ -12715,6 +13913,7 @@ IL_00d9:
 	{
 		G_B14_1->___m_Keyboard = G_B14_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B14_1->___m_Keyboard), (void*)G_B14_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3169>
 		bool L_28 = __this->___m_TouchKeyboardAllowsInPlaceEditing;
 		if (L_28)
 		{
@@ -12722,11 +13921,13 @@ IL_00d9:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3171>
 		InputField_MoveTextEnd_m1C20AF9DB90F79CD85C4DAB179DA4EDB4D971810(__this, (bool)0, NULL);
 	}
 
 IL_00ed:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3176>
 		bool L_29;
 		L_29 = TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E(NULL);
 		if (!L_29)
@@ -12744,6 +13945,7 @@ IL_00ed:
 
 IL_00fc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3178>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_31;
 		L_31 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -12755,6 +13957,7 @@ IL_00fc:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3179>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_33;
 		L_33 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		VirtualActionInvoker1< int32_t >::Invoke(19, L_33, 1);
@@ -12762,27 +13965,37 @@ IL_00fc:
 
 IL_0116:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3180>
 		InputField_OnFocus_m5EC2CB19FBDAA84FB317F5ADA86548D78B550F37(__this, NULL);
 	}
 
 IL_011c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3182>
 		__this->___m_AllowInput = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3183>
 		String_t* L_34;
 		L_34 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(__this, NULL);
 		__this->___m_OriginalText = L_34;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OriginalText), (void*)L_34);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3184>
 		__this->___m_WasCanceled = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3185>
 		InputField_SetCaretVisible_m9DB05703AF6B427F53FB4948BB592CF061AA37AB(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3186>
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3187>
 		return;
 	}
 }
+// Method Definition Index: 19621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnSelect_m723C2F0E81FAFF8264CFE4596CA2AF30B7D9E307 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3195>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_0 = ___0_eventData;
 		Selectable_OnSelect_m50BA6D8F185CEA3211F9DEFE68AB6439AF685242(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3197>
 		bool L_1;
 		L_1 = VirtualFuncInvoker0< bool >::Invoke(60, __this);
 		if (!L_1)
@@ -12791,17 +14004,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnSelect_m723C2F0E81FAFF8264C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3198>
 		InputField_ActivateInputField_m4986DE5488FE44D93DE1D906C140D6500134DF05(__this, NULL);
 	}
 
 IL_0015:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3199>
 		return;
 	}
 }
+// Method Definition Index: 19622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnPointerClick_mCADA1FE2E0B6EA1F6A9B69DB3790E752243BA4F3 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3207>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		int32_t L_1;
 		L_1 = PointerEventData_get_button_mA8CBDAF2E16927E6952BC60040D56630BCC95B0B_inline(L_0, NULL);
@@ -12811,15 +14028,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnPointerClick_mCADA1FE2E0B6E
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3208>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3210>
 		InputField_ActivateInputField_m4986DE5488FE44D93DE1D906C140D6500134DF05(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3211>
 		return;
 	}
 }
+// Method Definition Index: 19623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_DeactivateInputField_m58D0B3BF095094A0963A9CE8BABF1979F7D1254D (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12830,6 +14051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_DeactivateInputField_m58D0B3B
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3239>
 		bool L_0 = __this->___m_AllowInput;
 		if (L_0)
 		{
@@ -12837,13 +14059,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_DeactivateInputField_m58D0B3B
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3240>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3242>
 		__this->___m_HasDoneFocusTransition = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3243>
 		__this->___m_AllowInput = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3245>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_1 = __this->___m_Placeholder;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -12854,6 +14080,7 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3246>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_3 = __this->___m_Placeholder;
 		String_t* L_4 = __this->___m_Text;
 		bool L_5;
@@ -12863,6 +14090,7 @@ IL_0009:
 
 IL_003b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3248>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -12881,6 +14109,7 @@ IL_003b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3250>
 		bool L_9 = __this->___m_WasCanceled;
 		if (!L_9)
 		{
@@ -12888,13 +14117,16 @@ IL_003b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3251>
 		String_t* L_10 = __this->___m_OriginalText;
 		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(__this, L_10, NULL);
 	}
 
 IL_0065:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3253>
 		InputField_SendOnEndEdit_m79E2689DD75F72FDA8157EECD3F17391D187094B(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3255>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_11 = __this->___m_Keyboard;
 		if (!L_11)
 		{
@@ -12902,19 +14134,23 @@ IL_0065:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3257>
 		TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* L_12 = __this->___m_Keyboard;
 		TouchScreenKeyboard_set_active_m4382D57F87E4C86B59864E86BE93A8A2A474B7C2(L_12, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3258>
 		__this->___m_Keyboard = (TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Keyboard), (void*)(TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A*)NULL);
 	}
 
 IL_0086:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3261>
 		int32_t L_13 = 0;
 		V_0 = L_13;
 		__this->___m_CaretSelectPosition = L_13;
 		int32_t L_14 = V_0;
 		__this->___m_CaretPosition = L_14;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3262>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_15;
 		L_15 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -12926,6 +14162,7 @@ IL_0086:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3263>
 		BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* L_17;
 		L_17 = InputField_get_input_m23129FACBD4CDCEA3FC9A977D7DA5BBD4BBB0B2B(__this, NULL);
 		VirtualActionInvoker1< int32_t >::Invoke(19, L_17, 0);
@@ -12933,22 +14170,30 @@ IL_0086:
 
 IL_00b0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3266>
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3267>
 		return;
 	}
 }
+// Method Definition Index: 19624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnDeselect_mA31D1383106BAF91CB638C04E508322FBEB2EFDC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3275>
 		InputField_DeactivateInputField_m58D0B3BF095094A0963A9CE8BABF1979F7D1254D(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3276>
 		BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* L_0 = ___0_eventData;
 		Selectable_OnDeselect_m43A2F451FC100ACAFA88D67331CD4537994B8262(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3277>
 		return;
 	}
 }
+// Method Definition Index: 19625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnSubmit_mFEBD3EF3B76741F19E84A12FBBF9B5BB60E5952C (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3281>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (!L_0)
@@ -12967,11 +14212,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnSubmit_mFEBD3EF3B76741F19E8
 
 IL_0010:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3282>
 		return;
 	}
 
 IL_0011:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3284>
 		bool L_2;
 		L_2 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(__this, NULL);
 		if (L_2)
@@ -12980,18 +14227,22 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3285>
 		__this->___m_ShouldActivateNextUpdate = (bool)1;
 	}
 
 IL_0020:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3286>
 		return;
 	}
 }
+// Method Definition Index: 19626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceContentType_mB8A7743C77E3EAE952426EF14BB5BE5B80E7488A (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3290>
 		int32_t L_0;
 		L_0 = InputField_get_contentType_m8C589B15987EB8852D5F4948A79084186935B19B_inline(__this, NULL);
 		V_0 = L_0;
@@ -13042,88 +14293,133 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceContentType_mB8A7743C7
 
 IL_0036:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3295>
 		__this->___m_InputType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3296>
 		__this->___m_KeyboardType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3297>
 		__this->___m_CharacterValidation = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3298>
 		goto IL_0140;
 	}
 
 IL_0050:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3303>
 		__this->___m_InputType = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3304>
 		__this->___m_KeyboardType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3305>
 		__this->___m_CharacterValidation = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3306>
 		goto IL_0140;
 	}
 
 IL_006a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3310>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3311>
 		__this->___m_InputType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3312>
 		__this->___m_KeyboardType = 4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3313>
 		__this->___m_CharacterValidation = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3314>
 		goto IL_0140;
 	}
 
 IL_008b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3318>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3319>
 		__this->___m_InputType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3320>
 		__this->___m_KeyboardType = 2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3321>
 		__this->___m_CharacterValidation = 2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3322>
 		goto IL_0140;
 	}
 
 IL_00ac:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3326>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3327>
 		__this->___m_InputType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3328>
 		__this->___m_KeyboardType = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3329>
 		__this->___m_CharacterValidation = 3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3330>
 		goto IL_0140;
 	}
 
 IL_00ca:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3334>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3335>
 		__this->___m_InputType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3336>
 		__this->___m_KeyboardType = 6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3337>
 		__this->___m_CharacterValidation = 4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3338>
 		goto IL_0140;
 	}
 
 IL_00e8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3342>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3343>
 		__this->___m_InputType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3344>
 		__this->___m_KeyboardType = 7;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3345>
 		__this->___m_CharacterValidation = 5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3346>
 		goto IL_0140;
 	}
 
 IL_0106:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3350>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3351>
 		__this->___m_InputType = 2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3352>
 		__this->___m_KeyboardType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3353>
 		__this->___m_CharacterValidation = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3354>
 		goto IL_0140;
 	}
 
 IL_0124:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3358>
 		__this->___m_LineType = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3359>
 		__this->___m_InputType = 2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3360>
 		__this->___m_KeyboardType = 4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3361>
 		__this->___m_CharacterValidation = 1;
 	}
 
 IL_0140:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3371>
 		InputField_EnforceTextHOverflow_m7F0E61391D942F47B4AD128C0C8B9B204BBE14B8(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3372>
 		return;
 	}
 }
+// Method Definition Index: 19627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceTextHOverflow_m7F0E61391D942F47B4AD128C0C8B9B204BBE14B8 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13133,6 +14429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceTextHOverflow_m7F0E613
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3376>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13143,6 +14440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceTextHOverflow_m7F0E613
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3377>
 		bool L_2;
 		L_2 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(__this, NULL);
 		if (!L_2)
@@ -13151,6 +14449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceTextHOverflow_m7F0E613
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3378>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___m_TextComponent;
 		Text_set_horizontalOverflow_m10AAFBA65FD7F4B1934B5D628B3E70D75D02FFD6(L_3, 0, NULL);
 		return;
@@ -13158,19 +14457,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_EnforceTextHOverflow_m7F0E613
 
 IL_0023:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3380>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_TextComponent;
 		Text_set_horizontalOverflow_m10AAFBA65FD7F4B1934B5D628B3E70D75D02FFD6(L_4, 1, NULL);
 	}
 
 IL_002f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3381>
 		return;
 	}
 }
+// Method Definition Index: 19628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetToCustomIfContentTypeIsNot_m8E1B8AF7133B6B42F9E6BA3951AE2AA4D2AF1071 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D* ___0_allowedContentTypes, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3385>
 		int32_t L_0;
 		L_0 = InputField_get_contentType_m8C589B15987EB8852D5F4948A79084186935B19B_inline(__this, NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)9)))))
@@ -13179,17 +14482,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetToCustomIfContentTypeIsNot
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3386>
 		return;
 	}
 
 IL_000b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3388>
 		V_0 = 0;
 		goto IL_001f;
 	}
 
 IL_000f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3389>
 		int32_t L_1;
 		L_1 = InputField_get_contentType_m8C589B15987EB8852D5F4948A79084186935B19B_inline(__this, NULL);
 		ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D* L_2 = ___0_allowedContentTypes;
@@ -13202,17 +14508,20 @@ IL_000f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3390>
 		return;
 	}
 
 IL_001b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3388>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_001f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3388>
 		int32_t L_7 = V_0;
 		ContentTypeU5BU5D_t8738F921ACBAE739757B0F185D6B85BB7069FE9D* L_8 = ___0_allowedContentTypes;
 		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
@@ -13221,13 +14530,17 @@ IL_001f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3392>
 		InputField_set_contentType_m5C3DDD7C14781E963BFFC88F7A8A537919F34C59(__this, ((int32_t)9), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3393>
 		return;
 	}
 }
+// Method Definition Index: 19629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetToCustom_m1D8B546B458993E86A24A05B868C57286E8C6BF4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3397>
 		int32_t L_0;
 		L_0 = InputField_get_contentType_m8C589B15987EB8852D5F4948A79084186935B19B_inline(__this, NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)9)))))
@@ -13236,18 +14549,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_SetToCustom_m1D8B546B458993E8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3398>
 		return;
 	}
 
 IL_000b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3400>
 		InputField_set_contentType_m5C3DDD7C14781E963BFFC88F7A8A537919F34C59(__this, ((int32_t)9), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3401>
 		return;
 	}
 }
+// Method Definition Index: 19630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_DoStateTransition_m51CFACBDB11404C6F10D0BA3AACB394036CB35A8 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, int32_t ___0_state, bool ___1_instant, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3405>
 		bool L_0 = __this->___m_HasDoneFocusTransition;
 		if (!L_0)
 		{
@@ -13255,12 +14573,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_DoStateTransition_m51CFACBDB1
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3406>
 		___0_state = 3;
 		goto IL_0018;
 	}
 
 IL_000d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3407>
 		int32_t L_1 = ___0_state;
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
 		{
@@ -13268,35 +14588,45 @@ IL_000d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3408>
 		__this->___m_HasDoneFocusTransition = (bool)1;
 	}
 
 IL_0018:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3410>
 		int32_t L_2 = ___0_state;
 		bool L_3 = ___1_instant;
 		Selectable_DoStateTransition_mE74A03CC2A2DBCA9C07559B168FA6A77FFE57942(__this, L_2, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3411>
 		return;
 	}
 }
+// Method Definition Index: 19631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_CalculateLayoutInputHorizontal_m291256FA87BF5E7F0D7CD64205B58E6B7E88809B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3416>
 		return;
 	}
 }
+// Method Definition Index: 19632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_CalculateLayoutInputVertical_m4102477D8FA249BA49FDF9C0CE5F45A42752B083 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3421>
 		return;
 	}
 }
+// Method Definition Index: 19633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_minWidth_mE316201A4474E22FA455CFD381C0A73B76CF5B06 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3426>
 		return (5.0f);
 	}
 }
+// Method Definition Index: 19634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_preferredWidth_m13ACB831ECB400033C936A46342FF10E8A96D05B (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13308,6 +14638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_preferredWidth_m13ACB831
 	TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3435>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0;
 		L_0 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -13319,11 +14650,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_preferredWidth_m13ACB831
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3436>
 		return (0.0f);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3437>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2;
 		L_2 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
@@ -13331,6 +14664,7 @@ IL_0014:
 		TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3 L_4;
 		L_4 = Text_GetGenerationSettings_m620E0E5AFB30E3331A0371EB2361F587BB0A1E0F(L_2, L_3, NULL);
 		V_0 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3438>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5;
 		L_5 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_6;
@@ -13346,18 +14680,23 @@ IL_0014:
 		return ((float)(L_9/L_11));
 	}
 }
+// Method Definition Index: 19635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_flexibleWidth_mCCBC75043CD2BF11B0E38D71A00A5CE790DD9E8C (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3445>
 		return (-1.0f);
 	}
 }
+// Method Definition Index: 19636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_minHeight_mC742ED6E8E46602EE8C085F724AD5442A24DB1D7 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3450>
 		return (0.0f);
 	}
 }
+// Method Definition Index: 19637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_preferredHeight_m7C3EAA7E8DC12397B9C83A72582C8FC219BA63DA (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13371,6 +14710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_preferredHeight_m7C3EAA7
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3459>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0;
 		L_0 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -13382,11 +14722,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_preferredHeight_m7C3EAA7
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3460>
 		return (0.0f);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3461>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2;
 		L_2 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3;
@@ -13405,6 +14747,7 @@ IL_0014:
 		TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3 L_9;
 		L_9 = Text_GetGenerationSettings_m620E0E5AFB30E3331A0371EB2361F587BB0A1E0F(L_2, L_8, NULL);
 		V_0 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3462>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10;
 		L_10 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(__this, NULL);
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_11;
@@ -13420,18 +14763,23 @@ IL_0014:
 		return ((float)(L_14/L_16));
 	}
 }
+// Method Definition Index: 19638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputField_get_flexibleHeight_mE4CA2B68F90E91C6B884D87FF98D3CA062332A6D (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3469>
 		return (-1.0f);
 	}
 }
+// Method Definition Index: 19639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputField_get_layoutPriority_m88277B59E761DA55E6DF1AA803B0DC629ECDFE3C (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:3474>
 		return 1;
 	}
 }
+// Method Definition Index: 19640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField__cctor_m963ABF5968D8C97B8286CD633B0B0B4691ACEBBD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13443,16 +14791,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField__cctor_m963ABF5968D8C97B8286C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:201>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)6);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3A51899FBAA581553000230A6A0F92898553245F____1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		((InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields*)il2cpp_codegen_static_fields_for(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var))->___kSeparators = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields*)il2cpp_codegen_static_fields_for(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var))->___kSeparators), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:207>
 		((InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields*)il2cpp_codegen_static_fields_for(InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_il2cpp_TypeInfo_var))->___s_IsQuestDevice = (bool)0;
 		return;
 	}
 }
+// Method Definition Index: 19641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* InputField_UnityEngine_UI_ICanvasElement_get_transform_m68143981855D6B92BF815F3058EA2F063A63D59A (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13538,6 +14889,7 @@ IL2CPP_EXTERN_C  Il2CppChar DelegatePInvokeWrapper_OnValidateInput_t48916A4E9C9F
 
 	return static_cast<Il2CppChar>(returnValue);
 }
+// Method Definition Index: 19642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValidateInput__ctor_mDC0454BF264F87154EF8694821905B5A6A587A29 (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13574,11 +14926,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValidateInput__ctor_mDC0454BF264F87154
 	}
 	__this->___extra_arg = (intptr_t)&OnValidateInput_Invoke_m6A7776E0E91552E39F207A90C7E33A4D4479F076_Multicast;
 }
+// Method Definition Index: 19643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar OnValidateInput_Invoke_m6A7776E0E91552E39F207A90C7E33A4D4479F076 (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, String_t* ___0_text, int32_t ___1_charIndex, Il2CppChar ___2_addedChar, const RuntimeMethod* method) 
 {
 	typedef Il2CppChar (*FunctionPointerType) (RuntimeObject*, String_t*, int32_t, Il2CppChar, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_text, ___1_charIndex, ___2_addedChar, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 19644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValidateInput_BeginInvoke_m2A003B257BC355C137B83FB37B3D9DD34821F9D2 (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, String_t* ___0_text, int32_t ___1_charIndex, Il2CppChar ___2_addedChar, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13594,6 +14948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnValidateInput_BeginInvoke_m2
 	__d_args[2] = Box(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var, &___2_addedChar);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
+// Method Definition Index: 19645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar OnValidateInput_EndInvoke_mE13A5F2C1260AD59F20BFBD7CCC9BE42F84EF6DA (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13607,6 +14962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar OnValidateInput_EndInvoke_mE13A5F2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubmitEvent__ctor_mE8908589516FD77AA786BDACC7BEBC2182A87EE3 (SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13628,6 +14984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubmitEvent__ctor_mE8908589516FD77AA786B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndEditEvent__ctor_mEAA90FD69A3F6F34EF977AF11A424CEEFF441953 (EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13649,6 +15006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndEditEvent__ctor_mEAA90FD69A3F6F34EF97
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnChangeEvent__ctor_m3D387EF9F415EC6E177649A23DAA137AB98F3E05 (OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13678,6 +15036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnChangeEvent__ctor_m3D387EF9F415EC6E177
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaretBlinkU3Ed__170__ctor_mF11E6570330FD3D50E64D481543B3D94666B6CD1 (U3CCaretBlinkU3Ed__170_tEC8EFDCED77E88CB4215D82DA57C5BA8FE0347B0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -13687,12 +15046,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaretBlinkU3Ed__170__ctor_mF11E657033
 		return;
 	}
 }
+// Method Definition Index: 19650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaretBlinkU3Ed__170_System_IDisposable_Dispose_m1136743B34EB169A947B5B61BCA85735A986ABE6 (U3CCaretBlinkU3Ed__170_tEC8EFDCED77E88CB4215D82DA57C5BA8FE0347B0* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
+// Method Definition Index: 19651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCaretBlinkU3Ed__170_MoveNext_m139615312EBB05314C096EE9BC424E421D4FD1FC (U3CCaretBlinkU3Ed__170_tEC8EFDCED77E88CB4215D82DA57C5BA8FE0347B0* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -13728,8 +15089,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCaretBlinkU3Ed__170_MoveNext_m1396153
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1192>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_3 = V_1;
 		L_3->___m_CaretVisible = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1193>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -13744,9 +15107,11 @@ IL_0040:
 
 IL_0049:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1198>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_4 = V_1;
 		float L_5 = L_4->___m_CaretBlinkRate;
 		V_2 = ((float)((1.0f)/L_5));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1201>
 		float L_6;
 		L_6 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_7 = V_1;
@@ -13754,6 +15119,7 @@ IL_0049:
 		float L_9 = V_2;
 		float L_10 = V_2;
 		V_3 = (bool)((((float)(fmodf(((float)il2cpp_codegen_subtract(L_6, L_8)), L_9))) < ((float)((float)(L_10/(2.0f)))))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1202>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_11 = V_1;
 		bool L_12 = L_11->___m_CaretVisible;
 		bool L_13 = V_3;
@@ -13763,9 +15129,11 @@ IL_0049:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1204>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_14 = V_1;
 		bool L_15 = V_3;
 		L_14->___m_CaretVisible = L_15;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1205>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_16 = V_1;
 		bool L_17;
 		L_17 = InputField_get_hasSelection_m3E8EF152E7A7238C8F0631FFC16727800CF16B24(L_16, NULL);
@@ -13775,12 +15143,14 @@ IL_0049:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1206>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_18 = V_1;
 		InputField_MarkGeometryAsDirty_m71DCE40033F96C4A842885A7601E3882FF0BD4F4(L_18, NULL);
 	}
 
 IL_008c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1210>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -13794,6 +15164,7 @@ IL_009c:
 
 IL_00a3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1195>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_19 = V_1;
 		bool L_20;
 		L_20 = InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline(L_19, NULL);
@@ -13813,12 +15184,15 @@ IL_00a3:
 
 IL_00b8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1212>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_23 = V_1;
 		L_23->___m_BlinkCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_23->___m_BlinkCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1213>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaretBlinkU3Ed__170_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m65E66DB9736C6AF815B6F811FC529B749F373C69 (U3CCaretBlinkU3Ed__170_tEC8EFDCED77E88CB4215D82DA57C5BA8FE0347B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13826,6 +15200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaretBlinkU3Ed__170_System_
 		return L_0;
 	}
 }
+// Method Definition Index: 19653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaretBlinkU3Ed__170_System_Collections_IEnumerator_Reset_mEE284B096D7C33D248CB20E51A9B1425CE51FB80 (U3CCaretBlinkU3Ed__170_tEC8EFDCED77E88CB4215D82DA57C5BA8FE0347B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13834,6 +15209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaretBlinkU3Ed__170_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCaretBlinkU3Ed__170_System_Collections_IEnumerator_Reset_mEE284B096D7C33D248CB20E51A9B1425CE51FB80_RuntimeMethod_var)));
 	}
 }
+// Method Definition Index: 19654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaretBlinkU3Ed__170_System_Collections_IEnumerator_get_Current_mFF9689651D077E10FA9717577A6DF1D0A9738BED (U3CCaretBlinkU3Ed__170_tEC8EFDCED77E88CB4215D82DA57C5BA8FE0347B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13849,6 +15225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaretBlinkU3Ed__170_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMouseDragOutsideRectU3Ed__194__ctor_m561BCE12F8D3972DD2E157255C57E2E7EF5A3EF5 (U3CMouseDragOutsideRectU3Ed__194_t781B4CA947F9CF50ED6945C50544D71BC12FB691* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -13858,12 +15235,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMouseDragOutsideRectU3Ed__194__ctor_m
 		return;
 	}
 }
+// Method Definition Index: 19656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMouseDragOutsideRectU3Ed__194_System_IDisposable_Dispose_mB18C1AC7228F57FAFCEE8B7D6015C8AA079418F2 (U3CMouseDragOutsideRectU3Ed__194_t781B4CA947F9CF50ED6945C50544D71BC12FB691* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
+// Method Definition Index: 19657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMouseDragOutsideRectU3Ed__194_MoveNext_mBDBD60F4DA7ED5CD50DE5ED93C6ACA320B3AC444 (U3CMouseDragOutsideRectU3Ed__194_t781B4CA947F9CF50ED6945C50544D71BC12FB691* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13913,9 +15292,11 @@ IL_001a:
 
 IL_0026:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1720>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_2 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1721>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_5 = __this->___eventData;
 		bool L_6;
 		L_6 = MultipleDisplayUtilities_GetRelativeMousePositionForDrag_m3C283E331437CB72CF86C5C98B9E61D2317B8F4A(L_5, (&V_2), NULL);
@@ -13925,6 +15306,7 @@ IL_0026:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1725>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_7 = V_1;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8;
 		L_8 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(L_7, NULL);
@@ -13937,6 +15319,7 @@ IL_0026:
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		bool L_13;
 		L_13 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_9, L_10, L_12, (&V_3), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1727>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_14 = V_1;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15;
 		L_15 = InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline(L_14, NULL);
@@ -13945,6 +15328,7 @@ IL_0026:
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_17;
 		L_17 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_16, NULL);
 		V_4 = L_17;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1729>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_18 = V_1;
 		bool L_19;
 		L_19 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(L_18, NULL);
@@ -13954,6 +15338,7 @@ IL_0026:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1731>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20 = V_3;
 		float L_21 = L_20.___y;
 		float L_22;
@@ -13964,6 +15349,7 @@ IL_0026:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1732>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_23 = V_1;
 		InputField_MoveUp_m7F41FF9D5EA2BF64B36C1ACABB67169722C668DD(L_23, (bool)1, (bool)1, NULL);
 		goto IL_00d9;
@@ -13971,6 +15357,7 @@ IL_0026:
 
 IL_0090:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1733>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = V_3;
 		float L_25 = L_24.___y;
 		float L_26;
@@ -13981,6 +15368,7 @@ IL_0090:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1734>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_27 = V_1;
 		InputField_MoveDown_m13622D37FC022939623A9DBC447E49F5D9F43C80(L_27, (bool)1, (bool)1, NULL);
 		goto IL_00d9;
@@ -13988,6 +15376,7 @@ IL_0090:
 
 IL_00a9:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1738>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_3;
 		float L_29 = L_28.___x;
 		float L_30;
@@ -13998,6 +15387,7 @@ IL_00a9:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1739>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_31 = V_1;
 		InputField_MoveLeft_mD7E3870F7E54009522CF9412764FD5FD9212BBAA(L_31, (bool)1, (bool)0, NULL);
 		goto IL_00d9;
@@ -14005,6 +15395,7 @@ IL_00a9:
 
 IL_00c2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1740>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_3;
 		float L_33 = L_32.___x;
 		float L_34;
@@ -14015,14 +15406,17 @@ IL_00c2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1741>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_35 = V_1;
 		InputField_MoveRight_m0D51E23BE4EF55EA54DED277573263BB2A5B1D38(L_35, (bool)1, (bool)0, NULL);
 	}
 
 IL_00d9:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1743>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_36 = V_1;
 		InputField_UpdateLabel_mDBE25D21A1021AE4563539586438B5EA89511D58(L_36, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1744>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_37 = V_1;
 		bool L_38;
 		L_38 = InputField_get_multiLine_m4AF37C1E2560778A214C50E91C472430D8F777B6(L_37, NULL);
@@ -14044,6 +15438,7 @@ IL_00ee:
 IL_00f3:
 	{
 		V_5 = G_B17_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1745>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_39 = V_1;
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_40 = L_39->___m_WaitForSecondsRealtime;
 		if (L_40)
@@ -14052,6 +15447,7 @@ IL_00f3:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1746>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_41 = V_1;
 		float L_42 = V_5;
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_43 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
@@ -14063,6 +15459,7 @@ IL_00f3:
 
 IL_010c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1748>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_44 = V_1;
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_45 = L_44->___m_WaitForSecondsRealtime;
 		float L_46 = V_5;
@@ -14071,6 +15468,7 @@ IL_010c:
 
 IL_0119:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1749>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_47 = V_1;
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_48 = L_47->___m_WaitForSecondsRealtime;
 		__this->___U3CU3E2__current = L_48;
@@ -14086,6 +15484,7 @@ IL_012e:
 
 IL_0135:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1718>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_49 = V_1;
 		bool L_50 = L_49->___m_UpdateDrag;
 		if (!L_50)
@@ -14104,12 +15503,15 @@ IL_0135:
 
 IL_0148:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1751>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_53 = V_1;
 		L_53->___m_DragCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_53->___m_DragCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1752>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMouseDragOutsideRectU3Ed__194_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m97FAB502D17418D00041C80355446F3790E2027C (U3CMouseDragOutsideRectU3Ed__194_t781B4CA947F9CF50ED6945C50544D71BC12FB691* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14117,6 +15519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMouseDragOutsideRectU3Ed__1
 		return L_0;
 	}
 }
+// Method Definition Index: 19659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMouseDragOutsideRectU3Ed__194_System_Collections_IEnumerator_Reset_mA0942EBCCC575616D5D28D9879334C5D68ECBD34 (U3CMouseDragOutsideRectU3Ed__194_t781B4CA947F9CF50ED6945C50544D71BC12FB691* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14125,6 +15528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CMouseDragOutsideRectU3Ed__194_System_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CMouseDragOutsideRectU3Ed__194_System_Collections_IEnumerator_Reset_mA0942EBCCC575616D5D28D9879334C5D68ECBD34_RuntimeMethod_var)));
 	}
 }
+// Method Definition Index: 19660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMouseDragOutsideRectU3Ed__194_System_Collections_IEnumerator_get_Current_mCB19D1EFAE7DE8A8B81DF1B0C6CF552ED9E40BD3 (U3CMouseDragOutsideRectU3Ed__194_t781B4CA947F9CF50ED6945C50544D71BC12FB691* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14140,13 +15544,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CMouseDragOutsideRectU3Ed__1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AspectRatioFitter_get_aspectMode_m530AE9878F26D7C1166C2AC3C2B2547CED122B27 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:46>
 		int32_t L_0 = __this->___m_AspectMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 19662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectMode_m1CDA777FF728BD01AB939C074D03F9C18675FB65 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14156,6 +15563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectMode_m1CDA77
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:46>
 		int32_t* L_0 = (int32_t*)(&__this->___m_AspectMode);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -14166,21 +15574,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectMode_m1CDA77
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:46>
 		AspectRatioFitter_SetDirty_mCCB04E2ECBD43C874822C58BEEAC00AB7EA8A58A(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:46>
 		return;
 	}
 }
+// Method Definition Index: 19663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AspectRatioFitter_get_aspectRatio_m72A1972D15B7435EF895562EEF0AE8C689ED120E (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:53>
 		float L_0 = __this->___m_AspectRatio;
 		return L_0;
 	}
 }
+// Method Definition Index: 19664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectRatio_m4192E203648BE0ACA39D9C0540C982331CEA91D9 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14190,6 +15603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectRatio_m4192E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:53>
 		float* L_0 = (float*)(&__this->___m_AspectRatio);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -14200,14 +15614,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectRatio_m4192E
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:53>
 		AspectRatioFitter_SetDirty_mCCB04E2ECBD43C874822C58BEEAC00AB7EA8A58A(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:53>
 		return;
 	}
 }
+// Method Definition Index: 19665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14218,6 +15635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:68>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_Rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14228,6 +15646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:69>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2;
 		L_2 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___m_Rect = L_2;
@@ -14236,18 +15655,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 
 IL_001a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:70>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___m_Rect;
 		return L_3;
 	}
 }
+// Method Definition Index: 19666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter__ctor_m277805022C03480F2EDA97E7AA48D33839EBD102 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:48>
 		__this->___m_AspectRatio = (1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:79>
 		UIBehaviour__ctor_m24C66A65DDD996E779871C6655CF11B871F11337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:79>
 		return;
 	}
 }
+// Method Definition Index: 19667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnEnable_m5B6FCCB531F87ABBAEFEB38AEDA1340E10EDEFDD (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14261,7 +15686,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnEnable_m5B6FCCB531F8
 	int32_t G_B3_0 = 0;
 	AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* G_B3_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:83>
 		UIBehaviour_OnEnable_m8989ABF5C038905A68E5536BED2E6FFAF8767FFC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:84>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -14291,14 +15718,19 @@ IL_001c:
 IL_001d:
 	{
 		G_B3_1->___m_DoesParentExist = (bool)G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:85>
 		AspectRatioFitter_SetDirty_mCCB04E2ECBD43C874822C58BEEAC00AB7EA8A58A(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:86>
 		return;
 	}
 }
+// Method Definition Index: 19668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_Start_mB88F08EC9C3453EAB41607D91825BD90C6391F64 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:90>
 		UIBehaviour_Start_mB12643ED6D859CD3682B4BF5B9CA7F72E8A72B45(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:92>
 		bool L_0;
 		L_0 = AspectRatioFitter_IsComponentValidOnObject_m163BC9DE4258B1C308B850BC259704A3D285A3B0(__this, NULL);
 		if (!L_0)
@@ -14317,14 +15749,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_Start_mB88F08EC9C3453E
 
 IL_0016:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:93>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 	}
 
 IL_001d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:94>
 		return;
 	}
 }
+// Method Definition Index: 19669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnDisable_m43DAB6B9ADAE9683A99395FCD7B769879A75477F (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14334,16 +15769,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnDisable_m43DAB6B9ADA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:98>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_0 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		DrivenRectTransformTracker_Clear_m9A7F5130E4007F70B14AB1FF13A2997C073A64EE(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:99>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:100>
 		UIBehaviour_OnDisable_m18D5A0B93F65FB50F4D6CE8197EC07F3452C5DDE(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:101>
 		return;
 	}
 }
+// Method Definition Index: 19670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnTransformParentChanged_mD5F9B727921A4416EB663B4152CCB499EFB8B111 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14357,7 +15797,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnTransformParentChang
 	int32_t G_B3_0 = 0;
 	AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* G_B3_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:105>
 		UIBehaviour_OnTransformParentChanged_mAD56D3C6049A1746F00DC2643D1666F7DE921384(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:107>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -14387,13 +15829,17 @@ IL_001c:
 IL_001d:
 	{
 		G_B3_1->___m_DoesParentExist = (bool)G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:108>
 		AspectRatioFitter_SetDirty_mCCB04E2ECBD43C874822C58BEEAC00AB7EA8A58A(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:109>
 		return;
 	}
 }
+// Method Definition Index: 19671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_Update_mE1F6FB785AB83C3416B67EEC58CDB74144583230 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:117>
 		bool L_0 = __this->___m_DelayedSetDirty;
 		if (!L_0)
 		{
@@ -14401,22 +15847,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_Update_mE1F6FB785AB83C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:119>
 		__this->___m_DelayedSetDirty = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:120>
 		AspectRatioFitter_SetDirty_mCCB04E2ECBD43C874822C58BEEAC00AB7EA8A58A(__this, NULL);
 	}
 
 IL_0015:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:122>
 		return;
 	}
 }
+// Method Definition Index: 19672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_OnRectTransformDimensionsChange_mE94570689C2A5CCB2C2EB33F9C5F240E780A2784 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:129>
 		AspectRatioFitter_UpdateRect_mFAB08DEB6F064E439934183C92038428ADA0F235(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:130>
 		return;
 	}
 }
+// Method Definition Index: 19673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_UpdateRect_mFAB08DEB6F064E439934183C92038428ADA0F235 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -14427,6 +15880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_UpdateRect_mFAB08DEB6F
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:134>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (!L_0)
@@ -14445,13 +15899,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_UpdateRect_mFAB08DEB6F
 
 IL_0010:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:135>
 		return;
 	}
 
 IL_0011:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:137>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_2 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		DrivenRectTransformTracker_Clear_m9A7F5130E4007F70B14AB1FF13A2997C073A64EE(L_2, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:139>
 		int32_t L_3 = __this->___m_AspectMode;
 		V_0 = L_3;
 		int32_t L_4 = V_0;
@@ -14481,10 +15938,12 @@ IL_0011:
 
 IL_003c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:152>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_5 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(L_5, __this, L_6, ((int32_t)4096), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:153>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7;
 		L_7 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8;
@@ -14496,15 +15955,18 @@ IL_003c:
 		L_10 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_1), NULL);
 		float L_11 = __this->___m_AspectRatio;
 		RectTransform_SetSizeWithCurrentAnchors_m53A04549B7687A1DEA2C7484E56D89809390CE44(L_7, 0, ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:154>
 		return;
 	}
 
 IL_007a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:158>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_12 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13;
 		L_13 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(L_12, __this, L_13, ((int32_t)8192), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:159>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14;
 		L_14 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15;
@@ -14516,11 +15978,13 @@ IL_007a:
 		L_17 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_1), NULL);
 		float L_18 = __this->___m_AspectRatio;
 		RectTransform_SetSizeWithCurrentAnchors_m53A04549B7687A1DEA2C7484E56D89809390CE44(L_14, 1, ((float)(L_17/L_18)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:160>
 		return;
 	}
 
 IL_00b8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:165>
 		bool L_19;
 		L_19 = AspectRatioFitter_DoesParentExists_m9475339C8EE94000A65B9F39AFB08A867940D925_inline(__this, NULL);
 		if (!L_19)
@@ -14529,31 +15993,42 @@ IL_00b8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:168>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:169>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:171>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:172>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_20 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21;
 		L_21 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(L_20, __this, L_21, ((int32_t)16134), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:174>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22;
 		L_22 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
 		L_23 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_22, L_23, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:175>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_24;
 		L_24 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25;
 		L_25 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_24, L_25, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:176>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26;
 		L_26 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
 		L_27 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_26, L_27, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:178>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28;
 		L_28 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_2 = L_28;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:179>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
 		L_29 = AspectRatioFitter_GetParentSize_mA3CFC47B4F43532BCA0267F99911DC2CA1FFE9B0(__this, NULL);
 		V_3 = L_29;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:180>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30 = V_3;
 		float L_31 = L_30.___y;
 		float L_32;
@@ -14567,6 +16042,7 @@ IL_00b8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:182>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36 = V_3;
 		float L_37 = L_36.___x;
 		float L_38;
@@ -14579,6 +16055,7 @@ IL_00b8:
 
 IL_0155:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:186>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = V_3;
 		float L_41 = L_40.___y;
 		float L_42;
@@ -14590,6 +16067,7 @@ IL_0155:
 
 IL_0170:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:188>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_44;
 		L_44 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_45 = V_2;
@@ -14598,14 +16076,17 @@ IL_0170:
 
 IL_017c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:193>
 		return;
 	}
 }
+// Method Definition Index: 19674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AspectRatioFitter_GetSizeDeltaToProduceSize_m467FB832F233366AC4B795E932F05740E6429A4D (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, float ___0_size, int32_t ___1_axis, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:197>
 		float L_0 = ___0_size;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = AspectRatioFitter_GetParentSize_mA3CFC47B4F43532BCA0267F99911DC2CA1FFE9B0(__this, NULL);
@@ -14632,6 +16113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AspectRatioFitter_GetSizeDeltaToProduce
 		return ((float)il2cpp_codegen_subtract(L_0, ((float)il2cpp_codegen_multiply(L_3, ((float)il2cpp_codegen_subtract(L_7, L_11))))));
 	}
 }
+// Method Definition Index: 19675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AspectRatioFitter_GetParentSize_mA3CFC47B4F43532BCA0267F99911DC2CA1FFE9B0 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14645,11 +16127,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:202>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = AspectRatioFitter_get_rectTransform_m20FD6C51C01C8BBC2C8223C255F9C28E00689496(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_0, NULL);
 		V_0 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_1, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:203>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -14676,25 +16160,33 @@ IL_0028:
 		return L_7;
 	}
 }
+// Method Definition Index: 19676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_SetLayoutHorizontal_m49115A35A48158B48CD198028034214F95793FAE (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:209>
 		return;
 	}
 }
+// Method Definition Index: 19677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_SetLayoutVertical_mAC5B9A89C0E8659BB590BD62608D22349B90D612 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:214>
 		return;
 	}
 }
+// Method Definition Index: 19678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_SetDirty_mCCB04E2ECBD43C874822C58BEEAC00AB7EA8A58A (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:221>
 		AspectRatioFitter_UpdateRect_mFAB08DEB6F064E439934183C92038428ADA0F235(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:222>
 		return;
 	}
 }
+// Method Definition Index: 19679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_IsComponentValidOnObject_m163BC9DE4258B1C308B850BC259704A3D285A3B0 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14706,11 +16198,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_IsComponentValidOnObje
 	}
 	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* V_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:226>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1;
 		L_1 = GameObject_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_mE5A2711FA84F57F5EA0876DB106B1A146956CEFE(L_0, GameObject_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_mE5A2711FA84F57F5EA0876DB106B1A146956CEFE_RuntimeMethod_var);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:227>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -14739,17 +16233,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_IsComponentValidOnObje
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:229>
 		return (bool)0;
 	}
 
 IL_0027:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:231>
 		return (bool)1;
 	}
 }
+// Method Definition Index: 19680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_IsAspectModeValid_m0311FF067288EAD9D2A81ED3A4151C406F0A30B7 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:236>
 		bool L_0;
 		L_0 = AspectRatioFitter_DoesParentExists_m9475339C8EE94000A65B9F39AFB08A867940D925_inline(__this, NULL);
 		if (L_0)
@@ -14776,17 +16274,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_IsAspectModeValid_m031
 
 IL_001a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:237>
 		return (bool)0;
 	}
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:239>
 		return (bool)1;
 	}
 }
+// Method Definition Index: 19681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_DoesParentExists_m9475339C8EE94000A65B9F39AFB08A867940D925 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:244>
 		bool L_0 = __this->___m_DoesParentExist;
 		return L_0;
 	}
@@ -14807,65 +16309,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AspectRatioFitter_DoesParentExists_m9475
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_uiScaleMode_m8E92609E011796E8CC23B1739F95CE7BE2631525 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:53>
 		int32_t L_0 = __this->___m_UiScaleMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 19683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_uiScaleMode_m064C83FFA35E2AED4E9FA7D5EC1AD19630D8FC2A (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:53>
 		int32_t L_0 = ___0_value;
 		__this->___m_UiScaleMode = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:53>
 		return;
 	}
 }
+// Method Definition Index: 19684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasScaler_get_referencePixelsPerUnit_mE0A7FECC27003A4A2BE6AE6E70747FAC8C19A008 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:61>
 		float L_0 = __this->___m_ReferencePixelsPerUnit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_referencePixelsPerUnit_m8817BAEB73BE78DD7C87EAB7D2FE2983B2300628 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:61>
 		float L_0 = ___0_value;
 		__this->___m_ReferencePixelsPerUnit = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:61>
 		return;
 	}
 }
+// Method Definition Index: 19686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasScaler_get_scaleFactor_mB2BFA22B99AEC96F09886F490DA9EE2F825D3431 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:76>
 		float L_0 = __this->___m_ScaleFactor;
 		return L_0;
 	}
 }
+// Method Definition Index: 19687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_scaleFactor_mD53E8CAE41E8C1B0DF53CCF14D5941FF8EA3488B (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:76>
 		float L_0 = ___0_value;
 		float L_1;
 		L_1 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00999999978f), L_0, NULL);
 		__this->___m_ScaleFactor = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:76>
 		return;
 	}
 }
+// Method Definition Index: 19688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CanvasScaler_get_referenceResolution_m79C03DD8CE6759B045928C5339A3C5E6220276B5 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:111>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_ReferenceResolution;
 		return L_0;
 	}
 }
+// Method Definition Index: 19689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_referenceResolution_m793679B8505AF9BBF64F45D80AFE39F3F99FAB8D (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:115>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___m_ReferenceResolution = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:119>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		float L_2 = L_1->___x;
 		if ((!(((float)L_2) > ((float)(-9.99999975E-06f)))))
@@ -14882,6 +16404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_referenceResolution_m79
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:119>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_6 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		float L_7 = L_6->___x;
@@ -14892,6 +16415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_referenceResolution_m79
 
 IL_004c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:120>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_9 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		float L_10 = L_9->___y;
 		if ((!(((float)L_10) > ((float)(-9.99999975E-06f)))))
@@ -14908,6 +16432,7 @@ IL_004c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:120>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_13 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_14 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		float L_15 = L_14->___y;
@@ -14918,120 +16443,164 @@ IL_004c:
 
 IL_0091:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:121>
 		return;
 	}
 }
+// Method Definition Index: 19690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_screenMatchMode_mA07ABCCF6AFE98C16651EBD5AB24BFF08B10F768 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:129>
 		int32_t L_0 = __this->___m_ScreenMatchMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 19691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_screenMatchMode_m926C437B408D2F2CA4900723BEEEE09504A6768F (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:129>
 		int32_t L_0 = ___0_value;
 		__this->___m_ScreenMatchMode = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:129>
 		return;
 	}
 }
+// Method Definition Index: 19692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasScaler_get_matchWidthOrHeight_m9C40FBA943172874FD27F3F7B880E2D5D5862C9B (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:153>
 		float L_0 = __this->___m_MatchWidthOrHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_matchWidthOrHeight_m44635DC3E4424255C312814C325A48E37E6B6E30 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:153>
 		float L_0 = ___0_value;
 		__this->___m_MatchWidthOrHeight = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:153>
 		return;
 	}
 }
+// Method Definition Index: 19694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CanvasScaler_get_physicalUnit_mD4B04FD2D68F8C3CA39550C056A7AFC836DEB6EA (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:195>
 		int32_t L_0 = __this->___m_PhysicalUnit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_physicalUnit_m6A759A32FFBEBC43A51C98621A3F505289670C5C (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:195>
 		int32_t L_0 = ___0_value;
 		__this->___m_PhysicalUnit = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:195>
 		return;
 	}
 }
+// Method Definition Index: 19696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasScaler_get_fallbackScreenDPI_m966C603918C0420EAB4C3048591DE408190FFAA2 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:203>
 		float L_0 = __this->___m_FallbackScreenDPI;
 		return L_0;
 	}
 }
+// Method Definition Index: 19697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_fallbackScreenDPI_m01E7CB32B519FBC9F5A77F060EE0B2DF7D6895AC (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:203>
 		float L_0 = ___0_value;
 		__this->___m_FallbackScreenDPI = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:203>
 		return;
 	}
 }
+// Method Definition Index: 19698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasScaler_get_defaultSpriteDPI_m2F1CDF6DE4F2B2E3DED10D50D6E674699120C50A (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:211>
 		float L_0 = __this->___m_DefaultSpriteDPI;
 		return L_0;
 	}
 }
+// Method Definition Index: 19699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_defaultSpriteDPI_m742DFE7A3315C0B33763D2E3FB2424BCFF35D3DE (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:211>
 		float L_0 = ___0_value;
 		float L_1;
 		L_1 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((1.0f), L_0, NULL);
 		__this->___m_DefaultSpriteDPI = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:211>
 		return;
 	}
 }
+// Method Definition Index: 19700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasScaler_get_dynamicPixelsPerUnit_m6DFC581EFFD626F6815BA8C9579DD736514626AB (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:222>
 		float L_0 = __this->___m_DynamicPixelsPerUnit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_set_dynamicPixelsPerUnit_m7A081D5FD963F751140DCF1E5190ED4E51308CA2 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:222>
 		float L_0 = ___0_value;
 		__this->___m_DynamicPixelsPerUnit = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:222>
 		return;
 	}
 }
+// Method Definition Index: 19702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler__ctor_m0D60150B065E8CFBCB4BC324F364A0FF08762493 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:56>
 		__this->___m_ReferencePixelsPerUnit = (100.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:67>
 		__this->___m_ScaleFactor = (1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:99>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (800.0f), (600.0f), NULL);
 		__this->___m_ReferenceResolution = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:190>
 		__this->___m_PhysicalUnit = 3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:198>
 		__this->___m_FallbackScreenDPI = (96.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:206>
 		__this->___m_DefaultSpriteDPI = (96.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:217>
 		__this->___m_DynamicPixelsPerUnit = (1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:229>
 		__this->___m_PrevScaleFactor = (1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:231>
 		__this->___m_PrevReferencePixelsPerUnit = (100.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:235>
 		UIBehaviour__ctor_m24C66A65DDD996E779871C6655CF11B871F11337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:235>
 		return;
 	}
 }
+// Method Definition Index: 19703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_OnEnable_m9F50E6AF109CE6227FD9E523B0698925B89D29F8 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15043,25 +16612,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_OnEnable_m9F50E6AF109CE6227
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:239>
 		UIBehaviour_OnEnable_m8989ABF5C038905A68E5536BED2E6FFAF8767FFC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:240>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0;
 		L_0 = Component_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m209BA4F663AB98A4504995B5BD3EADEDEFB92BF2(__this, Component_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m209BA4F663AB98A4504995B5BD3EADEDEFB92BF2_RuntimeMethod_var);
 		__this->___m_Canvas = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Canvas), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:241>
 		VirtualActionInvoker0::Invoke(17, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:242>
 		WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* L_1 = (WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC*)il2cpp_codegen_object_new(WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC_il2cpp_TypeInfo_var);
 		WillRenderCanvases__ctor_mD8174C0964F8864D65270FFCAF275BD0BAC8DCF3(L_1, __this, (intptr_t)((void*)CanvasScaler_Canvas_preWillRenderCanvases_mDBBF36EADD3DFBE62E1E5F14D0DC9BB86FC21E6A_RuntimeMethod_var), NULL);
 		Canvas_add_preWillRenderCanvases_mCBC597E0B277B3B96D103EAC868165DECCA63B05(L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:243>
 		return;
 	}
 }
+// Method Definition Index: 19704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_Canvas_preWillRenderCanvases_mDBBF36EADD3DFBE62E1E5F14D0DC9BB86FC21E6A (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:247>
 		VirtualActionInvoker0::Invoke(17, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:248>
 		return;
 	}
 }
+// Method Definition Index: 19705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_OnDisable_mE0CE97F651B806DD2B2565203A00E97A6A781B2E (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15072,15 +16650,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_OnDisable_mE0CE97F651B806DD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:252>
 		CanvasScaler_SetScaleFactor_m195FFD8019696523653CA6CB1B8531ECE4020636(__this, (1.0f), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:253>
 		CanvasScaler_SetReferencePixelsPerUnit_m77B9E51B468EC9750355687AA6E25564D60BE9B5(__this, (100.0f), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:254>
 		WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* L_0 = (WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC*)il2cpp_codegen_object_new(WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC_il2cpp_TypeInfo_var);
 		WillRenderCanvases__ctor_mD8174C0964F8864D65270FFCAF275BD0BAC8DCF3(L_0, __this, (intptr_t)((void*)CanvasScaler_Canvas_preWillRenderCanvases_mDBBF36EADD3DFBE62E1E5F14D0DC9BB86FC21E6A_RuntimeMethod_var), NULL);
 		Canvas_remove_preWillRenderCanvases_mBC13967A85841D22B1C3AC74307CC4C910D3539F(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:255>
 		UIBehaviour_OnDisable_m18D5A0B93F65FB50F4D6CE8197EC07F3452C5DDE(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:256>
 		return;
 	}
 }
+// Method Definition Index: 19706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_Handle_m0EF8A30C92B8A90A54D2B0BB06E7698E74AD5967 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15091,6 +16675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_Handle_m0EF8A30C92B8A90A54D
 	}
 	int32_t V_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:263>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___m_Canvas;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15112,11 +16697,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_Handle_m0EF8A30C92B8A90A54D
 
 IL_001b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:264>
 		return;
 	}
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:266>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = __this->___m_Canvas;
 		int32_t L_5;
 		L_5 = Canvas_get_renderMode_m1BEF259548C6CAD27E4466F31D20752D246688CC(L_4, NULL);
@@ -15126,12 +16713,15 @@ IL_001c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:268>
 		VirtualActionInvoker0::Invoke(18, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:269>
 		return;
 	}
 
 IL_0031:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:272>
 		int32_t L_6 = __this->___m_UiScaleMode;
 		V_0 = L_6;
 		int32_t L_7 = V_0;
@@ -15157,42 +16747,57 @@ IL_0031:
 
 IL_004b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:274>
 		VirtualActionInvoker0::Invoke(19, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:274>
 		return;
 	}
 
 IL_0052:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:275>
 		VirtualActionInvoker0::Invoke(20, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:275>
 		return;
 	}
 
 IL_0059:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:276>
 		VirtualActionInvoker0::Invoke(21, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:278>
 		return;
 	}
 }
+// Method Definition Index: 19707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleWorldCanvas_m3E325EB0AC3221EA44B3D81360DFE63C36C13190 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:285>
 		float L_0 = __this->___m_DynamicPixelsPerUnit;
 		CanvasScaler_SetScaleFactor_m195FFD8019696523653CA6CB1B8531ECE4020636(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:286>
 		float L_1 = __this->___m_ReferencePixelsPerUnit;
 		CanvasScaler_SetReferencePixelsPerUnit_m77B9E51B468EC9750355687AA6E25564D60BE9B5(__this, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:287>
 		return;
 	}
 }
+// Method Definition Index: 19708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleConstantPixelSize_m7C504A9281A98E3473F0113CD74A9305AE4C5CD0 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:294>
 		float L_0 = __this->___m_ScaleFactor;
 		CanvasScaler_SetScaleFactor_m195FFD8019696523653CA6CB1B8531ECE4020636(__this, L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:295>
 		float L_1 = __this->___m_ReferencePixelsPerUnit;
 		CanvasScaler_SetReferencePixelsPerUnit_m77B9E51B468EC9750355687AA6E25564D60BE9B5(__this, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:296>
 		return;
 	}
 }
+// Method Definition Index: 19709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleScaleWithScreenSize_m3F436166B074013EDBEE38B7009C338650CF942C (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15210,14 +16815,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleScaleWithScreenSize_m
 	float V_5 = 0.0f;
 	float V_6 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:303>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___m_Canvas;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Canvas_get_renderingDisplaySize_mE6F90F0F91200179ED84C6F6905343909FAF6312(L_0, NULL);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:308>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = __this->___m_Canvas;
 		int32_t L_3;
 		L_3 = Canvas_get_targetDisplay_m2F2FCEA6885820E659F2F520991828DE54CCB6BF(L_2, NULL);
 		V_1 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:309>
 		int32_t L_4 = V_1;
 		if ((((int32_t)L_4) <= ((int32_t)0)))
 		{
@@ -15234,12 +16842,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleScaleWithScreenSize_m
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:311>
 		il2cpp_codegen_runtime_class_init_inline(Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_il2cpp_TypeInfo_var);
 		DisplayU5BU5D_tAD77D7EE2B839E3EDA0D1C0028B64F867F400C7F* L_7 = ((Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_StaticFields*)il2cpp_codegen_static_fields_for(Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_il2cpp_TypeInfo_var))->___displays;
 		int32_t L_8 = V_1;
 		int32_t L_9 = L_8;
 		Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1* L_10 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
 		V_3 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:312>
 		Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1* L_11 = V_3;
 		int32_t L_12;
 		L_12 = Display_get_renderingWidth_mD23656E7A8270AF79B0EF4124959B3E18BEDF0C7(L_11, NULL);
@@ -15251,7 +16861,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleScaleWithScreenSize_m
 
 IL_0043:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:316>
 		V_2 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:317>
 		int32_t L_15 = __this->___m_ScreenMatchMode;
 		V_4 = L_15;
 		int32_t L_16 = V_4;
@@ -15277,12 +16889,14 @@ IL_0043:
 
 IL_0069:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:327>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = V_0;
 		float L_18 = L_17.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
 		float L_20 = L_19->___x;
 		float L_21;
 		L_21 = Mathf_Log_m116F062EEBF1C53EC8D18C9B1748E999EF9424EF_inline(((float)(L_18/L_20)), (2.0f), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:328>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22 = V_0;
 		float L_23 = L_22.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_24 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
@@ -15290,20 +16904,24 @@ IL_0069:
 		float L_26;
 		L_26 = Mathf_Log_m116F062EEBF1C53EC8D18C9B1748E999EF9424EF_inline(((float)(L_23/L_25)), (2.0f), NULL);
 		V_5 = L_26;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:329>
 		float L_27 = V_5;
 		float L_28 = __this->___m_MatchWidthOrHeight;
 		float L_29;
 		L_29 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_21, L_27, L_28, NULL);
 		V_6 = L_29;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:330>
 		float L_30 = V_6;
 		float L_31;
 		L_31 = powf((2.0f), L_30);
 		V_2 = L_31;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:331>
 		goto IL_0117;
 	}
 
 IL_00c1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:335>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_0;
 		float L_33 = L_32.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_34 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
@@ -15315,11 +16933,13 @@ IL_00c1:
 		float L_40;
 		L_40 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)(L_33/L_35)), ((float)(L_37/L_39)), NULL);
 		V_2 = L_40;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:336>
 		goto IL_0117;
 	}
 
 IL_00ed:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:340>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_41 = V_0;
 		float L_42 = L_41.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_43 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_ReferenceResolution);
@@ -15335,13 +16955,17 @@ IL_00ed:
 
 IL_0117:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:345>
 		float L_50 = V_2;
 		CanvasScaler_SetScaleFactor_m195FFD8019696523653CA6CB1B8531ECE4020636(__this, L_50, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:346>
 		float L_51 = __this->___m_ReferencePixelsPerUnit;
 		CanvasScaler_SetReferencePixelsPerUnit_m77B9E51B468EC9750355687AA6E25564D60BE9B5(__this, L_51, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:347>
 		return;
 	}
 }
+// Method Definition Index: 19710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleConstantPhysicalSize_m44CEBEFEE2AAD54993DA3A43047E86AE07B32DD7 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -15350,9 +16974,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_HandleConstantPhysicalSize_
 	int32_t V_3 = 0;
 	float G_B3_0 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:354>
 		float L_0;
 		L_0 = Screen_get_dpi_mEEDAA2189F84A47BD69D62A611E031D5C59CFE8E(NULL);
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:355>
 		float L_1 = V_0;
 		if ((((float)L_1) == ((float)(0.0f))))
 		{
@@ -15374,7 +17000,9 @@ IL_0011:
 IL_0017:
 	{
 		V_1 = G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:356>
 		V_2 = (1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:357>
 		int32_t L_4 = __this->___m_PhysicalUnit;
 		V_3 = L_4;
 		int32_t L_5 = V_3;
@@ -15408,48 +17036,62 @@ IL_0017:
 
 IL_0041:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:359>
 		V_2 = (2.53999996f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:359>
 		goto IL_0067;
 	}
 
 IL_0049:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:360>
 		V_2 = (25.3999996f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:360>
 		goto IL_0067;
 	}
 
 IL_0051:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:361>
 		V_2 = (1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:361>
 		goto IL_0067;
 	}
 
 IL_0059:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:362>
 		V_2 = (72.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:362>
 		goto IL_0067;
 	}
 
 IL_0061:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:363>
 		V_2 = (6.0f);
 	}
 
 IL_0067:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:366>
 		float L_6 = V_1;
 		float L_7 = V_2;
 		CanvasScaler_SetScaleFactor_m195FFD8019696523653CA6CB1B8531ECE4020636(__this, ((float)(L_6/L_7)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:367>
 		float L_8 = __this->___m_ReferencePixelsPerUnit;
 		float L_9 = V_2;
 		float L_10 = __this->___m_DefaultSpriteDPI;
 		CanvasScaler_SetReferencePixelsPerUnit_m77B9E51B468EC9750355687AA6E25564D60BE9B5(__this, ((float)(((float)il2cpp_codegen_multiply(L_8, L_9))/L_10)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:368>
 		return;
 	}
 }
+// Method Definition Index: 19711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_SetScaleFactor_m195FFD8019696523653CA6CB1B8531ECE4020636 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_scaleFactor, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:376>
 		float L_0 = ___0_scaleFactor;
 		float L_1 = __this->___m_PrevScaleFactor;
 		if ((!(((float)L_0) == ((float)L_1))))
@@ -15458,22 +17100,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_SetScaleFactor_m195FFD80196
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:377>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:379>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = __this->___m_Canvas;
 		float L_3 = ___0_scaleFactor;
 		Canvas_set_scaleFactor_m65383E2F466BC670568C9CC1D631FA63911DB095(L_2, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:380>
 		float L_4 = ___0_scaleFactor;
 		__this->___m_PrevScaleFactor = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:381>
 		return;
 	}
 }
+// Method Definition Index: 19712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_SetReferencePixelsPerUnit_m77B9E51B468EC9750355687AA6E25564D60BE9B5 (CanvasScaler_t3BC095205EAD308CF3EAC27136A73387AC32FC3B* __this, float ___0_referencePixelsPerUnit, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:389>
 		float L_0 = ___0_referencePixelsPerUnit;
 		float L_1 = __this->___m_PrevReferencePixelsPerUnit;
 		if ((!(((float)L_0) == ((float)L_1))))
@@ -15482,16 +17130,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasScaler_SetReferencePixelsPerUnit_m
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:390>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:392>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = __this->___m_Canvas;
 		float L_3 = ___0_referencePixelsPerUnit;
 		Canvas_set_referencePixelsPerUnit_m7114F49D5EAAA8FA40AA5A3191B02325FEBF9B30(L_2, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:393>
 		float L_4 = ___0_referencePixelsPerUnit;
 		__this->___m_PrevReferencePixelsPerUnit = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs:394>
 		return;
 	}
 }
@@ -15527,13 +17179,16 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ContentSizeFitter_get_horizontalFit_mA5FBF6AB42F551272B94A7B89A372B1AA1ADBC0D (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:40>
 		int32_t L_0 = __this->___m_HorizontalFit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_set_horizontalFit_m7B0DB223B08B8D578F749DEC381349E7D66DCDE4 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15543,6 +17198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_set_horizontalFit_m7B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:40>
 		int32_t* L_0 = (int32_t*)(&__this->___m_HorizontalFit);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -15553,21 +17209,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_set_horizontalFit_m7B0
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:40>
 		ContentSizeFitter_SetDirty_m5A4C67937A3C77E467881648D5B9D7AB4E8C5C59(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:40>
 		return;
 	}
 }
+// Method Definition Index: 19715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ContentSizeFitter_get_verticalFit_m3F2848F19A5F8F30F55E0B5D930EFEF4E5EFAFF5 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:47>
 		int32_t L_0 = __this->___m_VerticalFit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_set_verticalFit_m8F61CFD01D4C3D3DC253F30BA8FC2F44F8F927CF (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15577,6 +17238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_set_verticalFit_m8F61C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:47>
 		int32_t* L_0 = (int32_t*)(&__this->___m_VerticalFit);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -15587,14 +17249,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_set_verticalFit_m8F61C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:47>
 		ContentSizeFitter_SetDirty_m5A4C67937A3C77E467881648D5B9D7AB4E8C5C59(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:47>
 		return;
 	}
 }
+// Method Definition Index: 19717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15605,6 +17270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:54>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_Rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15615,6 +17281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:55>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2;
 		L_2 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___m_Rect = L_2;
@@ -15623,25 +17290,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 
 IL_001a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:56>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___m_Rect;
 		return L_3;
 	}
 }
+// Method Definition Index: 19718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter__ctor_m60693679801693DCDEC5BF0FD45590BD66F2434A (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:65>
 		UIBehaviour__ctor_m24C66A65DDD996E779871C6655CF11B871F11337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:66>
 		return;
 	}
 }
+// Method Definition Index: 19719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_OnEnable_m31DA9C05A1B5FAB9BD1BE05C43192B427C156CD3 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:70>
 		UIBehaviour_OnEnable_m8989ABF5C038905A68E5536BED2E6FFAF8767FFC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:71>
 		ContentSizeFitter_SetDirty_m5A4C67937A3C77E467881648D5B9D7AB4E8C5C59(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:72>
 		return;
 	}
 }
+// Method Definition Index: 19720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_OnDisable_mA11B1667210796F7DEE199F2B78844A6CA0C720F (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15651,23 +17327,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_OnDisable_mA11B1667210
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:76>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_0 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		DrivenRectTransformTracker_Clear_m9A7F5130E4007F70B14AB1FF13A2997C073A64EE(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:77>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:78>
 		UIBehaviour_OnDisable_m18D5A0B93F65FB50F4D6CE8197EC07F3452C5DDE(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:79>
 		return;
 	}
 }
+// Method Definition Index: 19721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_OnRectTransformDimensionsChange_m427809780F5D59796CDB386A8CD5B4DB985D7691 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:83>
 		ContentSizeFitter_SetDirty_m5A4C67937A3C77E467881648D5B9D7AB4E8C5C59(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:84>
 		return;
 	}
 }
+// Method Definition Index: 19722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_HandleSelfFittingAlongAxis_mA050224EA492DF6C8B339DC36FC3BB8ED5D09A85 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, int32_t ___0_axis, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -15683,6 +17367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_HandleSelfFittingAlong
 	ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* G_B8_2 = NULL;
 	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* G_B8_3 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:88>
 		int32_t L_0 = ___0_axis;
 		if (!L_0)
 		{
@@ -15706,6 +17391,7 @@ IL_000b:
 IL_0011:
 	{
 		V_0 = G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:89>
 		int32_t L_3 = V_0;
 		if (L_3)
 		{
@@ -15713,15 +17399,18 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:92>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_4 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5;
 		L_5 = ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467(__this, NULL);
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(L_4, __this, L_5, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:93>
 		return;
 	}
 
 IL_0029:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:96>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_6 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7;
 		L_7 = ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467(__this, NULL);
@@ -15756,6 +17445,7 @@ IL_0040:
 IL_0045:
 	{
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(G_B8_3, G_B8_2, G_B8_1, G_B8_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:99>
 		int32_t L_9 = V_0;
 		if ((!(((uint32_t)L_9) == ((uint32_t)1))))
 		{
@@ -15763,6 +17453,7 @@ IL_0045:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:100>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10;
 		L_10 = ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467(__this, NULL);
 		int32_t L_11 = ___0_axis;
@@ -15776,6 +17467,7 @@ IL_0045:
 
 IL_0067:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:102>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15;
 		L_15 = ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467(__this, NULL);
 		int32_t L_16 = ___0_axis;
@@ -15784,25 +17476,34 @@ IL_0067:
 		float L_19;
 		L_19 = LayoutUtility_GetPreferredSize_mCAFD360B8490CD02AF5F99E93E09D8625BD85F52(L_17, L_18, NULL);
 		RectTransform_SetSizeWithCurrentAnchors_m53A04549B7687A1DEA2C7484E56D89809390CE44(L_15, L_16, L_19, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:103>
 		return;
 	}
 }
+// Method Definition Index: 19723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_SetLayoutHorizontal_m694E40D536D88366735B3838FA040EB2D2144320 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:110>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_0 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		DrivenRectTransformTracker_Clear_m9A7F5130E4007F70B14AB1FF13A2997C073A64EE(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:111>
 		ContentSizeFitter_HandleSelfFittingAlongAxis_mA050224EA492DF6C8B339DC36FC3BB8ED5D09A85(__this, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:112>
 		return;
 	}
 }
+// Method Definition Index: 19724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_SetLayoutVertical_mB58DDF80917329DFAE202DA73472AD39BF37E561 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:119>
 		ContentSizeFitter_HandleSelfFittingAlongAxis_mA050224EA492DF6C8B339DC36FC3BB8ED5D09A85(__this, 1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:120>
 		return;
 	}
 }
+// Method Definition Index: 19725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_SetDirty_m5A4C67937A3C77E467881648D5B9D7AB4E8C5C59 (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15812,6 +17513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_SetDirty_m5A4C67937A3C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:124>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (L_0)
@@ -15820,15 +17522,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContentSizeFitter_SetDirty_m5A4C67937A3C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:125>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:127>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = ContentSizeFitter_get_rectTransform_m757AAC9852D5C462C083FDA80390813E4FF06467(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:128>
 		return;
 	}
 }
@@ -15848,13 +17553,16 @@ IL_0009:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GridLayoutGroup_get_startCorner_m0796B782C9F3981B6E97F83A6815102A5176657D (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:80>
 		int32_t L_0 = __this->___m_StartCorner;
 		return L_0;
 	}
 }
+// Method Definition Index: 19727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_startCorner_mCE5A1E957B06BF34173119A5C62B832E279DA78A (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15864,19 +17572,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_startCorner_mCE5A1E9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:80>
 		int32_t* L_0 = (int32_t*)(&__this->___m_StartCorner);
 		int32_t L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisCorner_t584F3AA925181E0332B75B994073C242CC75D290_m9FE757879D8450880781982D8FF085A3C051A739(__this, L_0, L_1, LayoutGroup_SetProperty_TisCorner_t584F3AA925181E0332B75B994073C242CC75D290_m9FE757879D8450880781982D8FF085A3C051A739_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:80>
 		return;
 	}
 }
+// Method Definition Index: 19728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GridLayoutGroup_get_startAxis_mADFB75A761550B3141256B0130655A6703FF3FF5 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:90>
 		int32_t L_0 = __this->___m_StartAxis;
 		return L_0;
 	}
 }
+// Method Definition Index: 19729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_startAxis_m2C9BCD2A1CD3ECFDDF3B0A8B7EE28C48179A7739 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15886,19 +17599,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_startAxis_m2C9BCD2A1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:90>
 		int32_t* L_0 = (int32_t*)(&__this->___m_StartAxis);
 		int32_t L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisAxis_t6697888ECDE627B530C294F2BF8B76AD38220B38_m3AA801EE4334A6049174999FDB2FC09BBF0177D7(__this, L_0, L_1, LayoutGroup_SetProperty_TisAxis_t6697888ECDE627B530C294F2BF8B76AD38220B38_m3AA801EE4334A6049174999FDB2FC09BBF0177D7_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:90>
 		return;
 	}
 }
+// Method Definition Index: 19730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:97>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_CellSize;
 		return L_0;
 	}
 }
+// Method Definition Index: 19731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_cellSize_m0A3FF07694BDBF52D973597978FC87B0941BE5F9 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15908,19 +17626,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_cellSize_m0A3FF07694
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:97>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_CellSize);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m302B723C1D9A1517569BEE0F4DE8F711C2410D8B(__this, L_0, L_1, LayoutGroup_SetProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m302B723C1D9A1517569BEE0F4DE8F711C2410D8B_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:97>
 		return;
 	}
 }
+// Method Definition Index: 19732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GridLayoutGroup_get_spacing_m19BC15652BF18D051B0998C14F13DB83191F3E58 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:104>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_Spacing;
 		return L_0;
 	}
 }
+// Method Definition Index: 19733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_spacing_mA5550A683F7B4A7A1510B267B5D4CACEB8981306 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15930,19 +17653,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_spacing_mA5550A683F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:104>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_Spacing);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m302B723C1D9A1517569BEE0F4DE8F711C2410D8B(__this, L_0, L_1, LayoutGroup_SetProperty_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m302B723C1D9A1517569BEE0F4DE8F711C2410D8B_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:104>
 		return;
 	}
 }
+// Method Definition Index: 19734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GridLayoutGroup_get_constraint_mAEC0A95B4DF9F48E07B5403CC5F954AFDE503029 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:114>
 		int32_t L_0 = __this->___m_Constraint;
 		return L_0;
 	}
 }
+// Method Definition Index: 19735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_constraint_m632CB37D0D79A12DE81372EE819348CD1226B84A (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15952,19 +17680,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_constraint_m632CB37D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:114>
 		int32_t* L_0 = (int32_t*)(&__this->___m_Constraint);
 		int32_t L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisConstraint_tEA84388C5387ADF5722B533F817EF15CCECC0BF1_m615B225F45B0F060421AF87153DD9BEFFEA414AA(__this, L_0, L_1, LayoutGroup_SetProperty_TisConstraint_tEA84388C5387ADF5722B533F817EF15CCECC0BF1_m615B225F45B0F060421AF87153DD9BEFFEA414AA_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:114>
 		return;
 	}
 }
+// Method Definition Index: 19736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GridLayoutGroup_get_constraintCount_m63AE4B7889A27D8CAA8EB04A40B1FE53D80CC318 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:121>
 		int32_t L_0 = __this->___m_ConstraintCount;
 		return L_0;
 	}
 }
+// Method Definition Index: 19737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_constraintCount_m685F6D5254B6D77AF8BE070EF3DCA5F049B3D043 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15974,29 +17707,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_set_constraintCount_m685
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:121>
 		int32_t* L_0 = (int32_t*)(&__this->___m_ConstraintCount);
 		int32_t L_1 = ___0_value;
 		int32_t L_2;
 		L_2 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_1, NULL);
 		LayoutGroup_SetProperty_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF7660CF867054F9DAB23E4256CCD1BDB3DC4AE0D(__this, L_0, L_2, LayoutGroup_SetProperty_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mF7660CF867054F9DAB23E4256CCD1BDB3DC4AE0D_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:121>
 		return;
 	}
 }
+// Method Definition Index: 19738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup__ctor_mBC2ADB7B7F092C83138425C82DEDBB6701F73F7D (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:92>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (100.0f), (100.0f), NULL);
 		__this->___m_CellSize = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:99>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_Spacing = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:116>
 		__this->___m_ConstraintCount = 2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:123>
 		LayoutGroup__ctor_m3F10CB94B64D503325A8EE097A94261C08AA2337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:124>
 		return;
 	}
 }
+// Method Definition Index: 19739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputHorizontal_mFDEDFB79ECF5C03713EE1C128362D3AC0D48ED8E (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16008,9 +17750,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputHori
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:141>
 		LayoutGroup_CalculateLayoutInputHorizontal_mAB313A3646FC94E9FA98E5C4EA19DBAA7F3754FD(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:143>
 		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:144>
 		V_1 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:145>
 		int32_t L_0 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -16018,6 +17764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputHori
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:147>
 		int32_t L_1 = __this->___m_ConstraintCount;
 		int32_t L_2 = L_1;
 		V_1 = L_2;
@@ -16027,6 +17774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputHori
 
 IL_001e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:149>
 		int32_t L_3 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
 		{
@@ -16034,6 +17782,7 @@ IL_001e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:151>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_4;
 		L_4 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_5;
@@ -16049,7 +17798,9 @@ IL_001e:
 
 IL_004b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:155>
 		V_0 = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:156>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_9;
 		L_9 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_10;
@@ -16063,6 +17814,10 @@ IL_004b:
 
 IL_0064:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:159>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:161>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:162>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_13;
 		L_13 = LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C_inline(__this, NULL);
 		int32_t L_14;
@@ -16092,9 +17847,11 @@ IL_0064:
 		L_29 = GridLayoutGroup_get_spacing_m19BC15652BF18D051B0998C14F13DB83191F3E58_inline(__this, NULL);
 		float L_30 = L_29.___x;
 		LayoutGroup_SetLayoutInputForAxis_m3704D7673470CF7CF1F2B145F226C9C30C25E660(__this, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)L_14), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_16, L_18)), ((float)L_19))))), L_21)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)L_23), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_25, L_27)), ((float)L_28))))), L_30)), (-1.0f), 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:163>
 		return;
 	}
 }
+// Method Definition Index: 19740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputVertical_m41E33CD0EBF75155C0B842E9EDA2C66EB68AA9EA (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16110,7 +17867,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputVert
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:171>
 		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:172>
 		int32_t L_0 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -16118,6 +17877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputVert
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:174>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_1;
 		L_1 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_2;
@@ -16131,6 +17891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_CalculateLayoutInputVert
 
 IL_0030:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:176>
 		int32_t L_5 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
 		{
@@ -16138,6 +17899,7 @@ IL_0030:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:178>
 		int32_t L_6 = __this->___m_ConstraintCount;
 		V_0 = L_6;
 		goto IL_00b0;
@@ -16145,6 +17907,7 @@ IL_0030:
 
 IL_0042:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:182>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7;
 		L_7 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_8;
@@ -16153,6 +17916,7 @@ IL_0042:
 		float L_9;
 		L_9 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_4), NULL);
 		V_2 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:183>
 		float L_10 = V_2;
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_11;
 		L_11 = LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C_inline(__this, NULL);
@@ -16172,6 +17936,7 @@ IL_0042:
 		int32_t L_20;
 		L_20 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_19, NULL);
 		V_3 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:184>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_21;
 		L_21 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_22;
@@ -16184,6 +17949,7 @@ IL_0042:
 
 IL_00b0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:187>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_25;
 		L_25 = LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C_inline(__this, NULL);
 		int32_t L_26;
@@ -16199,26 +17965,35 @@ IL_00b0:
 		L_32 = GridLayoutGroup_get_spacing_m19BC15652BF18D051B0998C14F13DB83191F3E58_inline(__this, NULL);
 		float L_33 = L_32.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)L_26), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_28, L_30)), ((float)L_31))))), L_33));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:188>
 		float L_34 = V_1;
 		float L_35 = V_1;
 		LayoutGroup_SetLayoutInputForAxis_m3704D7673470CF7CF1F2B145F226C9C30C25E660(__this, L_34, L_35, (-1.0f), 1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:189>
 		return;
 	}
 }
+// Method Definition Index: 19741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_SetLayoutHorizontal_m16F35F3DA5B7AED47787C0EBEC723723DC9034F0 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:197>
 		GridLayoutGroup_SetCellsAlongAxis_m815D9BF1B794A46C96CFE3E069C49274FCB66739(__this, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:198>
 		return;
 	}
 }
+// Method Definition Index: 19742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_SetLayoutVertical_mAF83C49C8BBA29EC4465B1BC2A8A39B0321FB038 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:206>
 		GridLayoutGroup_SetCellsAlongAxis_m815D9BF1B794A46C96CFE3E069C49274FCB66739(__this, 1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:207>
 		return;
 	}
 }
+// Method Definition Index: 19743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_SetCellsAlongAxis_m815D9BF1B794A46C96CFE3E069C49274FCB66739 (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, int32_t ___0_axis, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16261,11 +18036,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_SetCellsAlongAxis_m815D9
 	int32_t G_B16_0 = 0;
 	int32_t G_B16_1 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:216>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_0;
 		L_0 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m2F707E98BABA1F4794BF2B315168A109B80B2921_inline(L_0, List_1_get_Count_m2F707E98BABA1F4794BF2B315168A109B80B2921_RuntimeMethod_var);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:217>
 		int32_t L_2 = ___0_axis;
 		if (L_2)
 		{
@@ -16273,39 +18050,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayoutGroup_SetCellsAlongAxis_m815D9
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:221>
 		V_13 = 0;
 		goto IL_0061;
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:223>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_3;
 		L_3 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_4 = V_13;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5;
 		L_5 = List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB(L_3, L_4, List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB_RuntimeMethod_var);
 		V_14 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:226>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:228>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_6 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&((LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE*)__this)->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = V_14;
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(L_6, __this, L_7, ((int32_t)16134), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:230>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = V_14;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 		L_9 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_8, L_9, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:231>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = V_14;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
 		L_11 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_10, L_11, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:232>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = V_14;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
 		L_13 = GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D_inline(__this, NULL);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_12, L_13, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:221>
 		int32_t L_14 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0061:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:221>
 		int32_t L_15 = V_13;
 		int32_t L_16 = V_0;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -16314,11 +18102,13 @@ IL_0061:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:234>
 		return;
 	}
 
 IL_0067:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:237>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17;
 		L_17 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_18;
@@ -16328,6 +18118,7 @@ IL_0067:
 		L_19 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_15), NULL);
 		float L_20 = L_19.___x;
 		V_1 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:238>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21;
 		L_21 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_22;
@@ -16337,8 +18128,11 @@ IL_0067:
 		L_23 = Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline((&V_15), NULL);
 		float L_24 = L_23.___y;
 		V_2 = L_24;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:240>
 		V_3 = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:241>
 		V_4 = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:242>
 		int32_t L_25 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_25) == ((uint32_t)1))))
 		{
@@ -16346,8 +18140,10 @@ IL_0067:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:244>
 		int32_t L_26 = __this->___m_ConstraintCount;
 		V_3 = L_26;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:246>
 		int32_t L_27 = V_0;
 		int32_t L_28 = V_3;
 		if ((((int32_t)L_27) <= ((int32_t)L_28)))
@@ -16356,6 +18152,7 @@ IL_0067:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:247>
 		int32_t L_29 = V_0;
 		int32_t L_30 = V_3;
 		int32_t L_31 = V_0;
@@ -16387,6 +18184,7 @@ IL_00c4:
 
 IL_00cc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:249>
 		int32_t L_33 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_33) == ((uint32_t)2))))
 		{
@@ -16394,8 +18192,10 @@ IL_00cc:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:251>
 		int32_t L_34 = __this->___m_ConstraintCount;
 		V_4 = L_34;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:253>
 		int32_t L_35 = V_0;
 		int32_t L_36 = V_4;
 		if ((((int32_t)L_35) <= ((int32_t)L_36)))
@@ -16404,6 +18204,7 @@ IL_00cc:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:254>
 		int32_t L_37 = V_0;
 		int32_t L_38 = V_4;
 		int32_t L_39 = V_0;
@@ -16435,6 +18236,7 @@ IL_00f4:
 
 IL_00fb:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:258>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_41;
 		L_41 = GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D_inline(__this, NULL);
 		float L_42 = L_41.___x;
@@ -16447,12 +18249,14 @@ IL_00fb:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:259>
 		V_3 = ((int32_t)2147483647LL);
 		goto IL_0165;
 	}
 
 IL_0121:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:261>
 		float L_45 = V_1;
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_46;
 		L_46 = LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C_inline(__this, NULL);
@@ -16476,6 +18280,7 @@ IL_0121:
 
 IL_0165:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:263>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_56;
 		L_56 = GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D_inline(__this, NULL);
 		float L_57 = L_56.___y;
@@ -16488,12 +18293,14 @@ IL_0165:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:264>
 		V_4 = ((int32_t)2147483647LL);
 		goto IL_01d1;
 	}
 
 IL_018c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:266>
 		float L_60 = V_2;
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_61;
 		L_61 = LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C_inline(__this, NULL);
@@ -16517,12 +18324,15 @@ IL_018c:
 
 IL_01d1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:269>
 		int32_t L_71;
 		L_71 = GridLayoutGroup_get_startCorner_m0796B782C9F3981B6E97F83A6815102A5176657D_inline(__this, NULL);
 		V_5 = ((int32_t)((int32_t)L_71%2));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:270>
 		int32_t L_72;
 		L_72 = GridLayoutGroup_get_startCorner_m0796B782C9F3981B6E97F83A6815102A5176657D_inline(__this, NULL);
 		V_6 = ((int32_t)((int32_t)L_72/2));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:273>
 		int32_t L_73;
 		L_73 = GridLayoutGroup_get_startAxis_mADFB75A761550B3141256B0130655A6703FF3FF5_inline(__this, NULL);
 		if (L_73)
@@ -16531,13 +18341,16 @@ IL_01d1:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:275>
 		int32_t L_74 = V_3;
 		V_7 = L_74;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:276>
 		int32_t L_75 = V_3;
 		int32_t L_76 = V_0;
 		int32_t L_77;
 		L_77 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_75, 1, L_76, NULL);
 		V_8 = L_77;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:278>
 		int32_t L_78 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_78) == ((uint32_t)2))))
 		{
@@ -16545,6 +18358,7 @@ IL_01d1:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:279>
 		int32_t L_79 = V_4;
 		int32_t L_80 = V_0;
 		int32_t L_81;
@@ -16555,6 +18369,7 @@ IL_01d1:
 
 IL_020f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:281>
 		int32_t L_82 = V_4;
 		int32_t L_83 = V_0;
 		int32_t L_84 = V_7;
@@ -16568,13 +18383,16 @@ IL_020f:
 
 IL_0226:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:285>
 		int32_t L_87 = V_4;
 		V_7 = L_87;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:286>
 		int32_t L_88 = V_4;
 		int32_t L_89 = V_0;
 		int32_t L_90;
 		L_90 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_88, 1, L_89, NULL);
 		V_9 = L_90;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:288>
 		int32_t L_91 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_91) == ((uint32_t)1))))
 		{
@@ -16582,6 +18400,7 @@ IL_0226:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:289>
 		int32_t L_92 = V_3;
 		int32_t L_93 = V_0;
 		int32_t L_94;
@@ -16592,6 +18411,7 @@ IL_0226:
 
 IL_0249:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:291>
 		int32_t L_95 = V_3;
 		int32_t L_96 = V_0;
 		int32_t L_97 = V_7;
@@ -16604,6 +18424,10 @@ IL_0249:
 
 IL_025d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:294>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:295>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:296>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:297>
 		int32_t L_100 = V_8;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_101;
 		L_101 = GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D_inline(__this, NULL);
@@ -16621,6 +18445,10 @@ IL_025d:
 		L_110 = GridLayoutGroup_get_spacing_m19BC15652BF18D051B0998C14F13DB83191F3E58_inline(__this, NULL);
 		float L_111 = L_110.___y;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_10), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)L_100), L_102)), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract(L_103, 1))), L_105)))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)L_106), L_108)), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_subtract(L_109, 1))), L_111)))), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:298>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:299>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:300>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:301>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_112 = V_10;
 		float L_113 = L_112.___x;
 		float L_114;
@@ -16630,7 +18458,9 @@ IL_025d:
 		float L_117;
 		L_117 = LayoutGroup_GetStartOffset_m3748EE96F01312488AD6B764B01171AB2F5E309B(__this, 1, L_116, NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_11), L_114, L_117, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:304>
 		V_12 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:305>
 		int32_t L_118 = V_0;
 		int32_t L_119 = __this->___m_ConstraintCount;
 		if ((((int32_t)L_118) <= ((int32_t)L_119)))
@@ -16650,18 +18480,21 @@ IL_025d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:307>
 		int32_t L_124 = __this->___m_ConstraintCount;
 		int32_t L_125 = V_0;
 		int32_t L_126 = V_7;
 		int32_t L_127;
 		L_127 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)L_125)/((float)L_126))), NULL);
 		V_12 = ((int32_t)il2cpp_codegen_subtract(L_124, L_127));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:308>
 		int32_t L_128 = V_12;
 		int32_t L_129 = V_12;
 		int32_t L_130 = V_7;
 		int32_t L_131;
 		L_131 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)L_129)/((float)il2cpp_codegen_subtract(((float)L_130), (1.0f))))), NULL);
 		V_12 = ((int32_t)il2cpp_codegen_add(L_128, L_131));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:309>
 		int32_t L_132 = V_0;
 		int32_t L_133 = V_7;
 		if ((!(((uint32_t)((int32_t)(L_132%L_133))) == ((uint32_t)1))))
@@ -16670,18 +18503,21 @@ IL_025d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:310>
 		int32_t L_134 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_134, 1));
 	}
 
 IL_0320:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:313>
 		V_16 = 0;
 		goto IL_0458;
 	}
 
 IL_0328:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:317>
 		int32_t L_135;
 		L_135 = GridLayoutGroup_get_startAxis_mADFB75A761550B3141256B0130655A6703FF3FF5_inline(__this, NULL);
 		if (L_135)
@@ -16690,6 +18526,7 @@ IL_0328:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:319>
 		int32_t L_136 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_136) == ((uint32_t)2))))
 		{
@@ -16706,7 +18543,9 @@ IL_0328:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:321>
 		V_17 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:322>
 		int32_t L_140 = __this->___m_ConstraintCount;
 		int32_t L_141 = V_0;
 		int32_t L_142 = V_16;
@@ -16716,9 +18555,11 @@ IL_0328:
 
 IL_0353:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:326>
 		int32_t L_143 = V_16;
 		int32_t L_144 = V_7;
 		V_17 = ((int32_t)(L_143%L_144));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:327>
 		int32_t L_145 = V_16;
 		int32_t L_146 = V_7;
 		V_18 = ((int32_t)(L_145/L_146));
@@ -16727,6 +18568,7 @@ IL_0353:
 
 IL_0363:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:332>
 		int32_t L_147 = __this->___m_Constraint;
 		if ((!(((uint32_t)L_147) == ((uint32_t)1))))
 		{
@@ -16743,19 +18585,23 @@ IL_0363:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:334>
 		int32_t L_151 = __this->___m_ConstraintCount;
 		int32_t L_152 = V_0;
 		int32_t L_153 = V_16;
 		V_17 = ((int32_t)il2cpp_codegen_subtract(L_151, ((int32_t)il2cpp_codegen_subtract(L_152, L_153))));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:335>
 		V_18 = 0;
 		goto IL_0394;
 	}
 
 IL_0386:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:339>
 		int32_t L_154 = V_16;
 		int32_t L_155 = V_7;
 		V_17 = ((int32_t)(L_154/L_155));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:340>
 		int32_t L_156 = V_16;
 		int32_t L_157 = V_7;
 		V_18 = ((int32_t)(L_156%L_157));
@@ -16763,6 +18609,7 @@ IL_0386:
 
 IL_0394:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:344>
 		int32_t L_158 = V_5;
 		if ((!(((uint32_t)L_158) == ((uint32_t)1))))
 		{
@@ -16770,6 +18617,7 @@ IL_0394:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:345>
 		int32_t L_159 = V_8;
 		int32_t L_160 = V_17;
 		V_17 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_159, 1)), L_160));
@@ -16777,6 +18625,7 @@ IL_0394:
 
 IL_03a2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:346>
 		int32_t L_161 = V_6;
 		if ((!(((uint32_t)L_161) == ((uint32_t)1))))
 		{
@@ -16784,6 +18633,7 @@ IL_03a2:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:347>
 		int32_t L_162 = V_9;
 		int32_t L_163 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_162, 1)), L_163));
@@ -16791,6 +18641,7 @@ IL_03a2:
 
 IL_03b0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:349>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_164;
 		L_164 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_165 = V_16;
@@ -16815,6 +18666,7 @@ IL_03b0:
 		float L_175;
 		L_175 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_19), 0, NULL);
 		LayoutGroup_SetChildAlongAxis_mBE88585F9D066C2997499871D934C0A4E9AE871F(__this, L_166, 0, ((float)il2cpp_codegen_add(L_168, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_170, L_172)), ((float)L_173))))), L_175, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:350>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_176;
 		L_176 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_177 = V_16;
@@ -16839,12 +18691,14 @@ IL_03b0:
 		float L_187;
 		L_187 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_19), 1, NULL);
 		LayoutGroup_SetChildAlongAxis_mBE88585F9D066C2997499871D934C0A4E9AE871F(__this, L_178, 1, ((float)il2cpp_codegen_add(L_180, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_182, L_184)), ((float)L_185))))), L_187, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:313>
 		int32_t L_188 = V_16;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_188, 1));
 	}
 
 IL_0458:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:313>
 		int32_t L_189 = V_16;
 		int32_t L_190 = V_0;
 		if ((((int32_t)L_189) < ((int32_t)L_190)))
@@ -16853,6 +18707,7 @@ IL_0458:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:352>
 		return;
 	}
 }
@@ -16888,39 +18743,55 @@ IL_0458:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLayoutGroup__ctor_m811D870AB5F67030CD9A3C1FC02FFE69298131BC (HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:9>
 		HorizontalOrVerticalLayoutGroup__ctor_m778C23DD9F3973AFACD3C6CCEDABF81902665D3F(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:10>
 		return;
 	}
 }
+// Method Definition Index: 19745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLayoutGroup_CalculateLayoutInputHorizontal_mB2C54B2F51CB18A490867DE302D6444C93ADC537 (HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:17>
 		LayoutGroup_CalculateLayoutInputHorizontal_mAB313A3646FC94E9FA98E5C4EA19DBAA7F3754FD(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:18>
 		HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m12CA995AB887ED06762B07E97953D456B316647A(__this, 0, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:19>
 		return;
 	}
 }
+// Method Definition Index: 19746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLayoutGroup_CalculateLayoutInputVertical_m8739924AF17AA7FD9061BBDEBECFC3E2C946D27E (HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:26>
 		HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m12CA995AB887ED06762B07E97953D456B316647A(__this, 1, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:27>
 		return;
 	}
 }
+// Method Definition Index: 19747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLayoutGroup_SetLayoutHorizontal_mA4203F549D73128EB605594C74DA47CA07278A25 (HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:34>
 		HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m4D7B06435A66102659B2372B48D49B2117D57F09(__this, 0, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:35>
 		return;
 	}
 }
+// Method Definition Index: 19748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLayoutGroup_SetLayoutVertical_m6B8A658837C88E6A29A9850725734F9C5CA67B82 (HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:42>
 		HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m4D7B06435A66102659B2372B48D49B2117D57F09(__this, 1, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs:43>
 		return;
 	}
 }
@@ -16932,13 +18803,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLayoutGroup_SetLayoutVertical_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:17>
 		float L_0 = __this->___m_Spacing;
 		return L_0;
 	}
 }
+// Method Definition Index: 19750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_spacing_m90373F54D37DA8DFA90E102DC60EC33E542FD859 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16948,19 +18822,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_spac
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:17>
 		float* L_0 = (float*)(&__this->___m_Spacing);
 		float L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mB1C9BC2933169CCE72256722D3BBCEB8191C8804(__this, L_0, L_1, LayoutGroup_SetProperty_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mB1C9BC2933169CCE72256722D3BBCEB8191C8804_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:17>
 		return;
 	}
 }
+// Method Definition Index: 19751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m07A6B6378938DA69E365DCFB2794EEE7D71CC510 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:24>
 		bool L_0 = __this->___m_ChildForceExpandWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m351827AA1A453ACD17C2EAC7B4DAB9C5DB1760E5 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16970,19 +18849,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_chil
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:24>
 		bool* L_0 = (bool*)(&__this->___m_ChildForceExpandWidth);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:24>
 		return;
 	}
 }
+// Method Definition Index: 19753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_mFCBB20057EDC1E7B2DFD56FB6ABFE9A462560741 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:31>
 		bool L_0 = __this->___m_ChildForceExpandHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_mA144CF421614F41813DE346AA9D1C64621C6C2E5 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16992,19 +18876,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_chil
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:31>
 		bool* L_0 = (bool*)(&__this->___m_ChildForceExpandHeight);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:31>
 		return;
 	}
 }
+// Method Definition Index: 19755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_childControlWidth_mBA38BDC393C180CFC30DA02478B493D6CCD92AB1 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:43>
 		bool L_0 = __this->___m_ChildControlWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_childControlWidth_m0B9A78B8284E17C438645684984796AC0E2D1BD8 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17014,19 +18903,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_chil
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:43>
 		bool* L_0 = (bool*)(&__this->___m_ChildControlWidth);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:43>
 		return;
 	}
 }
+// Method Definition Index: 19757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_childControlHeight_m867F7E1D52F29ED8F9E5F060089800295E186AA4 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:55>
 		bool L_0 = __this->___m_ChildControlHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_childControlHeight_m8DD189C9B1F926641F4A2FD41F41F2097E4D7751 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17036,19 +18930,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_chil
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:55>
 		bool* L_0 = (bool*)(&__this->___m_ChildControlHeight);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:55>
 		return;
 	}
 }
+// Method Definition Index: 19759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_childScaleWidth_mF5057406C963AB6CB70DC1B2B213A1F5F7C97E91 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:62>
 		bool L_0 = __this->___m_ChildScaleWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_childScaleWidth_m96A12D7E1C6BCDD510EC08FC470FA5F69B90922D (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17058,19 +18957,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_chil
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:62>
 		bool* L_0 = (bool*)(&__this->___m_ChildScaleWidth);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:62>
 		return;
 	}
 }
+// Method Definition Index: 19761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_childScaleHeight_mA5AD05DFD31E25C5C014C24B5B11DC5492A2E893 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:69>
 		bool L_0 = __this->___m_ChildScaleHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_childScaleHeight_m519A990CF97DE1C974DD1F48466763E4AEC648BC (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17080,19 +18984,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_chil
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:69>
 		bool* L_0 = (bool*)(&__this->___m_ChildScaleHeight);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:69>
 		return;
 	}
 }
+// Method Definition Index: 19763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalOrVerticalLayoutGroup_get_reverseArrangement_m245D8EC788EDA70DCB831FE62DAB8DB806BE7EA3 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:78>
 		bool L_0 = __this->___m_ReverseArrangement;
 		return L_0;
 	}
 }
+// Method Definition Index: 19764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_reverseArrangement_m2AF5AC83D6FE8AE364C626C0518B2ECCEE9C0477 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17102,12 +19011,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_set_reve
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:78>
 		bool* L_0 = (bool*)(&__this->___m_ReverseArrangement);
 		bool L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9(__this, L_0, L_1, LayoutGroup_SetProperty_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m068B17717C494662C03EB4708AE87F3C44BF7BD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:78>
 		return;
 	}
 }
+// Method Definition Index: 19765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m12CA995AB887ED06762B07E97953D456B316647A (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, int32_t ___0_axis, bool ___1_isVertical, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17139,6 +19051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_CalcAlon
 	bool G_B9_0 = false;
 	bool G_B12_0 = false;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:89>
 		int32_t L_0 = ___0_axis;
 		if (!L_0)
 		{
@@ -17166,6 +19079,7 @@ IL_0010:
 IL_001b:
 	{
 		V_0 = ((float)G_B3_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:90>
 		int32_t L_5 = ___0_axis;
 		if (!L_5)
 		{
@@ -17187,6 +19101,7 @@ IL_0028:
 IL_002e:
 	{
 		V_1 = G_B6_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:91>
 		int32_t L_8 = ___0_axis;
 		if (!L_8)
 		{
@@ -17208,6 +19123,7 @@ IL_003a:
 IL_0040:
 	{
 		V_2 = G_B9_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:92>
 		int32_t L_11 = ___0_axis;
 		if (!L_11)
 		{
@@ -17229,36 +19145,45 @@ IL_004c:
 IL_0052:
 	{
 		V_3 = G_B12_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:94>
 		float L_14 = V_0;
 		V_4 = L_14;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:95>
 		float L_15 = V_0;
 		V_5 = L_15;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:96>
 		V_6 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:98>
 		bool L_16 = ___1_isVertical;
 		int32_t L_17 = ___0_axis;
 		V_7 = (bool)((int32_t)((int32_t)L_16^((((int32_t)L_17) == ((int32_t)1))? 1 : 0)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:99>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_18;
 		L_18 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_19;
 		L_19 = List_1_get_Count_m2F707E98BABA1F4794BF2B315168A109B80B2921_inline(L_18, List_1_get_Count_m2F707E98BABA1F4794BF2B315168A109B80B2921_RuntimeMethod_var);
 		V_8 = L_19;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:100>
 		V_9 = 0;
 		goto IL_011c;
 	}
 
 IL_007d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:102>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_20;
 		L_20 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_21 = V_9;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22;
 		L_22 = List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB(L_20, L_21, List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB_RuntimeMethod_var);
 		V_10 = L_22;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:104>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_23 = V_10;
 		int32_t L_24 = ___0_axis;
 		bool L_25 = V_1;
 		bool L_26 = V_3;
 		HorizontalOrVerticalLayoutGroup_GetChildSizes_mE555CFCDBD0CD9913829BB56457F939A166BA383(__this, L_23, L_24, L_25, L_26, (&V_11), (&V_12), (&V_13), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:106>
 		bool L_27 = V_2;
 		if (!L_27)
 		{
@@ -17266,6 +19191,7 @@ IL_007d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:108>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28 = V_10;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 		L_29 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_28, NULL);
@@ -17274,12 +19200,15 @@ IL_007d:
 		float L_31;
 		L_31 = Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_inline((&V_15), L_30, NULL);
 		V_14 = L_31;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:109>
 		float L_32 = V_11;
 		float L_33 = V_14;
 		V_11 = ((float)il2cpp_codegen_multiply(L_32, L_33));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:110>
 		float L_34 = V_12;
 		float L_35 = V_14;
 		V_12 = ((float)il2cpp_codegen_multiply(L_34, L_35));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:111>
 		float L_36 = V_13;
 		float L_37 = V_14;
 		V_13 = ((float)il2cpp_codegen_multiply(L_36, L_37));
@@ -17287,6 +19216,7 @@ IL_007d:
 
 IL_00c8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:114>
 		bool L_38 = V_7;
 		if (!L_38)
 		{
@@ -17294,18 +19224,21 @@ IL_00c8:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:116>
 		float L_39 = V_11;
 		float L_40 = V_0;
 		float L_41 = V_4;
 		float L_42;
 		L_42 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)il2cpp_codegen_add(L_39, L_40)), L_41, NULL);
 		V_4 = L_42;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:117>
 		float L_43 = V_12;
 		float L_44 = V_0;
 		float L_45 = V_5;
 		float L_46;
 		L_46 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)il2cpp_codegen_add(L_43, L_44)), L_45, NULL);
 		V_5 = L_46;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:118>
 		float L_47 = V_13;
 		float L_48 = V_6;
 		float L_49;
@@ -17316,16 +19249,19 @@ IL_00c8:
 
 IL_00f3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:122>
 		float L_50 = V_4;
 		float L_51 = V_11;
 		float L_52;
 		L_52 = HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782_inline(__this, NULL);
 		V_4 = ((float)il2cpp_codegen_add(L_50, ((float)il2cpp_codegen_add(L_51, L_52))));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:123>
 		float L_53 = V_5;
 		float L_54 = V_12;
 		float L_55;
 		L_55 = HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782_inline(__this, NULL);
 		V_5 = ((float)il2cpp_codegen_add(L_53, ((float)il2cpp_codegen_add(L_54, L_55))));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:126>
 		float L_56 = V_6;
 		float L_57 = V_13;
 		V_6 = ((float)il2cpp_codegen_add(L_56, L_57));
@@ -17333,12 +19269,14 @@ IL_00f3:
 
 IL_0116:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:100>
 		int32_t L_58 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_58, 1));
 	}
 
 IL_011c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:100>
 		int32_t L_59 = V_9;
 		int32_t L_60 = V_8;
 		if ((((int32_t)L_59) < ((int32_t)L_60)))
@@ -17347,6 +19285,7 @@ IL_011c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:130>
 		bool L_61 = V_7;
 		if (L_61)
 		{
@@ -17364,10 +19303,12 @@ IL_011c:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:132>
 		float L_64 = V_4;
 		float L_65;
 		L_65 = HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782_inline(__this, NULL);
 		V_4 = ((float)il2cpp_codegen_subtract(L_64, L_65));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:133>
 		float L_66 = V_5;
 		float L_67;
 		L_67 = HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782_inline(__this, NULL);
@@ -17376,19 +19317,23 @@ IL_011c:
 
 IL_014d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:135>
 		float L_68 = V_4;
 		float L_69 = V_5;
 		float L_70;
 		L_70 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_68, L_69, NULL);
 		V_5 = L_70;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:136>
 		float L_71 = V_4;
 		float L_72 = V_5;
 		float L_73 = V_6;
 		int32_t L_74 = ___0_axis;
 		LayoutGroup_SetLayoutInputForAxis_m3704D7673470CF7CF1F2B145F226C9C30C25E660(__this, L_71, L_72, L_73, L_74, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:137>
 		return;
 	}
 }
+// Method Definition Index: 19766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m4D7B06435A66102659B2372B48D49B2117D57F09 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, int32_t ___0_axis, bool ___1_isVertical, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17476,6 +19421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_SetChild
 	float G_B55_0 = 0.0f;
 	int32_t G_B62_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:146>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
@@ -17488,6 +19434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_SetChild
 		float L_4;
 		L_4 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_9), L_3, NULL);
 		V_0 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:147>
 		int32_t L_5 = ___0_axis;
 		if (!L_5)
 		{
@@ -17509,6 +19456,7 @@ IL_002a:
 IL_0030:
 	{
 		V_1 = G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:148>
 		int32_t L_8 = ___0_axis;
 		if (!L_8)
 		{
@@ -17530,6 +19478,7 @@ IL_003c:
 IL_0042:
 	{
 		V_2 = G_B6_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:149>
 		int32_t L_11 = ___0_axis;
 		if (!L_11)
 		{
@@ -17551,12 +19500,15 @@ IL_004e:
 IL_0054:
 	{
 		V_3 = G_B9_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:150>
 		int32_t L_14 = ___0_axis;
 		float L_15;
 		L_15 = LayoutGroup_GetAlignmentOnAxis_m14E9D80D22AFAE88909D806F5439BCB9EF194A45(__this, L_14, NULL);
 		V_4 = L_15;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:152>
 		bool L_16 = ___1_isVertical;
 		int32_t L_17 = ___0_axis;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:153>
 		bool L_18 = __this->___m_ReverseArrangement;
 		if (L_18)
 		{
@@ -17584,6 +19536,7 @@ IL_006f:
 IL_007c:
 	{
 		V_5 = G_B12_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:154>
 		bool L_21 = __this->___m_ReverseArrangement;
 		if (L_21)
 		{
@@ -17611,6 +19564,7 @@ IL_0093:
 IL_0094:
 	{
 		V_6 = G_B15_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:155>
 		bool L_24 = __this->___m_ReverseArrangement;
 		if (L_24)
 		{
@@ -17634,12 +19588,14 @@ IL_00a1:
 IL_00a2:
 	{
 		V_7 = G_B18_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:156>
 		if (!G_B18_1)
 		{
 			goto IL_0199;
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:158>
 		float L_25 = V_0;
 		int32_t L_26 = ___0_axis;
 		if (!L_26)
@@ -17672,6 +19628,7 @@ IL_00ba:
 IL_00c5:
 	{
 		V_10 = ((float)il2cpp_codegen_subtract(G_B22_1, ((float)G_B22_0)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:160>
 		int32_t L_31 = V_5;
 		V_11 = L_31;
 		goto IL_017a;
@@ -17679,17 +19636,20 @@ IL_00c5:
 
 IL_00d2:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:162>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_32;
 		L_32 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_33 = V_11;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_34;
 		L_34 = List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB(L_32, L_33, List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB_RuntimeMethod_var);
 		V_12 = L_34;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:164>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_35 = V_12;
 		int32_t L_36 = ___0_axis;
 		bool L_37 = V_1;
 		bool L_38 = V_3;
 		HorizontalOrVerticalLayoutGroup_GetChildSizes_mE555CFCDBD0CD9913829BB56457F939A166BA383(__this, L_35, L_36, L_37, L_38, (&V_13), (&V_14), (&V_15), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:165>
 		bool L_39 = V_2;
 		if (L_39)
 		{
@@ -17716,6 +19676,7 @@ IL_00fc:
 IL_010d:
 	{
 		V_16 = G_B26_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:167>
 		float L_44 = V_10;
 		float L_45 = V_13;
 		float L_46 = V_15;
@@ -17749,12 +19710,14 @@ IL_0121:
 		float L_49;
 		L_49 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(G_B29_2, G_B29_1, G_B29_0, NULL);
 		V_17 = L_49;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:168>
 		int32_t L_50 = ___0_axis;
 		float L_51 = V_17;
 		float L_52 = V_16;
 		float L_53;
 		L_53 = LayoutGroup_GetStartOffset_m3748EE96F01312488AD6B764B01171AB2F5E309B(__this, L_50, ((float)il2cpp_codegen_multiply(L_51, L_52)), NULL);
 		V_18 = L_53;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:169>
 		bool L_54 = V_1;
 		if (!L_54)
 		{
@@ -17762,6 +19725,7 @@ IL_0121:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:171>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_55 = V_12;
 		int32_t L_56 = ___0_axis;
 		float L_57 = V_18;
@@ -17773,6 +19737,7 @@ IL_0121:
 
 IL_014a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:175>
 		float L_60 = V_17;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_61 = V_12;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_62;
@@ -17783,6 +19748,7 @@ IL_014a:
 		L_64 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_9), L_63, NULL);
 		float L_65 = V_4;
 		V_20 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_60, L_64)), L_65));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:176>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_66 = V_12;
 		int32_t L_67 = ___0_axis;
 		float L_68 = V_18;
@@ -17793,6 +19759,7 @@ IL_014a:
 
 IL_0173:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:160>
 		int32_t L_71 = V_11;
 		int32_t L_72 = V_7;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_71, L_72));
@@ -17800,6 +19767,7 @@ IL_0173:
 
 IL_017a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:160>
 		bool L_73 = __this->___m_ReverseArrangement;
 		if (L_73)
 		{
@@ -17833,6 +19801,7 @@ IL_0193:
 
 IL_0199:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:182>
 		int32_t L_78 = ___0_axis;
 		if (!L_78)
 		{
@@ -17860,12 +19829,15 @@ IL_01a9:
 IL_01b4:
 	{
 		V_21 = ((float)G_B41_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:183>
 		V_22 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:184>
 		float L_83 = V_0;
 		int32_t L_84 = ___0_axis;
 		float L_85;
 		L_85 = LayoutGroup_GetTotalPreferredSize_mEFFC79C79FC70A3BDD06E46C6188827E0F7EABC3(__this, L_84, NULL);
 		V_23 = ((float)il2cpp_codegen_subtract(L_83, L_85));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:186>
 		float L_86 = V_23;
 		if ((!(((float)L_86) > ((float)(0.0f)))))
 		{
@@ -17873,6 +19845,7 @@ IL_01b4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:188>
 		int32_t L_87 = ___0_axis;
 		float L_88;
 		L_88 = LayoutGroup_GetTotalFlexibleSize_m0750BE35A8B466C0CB82460B0A490139B8BE1E2A(__this, L_87, NULL);
@@ -17882,6 +19855,7 @@ IL_01b4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:189>
 		int32_t L_89 = ___0_axis;
 		int32_t L_90 = ___0_axis;
 		float L_91;
@@ -17932,6 +19906,7 @@ IL_0204:
 
 IL_020f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:190>
 		int32_t L_98 = ___0_axis;
 		float L_99;
 		L_99 = LayoutGroup_GetTotalFlexibleSize_m0750BE35A8B466C0CB82460B0A490139B8BE1E2A(__this, L_98, NULL);
@@ -17941,6 +19916,7 @@ IL_020f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:191>
 		float L_100 = V_23;
 		int32_t L_101 = ___0_axis;
 		float L_102;
@@ -17950,7 +19926,9 @@ IL_020f:
 
 IL_0229:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:194>
 		V_24 = (0.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:195>
 		int32_t L_103 = ___0_axis;
 		float L_104;
 		L_104 = LayoutGroup_GetTotalMinSize_mFBD1A44880D3390EFC7AF2441D556C9FAD49059A(__this, L_103, NULL);
@@ -17963,6 +19941,7 @@ IL_0229:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:196>
 		float L_107 = V_0;
 		int32_t L_108 = ___0_axis;
 		float L_109;
@@ -17980,6 +19959,7 @@ IL_0229:
 
 IL_0260:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:198>
 		int32_t L_115 = V_5;
 		V_25 = L_115;
 		goto IL_0312;
@@ -17987,17 +19967,20 @@ IL_0260:
 
 IL_0269:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:200>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_116;
 		L_116 = LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline(__this, NULL);
 		int32_t L_117 = V_25;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_118;
 		L_118 = List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB(L_116, L_117, List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB_RuntimeMethod_var);
 		V_26 = L_118;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:202>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_119 = V_26;
 		int32_t L_120 = ___0_axis;
 		bool L_121 = V_1;
 		bool L_122 = V_3;
 		HorizontalOrVerticalLayoutGroup_GetChildSizes_mE555CFCDBD0CD9913829BB56457F939A166BA383(__this, L_119, L_120, L_121, L_122, (&V_27), (&V_28), (&V_29), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:203>
 		bool L_123 = V_2;
 		if (L_123)
 		{
@@ -18024,16 +20007,19 @@ IL_0293:
 IL_02a4:
 	{
 		V_30 = G_B55_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:205>
 		float L_128 = V_27;
 		float L_129 = V_28;
 		float L_130 = V_24;
 		float L_131;
 		L_131 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_128, L_129, L_130, NULL);
 		V_31 = L_131;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:206>
 		float L_132 = V_31;
 		float L_133 = V_29;
 		float L_134 = V_22;
 		V_31 = ((float)il2cpp_codegen_add(L_132, ((float)il2cpp_codegen_multiply(L_133, L_134))));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:207>
 		bool L_135 = V_1;
 		if (!L_135)
 		{
@@ -18041,6 +20027,7 @@ IL_02a4:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:209>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_136 = V_26;
 		int32_t L_137 = ___0_axis;
 		float L_138 = V_21;
@@ -18052,6 +20039,7 @@ IL_02a4:
 
 IL_02d1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:213>
 		float L_141 = V_31;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_142 = V_26;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_143;
@@ -18062,6 +20050,7 @@ IL_02d1:
 		L_145 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_9), L_144, NULL);
 		float L_146 = V_4;
 		V_32 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_141, L_145)), L_146));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:214>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_147 = V_26;
 		int32_t L_148 = ___0_axis;
 		float L_149 = V_21;
@@ -18072,12 +20061,14 @@ IL_02d1:
 
 IL_02fa:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:216>
 		float L_152 = V_21;
 		float L_153 = V_31;
 		float L_154 = V_30;
 		float L_155;
 		L_155 = HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782_inline(__this, NULL);
 		V_21 = ((float)il2cpp_codegen_add(L_152, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_153, L_154)), L_155))));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:198>
 		int32_t L_156 = V_25;
 		int32_t L_157 = V_7;
 		V_25 = ((int32_t)il2cpp_codegen_add(L_156, L_157));
@@ -18085,6 +20076,7 @@ IL_02fa:
 
 IL_0312:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:198>
 		bool L_158 = __this->___m_ReverseArrangement;
 		if (L_158)
 		{
@@ -18113,14 +20105,17 @@ IL_032b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:219>
 		return;
 	}
 }
+// Method Definition Index: 19767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_GetChildSizes_mE555CFCDBD0CD9913829BB56457F939A166BA383 (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_child, int32_t ___1_axis, bool ___2_controlSize, bool ___3_childForceExpand, float* ___4_min, float* ___5_preferred, float* ___6_flexible, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:224>
 		bool L_0 = ___2_controlSize;
 		if (L_0)
 		{
@@ -18128,6 +20123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_GetChild
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:226>
 		float* L_1 = ___4_min;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ___0_child;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
@@ -18137,10 +20133,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_GetChild
 		float L_5;
 		L_5 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_0), L_4, NULL);
 		*((float*)L_1) = (float)L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:227>
 		float* L_6 = ___5_preferred;
 		float* L_7 = ___4_min;
 		float L_8 = *((float*)L_7);
 		*((float*)L_6) = (float)L_8;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:228>
 		float* L_9 = ___6_flexible;
 		*((float*)L_9) = (float)(0.0f);
 		goto IL_0043;
@@ -18148,18 +20146,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup_GetChild
 
 IL_0025:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:232>
 		float* L_10 = ___4_min;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = ___0_child;
 		int32_t L_12 = ___1_axis;
 		float L_13;
 		L_13 = LayoutUtility_GetMinSize_mE0421687F579243D5252F065A737268EF736374C(L_11, L_12, NULL);
 		*((float*)L_10) = (float)L_13;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:233>
 		float* L_14 = ___5_preferred;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = ___0_child;
 		int32_t L_16 = ___1_axis;
 		float L_17;
 		L_17 = LayoutUtility_GetPreferredSize_mCAFD360B8490CD02AF5F99E93E09D8625BD85F52(L_15, L_16, NULL);
 		*((float*)L_14) = (float)L_17;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:234>
 		float* L_18 = ___6_flexible;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = ___0_child;
 		int32_t L_20 = ___1_axis;
@@ -18170,6 +20171,7 @@ IL_0025:
 
 IL_0043:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:237>
 		bool L_22 = ___3_childForceExpand;
 		if (!L_22)
 		{
@@ -18177,6 +20179,7 @@ IL_0043:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:238>
 		float* L_23 = ___6_flexible;
 		float* L_24 = ___6_flexible;
 		float L_25 = *((float*)L_24);
@@ -18187,15 +20190,21 @@ IL_0043:
 
 IL_0057:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:239>
 		return;
 	}
 }
+// Method Definition Index: 19768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup__ctor_m778C23DD9F3973AFACD3C6CCEDABF81902665D3F (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:19>
 		__this->___m_ChildForceExpandWidth = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:26>
 		__this->___m_ChildForceExpandHeight = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:33>
 		__this->___m_ChildControlWidth = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:45>
 		__this->___m_ChildControlHeight = (bool)1;
 		LayoutGroup__ctor_m3F10CB94B64D503325A8EE097A94261C08AA2337(__this, NULL);
 		return;
@@ -18209,13 +20218,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalOrVerticalLayoutGroup__ctor_m7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutElement_get_ignoreLayout_m32A9F0BACBC8E6BAE46F35E570DF71E937924412 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:28>
 		bool L_0 = __this->___m_IgnoreLayout;
 		return L_0;
 	}
 }
+// Method Definition Index: 19782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_ignoreLayout_mF3D4AF6214FD719979E4BA6A120494E7226FF18C (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18225,6 +20237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_ignoreLayout_mF3D4AF62
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:28>
 		bool* L_0 = (bool*)(&__this->___m_IgnoreLayout);
 		bool L_1 = ___0_value;
 		bool L_2;
@@ -18235,33 +20248,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_ignoreLayout_mF3D4AF62
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:28>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:28>
 		return;
 	}
 }
+// Method Definition Index: 19783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_CalculateLayoutInputHorizontal_mD6645A83B5E234C1EA5C764E48CAD4F3C135C4D7 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:30>
 		return;
 	}
 }
+// Method Definition Index: 19784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_CalculateLayoutInputVertical_m1D25D380F32BD322135C80C41D407BD81C5D88F6 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:31>
 		return;
 	}
 }
+// Method Definition Index: 19785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutElement_get_minWidth_m6943ECF36A67019A485C4A7AFFC0BF7FD94480CE (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:63>
 		float L_0 = __this->___m_MinWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_minWidth_mC140AB11DDA8F8FD299A5A7E3A9674FB21E827E4 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18271,6 +20293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_minWidth_mC140AB11DDA8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:63>
 		float* L_0 = (float*)(&__this->___m_MinWidth);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -18281,21 +20304,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_minWidth_mC140AB11DDA8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:63>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:63>
 		return;
 	}
 }
+// Method Definition Index: 19787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutElement_get_minHeight_mC1951830B9F43C57AC4A287E9AF3A62A0871E9C3 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:95>
 		float L_0 = __this->___m_MinHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_minHeight_m8B794B9E92B440D9B88FEACD95492DC5257D628F (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18305,6 +20333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_minHeight_m8B794B9E92B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:95>
 		float* L_0 = (float*)(&__this->___m_MinHeight);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -18315,21 +20344,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_minHeight_m8B794B9E92B
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:95>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:95>
 		return;
 	}
 }
+// Method Definition Index: 19789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutElement_get_preferredWidth_m214B11641CBD652E174F42133EF7CDC413CF6CE0 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:127>
 		float L_0 = __this->___m_PreferredWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_preferredWidth_m9D8F8097227D2EBAC03BB0E2E6B0E0A6C8887BA6 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18339,6 +20373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_preferredWidth_m9D8F80
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:127>
 		float* L_0 = (float*)(&__this->___m_PreferredWidth);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -18349,21 +20384,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_preferredWidth_m9D8F80
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:127>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:127>
 		return;
 	}
 }
+// Method Definition Index: 19791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutElement_get_preferredHeight_mE630312564CC2A3E459C9C3E5FFDC2138D35EC88 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:159>
 		float L_0 = __this->___m_PreferredHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_preferredHeight_m0F5874AD74B74F2A8F1CE86ED0477FEA9555433F (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18373,6 +20413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_preferredHeight_m0F587
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:159>
 		float* L_0 = (float*)(&__this->___m_PreferredHeight);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -18383,21 +20424,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_preferredHeight_m0F587
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:159>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:159>
 		return;
 	}
 }
+// Method Definition Index: 19793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutElement_get_flexibleWidth_m2E51EA4DC58A4740702314E253FCA8816A1B98A8 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:164>
 		float L_0 = __this->___m_FlexibleWidth;
 		return L_0;
 	}
 }
+// Method Definition Index: 19794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_flexibleWidth_m29E6E303E19AE180FD805D6E5481A00FC49E2983 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18407,6 +20453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_flexibleWidth_m29E6E30
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:164>
 		float* L_0 = (float*)(&__this->___m_FlexibleWidth);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -18417,21 +20464,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_flexibleWidth_m29E6E30
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:164>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:164>
 		return;
 	}
 }
+// Method Definition Index: 19795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutElement_get_flexibleHeight_m8A7B16E85F304CAA03BF6417BE1D0F6C0212E2E4 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:169>
 		float L_0 = __this->___m_FlexibleHeight;
 		return L_0;
 	}
 }
+// Method Definition Index: 19796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_flexibleHeight_m39C426C07583BE074F9B71DA9ECA1216860A43D2 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18441,6 +20493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_flexibleHeight_m39C426
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:169>
 		float* L_0 = (float*)(&__this->___m_FlexibleHeight);
 		float L_1 = ___0_value;
 		bool L_2;
@@ -18451,21 +20504,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_flexibleHeight_m39C426
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:169>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:169>
 		return;
 	}
 }
+// Method Definition Index: 19797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutElement_get_layoutPriority_m20D5C7FC2019146C2FFD09CF1A3D908703763510 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:174>
 		int32_t L_0 = __this->___m_LayoutPriority;
 		return L_0;
 	}
 }
+// Method Definition Index: 19798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_layoutPriority_m8EAEC716134A0536F1E96F8C3AB0980D5416E2BD (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18475,6 +20533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_layoutPriority_m8EAEC7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:174>
 		int32_t* L_0 = (int32_t*)(&__this->___m_LayoutPriority);
 		int32_t L_1 = ___0_value;
 		bool L_2;
@@ -18485,65 +20544,95 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_set_layoutPriority_m8EAEC7
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:174>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:174>
 		return;
 	}
 }
+// Method Definition Index: 19799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement__ctor_m31C173AFE1B1749B6957B578C9463044BA22624A (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:14>
 		__this->___m_MinWidth = (-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:15>
 		__this->___m_MinHeight = (-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:16>
 		__this->___m_PreferredWidth = (-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:17>
 		__this->___m_PreferredHeight = (-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:18>
 		__this->___m_FlexibleWidth = (-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:19>
 		__this->___m_FlexibleHeight = (-1.0f);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:20>
 		__this->___m_LayoutPriority = 1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:177>
 		UIBehaviour__ctor_m24C66A65DDD996E779871C6655CF11B871F11337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:178>
 		return;
 	}
 }
+// Method Definition Index: 19800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_OnEnable_mCD4984C5E35B4658AAB3224795209A92DAD65C6B (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:182>
 		UIBehaviour_OnEnable_m8989ABF5C038905A68E5536BED2E6FFAF8767FFC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:183>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:184>
 		return;
 	}
 }
+// Method Definition Index: 19801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_OnTransformParentChanged_m7495A830D24B032BBCE6FC2F540CDCE8B713C330 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:188>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:189>
 		return;
 	}
 }
+// Method Definition Index: 19802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_OnDisable_m5DBCC5762DB101EA70B19A24F8A41BCDE450AB87 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:193>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:194>
 		UIBehaviour_OnDisable_m18D5A0B93F65FB50F4D6CE8197EC07F3452C5DDE(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:195>
 		return;
 	}
 }
+// Method Definition Index: 19803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_OnDidApplyAnimationProperties_m3D225CF42A2339702431CEB9F43DC769567E1535 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:199>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:200>
 		return;
 	}
 }
+// Method Definition Index: 19804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_OnBeforeTransformParentChanged_mC3BA3EA166CF4AE74B9A00799DE1C2869A9261D6 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:204>
 		LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:205>
 		return;
 	}
 }
+// Method Definition Index: 19805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_SetDirty_m9ECC494A5A6C3764AAB0D3E2C61C6050FC517879 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18554,6 +20643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_SetDirty_m9ECC494A5A6C3764
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:215>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (L_0)
@@ -18562,15 +20652,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutElement_SetDirty_m9ECC494A5A6C3764
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:216>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:217>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_1, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs:218>
 		return;
 	}
 }
@@ -18582,13 +20675,16 @@ IL_0009:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:21>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_0 = __this->___m_Padding;
 		return L_0;
 	}
 }
+// Method Definition Index: 19807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_set_padding_m9F415F3402E5E4AE684FD153493CE3E8D64D3EB7 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18598,19 +20694,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_set_padding_m9F415F3402E5E4A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:21>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5** L_0 = (RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5**)(&__this->___m_Padding);
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisRectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_mB4C3CDFFEF062F90AFD45BCACA5F28536ABEE7FA(__this, L_0, L_1, LayoutGroup_SetProperty_TisRectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_mB4C3CDFFEF062F90AFD45BCACA5F28536ABEE7FA_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:21>
 		return;
 	}
 }
+// Method Definition Index: 19808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutGroup_get_childAlignment_m45C0D32DB91FD92852CA50278904034A26ADEFC1 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:31>
 		int32_t L_0 = __this->___m_ChildAlignment;
 		return L_0;
 	}
 }
+// Method Definition Index: 19809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_set_childAlignment_mA97DF1F2CF43C0CD1B83CFE7883626AA86ABB0AF (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18620,12 +20721,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_set_childAlignment_mA97DF1F2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:31>
 		int32_t* L_0 = (int32_t*)(&__this->___m_ChildAlignment);
 		int32_t L_1 = ___0_value;
 		LayoutGroup_SetProperty_TisTextAnchor_tA46E794186AC1CD0F22888652F589EBF7DFDF830_m1F053EF266A0F3BB0ABE1AD688A2CCC69C837217(__this, L_0, L_1, LayoutGroup_SetProperty_TisTextAnchor_tA46E794186AC1CD0F22888652F589EBF7DFDF830_m1F053EF266A0F3BB0ABE1AD688A2CCC69C837217_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:31>
 		return;
 	}
 }
+// Method Definition Index: 19810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18636,6 +20740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:38>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_Rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18646,6 +20751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:39>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2;
 		L_2 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___m_Rect = L_2;
@@ -18654,17 +20760,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 
 IL_001a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:40>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___m_Rect;
 		return L_3;
 	}
 }
+// Method Definition Index: 19811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:50>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_0 = __this->___m_RectChildren;
 		return L_0;
 	}
 }
+// Method Definition Index: 19812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_CalculateLayoutInputHorizontal_mAB313A3646FC94E9FA98E5C4EA19DBAA7F3754FD (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18689,24 +20799,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_CalculateLayoutInputHorizont
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:54>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_0 = __this->___m_RectChildren;
 		List_1_Clear_m093B5A8906C4F9A0DD98022561BB1EAFC518CBE3_inline(L_0, List_1_Clear_m093B5A8906C4F9A0DD98022561BB1EAFC518CBE3_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:55>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_1;
 		L_1 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:56>
 		V_1 = 0;
 		goto IL_009d;
 	}
 
 IL_0018:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:58>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2;
 		L_2 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		int32_t L_3 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_2, L_3, NULL);
 		V_2 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_4, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:59>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -18728,6 +20843,7 @@ IL_0018:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:62>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = V_2;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_11 = { reinterpret_cast<intptr_t> (ILayoutIgnorer_t8C1FD3D5CC5021EEE19E7EAEF73CC566AF0106F6_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -18735,6 +20851,7 @@ IL_0018:
 		L_12 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_11, NULL);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_13 = V_0;
 		Component_GetComponents_mFD04B9CB0BD37505417054D614436B5844DC4365(L_10, L_12, L_13, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:64>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_14 = V_0;
 		int32_t L_15;
 		L_15 = List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_inline(L_14, List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_RuntimeMethod_var);
@@ -18744,24 +20861,29 @@ IL_0018:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:66>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_16 = __this->___m_RectChildren;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = V_2;
 		List_1_Add_m1B3281E84BCDC45DAA2A744E167AC2065A753F0E_inline(L_16, L_17, List_1_Add_m1B3281E84BCDC45DAA2A744E167AC2065A753F0E_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:67>
 		goto IL_0099;
 	}
 
 IL_0067:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:70>
 		V_3 = 0;
 		goto IL_0090;
 	}
 
 IL_006b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:72>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_18 = V_0;
 		int32_t L_19 = V_3;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_20;
 		L_20 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_18, L_19, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:73>
 		bool L_21;
 		L_21 = InterfaceFuncInvoker0< bool >::Invoke(0, ILayoutIgnorer_t8C1FD3D5CC5021EEE19E7EAEF73CC566AF0106F6_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_20, ILayoutIgnorer_t8C1FD3D5CC5021EEE19E7EAEF73CC566AF0106F6_il2cpp_TypeInfo_var)));
 		if (L_21)
@@ -18770,20 +20892,24 @@ IL_006b:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:75>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_22 = __this->___m_RectChildren;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_23 = V_2;
 		List_1_Add_m1B3281E84BCDC45DAA2A744E167AC2065A753F0E_inline(L_22, L_23, List_1_Add_m1B3281E84BCDC45DAA2A744E167AC2065A753F0E_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:76>
 		goto IL_0099;
 	}
 
 IL_008c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:70>
 		int32_t L_24 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_0090:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:70>
 		int32_t L_25 = V_3;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_26 = V_0;
 		int32_t L_27;
@@ -18796,12 +20922,14 @@ IL_0090:
 
 IL_0099:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:56>
 		int32_t L_28 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_28, 1));
 	}
 
 IL_009d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:56>
 		int32_t L_29 = V_1;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_30;
 		L_30 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
@@ -18813,68 +20941,86 @@ IL_009d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:80>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_32 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_32, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:81>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_33 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		DrivenRectTransformTracker_Clear_m9A7F5130E4007F70B14AB1FF13A2997C073A64EE(L_33, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:82>
 		return;
 	}
 }
+// Method Definition Index: 19814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_get_minWidth_m3EFD1527249470CC4F71588466BFB17D4A632229 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:89>
 		float L_0;
 		L_0 = LayoutGroup_GetTotalMinSize_mFBD1A44880D3390EFC7AF2441D556C9FAD49059A(__this, 0, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_get_preferredWidth_mDE70B887487494986C9A5621C9F19488154EE2CA (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:94>
 		float L_0;
 		L_0 = LayoutGroup_GetTotalPreferredSize_mEFFC79C79FC70A3BDD06E46C6188827E0F7EABC3(__this, 0, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_get_flexibleWidth_mB4DCC3B208370CF2A2FE276A56D011922BC08609 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:99>
 		float L_0;
 		L_0 = LayoutGroup_GetTotalFlexibleSize_m0750BE35A8B466C0CB82460B0A490139B8BE1E2A(__this, 0, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_get_minHeight_mE2FA1D3B4B40AAD5CD4493087C5B63C7BCAE9B3C (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:104>
 		float L_0;
 		L_0 = LayoutGroup_GetTotalMinSize_mFBD1A44880D3390EFC7AF2441D556C9FAD49059A(__this, 1, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_get_preferredHeight_m055B2270ECB1C9C0FCCCA396FD7E9F8EFBDBDBA8 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:109>
 		float L_0;
 		L_0 = LayoutGroup_GetTotalPreferredSize_mEFFC79C79FC70A3BDD06E46C6188827E0F7EABC3(__this, 1, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_get_flexibleHeight_m5F911708AAE2DDEF9ABF8EC7894F2B7A7264EB0A (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:114>
 		float L_0;
 		L_0 = LayoutGroup_GetTotalFlexibleSize_m0750BE35A8B466C0CB82460B0A490139B8BE1E2A(__this, 1, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutGroup_get_layoutPriority_mC86CB36BF49A18F09F6577A9B298CB639F1FEC4A (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:119>
 		return 0;
 	}
 }
+// Method Definition Index: 19823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup__ctor_m3F10CB94B64D503325A8EE097A94261C08AA2337 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18886,24 +21032,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup__ctor_m3F10CB94B64D503325A8E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:16>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_0 = (RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5*)il2cpp_codegen_object_new(RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_il2cpp_TypeInfo_var);
 		RectOffset__ctor_m7DB8E8EDDB814824299F9EF661DAFA32854F0CC9(L_0, NULL);
 		__this->___m_Padding = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Padding), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:45>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_TotalMinSize = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:46>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_TotalPreferredSize = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:47>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___m_TotalFlexibleSize = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:49>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_4 = (List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B*)il2cpp_codegen_object_new(List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B_il2cpp_TypeInfo_var);
 		List_1__ctor_m7EA27CAC733DD95AC0AFB56293AECABB0EA34475(L_4, List_1__ctor_m7EA27CAC733DD95AC0AFB56293AECABB0EA34475_RuntimeMethod_var);
 		__this->___m_RectChildren = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RectChildren), (void*)L_4);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:128>
 		UIBehaviour__ctor_m24C66A65DDD996E779871C6655CF11B871F11337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:130>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_5 = __this->___m_Padding;
 		if (L_5)
 		{
@@ -18911,6 +21064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup__ctor_m3F10CB94B64D503325A8E
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:131>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_6 = (RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5*)il2cpp_codegen_object_new(RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_il2cpp_TypeInfo_var);
 		RectOffset__ctor_m7DB8E8EDDB814824299F9EF661DAFA32854F0CC9(L_6, NULL);
 		__this->___m_Padding = L_6;
@@ -18919,17 +21073,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup__ctor_m3F10CB94B64D503325A8E
 
 IL_0050:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:132>
 		return;
 	}
 }
+// Method Definition Index: 19824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnEnable_m49EF8F43626DCBD10EB37D7F95BDEF2817DECC72 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:136>
 		UIBehaviour_OnEnable_m8989ABF5C038905A68E5536BED2E6FFAF8767FFC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:137>
 		LayoutGroup_SetDirty_m32F20D8BB5C4B4DF350AF5F35A5917660FF9CE60(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:138>
 		return;
 	}
 }
+// Method Definition Index: 19825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnDisable_mC10A4F2B949F44688E26D0F1499BE39B0655DB42 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18939,26 +21099,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnDisable_mC10A4F2B949F44688
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:142>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_0 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		DrivenRectTransformTracker_Clear_m9A7F5130E4007F70B14AB1FF13A2997C073A64EE(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:143>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:144>
 		UIBehaviour_OnDisable_m18D5A0B93F65FB50F4D6CE8197EC07F3452C5DDE(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:145>
 		return;
 	}
 }
+// Method Definition Index: 19826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnDidApplyAnimationProperties_m7E426AAB3C937005BF074ABCF5A1C9FB2D67BB95 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:152>
 		LayoutGroup_SetDirty_m32F20D8BB5C4B4DF350AF5F35A5917660FF9CE60(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:153>
 		return;
 	}
 }
+// Method Definition Index: 19827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetTotalMinSize_mFBD1A44880D3390EFC7AF2441D556C9FAD49059A (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, int32_t ___0_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:162>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TotalMinSize);
 		int32_t L_1 = ___0_axis;
 		float L_2;
@@ -18966,9 +21135,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetTotalMinSize_mFBD1A44880
 		return L_2;
 	}
 }
+// Method Definition Index: 19828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetTotalPreferredSize_mEFFC79C79FC70A3BDD06E46C6188827E0F7EABC3 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, int32_t ___0_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:172>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TotalPreferredSize);
 		int32_t L_1 = ___0_axis;
 		float L_2;
@@ -18976,9 +21147,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetTotalPreferredSize_mEFFC
 		return L_2;
 	}
 }
+// Method Definition Index: 19829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetTotalFlexibleSize_m0750BE35A8B466C0CB82460B0A490139B8BE1E2A (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, int32_t ___0_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:182>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TotalFlexibleSize);
 		int32_t L_1 = ___0_axis;
 		float L_2;
@@ -18986,6 +21159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetTotalFlexibleSize_m0750B
 		return L_2;
 	}
 }
+// Method Definition Index: 19830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetStartOffset_m3748EE96F01312488AD6B764B01171AB2F5E309B (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, int32_t ___0_axis, float ___1_requiredSpaceWithoutPadding, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -19001,6 +21175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetStartOffset_m3748EE96F01
 	float G_B3_1 = 0.0f;
 	int32_t G_B6_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:193>
 		float L_0 = ___1_requiredSpaceWithoutPadding;
 		int32_t L_1 = ___0_axis;
 		if (!L_1)
@@ -19033,6 +21208,7 @@ IL_0011:
 IL_001c:
 	{
 		V_0 = ((float)il2cpp_codegen_add(G_B3_1, ((float)G_B3_0)));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:194>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
@@ -19044,12 +21220,15 @@ IL_001c:
 		int32_t L_9 = ___0_axis;
 		float L_10;
 		L_10 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline((&V_4), L_9, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:195>
 		float L_11 = V_0;
 		V_1 = ((float)il2cpp_codegen_subtract(L_10, L_11));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:196>
 		int32_t L_12 = ___0_axis;
 		float L_13;
 		L_13 = LayoutGroup_GetAlignmentOnAxis_m14E9D80D22AFAE88909D806F5439BCB9EF194A45(__this, L_12, NULL);
 		V_2 = L_13;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:197>
 		int32_t L_14 = ___0_axis;
 		if (!L_14)
 		{
@@ -19081,9 +21260,11 @@ IL_0062:
 		return ((float)il2cpp_codegen_add(((float)G_B6_0), ((float)il2cpp_codegen_multiply(L_19, L_20))));
 	}
 }
+// Method Definition Index: 19831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetAlignmentOnAxis_m14E9D80D22AFAE88909D806F5439BCB9EF194A45 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, int32_t ___0_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:207>
 		int32_t L_0 = ___0_axis;
 		if (L_0)
 		{
@@ -19091,6 +21272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetAlignmentOnAxis_m14E9D80
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:208>
 		int32_t L_1;
 		L_1 = LayoutGroup_get_childAlignment_m45C0D32DB91FD92852CA50278904034A26ADEFC1_inline(__this, NULL);
 		return ((float)il2cpp_codegen_multiply(((float)((int32_t)((int32_t)L_1%3))), (0.5f)));
@@ -19098,29 +21280,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutGroup_GetAlignmentOnAxis_m14E9D80
 
 IL_0013:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:210>
 		int32_t L_2;
 		L_2 = LayoutGroup_get_childAlignment_m45C0D32DB91FD92852CA50278904034A26ADEFC1_inline(__this, NULL);
 		return ((float)il2cpp_codegen_multiply(((float)((int32_t)((int32_t)L_2/3))), (0.5f)));
 	}
 }
+// Method Definition Index: 19832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetLayoutInputForAxis_m3704D7673470CF7CF1F2B145F226C9C30C25E660 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, float ___0_totalMin, float ___1_totalPreferred, float ___2_totalFlexible, int32_t ___3_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:222>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TotalMinSize);
 		int32_t L_1 = ___3_axis;
 		float L_2 = ___0_totalMin;
 		Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline(L_0, L_1, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:223>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TotalPreferredSize);
 		int32_t L_4 = ___3_axis;
 		float L_5 = ___1_totalPreferred;
 		Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline(L_3, L_4, L_5, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:224>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_6 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TotalFlexibleSize);
 		int32_t L_7 = ___3_axis;
 		float L_8 = ___2_totalFlexible;
 		Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline(L_6, L_7, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:225>
 		return;
 	}
 }
+// Method Definition Index: 19833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxis_m25F11D4F93E0D31E68F7227D74000FFB067A8FDC (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, float ___2_pos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19130,6 +21319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxis_m25F11D4F9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:235>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19140,18 +21330,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxis_m25F11D4F9
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:236>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:238>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ___0_rect;
 		int32_t L_3 = ___1_axis;
 		float L_4 = ___2_pos;
 		LayoutGroup_SetChildAlongAxisWithScale_mDCF850DCCD115F9B2ED8AC9D5D7EF8EA0B42EA94(__this, L_2, L_3, L_4, (1.0f), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:239>
 		return;
 	}
 }
+// Method Definition Index: 19834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxisWithScale_mDCF850DCCD115F9B2ED8AC9D5D7EF8EA0B42EA94 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, float ___2_pos, float ___3_scaleFactor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19185,6 +21379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxisWithScale_m
 	int32_t G_B8_1 = 0;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* G_B8_2 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:249>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19195,11 +21390,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxisWithScale_m
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:250>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:252>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:253>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:254>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_2 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = ___0_rect;
 		int32_t L_4 = ___1_axis;
@@ -19237,18 +21436,22 @@ IL_001d:
 IL_001e:
 	{
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(G_B5_4, G_B5_3, G_B5_2, ((int32_t)(G_B5_1|G_B5_0)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:259>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_5, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:260>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_7, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:262>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_9, NULL);
 		V_0 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:263>
 		int32_t L_11 = ___1_axis;
 		int32_t L_12 = ___1_axis;
 		if (!L_12)
@@ -19309,12 +21512,15 @@ IL_0074:
 IL_0098:
 	{
 		Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline(G_B8_2, G_B8_1, G_B8_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:264>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_33 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = V_0;
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_33, L_34, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:265>
 		return;
 	}
 }
+// Method Definition Index: 19835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxis_mBE88585F9D066C2997499871D934C0A4E9AE871F (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, float ___2_pos, float ___3_size, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19324,6 +21530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxis_mBE88585F9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:276>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19334,19 +21541,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxis_mBE88585F9
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:277>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:279>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ___0_rect;
 		int32_t L_3 = ___1_axis;
 		float L_4 = ___2_pos;
 		float L_5 = ___3_size;
 		LayoutGroup_SetChildAlongAxisWithScale_mC1910181779269C2656D954DE36F384D19F11C22(__this, L_2, L_3, L_4, L_5, (1.0f), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:280>
 		return;
 	}
 }
+// Method Definition Index: 19836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxisWithScale_mC1910181779269C2656D954DE36F384D19F11C22 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, float ___2_pos, float ___3_size, float ___4_scaleFactor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19382,6 +21593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxisWithScale_m
 	int32_t G_B8_1 = 0;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* G_B8_2 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:291>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19392,11 +21604,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetChildAlongAxisWithScale_m
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:292>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:294>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:295>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:296>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:297>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:298>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:299>
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:300>
 		DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1* L_2 = (DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1*)(&__this->___m_Tracker);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = ___0_rect;
 		int32_t L_4 = ___1_axis;
@@ -19434,28 +21654,35 @@ IL_0021:
 IL_0026:
 	{
 		DrivenRectTransformTracker_Add_mC0CE417831BF58E6DA81770CE5E2A99B142EEFEC(G_B5_4, G_B5_3, G_B5_2, ((int32_t)(G_B5_1|G_B5_0)), NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:305>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_5, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:306>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_7, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:308>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_9, NULL);
 		V_0 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:309>
 		int32_t L_11 = ___1_axis;
 		float L_12 = ___3_size;
 		Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline((&V_0), L_11, L_12, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:310>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = V_0;
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_13, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:312>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
 		L_16 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_15, NULL);
 		V_1 = L_16;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:313>
 		int32_t L_17 = ___1_axis;
 		int32_t L_18 = ___1_axis;
 		if (!L_18)
@@ -19504,12 +21731,15 @@ IL_0087:
 IL_009e:
 	{
 		Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline(G_B8_2, G_B8_1, G_B8_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:314>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_33 = ___0_rect;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = V_1;
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_33, L_34, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:315>
 		return;
 	}
 }
+// Method Definition Index: 19837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutGroup_get_isRootLayoutGroup_mFB0EC6A489F3847C38599F1187755B6E04301B04 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19521,10 +21751,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutGroup_get_isRootLayoutGroup_mFB0EC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:321>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:322>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -19534,11 +21766,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutGroup_get_isRootLayoutGroup_mFB0EC
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:323>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:324>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -19555,10 +21789,13 @@ IL_0015:
 		return L_8;
 	}
 }
+// Method Definition Index: 19838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnRectTransformDimensionsChange_m32A8C9D736F6096B93235870A9623D63C2CBCA74 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:330>
 		UIBehaviour_OnRectTransformDimensionsChange_m86A6D20E0EBF41CDB89DD1E87F23624263B68159(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:331>
 		bool L_0;
 		L_0 = LayoutGroup_get_isRootLayoutGroup_mFB0EC6A489F3847C38599F1187755B6E04301B04(__this, NULL);
 		if (!L_0)
@@ -19567,21 +21804,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnRectTransformDimensionsCha
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:332>
 		LayoutGroup_SetDirty_m32F20D8BB5C4B4DF350AF5F35A5917660FF9CE60(__this, NULL);
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:333>
 		return;
 	}
 }
+// Method Definition Index: 19839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_OnTransformChildrenChanged_mF55AB48380641070CF0F92AC633357266D14A04A (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:337>
 		LayoutGroup_SetDirty_m32F20D8BB5C4B4DF350AF5F35A5917660FF9CE60(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:338>
 		return;
 	}
 }
+// Method Definition Index: 19841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetDirty_m32F20D8BB5C4B4DF350AF5F35A5917660FF9CE60 (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19592,6 +21835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetDirty_m32F20D8BB5C4B4DF35
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:358>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (L_0)
@@ -19600,11 +21844,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutGroup_SetDirty_m32F20D8BB5C4B4DF35
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:359>
 		return;
 	}
 
 IL_0009:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:361>
 		il2cpp_codegen_runtime_class_init_inline(CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = CanvasUpdateRegistry_IsRebuildingLayout_m3C037968252136E38CF1AF8716DC671CE13917EA(NULL);
@@ -19614,6 +21860,7 @@ IL_0009:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:362>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2;
 		L_2 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
@@ -19623,15 +21870,18 @@ IL_0009:
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:364>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3;
 		L_3 = LayoutGroup_get_rectTransform_mE9AD2CFD78229C631BF21260FDB40C2D0D895974(__this, NULL);
 		RuntimeObject* L_4;
 		L_4 = LayoutGroup_DelayedSetDirty_m67C0D880E25888F274BE8AE9D3F4C28EA4A22D0C(__this, L_3, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:365>
 		return;
 	}
 }
+// Method Definition Index: 19842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LayoutGroup_DelayedSetDirty_m67C0D880E25888F274BE8AE9D3F4C28EA4A22D0C (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rectTransform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19658,6 +21908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LayoutGroup_DelayedSetDirty_m6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedSetDirtyU3Ed__56__ctor_mF6AE811754CADB1402BABF82639E38DB56C9AFCB (U3CDelayedSetDirtyU3Ed__56_tBB95794CB5EF3D416C3147252ACD628FEE7267E2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -19667,12 +21918,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedSetDirtyU3Ed__56__ctor_mF6AE81
 		return;
 	}
 }
+// Method Definition Index: 19844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedSetDirtyU3Ed__56_System_IDisposable_Dispose_m347957DDD38BB5EFEE268E592550D258E5189F75 (U3CDelayedSetDirtyU3Ed__56_tBB95794CB5EF3D416C3147252ACD628FEE7267E2* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
+// Method Definition Index: 19845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDelayedSetDirtyU3Ed__56_MoveNext_mE69F0D45357F390412D5833F35A0C4B4F3E47420 (U3CDelayedSetDirtyU3Ed__56_tBB95794CB5EF3D416C3147252ACD628FEE7267E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19705,6 +21958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDelayedSetDirtyU3Ed__56_MoveNext_mE69
 IL_0010:
 	{
 		__this->___U3CU3E1__state = (-1);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:369>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -19714,12 +21968,15 @@ IL_0010:
 IL_0027:
 	{
 		__this->___U3CU3E1__state = (-1);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:370>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___rectTransform;
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:371>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayedSetDirtyU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m581E5D52D9508F8B755213FC2BFFC15412352F79 (U3CDelayedSetDirtyU3Ed__56_tBB95794CB5EF3D416C3147252ACD628FEE7267E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19727,6 +21984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayedSetDirtyU3Ed__56_Sys
 		return L_0;
 	}
 }
+// Method Definition Index: 19847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedSetDirtyU3Ed__56_System_Collections_IEnumerator_Reset_m7C5E44C5235E8C18D0066EF7464A6165F6D4B1C0 (U3CDelayedSetDirtyU3Ed__56_tBB95794CB5EF3D416C3147252ACD628FEE7267E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19735,6 +21993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDelayedSetDirtyU3Ed__56_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDelayedSetDirtyU3Ed__56_System_Collections_IEnumerator_Reset_m7C5E44C5235E8C18D0066EF7464A6165F6D4B1C0_RuntimeMethod_var)));
 	}
 }
+// Method Definition Index: 19848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayedSetDirtyU3Ed__56_System_Collections_IEnumerator_get_Current_m83BB521EA7AF720756B95AA6D637557DFCDCA2A3 (U3CDelayedSetDirtyU3Ed__56_tBB95794CB5EF3D416C3147252ACD628FEE7267E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19750,28 +22009,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDelayedSetDirtyU3Ed__56_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_Initialize_m3186A381CF387FC04A9D52BF6ED9982B0150E562 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_controller, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:25>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_controller;
 		__this->___m_ToRebuild = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ToRebuild), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:26>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = ___0_controller;
 		int32_t L_2;
 		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_1);
 		__this->___m_CachedHashFromTransform = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:27>
 		return;
 	}
 }
+// Method Definition Index: 19850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_Clear_m2BCF887531F7BA60FB962F7153564A055A136AA1 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:31>
 		__this->___m_ToRebuild = (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ToRebuild), (void*)(RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:32>
 		__this->___m_CachedHashFromTransform = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:33>
 		return;
 	}
 }
+// Method Definition Index: 19851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder__cctor_m5AE721B6C2738FA3FD23CF5103CEF96E6AEA578B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19790,6 +22058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder__cctor_m5AE721B6C2738FA3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var);
 		U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* L_0 = ((U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var))->___U3CU3E9;
 		Func_1_tDBE6893D00AC6B576B73E8126944C481BCC4A74E* L_1 = (Func_1_tDBE6893D00AC6B576B73E8126944C481BCC4A74E*)il2cpp_codegen_object_new(Func_1_tDBE6893D00AC6B576B73E8126944C481BCC4A74E_il2cpp_TypeInfo_var);
@@ -19801,12 +22070,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder__cctor_m5AE721B6C2738FA3
 		ObjectPool_1__ctor_m2C324854E468A9F886C89505363DCDFE89E70134(L_4, L_1, (Action_1_t181C70CB5D293B53347189997A318CD2EFC0FB16*)NULL, L_3, (Action_1_t181C70CB5D293B53347189997A318CD2EFC0FB16*)NULL, (bool)1, ((int32_t)10), ((int32_t)10000), ObjectPool_1__ctor_m2C324854E468A9F886C89505363DCDFE89E70134_RuntimeMethod_var);
 		((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders), (void*)L_4);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:37>
 		ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* L_5 = (ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24*)il2cpp_codegen_object_new(ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24_il2cpp_TypeInfo_var);
 		ReapplyDrivenProperties__ctor_mC06AEE119C82C068873EE368C7C8DBE9CAD28949(L_5, NULL, (intptr_t)((void*)LayoutRebuilder_ReapplyDrivenProperties_m2FAE70C6B03F93BDF9484BC4674FA80D956BE45F_RuntimeMethod_var), NULL);
 		RectTransform_add_reapplyDrivenProperties_m92F5BD1B2500C408447F882F378CB52647AB6E72(L_5, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:38>
 		return;
 	}
 }
+// Method Definition Index: 19852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_ReapplyDrivenProperties_m2FAE70C6B03F93BDF9484BC4674FA80D956BE45F (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_driven, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19816,19 +22088,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_ReapplyDrivenProperties_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:42>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_driven;
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:43>
 		return;
 	}
 }
+// Method Definition Index: 19853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* LayoutRebuilder_get_transform_m885E49969AFEF977B384D517212E68ABFDDB6555 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:45>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_ToRebuild;
 		return L_0;
 	}
 }
+// Method Definition Index: 19854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_IsDestroyed_mEB8D2E6A0E61BD035965F28D30FB5BB41AAB2149 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19838,6 +22115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_IsDestroyed_mEB8D2E6A0E6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:52>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_ToRebuild;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19845,6 +22123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_IsDestroyed_mEB8D2E6A0E6
 		return L_1;
 	}
 }
+// Method Definition Index: 19855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_StripDisabledBehavioursFromList_mB6E476924D6DDDA8050F40300A58696303F0753A (List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* ___0_components, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19861,6 +22140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_StripDisabledBehavioursF
 	Predicate_1_t602E6424926D5CF7A281D21A84986979764EFEFD* G_B1_0 = NULL;
 	List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* G_B1_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:57>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_0 = ___0_components;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var);
 		Predicate_1_t602E6424926D5CF7A281D21A84986979764EFEFD* L_1 = ((U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var))->___U3CU3E9__10_0;
@@ -19890,9 +22170,11 @@ IL_0020:
 	{
 		int32_t L_6;
 		L_6 = List_1_RemoveAll_m0CFB1382FCF3F4F863778764F398805383869FCC(G_B2_1, G_B2_0, List_1_RemoveAll_m0CFB1382FCF3F4F863778764F398805383869FCC_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:58>
 		return;
 	}
 }
+// Method Definition Index: 19856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_ForceRebuildLayoutImmediate_mCCA094579654469919EFA4B5AA5D9AF93CD67B4A (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_layoutRoot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19905,22 +22187,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_ForceRebuildLayoutImmedi
 	}
 	LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* V_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:70>
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		ObjectPool_1_tDE5205EBC7D2F32B8E4C24776B7C16DA24707C13* L_0 = ((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders;
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_1;
 		L_1 = ObjectPool_1_Get_m44B62E45F664B5165356E0A33BFDB740A8E0FAA3(L_0, ObjectPool_1_Get_m44B62E45F664B5165356E0A33BFDB740A8E0FAA3_RuntimeMethod_var);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:71>
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_2 = V_0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = ___0_layoutRoot;
 		LayoutRebuilder_Initialize_m3186A381CF387FC04A9D52BF6ED9982B0150E562(L_2, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:72>
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_4 = V_0;
 		LayoutRebuilder_Rebuild_mE0477A991681D208BF504CCAABFE01D7FCD8E137(L_4, 1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:73>
 		ObjectPool_1_tDE5205EBC7D2F32B8E4C24776B7C16DA24707C13* L_5 = ((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders;
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_6 = V_0;
 		ObjectPool_1_Release_m0C25EFCFFEED6FE445843DA43005C268E8669982(L_5, L_6, ObjectPool_1_Release_m0C25EFCFFEED6FE445843DA43005C268E8669982_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:74>
 		return;
 	}
 }
+// Method Definition Index: 19857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_Rebuild_mE0477A991681D208BF504CCAABFE01D7FCD8E137 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, int32_t ___0_executing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19966,6 +22254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_Rebuild_mE0477A991681D20
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:85>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___m_ToRebuild;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var);
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_2 = ((U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var))->___U3CU3E9__12_0;
@@ -19997,6 +22286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_Rebuild_mE0477A991681D20
 IL_002d:
 	{
 		LayoutRebuilder_PerformLayoutCalculation_m0733192A11C335EEF72298A2321937CDA97A1C34(G_B3_2, G_B3_1, G_B3_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:86>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->___m_ToRebuild;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var);
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_8 = ((U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var))->___U3CU3E9__12_1;
@@ -20028,6 +22318,7 @@ IL_002d:
 IL_0058:
 	{
 		LayoutRebuilder_PerformLayoutControl_mA6EB813FBAC300966A6357D248FAADD947C92D4B(G_B5_2, G_B5_1, G_B5_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:87>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = __this->___m_ToRebuild;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var);
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_14 = ((U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var))->___U3CU3E9__12_2;
@@ -20059,6 +22350,7 @@ IL_0058:
 IL_0083:
 	{
 		LayoutRebuilder_PerformLayoutCalculation_m0733192A11C335EEF72298A2321937CDA97A1C34(G_B7_2, G_B7_1, G_B7_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:88>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = __this->___m_ToRebuild;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var);
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_20 = ((U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49_il2cpp_TypeInfo_var))->___U3CU3E9__12_3;
@@ -20094,9 +22386,11 @@ IL_00ae:
 
 IL_00b3:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:91>
 		return;
 	}
 }
+// Method Definition Index: 19858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_PerformLayoutControl_mA6EB813FBAC300966A6357D248FAADD947C92D4B (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* ___1_action, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20122,6 +22416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_PerformLayoutControl_mA6
 	Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:95>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20132,15 +22427,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_PerformLayoutControl_mA6
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:96>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:98>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_2;
 		L_2 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:99>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = ___0_rect;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (ILayoutController_tD6B9DA814D1859D5391E51BDD5CDD3192AD5DFA8_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20148,9 +22446,11 @@ IL_000a:
 		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_6 = V_0;
 		Component_GetComponents_mFD04B9CB0BD37505417054D614436B5844DC4365(L_3, L_5, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:100>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_StripDisabledBehavioursFromList_mB6E476924D6DDDA8050F40300A58696303F0753A(L_7, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:105>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_8 = V_0;
 		int32_t L_9;
 		L_9 = List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_inline(L_8, List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_RuntimeMethod_var);
@@ -20160,12 +22460,14 @@ IL_000a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:111>
 		V_1 = 0;
 		goto IL_0056;
 	}
 
 IL_0037:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:112>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_10 = V_0;
 		int32_t L_11 = V_1;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_12;
@@ -20176,6 +22478,7 @@ IL_0037:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:113>
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_13 = ___1_action;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_14 = V_0;
 		int32_t L_15 = V_1;
@@ -20186,12 +22489,14 @@ IL_0037:
 
 IL_0052:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:111>
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0056:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:111>
 		int32_t L_18 = V_1;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_19 = V_0;
 		int32_t L_20;
@@ -20202,12 +22507,14 @@ IL_0056:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:116>
 		V_2 = 0;
 		goto IL_00bc;
 	}
 
 IL_0063:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:117>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_21 = V_0;
 		int32_t L_22 = V_2;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_23;
@@ -20218,11 +22525,13 @@ IL_0063:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:119>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_24 = V_0;
 		int32_t L_25 = V_2;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_26;
 		L_26 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_24, L_25, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		V_3 = L_26;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:121>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_27 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -20240,6 +22549,7 @@ IL_0063:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:123>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_30 = V_3;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_31;
 		L_31 = ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline(((ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E*)CastclassClass((RuntimeObject*)L_30, ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_il2cpp_TypeInfo_var)), NULL);
@@ -20253,6 +22563,7 @@ IL_0063:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:124>
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_34 = ___1_action;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_35 = V_0;
 		int32_t L_36 = V_2;
@@ -20264,6 +22575,7 @@ IL_0063:
 
 IL_00ab:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:128>
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_38 = ___1_action;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_39 = V_0;
 		int32_t L_40 = V_2;
@@ -20274,12 +22586,14 @@ IL_00ab:
 
 IL_00b8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:116>
 		int32_t L_42 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_00bc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:116>
 		int32_t L_43 = V_2;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_44 = V_0;
 		int32_t L_45;
@@ -20290,24 +22604,28 @@ IL_00bc:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:132>
 		V_4 = 0;
 		goto IL_00e4;
 	}
 
 IL_00ca:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:133>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_46 = ___0_rect;
 		int32_t L_47 = V_4;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_48;
 		L_48 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_46, L_47, NULL);
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_49 = ___1_action;
 		LayoutRebuilder_PerformLayoutControl_mA6EB813FBAC300966A6357D248FAADD947C92D4B(__this, ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_48, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), L_49, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:132>
 		int32_t L_50 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_50, 1));
 	}
 
 IL_00e4:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:132>
 		int32_t L_51 = V_4;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_52 = ___0_rect;
 		int32_t L_53;
@@ -20320,12 +22638,15 @@ IL_00e4:
 
 IL_00ee:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:136>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_54 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_54, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:137>
 		return;
 	}
 }
+// Method Definition Index: 19859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_PerformLayoutCalculation_m0733192A11C335EEF72298A2321937CDA97A1C34 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* ___1_action, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20349,6 +22670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_PerformLayoutCalculation
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:141>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20359,15 +22681,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_PerformLayoutCalculation
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:142>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:144>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_2;
 		L_2 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:145>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = ___0_rect;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20375,9 +22700,11 @@ IL_000a:
 		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_6 = V_0;
 		Component_GetComponents_mFD04B9CB0BD37505417054D614436B5844DC4365(L_3, L_5, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:146>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_StripDisabledBehavioursFromList_mB6E476924D6DDDA8050F40300A58696303F0753A(L_7, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:151>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_8 = V_0;
 		int32_t L_9;
 		L_9 = List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_inline(L_8, List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_RuntimeMethod_var);
@@ -20402,24 +22729,28 @@ IL_000a:
 
 IL_0044:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:156>
 		V_2 = 0;
 		goto IL_005f;
 	}
 
 IL_0048:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:157>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = ___0_rect;
 		int32_t L_15 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_14, L_15, NULL);
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_17 = ___1_action;
 		LayoutRebuilder_PerformLayoutCalculation_m0733192A11C335EEF72298A2321937CDA97A1C34(__this, ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_16, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), L_17, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:156>
 		int32_t L_18 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_18, 1));
 	}
 
 IL_005f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:156>
 		int32_t L_19 = V_2;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20 = ___0_rect;
 		int32_t L_21;
@@ -20430,24 +22761,28 @@ IL_005f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:159>
 		V_3 = 0;
 		goto IL_007d;
 	}
 
 IL_006c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:160>
 		UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7* L_22 = ___1_action;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_23 = V_0;
 		int32_t L_24 = V_3;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_25;
 		L_25 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_23, L_24, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		UnityAction_1_Invoke_m5A664E7E7EB4C9C10661F12DFFB214DF00DD5A8B_inline(L_22, L_25, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:159>
 		int32_t L_26 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_007d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:159>
 		int32_t L_27 = V_3;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_28 = V_0;
 		int32_t L_29;
@@ -20460,12 +22795,15 @@ IL_007d:
 
 IL_0086:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:163>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_30 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_30, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:164>
 		return;
 	}
 }
+// Method Definition Index: 19860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_MarkLayoutForRebuild_m37F415D59609E9D18D49423D9C33E7EA6D859EBD (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20491,6 +22829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_MarkLayoutForRebuild_m37
 	int32_t V_4 = 0;
 	Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* V_5 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:172>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20515,18 +22854,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_MarkLayoutForRebuild_m37
 
 IL_0017:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:173>
 		return;
 	}
 
 IL_0018:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_5;
 		L_5 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_0 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:176>
 		V_1 = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:177>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = ___0_rect;
 		V_2 = L_6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:178>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = V_2;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_7, NULL);
@@ -20536,7 +22880,9 @@ IL_0018:
 
 IL_0030:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:181>
 		V_1 = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:182>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = V_3;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_10 = { reinterpret_cast<intptr_t> (ILayoutGroup_tFFD3B56F009C2273032C7A0E1BF6D305B4917D8F_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20544,17 +22890,20 @@ IL_0030:
 		L_11 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_10, NULL);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_12 = V_0;
 		Component_GetComponents_mFD04B9CB0BD37505417054D614436B5844DC4365(L_9, L_11, L_12, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:184>
 		V_4 = 0;
 		goto IL_007f;
 	}
 
 IL_0048:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:186>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_13 = V_0;
 		int32_t L_14 = V_4;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_15;
 		L_15 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_13, L_14, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		V_5 = L_15;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:187>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_16 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -20581,20 +22930,25 @@ IL_0048:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:189>
 		V_1 = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:190>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = V_3;
 		V_2 = L_21;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:191>
 		goto IL_0089;
 	}
 
 IL_0079:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:184>
 		int32_t L_22 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_007f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:184>
 		int32_t L_23 = V_4;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_24 = V_0;
 		int32_t L_25;
@@ -20607,6 +22961,7 @@ IL_007f:
 
 IL_0089:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:195>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26 = V_3;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
 		L_27 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_26, NULL);
@@ -20615,6 +22970,7 @@ IL_0089:
 
 IL_0095:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:179>
 		bool L_28 = V_1;
 		if (!L_28)
 		{
@@ -20646,6 +23002,7 @@ IL_0095:
 
 IL_00af:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:200>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_34 = V_2;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_35 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -20668,23 +23025,29 @@ IL_00af:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:202>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_40 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_40, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:203>
 		return;
 	}
 
 IL_00c8:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:206>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_41 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder_MarkLayoutRootForRebuild_m72542D06667BE02C021D13ADC4C77094614552FF(L_41, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:207>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_42 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_42, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:208>
 		return;
 	}
 }
+// Method Definition Index: 19861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_ValidController_m28AC31CE8158B1D2D9656A99ACE3F259F5212C70 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_layoutRoot, List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* ___1_comps, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20701,6 +23064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_ValidController_m28AC31C
 	int32_t V_0 = 0;
 	Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* V_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:212>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_layoutRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20725,11 +23089,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_ValidController_m28AC31C
 
 IL_0017:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:213>
 		return (bool)0;
 	}
 
 IL_0019:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:215>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ___0_layoutRoot;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (ILayoutController_tD6B9DA814D1859D5391E51BDD5CDD3192AD5DFA8_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -20737,17 +23103,20 @@ IL_0019:
 		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_8 = ___1_comps;
 		Component_GetComponents_mFD04B9CB0BD37505417054D614436B5844DC4365(L_5, L_7, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:216>
 		V_0 = 0;
 		goto IL_005a;
 	}
 
 IL_002e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:218>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_9 = ___1_comps;
 		int32_t L_10 = V_0;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_11;
 		L_11 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_9, L_10, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		V_1 = L_11;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:219>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_12 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -20774,17 +23143,20 @@ IL_002e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:221>
 		return (bool)1;
 	}
 
 IL_0056:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:216>
 		int32_t L_17 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_005a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:216>
 		int32_t L_18 = V_0;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_19 = ___1_comps;
 		int32_t L_20;
@@ -20795,9 +23167,11 @@ IL_005a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:225>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_MarkLayoutRootForRebuild_m72542D06667BE02C021D13ADC4C77094614552FF (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_controller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20812,6 +23186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_MarkLayoutRootForRebuild
 	}
 	LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* V_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:230>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_controller;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20822,19 +23197,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_MarkLayoutRootForRebuild
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:231>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:233>
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		ObjectPool_1_tDE5205EBC7D2F32B8E4C24776B7C16DA24707C13* L_2 = ((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders;
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_3;
 		L_3 = ObjectPool_1_Get_m44B62E45F664B5165356E0A33BFDB740A8E0FAA3(L_2, ObjectPool_1_Get_m44B62E45F664B5165356E0A33BFDB740A8E0FAA3_RuntimeMethod_var);
 		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:234>
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_4 = V_0;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ___0_controller;
 		LayoutRebuilder_Initialize_m3186A381CF387FC04A9D52BF6ED9982B0150E562(L_4, L_5, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:235>
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CanvasUpdateRegistry_t7A4CC63D880F418DCDE83152B6FDB3259DF14DD1_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -20845,6 +23224,7 @@ IL_000a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:236>
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		ObjectPool_1_tDE5205EBC7D2F32B8E4C24776B7C16DA24707C13* L_8 = ((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders;
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_9 = V_0;
@@ -20853,9 +23233,11 @@ IL_000a:
 
 IL_002f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:237>
 		return;
 	}
 }
+// Method Definition Index: 19863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_LayoutComplete_mB93ADFB170DD29029D271710D946FE0B08665380 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20866,28 +23248,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_LayoutComplete_mB93ADFB1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:241>
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		ObjectPool_1_tDE5205EBC7D2F32B8E4C24776B7C16DA24707C13* L_0 = ((LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_StaticFields*)il2cpp_codegen_static_fields_for(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var))->___s_Rebuilders;
 		ObjectPool_1_Release_m0C25EFCFFEED6FE445843DA43005C268E8669982(L_0, __this, ObjectPool_1_Release_m0C25EFCFFEED6FE445843DA43005C268E8669982_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:242>
 		return;
 	}
 }
+// Method Definition Index: 19864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_GraphicUpdateComplete_m177178144B034919E062EB9C205AB65CB437BC6D (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:245>
 		return;
 	}
 }
+// Method Definition Index: 19865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutRebuilder_GetHashCode_m408B8FD9884FA8F7F967F1E8C7015055B8F780D3 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:249>
 		int32_t L_0 = __this->___m_CachedHashFromTransform;
 		return L_0;
 	}
 }
+// Method Definition Index: 19866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_Equals_mD6E988174B451D9E832E3FC8B1EBBA0DD1FFB92E (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:259>
 		RuntimeObject* L_0 = ___0_obj;
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_0);
@@ -20896,6 +23286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LayoutRebuilder_Equals_mD6E988174B451D9E
 		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
 	}
 }
+// Method Definition Index: 19867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LayoutRebuilder_ToString_m7F8066428103BE4A1E0A71F45B1D0E725E377A58 (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20911,6 +23302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LayoutRebuilder_ToString_m7F8066428
 	String_t* G_B3_0 = NULL;
 	String_t* G_B3_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:264>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_ToRebuild;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = L_0;
 		if (L_1)
@@ -20943,6 +23335,7 @@ IL_0017:
 		return L_3;
 	}
 }
+// Method Definition Index: 19868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder__ctor_m685B1B7449046E3467525550996AFB6A4565219E (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20958,6 +23351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder__ctor_m685B1B7449046E346
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m0D6AD1DB52B49A72650F253F02B465D02C18BE04 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20974,6 +23368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m0D6AD1DB52B49A72650F253F
 		return;
 	}
 }
+// Method Definition Index: 19870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mD28F0F8B5399F1C60A8E4575F9DCDC847D2CAA23 (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20981,6 +23376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mD28F0F8B5399F1C60A8E4575F
 		return;
 	}
 }
+// Method Definition Index: 19871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* U3CU3Ec_U3C_cctorU3Eb__5_0_mD2D37BAA0BED9121AC22FDFC48D7CA35BF400E14 (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20990,19 +23386,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:21>
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_0 = (LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564*)il2cpp_codegen_object_new(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
 		LayoutRebuilder__ctor_m685B1B7449046E3467525550996AFB6A4565219E(L_0, NULL);
 		return L_0;
 	}
 }
+// Method Definition Index: 19872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__5_1_mE8F9670037E944B0EB22487F1640407057B8A290 (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* ___0_x, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:21>
 		LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564* L_0 = ___0_x;
 		LayoutRebuilder_Clear_m2BCF887531F7BA60FB962F7153564A055A136AA1(L_0, NULL);
 		return;
 	}
 }
+// Method Definition Index: 19873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CStripDisabledBehavioursFromListU3Eb__10_0_m03CF501571C52837064AFBD196238DB52B64BC5E (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21012,6 +23412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CStripDisabledBehavioursFromLi
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:57>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_e;
 		if (!((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)IsInstClass((RuntimeObject*)L_0, Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA_il2cpp_TypeInfo_var)))
 		{
@@ -21030,6 +23431,7 @@ IL_0017:
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_0_mDB44431ACB66295B4B09C0132E9EF267DB0090F1 (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21039,11 +23441,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_0_mDB44431ACB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:85>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_e;
 		InterfaceActionInvoker0::Invoke(0, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var)));
 		return;
 	}
 }
+// Method Definition Index: 19875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_1_m08B6A90656111D084CCF7AF3B07D50C03B95BF9F (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21053,11 +23457,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_1_m08B6A90656
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:86>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_e;
 		InterfaceActionInvoker0::Invoke(0, ILayoutController_tD6B9DA814D1859D5391E51BDD5CDD3192AD5DFA8_il2cpp_TypeInfo_var, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ILayoutController_tD6B9DA814D1859D5391E51BDD5CDD3192AD5DFA8_il2cpp_TypeInfo_var)));
 		return;
 	}
 }
+// Method Definition Index: 19876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_2_m516829AF584D4F446B08587F777088C704548C40 (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21067,11 +23473,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_2_m516829AF58
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:87>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_e;
 		InterfaceActionInvoker0::Invoke(1, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var)));
 		return;
 	}
 }
+// Method Definition Index: 19877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_3_mDEE0C1EB02D33044B945FF479F81E7A3DD85684B (U3CU3Ec_t05E9087D6DC13FB7E1FA9D15438AFB32B6BEEE49* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21081,6 +23489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_3_mDEE0C1EB02
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs:88>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_e;
 		InterfaceActionInvoker0::Invoke(1, ILayoutController_tD6B9DA814D1859D5391E51BDD5CDD3192AD5DFA8_il2cpp_TypeInfo_var, ((RuntimeObject*)IsInst((RuntimeObject*)L_0, ILayoutController_tD6B9DA814D1859D5391E51BDD5CDD3192AD5DFA8_il2cpp_TypeInfo_var)));
 		return;
@@ -21094,9 +23503,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRebuildU3Eb__12_3_mDEE0C1EB02
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetMinSize_mE0421687F579243D5252F065A737268EF736374C (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:18>
 		int32_t L_0 = ___1_axis;
 		if (!L_0)
 		{
@@ -21118,9 +23529,11 @@ IL_000a:
 		return L_4;
 	}
 }
+// Method Definition Index: 19879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetPreferredSize_mCAFD360B8490CD02AF5F99E93E09D8625BD85F52 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:31>
 		int32_t L_0 = ___1_axis;
 		if (!L_0)
 		{
@@ -21142,9 +23555,11 @@ IL_000a:
 		return L_4;
 	}
 }
+// Method Definition Index: 19880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetFlexibleSize_m2D6400EB342AE2E811DAFFF0CD2AA2F8AA5DD655 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, int32_t ___1_axis, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:44>
 		int32_t L_0 = ___1_axis;
 		if (!L_0)
 		{
@@ -21166,6 +23581,7 @@ IL_000a:
 		return L_4;
 	}
 }
+// Method Definition Index: 19881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetMinWidth_m920875D5D911EF3FAC615C045D9178630697A0F3 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21181,6 +23597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetMinWidth_m920875D5D911
 	Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* G_B1_0 = NULL;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B1_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:56>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var);
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ((U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var))->___U3CU3E9__3_0;
@@ -21213,6 +23630,7 @@ IL_0020:
 		return L_6;
 	}
 }
+// Method Definition Index: 19882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetPreferredWidth_mFF51E72881BE14E8C59521A71188E458475D4052 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21235,6 +23653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetPreferredWidth_mFF51E7
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B3_1 = NULL;
 	float G_B3_2 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:68>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var);
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ((U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var))->___U3CU3E9__4_0;
@@ -21301,6 +23720,7 @@ IL_004a:
 		return L_14;
 	}
 }
+// Method Definition Index: 19883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetFlexibleWidth_mFE4684C5AC223E1D8E4369AA3460461A3964D9BE (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21316,6 +23736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetFlexibleWidth_mFE4684C
 	Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* G_B1_0 = NULL;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B1_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:80>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var);
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ((U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var))->___U3CU3E9__5_0;
@@ -21348,6 +23769,7 @@ IL_0020:
 		return L_6;
 	}
 }
+// Method Definition Index: 19884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetMinHeight_mB428914EB41682FC709CDBB27A0CB42D42EC4D9E (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21363,6 +23785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetMinHeight_mB428914EB41
 	Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* G_B1_0 = NULL;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B1_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:92>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var);
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ((U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var))->___U3CU3E9__6_0;
@@ -21395,6 +23818,7 @@ IL_0020:
 		return L_6;
 	}
 }
+// Method Definition Index: 19885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetPreferredHeight_m3E8CDE02CC980080BBD4BBA1D6BFDFD42F7CF706 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21417,6 +23841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetPreferredHeight_m3E8CD
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B3_1 = NULL;
 	float G_B3_2 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:104>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var);
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ((U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var))->___U3CU3E9__7_0;
@@ -21483,6 +23908,7 @@ IL_004a:
 		return L_14;
 	}
 }
+// Method Definition Index: 19886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetFlexibleHeight_m13C0A91CEB1B4DE827C4B9E5230D4AA73FFC23DC (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21498,6 +23924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetFlexibleHeight_m13C0A9
 	Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* G_B1_0 = NULL;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B1_1 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:116>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var);
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ((U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94_il2cpp_TypeInfo_var))->___U3CU3E9__8_0;
@@ -21530,10 +23957,12 @@ IL_0020:
 		return L_6;
 	}
 }
+// Method Definition Index: 19887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetLayoutProperty_m3A5BD03879B0B223BE78DDD6AB7595BDF14CF7A7 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* ___1_property, float ___2_defaultValue, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:129>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rect;
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_1 = ___1_property;
 		float L_2 = ___2_defaultValue;
@@ -21542,6 +23971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetLayoutProperty_m3A5BD0
 		return L_3;
 	}
 }
+// Method Definition Index: 19888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetLayoutProperty_mEE37FED419E8D6C3B799296DC6712D312AA5261F (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* ___1_property, float ___2_defaultValue, RuntimeObject** ___3_source, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21568,9 +23998,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetLayoutProperty_mEE37FE
 	int32_t V_6 = 0;
 	float V_7 = 0.0f;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:142>
 		RuntimeObject** L_0 = ___3_source;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:143>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = ___0_rect;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -21581,18 +24013,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LayoutUtility_GetLayoutProperty_mEE37FE
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:144>
 		return (0.0f);
 	}
 
 IL_0012:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:145>
 		float L_3 = ___2_defaultValue;
 		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:146>
 		V_1 = ((int32_t)-2147483648LL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_4;
 		L_4 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_2 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:148>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ___0_rect;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -21600,21 +24037,25 @@ IL_0012:
 		L_7 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_6, NULL);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_8 = V_2;
 		Component_GetComponents_mFD04B9CB0BD37505417054D614436B5844DC4365(L_5, L_7, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:150>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_9 = V_2;
 		int32_t L_10;
 		L_10 = List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_inline(L_9, List_1_get_Count_m06EAEA52AB075AB3B80E493CE0593C177AB19727_RuntimeMethod_var);
 		V_3 = L_10;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:151>
 		V_4 = 0;
 		goto IL_00a7;
 	}
 
 IL_003d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:153>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_11 = V_2;
 		int32_t L_12 = V_4;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_13;
 		L_13 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_11, L_12, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		V_5 = ((RuntimeObject*)IsInst((RuntimeObject*)L_13, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:154>
 		RuntimeObject* L_14 = V_5;
 		if (!((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)IsInstClass((RuntimeObject*)L_14, Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA_il2cpp_TypeInfo_var)))
 		{
@@ -21633,10 +24074,12 @@ IL_003d:
 
 IL_0063:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:157>
 		RuntimeObject* L_17 = V_5;
 		int32_t L_18;
 		L_18 = InterfaceFuncInvoker0< int32_t >::Invoke(8, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_17);
 		V_6 = L_18;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:159>
 		int32_t L_19 = V_6;
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_19) < ((int32_t)L_20)))
@@ -21645,11 +24088,13 @@ IL_0063:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:161>
 		Func_2_t49236B9EA14C72C8FFE252C9FA0F309EB5CA6DB5* L_21 = ___1_property;
 		RuntimeObject* L_22 = V_5;
 		float L_23;
 		L_23 = Func_2_Invoke_mAC826354608E2C9FE7AB9BBE629BCD7C9BB94F90_inline(L_21, L_22, NULL);
 		V_7 = L_23;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:163>
 		float L_24 = V_7;
 		if ((((float)L_24) < ((float)(0.0f))))
 		{
@@ -21657,6 +24102,7 @@ IL_0063:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:168>
 		int32_t L_25 = V_6;
 		int32_t L_26 = V_1;
 		if ((((int32_t)L_25) <= ((int32_t)L_26)))
@@ -21665,10 +24111,13 @@ IL_0063:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:170>
 		float L_27 = V_7;
 		V_0 = L_27;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:171>
 		int32_t L_28 = V_6;
 		V_1 = L_28;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:172>
 		RuntimeObject** L_29 = ___3_source;
 		RuntimeObject* L_30 = V_5;
 		*((RuntimeObject**)L_29) = (RuntimeObject*)L_30;
@@ -21678,6 +24127,7 @@ IL_0063:
 
 IL_0095:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:176>
 		float L_31 = V_7;
 		float L_32 = V_0;
 		if ((!(((float)L_31) > ((float)L_32))))
@@ -21686,8 +24136,10 @@ IL_0095:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:178>
 		float L_33 = V_7;
 		V_0 = L_33;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:179>
 		RuntimeObject** L_34 = ___3_source;
 		RuntimeObject* L_35 = V_5;
 		*((RuntimeObject**)L_34) = (RuntimeObject*)L_35;
@@ -21696,12 +24148,14 @@ IL_0095:
 
 IL_00a1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:151>
 		int32_t L_36 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_36, 1));
 	}
 
 IL_00a7:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:151>
 		int32_t L_37 = V_4;
 		int32_t L_38 = V_3;
 		if ((((int32_t)L_37) < ((int32_t)L_38)))
@@ -21710,9 +24164,11 @@ IL_00a7:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:183>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_39 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_39, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:184>
 		float L_40 = V_0;
 		return L_40;
 	}
@@ -21725,6 +24181,7 @@ IL_00a7:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m0CA720C96E971F17E2E861D8AFE6982FD1F59F44 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21741,6 +24198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m0CA720C96E971F17E2E861D8
 		return;
 	}
 }
+// Method Definition Index: 19890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m5E4858F8F2E57AAC48D706CFDE697DB16DE163D3 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21748,6 +24206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m5E4858F8F2E57AAC48D706CFD
 		return;
 	}
 }
+// Method Definition Index: 19891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetMinWidthU3Eb__3_0_mB230985725E48B130593DCE9618576ABD38544E9 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21757,12 +24216,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetMinWidthU3Eb__3_0_mB23098
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:56>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(2, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredWidthU3Eb__4_0_mB8A573FB7B4D32CBC78F6AF30C42FDD204D18862 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21772,12 +24233,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredWidthU3Eb__4_0_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:68>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(2, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredWidthU3Eb__4_1_m21A4B6CC6110B2FE507ECD670D1C701BC9E1C9F9 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21787,12 +24250,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredWidthU3Eb__4_1_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:68>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(3, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetFlexibleWidthU3Eb__5_0_mDAFF6CD37904716095CE8E674BB7D2586ED17A95 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21802,12 +24267,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetFlexibleWidthU3Eb__5_0_mD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:80>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(4, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetMinHeightU3Eb__6_0_m92D133D332D83DAECA59B06DD94CE6390C617162 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21817,12 +24284,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetMinHeightU3Eb__6_0_m92D13
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:92>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(5, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredHeightU3Eb__7_0_m869A0C6EBD3699CA96970C944D80A94779D58FEA (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21832,12 +24301,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredHeightU3Eb__7_0_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:104>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(5, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredHeightU3Eb__7_1_m6851C73E5D55417BF6A9A29D3DD22EA033D40EEB (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21847,12 +24318,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetPreferredHeightU3Eb__7_1_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:104>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(6, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
+// Method Definition Index: 19898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetFlexibleHeightU3Eb__8_0_m55A0D46B9D7CD1002AE7F803E496E6F1A98F3E24 (U3CU3Ec_tA740A8D6DF3EABD2FC61E867744D9F8E4E8CCC94* __this, RuntimeObject* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21862,6 +24335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetFlexibleHeightU3Eb__8_0_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs:116>
 		RuntimeObject* L_0 = ___0_e;
 		float L_1;
 		L_1 = InterfaceFuncInvoker0< float >::Invoke(7, ILayoutElement_t075F0890682DB903AB79534D4BDC0C584FA8149A_il2cpp_TypeInfo_var, L_0);
@@ -21876,39 +24350,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec_U3CGetFlexibleHeightU3Eb__8_0_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalLayoutGroup__ctor_m2EF3851AD1D83E3ADBB5053D1FAEF84A773E1D5B (VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:9>
 		HorizontalOrVerticalLayoutGroup__ctor_m778C23DD9F3973AFACD3C6CCEDABF81902665D3F(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:10>
 		return;
 	}
 }
+// Method Definition Index: 19900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalLayoutGroup_CalculateLayoutInputHorizontal_mF9483E90B39BDCE71C90F9B27CBF76F2A10E4D28 (VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:17>
 		LayoutGroup_CalculateLayoutInputHorizontal_mAB313A3646FC94E9FA98E5C4EA19DBAA7F3754FD(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:18>
 		HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m12CA995AB887ED06762B07E97953D456B316647A(__this, 0, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:19>
 		return;
 	}
 }
+// Method Definition Index: 19901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalLayoutGroup_CalculateLayoutInputVertical_m360446A9D17C1B798BBB0B777EA1BEEE297807BA (VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:26>
 		HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m12CA995AB887ED06762B07E97953D456B316647A(__this, 1, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:27>
 		return;
 	}
 }
+// Method Definition Index: 19902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalLayoutGroup_SetLayoutHorizontal_mD074FE8C9B3187AA23AF6578E8C81B23404D58B2 (VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:34>
 		HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m4D7B06435A66102659B2372B48D49B2117D57F09(__this, 0, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:35>
 		return;
 	}
 }
+// Method Definition Index: 19903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalLayoutGroup_SetLayoutVertical_m27D87A8FEBBBD9226B95F250A076B3AB7BAA155F (VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:42>
 		HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m4D7B06435A66102659B2372B48D49B2117D57F09(__this, 1, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs:43>
 		return;
 	}
 }
@@ -21920,6 +24410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VerticalLayoutGroup_SetLayoutVertical_m2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* Mask_get_rectTransform_m4D1933DACBE7B0F93B1B83F1B3B0A09F65B24209 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21932,6 +24423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E5896
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B2_0 = NULL;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B1_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:25>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_RectTransform;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = L_0;
 		if (L_1)
@@ -21957,13 +24449,16 @@ IL_0019:
 		return G_B2_0;
 	}
 }
+// Method Definition Index: 19905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mask_get_showMaskGraphic_m87FD20C72F514AB305E05A5B104B180D9B35601B (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:36>
 		bool L_0 = __this->___m_ShowMaskGraphic;
 		return L_0;
 	}
 }
+// Method Definition Index: 19906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_set_showMaskGraphic_m9F288D22259CFD781D5A4D9B9747C2A2895E7D67 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21973,6 +24468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_set_showMaskGraphic_m9F288D22259CFD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:39>
 		bool L_0 = __this->___m_ShowMaskGraphic;
 		bool L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -21981,13 +24477,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_set_showMaskGraphic_m9F288D22259CFD
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:40>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:42>
 		bool L_2 = ___0_value;
 		__this->___m_ShowMaskGraphic = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:43>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_3;
 		L_3 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -21999,6 +24498,7 @@ IL_000a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:44>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_5;
 		L_5 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		VirtualActionInvoker0::Invoke(29, L_5);
@@ -22006,9 +24506,11 @@ IL_000a:
 
 IL_002a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:45>
 		return;
 	}
 }
+// Method Definition Index: 19907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22021,6 +24523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF
 	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* G_B2_0 = NULL;
 	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* G_B1_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:56>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___m_Graphic;
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_1 = L_0;
 		if (L_1)
@@ -22046,14 +24549,19 @@ IL_0019:
 		return G_B2_0;
 	}
 }
+// Method Definition Index: 19908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask__ctor_mB4AF8A6FD9496A1E8EEB7631D43F8A0548134DB9 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:29>
 		__this->___m_ShowMaskGraphic = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:65>
 		UIBehaviour__ctor_m24C66A65DDD996E779871C6655CF11B871F11337(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:66>
 		return;
 	}
 }
+// Method Definition Index: 19909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mask_MaskEnabled_m330C9AE8B8A642ECF3C4E88687E9F297969B6351 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22063,6 +24571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mask_MaskEnabled_m330C9AE8B8A642ECF3C4E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:68>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (!L_0)
@@ -22084,12 +24593,15 @@ IL_0015:
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnSiblingGraphicEnabledDisabled_m38D50E90213834C6E06D449F364C7A802964FC74 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:71>
 		return;
 	}
 }
+// Method Definition Index: 19911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnEnable_m928342074FD21B3A58E1370F681DC762BD64B095 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22100,7 +24612,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnEnable_m928342074FD21B3A58E1370F6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:75>
 		UIBehaviour_OnEnable_m8989ABF5C038905A68E5536BED2E6FFAF8767FFC(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:76>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0;
 		L_0 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22112,14 +24626,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnEnable_m928342074FD21B3A58E1370F6
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:78>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_2;
 		L_2 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_3;
 		L_3 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_2, NULL);
 		CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD(L_3, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:79>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_4;
 		L_4 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		VirtualActionInvoker0::Invoke(29, L_4);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:82>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_5;
 		L_5 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		if (!((MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E*)IsInstClass((RuntimeObject*)L_5, MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E_il2cpp_TypeInfo_var)))
@@ -22128,6 +24645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnEnable_m928342074FD21B3A58E1370F6
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:83>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_6;
 		L_6 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		MaskableGraphic_set_isMaskingGraphic_m350EDFCF390CF594B939BBEE3A0D634F2EA48A78(((MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E*)IsInstClass((RuntimeObject*)L_6, MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E_il2cpp_TypeInfo_var)), (bool)1, NULL);
@@ -22135,10 +24653,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnEnable_m928342074FD21B3A58E1370F6
 
 IL_004e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:86>
 		MaskUtilities_NotifyStencilStateChanged_m112CACEF914385BC2F96F4D66D4038AF1E0FCD6B(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:87>
 		return;
 	}
 }
+// Method Definition Index: 19912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnDisable_m7B533EC440BB28CB80AB8AE914BFA501FAB3ADA5 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22150,7 +24671,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnDisable_m7B533EC440BB28CB80AB8AE9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:95>
 		UIBehaviour_OnDisable_m18D5A0B93F65FB50F4D6CE8197EC07F3452C5DDE(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:96>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0;
 		L_0 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22162,19 +24685,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnDisable_m7B533EC440BB28CB80AB8AE9
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:98>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_2;
 		L_2 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		VirtualActionInvoker0::Invoke(29, L_2);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:99>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_3;
 		L_3 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_4;
 		L_4 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_3, NULL);
 		CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD(L_4, (bool)0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:100>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_5;
 		L_5 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_6;
 		L_6 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_5, NULL);
 		CanvasRenderer_set_popMaterialCount_m050FF45A10F54F403BBC43AB7C3D919627922A50(L_6, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:102>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_7;
 		L_7 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		if (!((MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E*)IsInstClass((RuntimeObject*)L_7, MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E_il2cpp_TypeInfo_var)))
@@ -22183,6 +24710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnDisable_m7B533EC440BB28CB80AB8AE9
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:103>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_8;
 		L_8 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		MaskableGraphic_set_isMaskingGraphic_m350EDFCF390CF594B939BBEE3A0D634F2EA48A78(((MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E*)IsInstClass((RuntimeObject*)L_8, MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E_il2cpp_TypeInfo_var)), (bool)0, NULL);
@@ -22190,19 +24718,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mask_OnDisable_m7B533EC440BB28CB80AB8AE9
 
 IL_005f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:106>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = __this->___m_MaskMaterial;
 		il2cpp_codegen_runtime_class_init_inline(StencilMaterial_t4118A758B726E5ADA91AE7674F44039B35AD29F9_il2cpp_TypeInfo_var);
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_9, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:107>
 		__this->___m_MaskMaterial = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMaterial), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:108>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = __this->___m_UnmaskMaterial;
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_10, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:109>
 		__this->___m_UnmaskMaterial = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UnmaskMaterial), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:111>
 		MaskUtilities_NotifyStencilStateChanged_m112CACEF914385BC2F96F4D66D4038AF1E0FCD6B(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:112>
 		return;
 	}
 }
+// Method Definition Index: 19913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mask_IsRaycastLocationValid_mE12C460DF4AF0C65082DBBA6F46A2259687A2534 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_sp, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___1_eventCamera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22212,6 +24747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mask_IsRaycastLocationValid_mE12C460DF4A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:138>
 		bool L_0;
 		L_0 = Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A(__this, NULL);
 		if (L_0)
@@ -22220,11 +24756,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mask_IsRaycastLocationValid_mE12C460DF4A
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:139>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:141>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = Mask_get_rectTransform_m4D1933DACBE7B0F93B1B83F1B3B0A09F65B24209(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_sp;
@@ -22235,6 +24773,7 @@ IL_000a:
 		return L_4;
 	}
 }
+// Method Definition Index: 19914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Mask_GetModifiedMaterial_m5D7DE1884428D7EBC6A7AA6376650E4FB966B1F4 (Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_baseMaterial, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22279,6 +24818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	int32_t G_B12_3 = 0;
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B12_4 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:147>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(19, __this);
 		if (L_0)
@@ -22287,23 +24827,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:148>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_baseMaterial;
 		return L_1;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:150>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = MaskUtilities_FindRootSortOverrideCanvas_mCB7DABA799F6C5BDF659D4CA60BA2FE8141A65AA(L_2, NULL);
 		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:151>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		int32_t L_6;
 		L_6 = MaskUtilities_GetStencilDepth_m782D2795F76F569F4FB261C5BFB6D9EF241C0EE9(L_4, L_5, NULL);
 		V_1 = L_6;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:152>
 		int32_t L_7 = V_1;
 		if ((((int32_t)L_7) < ((int32_t)8)))
 		{
@@ -22311,18 +24855,22 @@ IL_000a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:154>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteralA11B0A9A3232167D44BD65C641895EDA893BD936, L_8, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:155>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_baseMaterial;
 		return L_9;
 	}
 
 IL_0039:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:158>
 		int32_t L_10 = V_1;
 		V_2 = ((int32_t)(1<<((int32_t)(L_10&((int32_t)31)))));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:162>
 		int32_t L_11 = V_2;
 		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
 		{
@@ -22330,6 +24878,7 @@ IL_0039:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:164>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_baseMaterial;
 		bool L_13 = __this->___m_ShowMaskGraphic;
 		if (L_13)
@@ -22369,37 +24918,46 @@ IL_0055:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14;
 		L_14 = StencilMaterial_Add_m4FBC1C2732C3B161EE38767ABE2020105E0BF7F4(G_B8_4, G_B8_3, G_B8_2, G_B8_1, G_B8_0, NULL);
 		V_5 = L_14;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:165>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = __this->___m_MaskMaterial;
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_15, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:166>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = V_5;
 		__this->___m_MaskMaterial = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMaterial), (void*)L_16);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:168>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_baseMaterial;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18;
 		L_18 = StencilMaterial_Add_m4FBC1C2732C3B161EE38767ABE2020105E0BF7F4(L_17, 1, 1, 8, 0, NULL);
 		V_6 = L_18;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:169>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = __this->___m_UnmaskMaterial;
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_19, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:170>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = V_6;
 		__this->___m_UnmaskMaterial = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UnmaskMaterial), (void*)L_20);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:171>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_21;
 		L_21 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_22;
 		L_22 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_21, NULL);
 		CanvasRenderer_set_popMaterialCount_m050FF45A10F54F403BBC43AB7C3D919627922A50(L_22, 1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:172>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_23;
 		L_23 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_24;
 		L_24 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_23, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = __this->___m_UnmaskMaterial;
 		CanvasRenderer_SetPopMaterial_m9CE3CD36F79C60B5BBB4A67D6A422756F2E3EF75(L_24, L_25, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:174>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = __this->___m_MaskMaterial;
 		return L_26;
 	}
 
 IL_00bd:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:178>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = ___0_baseMaterial;
 		int32_t L_28 = V_2;
 		int32_t L_29 = V_2;
@@ -22444,16 +25002,20 @@ IL_00d2:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_34;
 		L_34 = StencilMaterial_Add_m7BF719F0507970D16D11F47019761391ACE55766(G_B12_4, G_B12_3, G_B12_2, G_B12_1, G_B12_0, ((int32_t)il2cpp_codegen_subtract(L_31, 1)), ((int32_t)(L_32|((int32_t)il2cpp_codegen_subtract(L_33, 1)))), NULL);
 		V_3 = L_34;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:179>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_35 = __this->___m_MaskMaterial;
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_35, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:180>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = V_3;
 		__this->___m_MaskMaterial = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMaterial), (void*)L_36);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:182>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_37;
 		L_37 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_38;
 		L_38 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_37, NULL);
 		CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD(L_38, (bool)1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:183>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = ___0_baseMaterial;
 		int32_t L_40 = V_2;
 		int32_t L_41 = V_2;
@@ -22462,22 +25024,27 @@ IL_00d2:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_44;
 		L_44 = StencilMaterial_Add_m7BF719F0507970D16D11F47019761391ACE55766(L_39, ((int32_t)il2cpp_codegen_subtract(L_40, 1)), 2, 3, 0, ((int32_t)il2cpp_codegen_subtract(L_41, 1)), ((int32_t)(L_42|((int32_t)il2cpp_codegen_subtract(L_43, 1)))), NULL);
 		V_4 = L_44;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:184>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_45 = __this->___m_UnmaskMaterial;
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_45, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:185>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_46 = V_4;
 		__this->___m_UnmaskMaterial = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_UnmaskMaterial), (void*)L_46);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:186>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_47;
 		L_47 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_48;
 		L_48 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_47, NULL);
 		CanvasRenderer_set_popMaterialCount_m050FF45A10F54F403BBC43AB7C3D919627922A50(L_48, 1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:187>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_49;
 		L_49 = Mask_get_graphic_mDC288968F569C492F1E18F82229ECB7AA3804AD2(__this, NULL);
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_50;
 		L_50 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(L_49, NULL);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_51 = __this->___m_UnmaskMaterial;
 		CanvasRenderer_SetPopMaterial_m9CE3CD36F79C60B5BBB4A67D6A422756F2E3EF75(L_50, L_51, 0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs:189>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = __this->___m_MaskMaterial;
 		return L_52;
 	}
@@ -22490,32 +25057,41 @@ IL_00d2:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* MaskableGraphic_get_onCullStateChanged_m8452945E93AF20B975D85E61999B51039CAF6538 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:52>
 		CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* L_0 = __this->___m_OnCullStateChanged;
 		return L_0;
 	}
 }
+// Method Definition Index: 19916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_set_onCullStateChanged_m4284F81D75D8F8293FE2FB5FC236FDF63579BBF7 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:53>
 		CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* L_0 = ___0_value;
 		__this->___m_OnCullStateChanged = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnCullStateChanged), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:53>
 		return;
 	}
 }
+// Method Definition Index: 19917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaskableGraphic_get_maskable_m34B87CD87CFF73FF4E09D892ADB316E412F22660 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:61>
 		bool L_0 = __this->___m_Maskable;
 		return L_0;
 	}
 }
+// Method Definition Index: 19918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_set_maskable_mC2486FDC0636C83AC3BDBFF11E6E85CC27F15689 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:64>
 		bool L_0 = ___0_value;
 		bool L_1 = __this->___m_Maskable;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -22524,28 +25100,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_set_maskable_mC2486FDC06
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:65>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:66>
 		bool L_2 = ___0_value;
 		__this->___m_Maskable = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:67>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:68>
 		VirtualActionInvoker0::Invoke(29, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:69>
 		return;
 	}
 }
+// Method Definition Index: 19919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaskableGraphic_get_isMaskingGraphic_m8C4270841AF6071FD5AC4EB7225AF259053DF55E (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:81>
 		bool L_0 = __this->___m_IsMaskingGraphic;
 		return L_0;
 	}
 }
+// Method Definition Index: 19920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_set_isMaskingGraphic_m350EDFCF390CF594B939BBEE3A0D634F2EA48A78 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:84>
 		bool L_0 = ___0_value;
 		bool L_1 = __this->___m_IsMaskingGraphic;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -22554,16 +25139,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_set_isMaskingGraphic_m35
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:85>
 		return;
 	}
 
 IL_000a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:87>
 		bool L_2 = ___0_value;
 		__this->___m_IsMaskingGraphic = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:88>
 		return;
 	}
 }
+// Method Definition Index: 19921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* MaskableGraphic_GetModifiedMaterial_mBE4C5B18ED4221E0A6C026C750B6A04E9B35312A (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_baseMaterial, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22576,8 +25165,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_2 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:104>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_baseMaterial;
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:106>
 		bool L_1 = __this->___m_ShouldRecalculateStencil;
 		if (!L_1)
 		{
@@ -22585,6 +25176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:108>
 		bool L_2;
 		L_2 = MaskableGraphic_get_maskable_m34B87CD87CFF73FF4E09D892ADB316E412F22660_inline(__this, NULL);
 		if (!L_2)
@@ -22593,11 +25185,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:110>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = MaskUtilities_FindRootSortOverrideCanvas_mCB7DABA799F6C5BDF659D4CA60BA2FE8141A65AA(L_3, NULL);
 		V_1 = L_4;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:111>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_1;
@@ -22609,16 +25203,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 
 IL_0032:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:114>
 		__this->___m_StencilValue = 0;
 	}
 
 IL_0039:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:116>
 		__this->___m_ShouldRecalculateStencil = (bool)0;
 	}
 
 IL_0040:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:122>
 		int32_t L_8 = __this->___m_StencilValue;
 		if ((((int32_t)L_8) <= ((int32_t)0)))
 		{
@@ -22634,6 +25231,7 @@ IL_0040:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:124>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = V_0;
 		int32_t L_11 = __this->___m_StencilValue;
 		int32_t L_12 = __this->___m_StencilValue;
@@ -22641,26 +25239,32 @@ IL_0040:
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13;
 		L_13 = StencilMaterial_Add_m7BF719F0507970D16D11F47019761391ACE55766(L_10, ((int32_t)il2cpp_codegen_subtract(((int32_t)(1<<((int32_t)(L_11&((int32_t)31))))), 1)), 0, 3, ((int32_t)15), ((int32_t)il2cpp_codegen_subtract(((int32_t)(1<<((int32_t)(L_12&((int32_t)31))))), 1)), 0, NULL);
 		V_2 = L_13;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:125>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = __this->___m_MaskMaterial;
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_14, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:126>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = V_2;
 		__this->___m_MaskMaterial = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMaterial), (void*)L_15);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:127>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = __this->___m_MaskMaterial;
 		V_0 = L_16;
 	}
 
 IL_0090:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:129>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = V_0;
 		return L_17;
 	}
 }
+// Method Definition Index: 19922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_Cull_mF6948476960E33BD174FD3723101650E3C344CC7 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_clipRect, bool ___1_validRect, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:137>
 		bool L_0 = ___1_validRect;
 		if (!L_0)
 		{
@@ -22684,11 +25288,14 @@ IL_0016:
 IL_0017:
 	{
 		V_0 = (bool)G_B3_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:138>
 		bool L_3 = V_0;
 		MaskableGraphic_UpdateCull_mAC0798E6376F7B103BB36929AC4DD69729E30E86(__this, L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:139>
 		return;
 	}
 }
+// Method Definition Index: 19923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_UpdateCull_mAC0798E6376F7B103BB36929AC4DD69729E30E86 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, bool ___0_cull, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22699,6 +25306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_UpdateCull_mAC0798E6376F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:143>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_0;
 		L_0 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(__this, NULL);
 		bool L_1;
@@ -22710,25 +25318,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_UpdateCull_mAC0798E6376F
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:145>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_3;
 		L_3 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(__this, NULL);
 		bool L_4 = ___0_cull;
 		CanvasRenderer_set_cull_mA2A521F41185511CCFF6E2BFCD7B68B1DE3C0D9D(L_3, L_4, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:146>
 		UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B(_stringLiteral0BB6A54C48827D7DFD66BED24353A0F8912C3BFE, __this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:147>
 		CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* L_5 = __this->___m_OnCullStateChanged;
 		bool L_6 = ___0_cull;
 		UnityEvent_1_Invoke_m4810FCA7EC353CAA7770E91777A04496C5663653(L_5, L_6, UnityEvent_1_Invoke_m4810FCA7EC353CAA7770E91777A04496C5663653_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:148>
 		VirtualActionInvoker0::Invoke(36, __this);
 	}
 
 IL_0037:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:150>
 		return;
 	}
 }
+// Method Definition Index: 19924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_SetClipRect_m19317C49A4CC99A991A3F0135756DB94020930C2 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_clipRect, bool ___1_validRect, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:157>
 		bool L_0 = ___1_validRect;
 		if (!L_0)
 		{
@@ -22736,6 +25351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_SetClipRect_m19317C49A4C
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:158>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_1;
 		L_1 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(__this, NULL);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2 = ___0_clipRect;
@@ -22745,29 +25361,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_SetClipRect_m19317C49A4C
 
 IL_0010:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:160>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_3;
 		L_3 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(__this, NULL);
 		CanvasRenderer_DisableRectClipping_mEAD0277DF092A2CF7D2D421336BCB5C8FC84600C(L_3, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:161>
 		return;
 	}
 }
+// Method Definition Index: 19925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_SetClipSoftness_mF11957AB91E1BA19B6008ACEF95C5F9AD930CAE4 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_clipSoftness, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:165>
 		CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* L_0;
 		L_0 = Graphic_get_canvasRenderer_m62AB727277A28728264860232642DA6EC20DEAB1(__this, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_clipSoftness;
 		CanvasRenderer_set_clippingSoftness_m5727572B7D9CB6906BB4635F98FB5805675C823C(L_0, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:166>
 		return;
 	}
 }
+// Method Definition Index: 19926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnEnable_m4BF46ECE5E57E2EE11ED4CE41AD50DADF141C9BC (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:170>
 		Graphic_OnEnable_mD7544FBC0068D0C74181E6E66C7EC167B7C6309E(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:171>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:172>
 		MaskableGraphic_UpdateClipParent_mEFEEC27574B12503C1D8B694BA61C7166828F6A2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:173>
 		VirtualActionInvoker0::Invoke(29, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:175>
 		bool L_0;
 		L_0 = MaskableGraphic_get_isMaskingGraphic_m8C4270841AF6071FD5AC4EB7225AF259053DF55E_inline(__this, NULL);
 		if (!L_0)
@@ -22776,14 +25403,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnEnable_m4BF46ECE5E57E2
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:177>
 		MaskUtilities_NotifyStencilStateChanged_m112CACEF914385BC2F96F4D66D4038AF1E0FCD6B(__this, NULL);
 	}
 
 IL_0027:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:179>
 		return;
 	}
 }
+// Method Definition Index: 19927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnDisable_m9123E729FA7BE001037CDE14E8A75B69AD68E16C (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22793,15 +25423,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnDisable_m9123E729FA7BE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:183>
 		Graphic_OnDisable_m2DF81EFCEA05C2E6605C027DA3ABD79945C94F16(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:184>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:185>
 		VirtualActionInvoker0::Invoke(29, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:186>
 		MaskableGraphic_UpdateClipParent_mEFEEC27574B12503C1D8B694BA61C7166828F6A2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:187>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_MaskMaterial;
 		il2cpp_codegen_runtime_class_init_inline(StencilMaterial_t4118A758B726E5ADA91AE7674F44039B35AD29F9_il2cpp_TypeInfo_var);
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:188>
 		__this->___m_MaskMaterial = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMaterial), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:190>
 		bool L_1;
 		L_1 = MaskableGraphic_get_isMaskingGraphic_m8C4270841AF6071FD5AC4EB7225AF259053DF55E_inline(__this, NULL);
 		if (!L_1)
@@ -22810,18 +25447,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnDisable_m9123E729FA7BE
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:192>
 		MaskUtilities_NotifyStencilStateChanged_m112CACEF914385BC2F96F4D66D4038AF1E0FCD6B(__this, NULL);
 	}
 
 IL_0039:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:194>
 		return;
 	}
 }
+// Method Definition Index: 19928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnTransformParentChanged_mE5ABE137F670FBA7E6FCD2A67616E4A8097AD876 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:209>
 		Graphic_OnTransformParentChanged_m5FAC5BEDE05D6969B7F7AD15C0A8C5715129EED7(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:211>
 		bool L_0;
 		L_0 = Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A(__this, NULL);
 		if (L_0)
@@ -22830,27 +25472,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnTransformParentChanged
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:212>
 		return;
 	}
 
 IL_000f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:214>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:215>
 		MaskableGraphic_UpdateClipParent_mEFEEC27574B12503C1D8B694BA61C7166828F6A2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:216>
 		VirtualActionInvoker0::Invoke(29, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:217>
 		return;
 	}
 }
+// Method Definition Index: 19929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_ParentMaskStateChanged_m1353B87D25271925B6ED342FDC06B05F7EAD3992 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:221>
 		return;
 	}
 }
+// Method Definition Index: 19930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnCanvasHierarchyChanged_mB30092A7276A921F711E466E9CE85C04ED982E77 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:225>
 		Graphic_OnCanvasHierarchyChanged_m7062158DC1477AF8A5BC2B07755314ED7A184C5C(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:227>
 		bool L_0;
 		L_0 = Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A(__this, NULL);
 		if (L_0)
@@ -22859,17 +25511,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_OnCanvasHierarchyChanged
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:228>
 		return;
 	}
 
 IL_000f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:230>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:231>
 		MaskableGraphic_UpdateClipParent_mEFEEC27574B12503C1D8B694BA61C7166828F6A2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:232>
 		VirtualActionInvoker0::Invoke(29, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:233>
 		return;
 	}
 }
+// Method Definition Index: 19931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D MaskableGraphic_get_rootCanvasRect_mB7F5E772A53CBCCF920CD924E84634CD8155F6D8 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22887,10 +25545,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:240>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(__this, NULL);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = __this->___m_Corners;
 		RectTransform_GetWorldCorners_m6E15303C3B065B2F65E0A7F0E0217695564C2E09(L_0, L_1, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:242>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2;
 		L_2 = Graphic_get_canvas_mEA2161DF3BD736541DE41F9B814C4860FEB76419(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22902,6 +25562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:244>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4;
 		L_4 = Graphic_get_canvas_mEA2161DF3BD736541DE41F9B814C4860FEB76419(__this, NULL);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5;
@@ -22911,12 +25572,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_7;
 		L_7 = Transform_get_worldToLocalMatrix_mB633C122A01BCE8E51B10B8B8CB95F580750B3F1(L_6, NULL);
 		V_2 = L_7;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:245>
 		V_3 = 0;
 		goto IL_005b;
 	}
 
 IL_0038:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:246>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = __this->___m_Corners;
 		int32_t L_9 = V_3;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = __this->___m_Corners;
@@ -22926,12 +25589,14 @@ IL_0038:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E((&V_2), L_13, NULL);
 		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_14);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:245>
 		int32_t L_15 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_005b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:245>
 		int32_t L_16 = V_3;
 		if ((((int32_t)L_16) < ((int32_t)4)))
 		{
@@ -22941,24 +25606,28 @@ IL_005b:
 
 IL_005f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:251>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_17 = __this->___m_Corners;
 		int32_t L_18 = 0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = (L_17)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_18));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
 		L_20 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_19, NULL);
 		V_0 = L_20;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:252>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = __this->___m_Corners;
 		int32_t L_22 = 0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = (L_21)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_22));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24;
 		L_24 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_23, NULL);
 		V_1 = L_24;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:253>
 		V_4 = 1;
 		goto IL_0121;
 	}
 
 IL_008b:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:255>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = __this->___m_Corners;
 		int32_t L_26 = V_4;
 		float L_27 = ((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___x;
@@ -22967,6 +25636,7 @@ IL_008b:
 		float L_30;
 		L_30 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_27, L_29, NULL);
 		(&V_0)->___x = L_30;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:256>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_31 = __this->___m_Corners;
 		int32_t L_32 = V_4;
 		float L_33 = ((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___y;
@@ -22975,6 +25645,7 @@ IL_008b:
 		float L_36;
 		L_36 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_33, L_35, NULL);
 		(&V_0)->___y = L_36;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:257>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_37 = __this->___m_Corners;
 		int32_t L_38 = V_4;
 		float L_39 = ((L_37)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_38)))->___x;
@@ -22983,6 +25654,7 @@ IL_008b:
 		float L_42;
 		L_42 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_39, L_41, NULL);
 		(&V_1)->___x = L_42;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:258>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_43 = __this->___m_Corners;
 		int32_t L_44 = V_4;
 		float L_45 = ((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___y;
@@ -22991,12 +25663,14 @@ IL_008b:
 		float L_48;
 		L_48 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_45, L_47, NULL);
 		(&V_1)->___y = L_48;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:253>
 		int32_t L_49 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_49, 1));
 	}
 
 IL_0121:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:253>
 		int32_t L_50 = V_4;
 		if ((((int32_t)L_50) < ((int32_t)4)))
 		{
@@ -23004,6 +25678,7 @@ IL_0121:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:261>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53 = V_0;
@@ -23015,6 +25690,7 @@ IL_0121:
 		return L_55;
 	}
 }
+// Method Definition Index: 19932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_UpdateClipParent_mEFEEC27574B12503C1D8B694BA61C7166828F6A2 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23026,6 +25702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_UpdateClipParent_mEFEEC2
 	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* V_0 = NULL;
 	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* G_B4_0 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:267>
 		bool L_0;
 		L_0 = MaskableGraphic_get_maskable_m34B87CD87CFF73FF4E09D892ADB316E412F22660_inline(__this, NULL);
 		if (!L_0)
@@ -23058,6 +25735,7 @@ IL_0013:
 IL_0019:
 	{
 		V_0 = G_B4_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:270>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_3 = __this->___m_ParentMask;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -23090,13 +25768,16 @@ IL_0019:
 
 IL_003e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:272>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_10 = __this->___m_ParentMask;
 		RectMask2D_RemoveClippable_m2247DBCAD9B09980191AB791A7CB83FF9C355C2D(L_10, __this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:273>
 		MaskableGraphic_UpdateCull_mAC0798E6376F7B103BB36929AC4DD69729E30E86(__this, (bool)0, NULL);
 	}
 
 IL_0051:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:277>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_11 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -23116,25 +25797,32 @@ IL_0051:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:278>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_15 = V_0;
 		RectMask2D_AddClippable_m90A9698CD91A2A08EBE86AB60B05E76AFA38EAA4(L_15, __this, NULL);
 	}
 
 IL_0069:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:280>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_16 = V_0;
 		__this->___m_ParentMask = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ParentMask), (void*)L_16);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:281>
 		return;
 	}
 }
+// Method Definition Index: 19933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_RecalculateClipping_mFDD980F0A3AC1BEFF0BC9EDE95EF063AA9C282F7 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:288>
 		MaskableGraphic_UpdateClipParent_mEFEEC27574B12503C1D8B694BA61C7166828F6A2(__this, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:289>
 		return;
 	}
 }
+// Method Definition Index: 19934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_RecalculateMasking_m76F4A84B87AD4938F8A68B022A5A2BB4B5F343AF (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23144,16 +25832,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic_RecalculateMasking_m76F4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:298>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_MaskMaterial;
 		il2cpp_codegen_runtime_class_init_inline(StencilMaterial_t4118A758B726E5ADA91AE7674F44039B35AD29F9_il2cpp_TypeInfo_var);
 		StencilMaterial_Remove_m828D3D85F213AD5B3E4FE6A230981E9115007412(L_0, NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:299>
 		__this->___m_MaskMaterial = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaskMaterial), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:300>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:301>
 		VirtualActionInvoker0::Invoke(29, __this);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:302>
 		return;
 	}
 }
+// Method Definition Index: 19935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic__ctor_mD2E256F950AAAE0E2445971361B5C54D2066E4C2 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23165,13 +25859,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic__ctor_mD2E256F950AAAE0E2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:13>
 		__this->___m_ShouldRecalculateStencil = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:28>
 		__this->___m_Maskable = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:42>
 		CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* L_0 = (CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8*)il2cpp_codegen_object_new(CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8_il2cpp_TypeInfo_var);
 		CullStateChangedEvent__ctor_m885AD59B4D0D6075AB6DFA71AD69A7BB48640CE4(L_0, NULL);
 		__this->___m_OnCullStateChanged = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnCullStateChanged), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:94>
 		__this->___m_ShouldRecalculate = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:235>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)4);
 		__this->___m_Corners = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Corners), (void*)L_1);
@@ -23180,6 +25879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic__ctor_mD2E256F950AAAE0E2
 		return;
 	}
 }
+// Method Definition Index: 19936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* MaskableGraphic_UnityEngine_UI_IClippable_get_gameObject_m17FD7D774DA4D9D0F2E23240D9E17FF5C7DC4A44 (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23196,6 +25896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullStateChangedEvent__ctor_m885AD59B4D0D6075AB6DFA71AD69A7BB48640CE4 (CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23217,6 +25918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullStateChangedEvent__ctor_m885AD59B4D0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Method Definition Index: 19938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_Notify2DMaskStateChanged_mBD5C9FCE2AC1327C599BF0D7390BFD86FAE06937 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_mask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23236,19 +25938,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_Notify2DMaskStateChanged_m
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:17>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_0;
 		L_0 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:18>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_1 = ___0_mask;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_2 = V_0;
 		Component_GetComponentsInChildren_TisComponent_t39FBE53E5EFCF4409111FB22C15FF73717632EC3_mFC3603A7005E4B1507DC26739DB3C53D78D0E5BD(L_1, L_2, Component_GetComponentsInChildren_TisComponent_t39FBE53E5EFCF4409111FB22C15FF73717632EC3_mFC3603A7005E4B1507DC26739DB3C53D78D0E5BD_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:19>
 		V_1 = 0;
 		goto IL_0053;
 	}
 
 IL_0011:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:21>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_3 = V_0;
 		int32_t L_4 = V_1;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_5;
@@ -23280,11 +25986,13 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:24>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_14 = V_0;
 		int32_t L_15 = V_1;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_16;
 		L_16 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_14, L_15, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		V_2 = ((RuntimeObject*)IsInst((RuntimeObject*)L_16, IClippable_t09D11192EED426BAE8C534418912FFCCAA2DDCF4_il2cpp_TypeInfo_var));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:25>
 		RuntimeObject* L_17 = V_2;
 		if (!L_17)
 		{
@@ -23292,18 +26000,21 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:26>
 		RuntimeObject* L_18 = V_2;
 		InterfaceActionInvoker0::Invoke(1, IClippable_t09D11192EED426BAE8C534418912FFCCAA2DDCF4_il2cpp_TypeInfo_var, L_18);
 	}
 
 IL_004f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:19>
 		int32_t L_19 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0053:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:19>
 		int32_t L_20 = V_1;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_21 = V_0;
 		int32_t L_22;
@@ -23314,12 +26025,15 @@ IL_0053:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:28>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_23 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_23, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:29>
 		return;
 	}
 }
+// Method Definition Index: 19939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_NotifyStencilStateChanged_m112CACEF914385BC2F96F4D66D4038AF1E0FCD6B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_mask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23339,19 +26053,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_NotifyStencilStateChanged_
 	int32_t V_1 = 0;
 	RuntimeObject* V_2 = NULL;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:37>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_0;
 		L_0 = CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8(CollectionPool_2_Get_m5B106BB7E17539EE7CD224F4705AC599D5543AD8_RuntimeMethod_var);
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:38>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_1 = ___0_mask;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_2 = V_0;
 		Component_GetComponentsInChildren_TisComponent_t39FBE53E5EFCF4409111FB22C15FF73717632EC3_mFC3603A7005E4B1507DC26739DB3C53D78D0E5BD(L_1, L_2, Component_GetComponentsInChildren_TisComponent_t39FBE53E5EFCF4409111FB22C15FF73717632EC3_mFC3603A7005E4B1507DC26739DB3C53D78D0E5BD_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:39>
 		V_1 = 0;
 		goto IL_0053;
 	}
 
 IL_0011:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:41>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_3 = V_0;
 		int32_t L_4 = V_1;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_5;
@@ -23383,11 +26101,13 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:44>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_14 = V_0;
 		int32_t L_15 = V_1;
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_16;
 		L_16 = List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E(L_14, L_15, List_1_get_Item_m20568C4E9C1A6EA9AB25A9DE601FC55AE369A75E_RuntimeMethod_var);
 		V_2 = ((RuntimeObject*)IsInst((RuntimeObject*)L_16, IMaskable_t29D1BC9B6A3C43BB1A76AE61276ED996087A0929_il2cpp_TypeInfo_var));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:45>
 		RuntimeObject* L_17 = V_2;
 		if (!L_17)
 		{
@@ -23395,18 +26115,21 @@ IL_0011:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:46>
 		RuntimeObject* L_18 = V_2;
 		InterfaceActionInvoker0::Invoke(0, IMaskable_t29D1BC9B6A3C43BB1A76AE61276ED996087A0929_il2cpp_TypeInfo_var, L_18);
 	}
 
 IL_004f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:39>
 		int32_t L_19 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0053:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:39>
 		int32_t L_20 = V_1;
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_21 = V_0;
 		int32_t L_22;
@@ -23417,12 +26140,15 @@ IL_0053:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:48>
 		List_1_t584CB490C8F4C21E0A0D5545409ED60BF71F3FE4* L_23 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t108CF9D9B2C4D978FA47DCA328A90221D356C6ED_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C(L_23, CollectionPool_2_Release_m59C1324B0736F8E08B4D90A0C1C63768047F9E4C_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:49>
 		return;
 	}
 }
+// Method Definition Index: 19940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* MaskUtilities_FindRootSortOverrideCanvas_mCB7DABA799F6C5BDF659D4CA60BA2FE8141A65AA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_start, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23441,25 +26167,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t3B89B9A01DE7F6018DC51CBB0EDB72DBAEB92D8B_il2cpp_TypeInfo_var);
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_0;
 		L_0 = CollectionPool_2_Get_m355E89EA1BCD30B81F12CF283AB4BC86D6C87437(CollectionPool_2_Get_m355E89EA1BCD30B81F12CF283AB4BC86D6C87437_RuntimeMethod_var);
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:59>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___0_start;
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_2 = V_0;
 		Component_GetComponentsInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m52B6690E0BE6D930BF8B674885C78A4E1B88A063(L_1, (bool)0, L_2, Component_GetComponentsInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m52B6690E0BE6D930BF8B674885C78A4E1B88A063_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:60>
 		V_1 = (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*)NULL;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:62>
 		V_2 = 0;
 		goto IL_0028;
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:64>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_3 = V_0;
 		int32_t L_4 = V_2;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5;
 		L_5 = List_1_get_Item_m4B70EE8CDFB7527368512645B0829E44411E8F85(L_3, L_4, List_1_get_Item_m4B70EE8CDFB7527368512645B0829E44411E8F85_RuntimeMethod_var);
 		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:67>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_6 = V_1;
 		bool L_7;
 		L_7 = Canvas_get_overrideSorting_mF0E6E695650194B15D53BB544926756F370CF33B(L_6, NULL);
@@ -23469,12 +26201,14 @@ IL_0014:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:62>
 		int32_t L_8 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0028:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:62>
 		int32_t L_9 = V_2;
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_10 = V_0;
 		int32_t L_11;
@@ -23487,9 +26221,11 @@ IL_0028:
 
 IL_0031:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:70>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_12 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t3B89B9A01DE7F6018DC51CBB0EDB72DBAEB92D8B_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m119CE5997AC4B75F41CC188E4F7384712CBA797F(L_12, CollectionPool_2_Release_m119CE5997AC4B75F41CC188E4F7384712CBA797F_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:72>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_13 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -23511,6 +26247,7 @@ IL_0042:
 		return L_16;
 	}
 }
+// Method Definition Index: 19941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MaskUtilities_GetStencilDepth_m782D2795F76F569F4FB261C5BFB6D9EF241C0EE9 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_stopAfter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23530,7 +26267,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MaskUtilities_GetStencilDepth_m782D27
 	List_1_tDB83C684B5B4F687B7B7A86380EF10925B0FE4AA* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:83>
 		V_0 = 0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:84>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_transform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_stopAfter;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -23542,16 +26281,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MaskUtilities_GetStencilDepth_m782D27
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:85>
 		int32_t L_3 = V_0;
 		return L_3;
 	}
 
 IL_000d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:87>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_transform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_4, NULL);
 		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:88>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t12B9346687DF28CBBB3796DA072074214F719F3D_il2cpp_TypeInfo_var);
 		List_1_tDB83C684B5B4F687B7B7A86380EF10925B0FE4AA* L_6;
 		L_6 = CollectionPool_2_Get_m938FCD209B034B99066B2F626B26435935222511(CollectionPool_2_Get_m938FCD209B034B99066B2F626B26435935222511_RuntimeMethod_var);
@@ -23561,15 +26303,18 @@ IL_000d:
 
 IL_001c:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:91>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_1;
 		List_1_tDB83C684B5B4F687B7B7A86380EF10925B0FE4AA* L_8 = V_2;
 		Component_GetComponents_TisMask_tE8E16C858EC6ECCE545C03802BD1399F7F406213_m62061C966DB528B29B6661BA9989680D688D87F9(L_7, L_8, Component_GetComponents_TisMask_tE8E16C858EC6ECCE545C03802BD1399F7F406213_m62061C966DB528B29B6661BA9989680D688D87F9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:92>
 		V_3 = 0;
 		goto IL_0061;
 	}
 
 IL_0027:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:94>
 		List_1_tDB83C684B5B4F687B7B7A86380EF10925B0FE4AA* L_9 = V_2;
 		int32_t L_10 = V_3;
 		Mask_tE8E16C858EC6ECCE545C03802BD1399F7F406213* L_11;
@@ -23609,19 +26354,23 @@ IL_0027:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:96>
 		int32_t L_22 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:97>
 		goto IL_006a;
 	}
 
 IL_005d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:92>
 		int32_t L_23 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
 IL_0061:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:92>
 		int32_t L_24 = V_3;
 		List_1_tDB83C684B5B4F687B7B7A86380EF10925B0FE4AA* L_25 = V_2;
 		int32_t L_26;
@@ -23634,6 +26383,7 @@ IL_0061:
 
 IL_006a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:101>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = ___1_stopAfter;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -23645,6 +26395,7 @@ IL_006a:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:104>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
 		L_31 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_30, NULL);
@@ -23653,6 +26404,7 @@ IL_006a:
 
 IL_007a:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:89>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -23665,13 +26417,16 @@ IL_007a:
 
 IL_0083:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:106>
 		List_1_tDB83C684B5B4F687B7B7A86380EF10925B0FE4AA* L_34 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t12B9346687DF28CBBB3796DA072074214F719F3D_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m7A86323A26A42B13A753812576CFCA20DE11263B(L_34, CollectionPool_2_Release_m7A86323A26A42B13A753812576CFCA20DE11263B_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:107>
 		int32_t L_35 = V_0;
 		return L_35;
 	}
 }
+// Method Definition Index: 19942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaskUtilities_IsDescendantOrSelf_mBCC8B1428F599BAF1EAFA16E9586639A11B87C23 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_father, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_child, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23681,6 +26436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaskUtilities_IsDescendantOrSelf_mBCC8B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:118>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_father;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23703,11 +26459,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaskUtilities_IsDescendantOrSelf_mBCC8B1
 
 IL_0012:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:119>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:121>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_father;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___1_child;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -23719,11 +26477,13 @@ IL_0014:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:122>
 		return (bool)1;
 	}
 
 IL_001f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:126>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___1_child;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_7, NULL);
@@ -23737,11 +26497,13 @@ IL_001f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:127>
 		return (bool)1;
 	}
 
 IL_002f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:129>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = ___1_child;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_11, NULL);
@@ -23750,6 +26512,7 @@ IL_002f:
 
 IL_0037:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:124>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = ___1_child;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_13, NULL);
@@ -23762,9 +26525,11 @@ IL_0037:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:132>
 		return (bool)0;
 	}
 }
+// Method Definition Index: 19943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* MaskUtilities_GetRectMaskForClippable_m7AEB8F89DFD994A487EED33DDD8C59E5A784245C (RuntimeObject* ___0_clippable, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23792,20 +26557,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB8
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:142>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_tBD2942C9DFDE774D1407C76026776CDF6447EFEF_il2cpp_TypeInfo_var);
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_0;
 		L_0 = CollectionPool_2_Get_m600C6FB0C90BC2598F0CC956A18AD9827ECFD7E6(CollectionPool_2_Get_m600C6FB0C90BC2598F0CC956A18AD9827ECFD7E6_RuntimeMethod_var);
 		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:143>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t3B89B9A01DE7F6018DC51CBB0EDB72DBAEB92D8B_il2cpp_TypeInfo_var);
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_1;
 		L_1 = CollectionPool_2_Get_m355E89EA1BCD30B81F12CF283AB4BC86D6C87437(CollectionPool_2_Get_m355E89EA1BCD30B81F12CF283AB4BC86D6C87437_RuntimeMethod_var);
 		V_1 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:144>
 		V_2 = (RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670*)NULL;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:146>
 		RuntimeObject* L_2 = ___0_clippable;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = InterfaceFuncInvoker0< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* >::Invoke(0, IClippable_t09D11192EED426BAE8C534418912FFCCAA2DDCF4_il2cpp_TypeInfo_var, L_2);
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_4 = V_0;
 		GameObject_GetComponentsInParent_TisRectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670_m15C4B6D6CF9CC4B6CE60A130E86597E964E21355(L_3, (bool)0, L_4, GameObject_GetComponentsInParent_TisRectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670_m15C4B6D6CF9CC4B6CE60A130E86597E964E21355_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:148>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_5 = V_0;
 		int32_t L_6;
 		L_6 = List_1_get_Count_mE23A2D531F12FB6B4BB1BE118E52D6E5E3F0184A_inline(L_5, List_1_get_Count_mE23A2D531F12FB6B4BB1BE118E52D6E5E3F0184A_RuntimeMethod_var);
@@ -23815,17 +26585,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB8
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:150>
 		V_3 = 0;
 		goto IL_00b0;
 	}
 
 IL_002e:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:152>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_7 = V_0;
 		int32_t L_8 = V_3;
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_9;
 		L_9 = List_1_get_Item_mBA9F1D5BB3B905D8C9D3AE462D4C7A8EA879377C(L_7, L_8, List_1_get_Item_mBA9F1D5BB3B905D8C9D3AE462D4C7A8EA879377C_RuntimeMethod_var);
 		V_2 = L_9;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:153>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_10 = V_2;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
@@ -23841,12 +26614,15 @@ IL_002e:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:155>
 		V_2 = (RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670*)NULL;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:156>
 		goto IL_00ac;
 	}
 
 IL_004d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:158>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_15 = V_2;
 		bool L_16;
 		L_16 = Behaviour_get_isActiveAndEnabled_mEB4ECCE9761A7016BC619557CEFEA1A30D3BF28A(L_15, NULL);
@@ -23856,17 +26632,21 @@ IL_004d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:160>
 		V_2 = (RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670*)NULL;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:161>
 		goto IL_00ac;
 	}
 
 IL_0059:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:163>
 		RuntimeObject* L_17 = ___0_clippable;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
 		L_18 = InterfaceFuncInvoker0< GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* >::Invoke(0, IClippable_t09D11192EED426BAE8C534418912FFCCAA2DDCF4_il2cpp_TypeInfo_var, L_17);
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_19 = V_1;
 		GameObject_GetComponentsInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m48EDEF385CB00DF400A78ED1C005F703C87891F4(L_18, (bool)0, L_19, GameObject_GetComponentsInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m48EDEF385CB00DF400A78ED1C005F703C87891F4_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:164>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_20 = V_1;
 		int32_t L_21;
 		L_21 = List_1_get_Count_mE82CF9445C4264AAE1D6979301C4B0F2261298DD_inline(L_20, List_1_get_Count_mE82CF9445C4264AAE1D6979301C4B0F2261298DD_RuntimeMethod_var);
@@ -23876,6 +26656,7 @@ IL_0059:
 
 IL_0072:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:166>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_22 = V_1;
 		int32_t L_23 = V_4;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_24;
@@ -23905,18 +26686,22 @@ IL_0072:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:168>
 		V_2 = (RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670*)NULL;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:169>
 		goto IL_00bc;
 	}
 
 IL_009f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:164>
 		int32_t L_33 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_33, 1));
 	}
 
 IL_00a5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:164>
 		int32_t L_34 = V_4;
 		if ((((int32_t)L_34) >= ((int32_t)0)))
 		{
@@ -23924,17 +26709,20 @@ IL_00a5:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:172>
 		goto IL_00bc;
 	}
 
 IL_00ac:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:150>
 		int32_t L_35 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00b0:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:150>
 		int32_t L_36 = V_3;
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_37 = V_0;
 		int32_t L_38;
@@ -23947,16 +26735,20 @@ IL_00b0:
 
 IL_00bc:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:176>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_39 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_tBD2942C9DFDE774D1407C76026776CDF6447EFEF_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m5424DEC8D4A23D8C2B217B534C19B4DCE352DB70(L_39, CollectionPool_2_Release_m5424DEC8D4A23D8C2B217B534C19B4DCE352DB70_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:177>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_40 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t3B89B9A01DE7F6018DC51CBB0EDB72DBAEB92D8B_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m119CE5997AC4B75F41CC188E4F7384712CBA797F(L_40, CollectionPool_2_Release_m119CE5997AC4B75F41CC188E4F7384712CBA797F_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:179>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_41 = V_2;
 		return L_41;
 	}
 }
+// Method Definition Index: 19944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_GetRectMasksForClip_mDEC4D04BA24F5C4C5828A4E8A677BE4F3CC6FAAF (RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___0_clipper, List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* ___1_masks, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23984,21 +26776,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_GetRectMasksForClip_mDEC4D
 	bool V_3 = false;
 	int32_t V_4 = 0;
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:189>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_0 = ___1_masks;
 		List_1_Clear_m4C7671DD5EFB91E9AC385F9F8C4561AD45E4F24F_inline(L_0, List_1_Clear_m4C7671DD5EFB91E9AC385F9F8C4561AD45E4F24F_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:191>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t3B89B9A01DE7F6018DC51CBB0EDB72DBAEB92D8B_il2cpp_TypeInfo_var);
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_1;
 		L_1 = CollectionPool_2_Get_m355E89EA1BCD30B81F12CF283AB4BC86D6C87437(CollectionPool_2_Get_m355E89EA1BCD30B81F12CF283AB4BC86D6C87437_RuntimeMethod_var);
 		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:192>
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_tBD2942C9DFDE774D1407C76026776CDF6447EFEF_il2cpp_TypeInfo_var);
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_2;
 		L_2 = CollectionPool_2_Get_m600C6FB0C90BC2598F0CC956A18AD9827ECFD7E6(CollectionPool_2_Get_m600C6FB0C90BC2598F0CC956A18AD9827ECFD7E6_RuntimeMethod_var);
 		V_1 = L_2;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:193>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_3 = ___0_clipper;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_3, NULL);
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_5 = V_1;
 		Component_GetComponentsInParent_TisRectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670_m3309A38F362B598E0C8BBC0EFAD821480072B9A9(L_4, (bool)0, L_5, Component_GetComponentsInParent_TisRectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670_m3309A38F362B598E0C8BBC0EFAD821480072B9A9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:195>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_6 = V_1;
 		int32_t L_7;
 		L_7 = List_1_get_Count_mE23A2D531F12FB6B4BB1BE118E52D6E5E3F0184A_inline(L_6, List_1_get_Count_mE23A2D531F12FB6B4BB1BE118E52D6E5E3F0184A_RuntimeMethod_var);
@@ -24008,11 +26805,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_GetRectMasksForClip_mDEC4D
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:197>
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_8 = ___0_clipper;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_8, NULL);
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_10 = V_0;
 		Component_GetComponentsInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m52B6690E0BE6D930BF8B674885C78A4E1B88A063(L_9, (bool)0, L_10, Component_GetComponentsInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m52B6690E0BE6D930BF8B674885C78A4E1B88A063_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:198>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_11 = V_1;
 		int32_t L_12;
 		L_12 = List_1_get_Count_mE23A2D531F12FB6B4BB1BE118E52D6E5E3F0184A_inline(L_11, List_1_get_Count_mE23A2D531F12FB6B4BB1BE118E52D6E5E3F0184A_RuntimeMethod_var);
@@ -24022,6 +26821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities_GetRectMasksForClip_mDEC4D
 
 IL_0043:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:200>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_13 = V_1;
 		int32_t L_14 = V_2;
 		RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* L_15;
@@ -24034,7 +26834,9 @@ IL_0043:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:202>
 		V_3 = (bool)1;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:203>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_17 = V_0;
 		int32_t L_18;
 		L_18 = List_1_get_Count_mE82CF9445C4264AAE1D6979301C4B0F2261298DD_inline(L_17, List_1_get_Count_mE82CF9445C4264AAE1D6979301C4B0F2261298DD_RuntimeMethod_var);
@@ -24044,6 +26846,7 @@ IL_0043:
 
 IL_005f:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:205>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_19 = V_0;
 		int32_t L_20 = V_4;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_21;
@@ -24076,18 +26879,22 @@ IL_005f:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:207>
 		V_3 = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:208>
 		goto IL_009d;
 	}
 
 IL_0092:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:203>
 		int32_t L_32 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_32, 1));
 	}
 
 IL_0098:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:203>
 		int32_t L_33 = V_4;
 		if ((((int32_t)L_33) >= ((int32_t)0)))
 		{
@@ -24097,6 +26904,7 @@ IL_0098:
 
 IL_009d:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:211>
 		bool L_34 = V_3;
 		if (!L_34)
 		{
@@ -24104,6 +26912,7 @@ IL_009d:
 		}
 	}
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:212>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_35 = ___1_masks;
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_36 = V_1;
 		int32_t L_37 = V_2;
@@ -24114,12 +26923,14 @@ IL_009d:
 
 IL_00ad:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:198>
 		int32_t L_39 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_39, 1));
 	}
 
 IL_00b1:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:198>
 		int32_t L_40 = V_2;
 		if ((((int32_t)L_40) >= ((int32_t)0)))
 		{
@@ -24129,15 +26940,19 @@ IL_00b1:
 
 IL_00b5:
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:216>
 		List_1_t099FA1DB61217A855A3732B3DCA8E909BB24E1AB* L_41 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_tBD2942C9DFDE774D1407C76026776CDF6447EFEF_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m5424DEC8D4A23D8C2B217B534C19B4DCE352DB70(L_41, CollectionPool_2_Release_m5424DEC8D4A23D8C2B217B534C19B4DCE352DB70_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:217>
 		List_1_t5421B2468AFFE816206B49B3A6E589B74E5C6C94* L_42 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionPool_2_t3B89B9A01DE7F6018DC51CBB0EDB72DBAEB92D8B_il2cpp_TypeInfo_var);
 		CollectionPool_2_Release_m119CE5997AC4B75F41CC188E4F7384712CBA797F(L_42, CollectionPool_2_Release_m119CE5997AC4B75F41CC188E4F7384712CBA797F_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs:218>
 		return;
 	}
 }
+// Method Definition Index: 19945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities__ctor_m32B6A8721369418CAA95A8EF5D65E0B8CD89DA82 (MaskUtilities_tD922FDEB6464FC067E74D38BAAFC8AB72665E4E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24148,13 +26963,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskUtilities__ctor_m32B6A8721369418CAA9
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// Method Definition Index: 20703
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* EventSystem_get_currentInputModule_m30559FCECCCE1AAD97D801968B8BD1C483FBF7AC_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:85>
 		BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* L_0 = __this->___m_CurrentInputModule;
 		return L_0;
 	}
 }
+// Method Definition Index: 17746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -24169,27 +26987,34 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
+// Method Definition Index: 19486
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:459>
 		String_t* L_0 = __this->___m_Text;
 		return L_0;
 	}
 }
+// Method Definition Index: 19513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:798>
 		OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* L_0 = __this->___m_OnValidateInput;
 		return L_0;
 	}
 }
+// Method Definition Index: 19526
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputField_get_characterValidation_m02AD706E70817147BAADD487DAC73D79547BCBBF_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:943>
 		int32_t L_0 = __this->___m_CharacterValidation;
 		return L_0;
 	}
 }
+// Method Definition Index: 417
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24197,46 +27022,58 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
+// Method Definition Index: 19515
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputField_get_characterLimit_m7FE26FC66741545B89BFFDCAD8E8B34EB1274403_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:826>
 		int32_t L_0 = __this->___m_CharacterLimit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19643
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppChar OnValidateInput_Invoke_m6A7776E0E91552E39F207A90C7E33A4D4479F076_inline (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, String_t* ___0_text, int32_t ___1_charIndex, Il2CppChar ___2_addedChar, const RuntimeMethod* method) 
 {
 	typedef Il2CppChar (*FunctionPointerType) (RuntimeObject*, String_t*, int32_t, Il2CppChar, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_text, ___1_charIndex, ___2_addedChar, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 19501
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InputField_get_customCaretColor_mB1D8A9DE8CD1787B3614BAF3E50E27B2428C7215_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:625>
 		bool L_0 = __this->___m_CustomCaretColor;
 		return L_0;
 	}
 }
+// Method Definition Index: 19495
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:585>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TextComponent;
 		return L_0;
 	}
 }
+// Method Definition Index: 19511
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:762>
 		OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* L_0 = __this->___m_OnValueChanged;
 		return L_0;
 	}
 }
+// Method Definition Index: 19519
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputField_get_lineType_m6CEA63D8FCACAEC05D3499577ED0771EFFF33377_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:906>
 		int32_t L_0 = __this->___m_LineType;
 		return L_0;
 	}
 }
+// Method Definition Index: 17904
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24273,6 +27110,7 @@ IL_000c:
 		return L_4;
 	}
 }
+// Method Definition Index: 17902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Abs_mD945EDDEA0D62D21BFDBAB7B1C0F18DFF1CEC905_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24297,13 +27135,16 @@ IL_000a:
 		return L_2;
 	}
 }
+// Method Definition Index: 19490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InputField_get_isFocused_m19BD51E842077CA087824025F294C4078B2DAC50_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:556>
 		bool L_0 = __this->___m_AllowInput;
 		return L_0;
 	}
 }
+// Method Definition Index: 17835
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24326,6 +27167,7 @@ IL_0009:
 		return L_1;
 	}
 }
+// Method Definition Index: 17962
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -24348,6 +27190,7 @@ IL_001a:
 		return L_5;
 	}
 }
+// Method Definition Index: 17160
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Plane__ctor_m2BFB65EBFF51123791878684ECC375B99FAD10A2_inline (Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_inNormal, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_inPoint, const RuntimeMethod* method) 
 {
 	{
@@ -24363,6 +27206,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Plane__ctor_m2BFB65EBFF51123
 		return;
 	}
 }
+// Method Definition Index: 17161
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Plane_Raycast_mC6D25A732413A2694A75CB0F2F9E75DEDDA117F0_inline (Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C* __this, Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, float* ___1_enter, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24418,6 +27262,7 @@ IL_005b:
 		return L_16;
 	}
 }
+// Method Definition Index: 17936
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24428,6 +27273,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
+// Method Definition Index: 17958
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -24452,13 +27298,16 @@ IL_0019:
 		return L_7;
 	}
 }
+// Method Definition Index: 20647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEventData_get_button_mA8CBDAF2E16927E6952BC60040D56630BCC95B0B_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs:194>
 		int32_t L_0 = __this->___U3CbuttonU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 17963
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24481,27 +27330,34 @@ IL_0009:
 		return L_1;
 	}
 }
+// Method Definition Index: 20627
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs:117>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 20619
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 PointerEventData_get_pointerPressRaycast_mEB1B974F5543F78162984E2924EF908E18CE3B5D_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs:95>
 		RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 L_0 = __this->___U3CpointerPressRaycastU3Ek__BackingField;
 		return L_0;
 	}
 }
+// Method Definition Index: 19521
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputField_get_inputType_mC324081499638BC8AAA45CC110536C016C707BD0_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:920>
 		int32_t L_0 = __this->___m_InputType;
 		return L_0;
 	}
 }
+// Method Definition Index: 17906
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24538,34 +27394,43 @@ IL_000c:
 		return L_4;
 	}
 }
+// Method Definition Index: 19505
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* InputField_get_onEndEdit_m92C86FF7CA6108C4B14392CED20C9ED9D39AD9A3_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:689>
 		EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* L_0 = __this->___m_OnDidEndEdit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19507
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* InputField_get_onSubmit_m66A3BFEC3D3D5C261558043FD606D4FBCC7D478D_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:728>
 		SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* L_0 = __this->___m_OnSubmit;
 		return L_0;
 	}
 }
+// Method Definition Index: 20706
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A_inline (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:102>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_CurrentSelected;
 		return L_0;
 	}
 }
+// Method Definition Index: 19531
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Il2CppChar InputField_get_asteriskChar_m2556CE9FA8ABF5C00552BA665299F71EAC7D55C5_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:1010>
 		Il2CppChar L_0 = __this->___m_AsteriskChar;
 		return L_0;
 	}
 }
+// Method Definition Index: 17190
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Rect_get_size_mFB990FFC0FE0152179C8C74A59E4AC258CB44267_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -24586,6 +27451,7 @@ IL_0015:
 		return L_3;
 	}
 }
+// Method Definition Index: 17918
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24636,6 +27502,7 @@ IL_001d:
 		return L_9;
 	}
 }
+// Method Definition Index: 17850
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24654,6 +27521,7 @@ IL_000e:
 		return L_3;
 	}
 }
+// Method Definition Index: 17869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Inequality_m4EC1EF263D0E42432A301F85CB52028D2973F5DA_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24672,6 +27540,7 @@ IL_000e:
 		return L_3;
 	}
 }
+// Method Definition Index: 17960
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24690,6 +27559,7 @@ IL_000e:
 		return L_3;
 	}
 }
+// Method Definition Index: 17196
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24706,6 +27576,7 @@ IL_0011:
 		return L_2;
 	}
 }
+// Method Definition Index: 17774
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
 {
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_0;
@@ -24748,6 +27619,7 @@ IL_0065:
 		return L_17;
 	}
 }
+// Method Definition Index: 17817
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -24760,6 +27632,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
+// Method Definition Index: 18015
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -24782,13 +27655,16 @@ IL_001f:
 		return L_5;
 	}
 }
+// Method Definition Index: 19503
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F InputField_get_selectionColor_m988C5ACE38195B9B6397352B5A226FF3867A6E54_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:650>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___m_SelectionColor;
 		return L_0;
 	}
 }
+// Method Definition Index: 17192
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24804,6 +27680,7 @@ IL_000a:
 		return L_1;
 	}
 }
+// Method Definition Index: 17843
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -24834,20 +27711,25 @@ IL_0030:
 		return L_13;
 	}
 }
+// Method Definition Index: 19524
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputField_get_keyboardType_mCF9432AC88C35E77546235909346C5689682E620_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:932>
 		int32_t L_0 = __this->___m_KeyboardType;
 		return L_0;
 	}
 }
+// Method Definition Index: 19517
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputField_get_contentType_m8C589B15987EB8852D5F4948A79084186935B19B_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs:865>
 		int32_t L_0 = __this->___m_ContentType;
 		return L_0;
 	}
 }
+// Method Definition Index: 17198
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24864,6 +27746,7 @@ IL_0011:
 		return L_2;
 	}
 }
+// Method Definition Index: 17194
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24879,6 +27762,7 @@ IL_000a:
 		return L_1;
 	}
 }
+// Method Definition Index: 18356
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WaitForSecondsRealtime_set_waitTime_m8317E2B7A2B2DC4E4A1B0CD0F9D4479294B51FB5_inline (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -24887,6 +27771,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WaitForSecondsRealtime_set_w
 		return;
 	}
 }
+// Method Definition Index: 17188
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24902,6 +27787,7 @@ IL_000a:
 		return L_1;
 	}
 }
+// Method Definition Index: 17186
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -24917,13 +27803,16 @@ IL_000a:
 		return L_1;
 	}
 }
+// Method Definition Index: 19681
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AspectRatioFitter_DoesParentExists_m9475339C8EE94000A65B9F39AFB08A867940D925_inline (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:244>
 		bool L_0 = __this->___m_DoesParentExist;
 		return L_0;
 	}
 }
+// Method Definition Index: 17964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24946,13 +27835,16 @@ IL_0009:
 		return L_1;
 	}
 }
+// Method Definition Index: 19663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AspectRatioFitter_get_aspectRatio_m72A1972D15B7435EF895562EEF0AE8C689ED120E_inline (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:53>
 		float L_0 = __this->___m_AspectRatio;
 		return L_0;
 	}
 }
+// Method Definition Index: 17934
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25012,13 +27904,16 @@ IL_002d:
 		return L_7;
 	}
 }
+// Method Definition Index: 19661
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AspectRatioFitter_get_aspectMode_m530AE9878F26D7C1166C2AC3C2B2547CED122B27_inline (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs:46>
 		int32_t L_0 = __this->___m_AspectMode;
 		return L_0;
 	}
 }
+// Method Definition Index: 17905
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25055,6 +27950,7 @@ IL_000c:
 		return L_4;
 	}
 }
+// Method Definition Index: 17916
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25088,6 +27984,7 @@ IL_0018:
 		return L_1;
 	}
 }
+// Method Definition Index: 17908
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Log_m116F062EEBF1C53EC8D18C9B1748E999EF9424EF_inline (float ___0_f, float ___1_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25113,6 +28010,7 @@ IL_000e:
 		return L_3;
 	}
 }
+// Method Definition Index: 17920
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25133,6 +28031,7 @@ IL_0010:
 		return L_5;
 	}
 }
+// Method Definition Index: 17903
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25169,27 +28068,34 @@ IL_000c:
 		return L_4;
 	}
 }
+// Method Definition Index: 19715
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ContentSizeFitter_get_verticalFit_m3F2848F19A5F8F30F55E0B5D930EFEF4E5EFAFF5_inline (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:47>
 		int32_t L_0 = __this->___m_VerticalFit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19713
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ContentSizeFitter_get_horizontalFit_mA5FBF6AB42F551272B94A7B89A372B1AA1ADBC0D_inline (ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs:40>
 		int32_t L_0 = __this->___m_HorizontalFit;
 		return L_0;
 	}
 }
+// Method Definition Index: 19811
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* LayoutGroup_get_rectChildren_mEB00A4F0B86326AA9BE3D5E5DD7E4C9E3A032391_inline (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:50>
 		List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* L_0 = __this->___m_RectChildren;
 		return L_0;
 	}
 }
+// Method Definition Index: 17913
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25214,27 +28120,34 @@ IL_000c:
 		return L_2;
 	}
 }
+// Method Definition Index: 19806
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* LayoutGroup_get_padding_m91ABA3C588704717EDC82E72BA6D1B82711FE83C_inline (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:21>
 		RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* L_0 = __this->___m_Padding;
 		return L_0;
 	}
 }
+// Method Definition Index: 19730
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D_inline (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:97>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_CellSize;
 		return L_0;
 	}
 }
+// Method Definition Index: 19732
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GridLayoutGroup_get_spacing_m19BC15652BF18D051B0998C14F13DB83191F3E58_inline (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:104>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_Spacing;
 		return L_0;
 	}
 }
+// Method Definition Index: 17914
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25259,6 +28172,7 @@ IL_000c:
 		return L_2;
 	}
 }
+// Method Definition Index: 17965
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25281,20 +28195,25 @@ IL_0009:
 		return L_1;
 	}
 }
+// Method Definition Index: 19726
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GridLayoutGroup_get_startCorner_m0796B782C9F3981B6E97F83A6815102A5176657D_inline (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:80>
 		int32_t L_0 = __this->___m_StartCorner;
 		return L_0;
 	}
 }
+// Method Definition Index: 19728
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GridLayoutGroup_get_startAxis_mADFB75A761550B3141256B0130655A6703FF3FF5_inline (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs:90>
 		int32_t L_0 = __this->___m_StartAxis;
 		return L_0;
 	}
 }
+// Method Definition Index: 17815
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25360,13 +28279,16 @@ IL_003f:
 		return L_7;
 	}
 }
+// Method Definition Index: 19749
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float HorizontalOrVerticalLayoutGroup_get_spacing_m916C9BF57D4AB0EF76E6BC4EC5E1EA54B7918782_inline (HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs:17>
 		float L_0 = __this->___m_Spacing;
 		return L_0;
 	}
 }
+// Method Definition Index: 17917
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25417,6 +28339,7 @@ IL_001d:
 		return L_9;
 	}
 }
+// Method Definition Index: 17919
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25464,13 +28387,16 @@ IL_002d:
 		return L_5;
 	}
 }
+// Method Definition Index: 19808
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LayoutGroup_get_childAlignment_m45C0D32DB91FD92852CA50278904034A26ADEFC1_inline (LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs:31>
 		int32_t L_0 = __this->___m_ChildAlignment;
 		return L_0;
 	}
 }
+// Method Definition Index: 17935
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_set_Item_mEF309880B9B3B370B542AABEB32256EEC589DD03_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, int32_t ___0_index, float ___1_value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25528,27 +28454,34 @@ IL_002d:
 		return;
 	}
 }
+// Method Definition Index: 20045
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ScrollRect.cs:131>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___m_Content;
 		return L_0;
 	}
 }
+// Method Definition Index: 19917
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MaskableGraphic_get_maskable_m34B87CD87CFF73FF4E09D892ADB316E412F22660_inline (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:61>
 		bool L_0 = __this->___m_Maskable;
 		return L_0;
 	}
 }
+// Method Definition Index: 19919
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MaskableGraphic_get_isMaskingGraphic_m8C4270841AF6071FD5AC4EB7225AF259053DF55E_inline (MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs:81>
 		bool L_0 = __this->___m_IsMaskingGraphic;
 		return L_0;
 	}
 }
+// Method Definition Index: 17204
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_Overlaps_m3F0BA2C8BB81491978B21EB21C8A6D3BBED02E41_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_other, bool ___1_allowInverse, const RuntimeMethod* method) 
 {
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
@@ -25592,6 +28525,7 @@ IL_0029:
 		return L_9;
 	}
 }
+// Method Definition Index: 17961
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -25614,6 +28548,7 @@ IL_0015:
 		return L_5;
 	}
 }
+// Method Definition Index: 17952
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -25640,6 +28575,7 @@ IL_0023:
 		return L_9;
 	}
 }
+// Method Definition Index: 17171
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m503705FE0E4E413041E3CE7F09270489F401C675_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_size, const RuntimeMethod* method) 
 {
 	{
@@ -25658,6 +28594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m503705FE0E4E4130
 		return;
 	}
 }
+// Method Definition Index: 9067
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25665,6 +28602,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
+// Method Definition Index: 9084
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25694,6 +28632,7 @@ IL_003c:
 		return;
 	}
 }
+// Method Definition Index: 9077
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -25729,16 +28668,19 @@ IL_0034:
 		return;
 	}
 }
+// Method Definition Index: 18663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnityAction_1_Invoke_m777839BF9CB9F96B081106B47202D06FB35326CA_gshared_inline (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg0, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 602
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Func_2_Invoke_mBE16A5FDA5E80CCBA51D69334EF21C0F03D353AF_gshared_inline (Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
+// Method Definition Index: 17823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25781,6 +28723,7 @@ IL_0026:
 		return L_8;
 	}
 }
+// Method Definition Index: 17826
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25807,6 +28750,7 @@ IL_002d:
 		return L_12;
 	}
 }
+// Method Definition Index: 17166
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -25823,6 +28767,7 @@ IL_000a:
 		return L_1;
 	}
 }
+// Method Definition Index: 17165
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -25839,6 +28784,7 @@ IL_000a:
 		return L_1;
 	}
 }
+// Method Definition Index: 17922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25874,6 +28820,7 @@ IL_0035:
 		return L_10;
 	}
 }
+// Method Definition Index: 17849
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25915,6 +28862,7 @@ IL_0043:
 		return L_19;
 	}
 }
+// Method Definition Index: 17868
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Equality_mE6F6B56FCED8478552BE02BBAF18C70B969217F9_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25935,6 +28883,7 @@ IL_0010:
 		return L_4;
 	}
 }
+// Method Definition Index: 17959
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -25965,6 +28914,7 @@ IL_002e:
 		return L_12;
 	}
 }
+// Method Definition Index: 17773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___0_r, uint8_t ___1_g, uint8_t ___2_b, uint8_t ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -25980,6 +28930,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7C
 		return;
 	}
 }
+// Method Definition Index: 18001
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -25994,6 +28945,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 		return;
 	}
 }
+// Method Definition Index: 17202
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Rect_OrderMinMax_mCF0D63521F398D682E285F8795781C1D2A3418D9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_rect, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -26062,6 +29014,7 @@ IL_0072:
 		return L_13;
 	}
 }
+// Method Definition Index: 17203
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_Overlaps_m5A540A24DAD3327006A3A2E209CC17992173B572_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -26122,6 +29075,7 @@ IL_0043:
 		return L_8;
 	}
 }
+// Method Definition Index: 17830
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26157,6 +29111,7 @@ IL_0034:
 		return L_13;
 	}
 }
+// Method Definition Index: 17848
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -26184,6 +29139,7 @@ IL_0021:
 		return L_10;
 	}
 }
+// Method Definition Index: 17870
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -26214,6 +29170,7 @@ IL_003b:
 		return L_16;
 	}
 }
+// Method Definition Index: 17867
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -26229,6 +29186,7 @@ IL_000c:
 		return L_1;
 	}
 }
+// Method Definition Index: 17193
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_xMin_mA873FCFAF9EABA46A026B73CA045192DF1946F19_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -26244,6 +29202,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_xMin_mA873FCFAF9EAB
 		return;
 	}
 }
+// Method Definition Index: 17197
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_xMax_m97C28D468455A6D19325D0D862E80A093240D49D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -26253,6 +29212,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_xMax_m97C28D468455A
 		return;
 	}
 }
+// Method Definition Index: 17195
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_yMin_m9F780E509B9215A9E5826178CF664BD0E486D4EE_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -26268,6 +29228,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_yMin_m9F780E509B921
 		return;
 	}
 }
+// Method Definition Index: 17199
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_yMax_mCF452040E0068A4B3CB15994C0B4B6AD4D78E04B_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{

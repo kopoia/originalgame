@@ -27,11 +27,30 @@ extern void TextureChangedCallback_Invoke_m1194A44102843272B51A70C302EBDBC821464
 extern void TerrainData_GetBoundaryValue_mA9217CC15BBC958C9F7071B96CE74769EFDC322E (void);
 extern void TerrainData__ctor_m1B68EB89248D5706C2528F47279812F824E27A2E (void);
 extern void TerrainData_Internal_Create_m79BF764CFF5F49D17E2BFC8B20F60B4CF70BE4E1 (void);
+extern void TerrainData_get_heightmapResolution_m39FE9A5C31A80B28021F8E2484EF5F2664798836 (void);
+extern void TerrainData_get_internalHeightmapResolution_m83C6A32499AAAAFDD57DF73BA460CBCF02F98118 (void);
 extern void TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5 (void);
+extern void TerrainData_GetHeights_m3E5C109E98E72A23E39B92F7DF48D87888B2D488 (void);
+extern void TerrainData_Internal_GetHeights_mEDF77233265AFA8901DE8FB61661385337B70810 (void);
+extern void TerrainData_SetHeights_m104C6E5C4E4A12223AA0E2E123E0557302097F23 (void);
+extern void TerrainData_Internal_SetHeights_m8E3E77B7A38E85521BF693D7EB3B9E277CDBE12E (void);
+extern void TerrainData_GetInterpolatedNormal_m2925F25FF12A4DC2F2CDD9331F3E2A55D42D7DCE (void);
+extern void TerrainData_get_alphamapLayers_mF8A0A4F157F7C56354C5A6E3FABF9F230F410F69 (void);
+extern void TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01 (void);
+extern void TerrainData_Internal_GetAlphamaps_m6891C19FF72B4394D6BAC3B098A3FCAC1FC6BF36 (void);
+extern void TerrainData_set_alphamapResolution_mECF82D6CF9A3C640B18AB6DE14666BF380E03389 (void);
 extern void TerrainData_GetAlphamapResolutionInternal_m5C312434763B8F0BD8DE760ACF439DFEFAC2F3E5 (void);
+extern void TerrainData_set_Internal_alphamapResolution_mA33B7F95DF603037846D76F6061355DDD1C8E556 (void);
+extern void TerrainData_SetAlphamaps_m2FA8E29ADF4D1B2B8286ED0FE61E0CEB1663E423 (void);
+extern void TerrainData_Internal_SetAlphamaps_m87D35A2FED5E274AEBDF3ADB00A7FA477861E8FD (void);
+extern void TerrainData_get_terrainLayers_m3B436DF37DDD9F18A46DD6BF112925AD5B8857C8 (void);
+extern void TerrainData_set_terrainLayers_m8FC80DAB5CD38A11CDB082F94DBD3186CD434671 (void);
 extern void TerrainData_get_users_m0C569F1AD5853CEBF3C572723A1CAD04AC8433C4 (void);
 extern void TerrainData__cctor_m525F8AF6DEDDACF640BD2D24767502121ED6D9B0 (void);
 extern void TerrainData_get_size_Injected_m0F56E87C4D7EDD1D84F038E4AF0F273D328CF661 (void);
+extern void TerrainData_GetInterpolatedNormal_Injected_mF6E35FCDF546E498658E864D47EB87C22B41E571 (void);
+extern void TerrainLayer__ctor_m3B6D12B4296D98B5813C08DF87D09022BD8FDC74 (void);
+extern void TerrainLayer_Internal_Create_mA5EB262D9B9D9B3180705A14040FBEAA4257D3E1 (void);
 extern void TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A (void);
 extern void TerrainMap_GetTerrain_mFF9C935F05859DF70E95994E727565BD67CDD6FC (void);
 extern void TerrainMap_CreateFromPlacement_mC7822A5F4FC2A2CB119259A48F19D364ACEC5AE7 (void);
@@ -51,7 +70,7 @@ extern void TerrainUtility_AutoConnect_m3E435D139BE402DC495248EDD1FF2C1E9377A897
 extern void U3CU3Ec__DisplayClass2_0__ctor_m4C022C4675BA4CFC7E7AAA5692979CDE6CD8E611 (void);
 extern void U3CU3Ec__DisplayClass2_1__ctor_mA329ED5B221AE8787EAEA1124A2A95675FDD1695 (void);
 extern void U3CU3Ec__DisplayClass2_1_U3CCollectTerrainsU3Eb__0_m57E871EB2399E5FB7DF78B3C9EBFBF152116AC2C (void);
-static Il2CppMethodPointer s_methodPointers[39] = 
+static Il2CppMethodPointer s_methodPointers[58] = 
 {
 	Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD,
 	Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7,
@@ -68,11 +87,30 @@ static Il2CppMethodPointer s_methodPointers[39] =
 	TerrainData_GetBoundaryValue_mA9217CC15BBC958C9F7071B96CE74769EFDC322E,
 	TerrainData__ctor_m1B68EB89248D5706C2528F47279812F824E27A2E,
 	TerrainData_Internal_Create_m79BF764CFF5F49D17E2BFC8B20F60B4CF70BE4E1,
+	TerrainData_get_heightmapResolution_m39FE9A5C31A80B28021F8E2484EF5F2664798836,
+	TerrainData_get_internalHeightmapResolution_m83C6A32499AAAAFDD57DF73BA460CBCF02F98118,
 	TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5,
+	TerrainData_GetHeights_m3E5C109E98E72A23E39B92F7DF48D87888B2D488,
+	TerrainData_Internal_GetHeights_mEDF77233265AFA8901DE8FB61661385337B70810,
+	TerrainData_SetHeights_m104C6E5C4E4A12223AA0E2E123E0557302097F23,
+	TerrainData_Internal_SetHeights_m8E3E77B7A38E85521BF693D7EB3B9E277CDBE12E,
+	TerrainData_GetInterpolatedNormal_m2925F25FF12A4DC2F2CDD9331F3E2A55D42D7DCE,
+	TerrainData_get_alphamapLayers_mF8A0A4F157F7C56354C5A6E3FABF9F230F410F69,
+	TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01,
+	TerrainData_Internal_GetAlphamaps_m6891C19FF72B4394D6BAC3B098A3FCAC1FC6BF36,
+	TerrainData_set_alphamapResolution_mECF82D6CF9A3C640B18AB6DE14666BF380E03389,
 	TerrainData_GetAlphamapResolutionInternal_m5C312434763B8F0BD8DE760ACF439DFEFAC2F3E5,
+	TerrainData_set_Internal_alphamapResolution_mA33B7F95DF603037846D76F6061355DDD1C8E556,
+	TerrainData_SetAlphamaps_m2FA8E29ADF4D1B2B8286ED0FE61E0CEB1663E423,
+	TerrainData_Internal_SetAlphamaps_m87D35A2FED5E274AEBDF3ADB00A7FA477861E8FD,
+	TerrainData_get_terrainLayers_m3B436DF37DDD9F18A46DD6BF112925AD5B8857C8,
+	TerrainData_set_terrainLayers_m8FC80DAB5CD38A11CDB082F94DBD3186CD434671,
 	TerrainData_get_users_m0C569F1AD5853CEBF3C572723A1CAD04AC8433C4,
 	TerrainData__cctor_m525F8AF6DEDDACF640BD2D24767502121ED6D9B0,
 	TerrainData_get_size_Injected_m0F56E87C4D7EDD1D84F038E4AF0F273D328CF661,
+	TerrainData_GetInterpolatedNormal_Injected_mF6E35FCDF546E498658E864D47EB87C22B41E571,
+	TerrainLayer__ctor_m3B6D12B4296D98B5813C08DF87D09022BD8FDC74,
+	TerrainLayer_Internal_Create_mA5EB262D9B9D9B3180705A14040FBEAA4257D3E1,
 	TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A,
 	TerrainMap_GetTerrain_mFF9C935F05859DF70E95994E727565BD67CDD6FC,
 	TerrainMap_CreateFromPlacement_mC7822A5F4FC2A2CB119259A48F19D364ACEC5AE7,
@@ -96,55 +134,74 @@ static Il2CppMethodPointer s_methodPointers[39] =
 extern void TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x06000015, TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk },
+	{ 0x06000028, TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[39] = 
+static const int32_t s_InvokerIndices[58] = 
 {
-	4155,
-	4084,
-	4129,
-	685,
-	6150,
-	4243,
-	5222,
-	4881,
-	1863,
-	999,
-	1863,
-	687,
-	5844,
-	4243,
-	6058,
-	4235,
-	4192,
-	4155,
-	6180,
-	3351,
-	1714,
-	1438,
-	5083,
-	4811,
-	4155,
-	4243,
-	938,
-	732,
-	1714,
-	4129,
-	4243,
-	2453,
-	6130,
-	6180,
-	5903,
-	6180,
-	4243,
-	4243,
-	2453,
+	4250,
+	4179,
+	4224,
+	718,
+	6261,
+	4338,
+	5331,
+	4987,
+	1924,
+	1041,
+	1924,
+	720,
+	5954,
+	4338,
+	6168,
+	4224,
+	4224,
+	4330,
+	590,
+	590,
+	978,
+	325,
+	1538,
+	4224,
+	590,
+	590,
+	3488,
+	4287,
+	3488,
+	978,
+	325,
+	4250,
+	3512,
+	4250,
+	6291,
+	3432,
+	1056,
+	4338,
+	6168,
+	1775,
+	1490,
+	5190,
+	4916,
+	4250,
+	4338,
+	978,
+	766,
+	1775,
+	4224,
+	4338,
+	2524,
+	6241,
+	6291,
+	6013,
+	6291,
+	4338,
+	4338,
+	2524,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule = 
 {
 	"UnityEngine.TerrainModule.dll",
-	39,
+	58,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

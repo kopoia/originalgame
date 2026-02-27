@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
-using UnityEditor.Search.Providers;
+//using UnityEditor.Search.Providers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -86,7 +86,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
+            Debug.Log("敵と接触");
             fademanager.Out = true;
+            fademanager.FadeOut();
             currentscene = SceneManager.GetActiveScene();
             scenename = currentscene.name;
             PlayerPrefs.SetString("nowscene", scenename);
