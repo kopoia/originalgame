@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
@@ -9,7 +10,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    float speed = 3.0f;
+    float speed = 4.0f;
     private Animator animator;
     public FadeManager fademanager;
     public EnemyHpController enemyHpController;
@@ -23,11 +24,11 @@ public class PlayerController : MonoBehaviour
     public bool runaway = false;
     public static Scene currentscene;
     public string scenename;
+    public static string Enemyname;
     public static Vector3 CurrentLocation = new Vector3(49.5f,2.0f,11.8f);
     // Start is called before the first frame update
     void Start()
     {
-        
         animator = GetComponent<Animator>();
         playerMaxHP = 100;
         playerCurrentHP = 100;
@@ -43,7 +44,6 @@ public class PlayerController : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Battle" && playerCurrentHP < 0)
         {
             fademanager.Out = true;
-            fademanager.FadeOut();
             lose = true;
         }
         if (SceneManager.GetActiveScene().name == "Battle")
@@ -92,6 +92,8 @@ public class PlayerController : MonoBehaviour
             currentscene = SceneManager.GetActiveScene();
             scenename = currentscene.name;
             PlayerPrefs.SetString("nowscene", scenename);
+            EnemyData enemy = collision.gameObject.GetComponent<EnemyData>();
+            PlayerPrefs.SetInt("enemyID", enemy.enemyID);
             CurrentLocation = transform.position;
         }
     }

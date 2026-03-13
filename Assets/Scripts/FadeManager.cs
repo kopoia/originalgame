@@ -85,8 +85,8 @@ public class FadeManager : MonoBehaviour
                     playerController.lose = false;
                 }
                 else
-                {
-                    var imascene = PlayerPrefs.GetString("nowscene", Main);
+                {   
+                    var imascene = PlayerPrefs.GetString("nowscene", Main); 
                     SceneManager.LoadScene(imascene);
                     //playerController.locationmodori();
                 }
@@ -105,5 +105,33 @@ public class FadeManager : MonoBehaviour
     public void Away()
     {
         SceneManager.LoadScene(Main);
+    }
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+       int id = PlayerPrefs.GetInt("enemyID", -1);
+       if (id == -1)
+       {
+           return;
+       }
+
+        EnemyData[] enemies = FindObjectsOfType<EnemyData>();
+        foreach (EnemyData enemy in enemies)
+        {
+            if (enemy.enemyID == id)
+            {
+                Destroy(enemy.gameObject);
+                PlayerPrefs.DeleteKey("enemyID");
+                break;
+            }
+        }
+    }
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
